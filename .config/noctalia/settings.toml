@@ -1,0 +1,42 @@
+[general]
+# 状态栏配置
+log_level = "info"
+
+[bar]
+position = "top"
+height = 30
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[modules]
+left = ["workspaces", "launcher"]
+center = ["clock"]
+right = ["media", "network", "bluetooth", "volume", "battery", "tray", "power"]
+
+[clock]
+format = "%H:%M:%S"
+interval = 1
+
+[workspaces]
+format = "{name}"
+
+[launcher]
+command = "rofi -show drun"
+
+[media]
+format = "{artist} - {title}"
+
+[network]
+format = "{interface}: {rx} / {tx}"
+
+[volume]
+format = "VOL {volume}"
+
+[battery]
+format = "BAT {percentage}%"
+
+[tray]
+icon_size = 16
+
+[power]
+format = "⏻"

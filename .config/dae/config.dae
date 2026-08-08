@@ -1,0 +1,45 @@
+global {
+    disable_waiting_network: true
+    wan_interface: wlan0
+    tproxy_port: 12345
+    tproxy_port_protect: true
+    log_level: info
+    allow_insecure: true
+}
+
+node {
+    my_node: 'anytls://[REDACTED]@35.254.87.176:31493/?insecure=1#anytls-us58'
+}
+
+dns {
+    upstream {
+        alidns: 'udp://223.5.5.5:53'
+        googledns: 'tls://dns.google:853'
+    }
+    routing {
+        request {
+            fallback: alidns
+        }
+        response {
+            upstream(googledns) -> accept
+            fallback: accept
+        }
+    }
+}
+
+group {
+    my_node {
+        filter: name(my_node)
+        policy: min_moving_avg
+    }
+}
+
+routing {
+    domain(keyword: optimizationguide) -> block
+    domain(suffix: gvt1.com) -> block
+
+    ip(geoip:private) -> direct
+    domain(geosite:cn) -> direct
+    ip(geoip:cn) -> direct
+    fallback: my_node
+}

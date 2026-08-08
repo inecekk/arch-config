@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto backup wallpapers to GitHub
+
+[Service]
+Type=oneshot
+ExecStart=/home/lk/.local/bin/wallpapers-auto-backup.sh
+
+[Install]
+WantedBy=default.target

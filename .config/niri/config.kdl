@@ -1,0 +1,217 @@
+input {
+    touchpad {
+        tap
+        natural-scroll
+    }
+}
+
+cursor {
+    xcursor-size 18
+}
+
+output "eDP-1" {
+    scale 2.0
+}
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+overview {
+    zoom 0.5
+}
+
+// ==================== 动画配置 ====================
+animations {
+    // 切换工作区动画：阻尼降到 0.5，切换时带明显弹性回弹，更有动感
+    workspace-switch {
+        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001
+    }
+    // 水平视图移动（同工作区左右切换窗口）：同样加强弹性，切换像甩过去一样
+    horizontal-view-movement {
+        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001
+    }
+    // 窗口移动（焦点切换时窗口位置变化）：弹性回弹，切换窗口有明显滑动感
+    window-movement {
+        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001
+    }
+    window-resize {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
+    }
+    config-notification-open-close {
+        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001
+    }
+    exit-confirmation-open-close {
+        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001
+    }
+    screenshot-ui-open {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
+    }
+    overview-open-close {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
+    }
+
+    // 窗口关闭动画：以左下角为轴心顺时针甩出（切牌加强版）
+    window-close {
+        duration-ms 700
+        curve "linear"
+        custom-shader r"
+            vec4 close_color(vec3 coords_geo, vec3 size_geo) {
+                float progress = niri_clamped_progress * niri_clamped_progress;
+                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy;
+                float angle = progress * 0.7;
+                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
+                coords = rotate * coords;
+                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy;
+                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0);
+                vec3 coords_tex = niri_geo_to_tex * coords_geo;
+                vec4 color = texture2D(niri_tex, coords_tex.st);
+                return color * (1.0 - niri_clamped_progress);
+            }
+        "
+    }
+
+    // 窗口打开动画：与关闭动画相反的逆过程（从甩出状态摆正归位 + 淡入）
+    window-open {
+        duration-ms 700
+        curve "linear"
+        custom-shader r"
+            vec4 open_color(vec3 coords_geo, vec3 size_geo) {
+                float inv = 1.0 - niri_clamped_progress;
+                float progress = inv * inv;
+                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy;
+                float angle = progress * 0.7;
+                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
+                coords = rotate * coords;
+                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy;
+                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0);
+                vec3 coords_tex = niri_geo_to_tex * coords_geo;
+                vec4 color = texture2D(niri_tex, coords_tex.st);
+                return color * niri_clamped_progress;
+            }
+        "
+    }
+}
+
+// ==================== 布局配置 ====================
+layout {    background-color "transparent"
+    
+    gaps 8
+    preset-column-widths {
+        proportion 0.25
+        proportion 0.5
+        proportion 0.75
+    }
+    default-column-width {
+        proportion 0.5
+    }
+    focus-ring {
+        width 4
+        active-gradient from="#ff3b30" to="#007aff" angle=45 in="oklch longer hue"
+        inactive-color "#50505020"
+    }
+    border {
+        off
+    }
+    shadow {
+        softness 35
+        spread 6
+        offset x=0 y=6
+        color "#0007"
+    }
+}
+
+blur {
+    passes 2
+    offset 2
+    noise 0.02
+    saturation 1.5
+}
+
+// ==================== 窗口规则 ====================
+// 有意为之：保留最大化贴边缝隙 8px，窗口最大化时不贴到屏幕边缘
+window-rule {
+    open-maximized-to-edges false
+}
+
+window-rule {
+    match app-id="code"
+    opacity 0.9
+}
+
+window-rule {
+    match app-id="^foot$"
+    background-effect {
+        blur true
+    }
+}
+
+// pcmanfm 文件管理器：圆角 + 磨砂玻璃
+window-rule {
+    match app-id="^pcmanfm"
+    opacity 0.92
+    background-effect {
+        blur true
+    }
+}
+
+// 强制所有窗口应用圆角并裁剪内容
+window-rule {
+    match is-window-cast-target=false
+    draw-border-with-background false
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+// ==================== 图层规则 ====================
+layer-rule {
+    match namespace="^noctalia-wallpaper$"
+    place-within-backdrop true
+}
+
+layer-rule {
+    match namespace="^noctalia-bar"
+    background-effect {
+        blur false
+    }
+}
+
+// fcitx5 输入法候选框：高斯模糊
+layer-rule {
+    match namespace="^fcitx"
+    background-effect {
+        xray true
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="^noctalia-(notification|dock|osd)$"
+    background-effect {
+        xray true
+        blur true
+    }
+}
+
+// 面板：玻璃透明 + 高斯模糊
+layer-rule {
+    match namespace="^noctalia-(panel|attached-panel)$"
+    background-effect {
+        xray false
+        blur false
+    }
+}
+
+// ==================== 其他 ====================
+switch-events {
+    lid-close {
+        spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"
+    }
+}
+
+spawn-at-startup "sh" "-c" "sleep 1 && noctalia"
+spawn-at-startup "sh" "-c" "sleep 3 && fcitx5"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+//spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+
+include "binds.kdl"
+//include "noctalia.kdl"

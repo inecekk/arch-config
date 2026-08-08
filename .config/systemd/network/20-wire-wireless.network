@@ -1,0 +1,5 @@
+[Match]
+Name=en* eth* wlan* wlp*
+[Network]
+DHCP=yes
+NET

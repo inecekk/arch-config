@@ -1,0 +1,96 @@
+#!/bin/bash
+# backuplk - Arch 配置自动备份工具
+
+DOT_SERVICE="dotfiles-backup.service"
+WALL_SERVICE="wallpapers-backup.service"
+
+print_help() {
+    cat << 'HELP'
+backuplk - Arch 配置自动备份工具
+
+用法:
+  backuplk          手动备份并显示结果
+  backuplk backup   手动备份并显示结果（同默认）
+  backuplk dae      备份 dae 代理配置（脱敏处理）
+  backuplk system   备份系统配置（networkd/grub）
+  backuplk all      备份所有内容
+  backuplk status   查看定时器下次执行时间
+  backuplk log      查看完整备份日志
+  backuplk help     显示本帮助
+
+备份位置:
+  dotfiles 配置 -> https://github.com/inecekk/arch-config
+                    (含 niri、foot、fcitx5 等核心配置)
+  壁纸          -> https://github.com/inecekk/wallpapers
+  backup 脚本   -> ~/.local/bin/backuplk
+  定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 00:00 自动执行)
+  dae 配置      -> ~/.config/dae/（敏感信息已脱敏）
+  系统配置      -> ~/.config/systemd/network/ + ~/.config/grub/
+
+日志查看:
+  journalctl --user -u dotfiles-backup.service --no-pager -n 10
+  journalctl --user -u wallpapers-backup.service --no-pager -n 10
+HELP
+}
+
+backup_now() {
+    echo "== 触发备份 =="
+    systemctl --user start "$DOT_SERVICE" 2>&1
+    systemctl --user start "$WALL_SERVICE" 2>&1
+    echo "等待备份完成..."
+    sleep 3
+    echo ""
+    echo "== dotfiles 备份日志 =="
+    journalctl --user -u "$DOT_SERVICE" --no-pager -n 15 | tail -n 15
+    echo ""
+    echo "== 壁纸备份日志 =="
+    journalctl --user -u "$WALL_SERVICE" --no-pager -n 15 | tail -n 15
+}
+
+backup_dae() {
+    echo "== 备份 dae 配置 =="
+    # 创建临时目录存放脱敏配置
+    mkdir -p /tmp/dae-backup
+    # 复制配置文件并脱敏敏感信息
+    sudo sed -E 's/(anytls:\/\/|ss:\/\/|vmess:\/\/|vless:\/\/)[^@ ]*/\1[REDACTED]/g; s/uuid:[a-f0-9-]+/uuid:[REDACTED]/g' /etc/dae/config.dae > /tmp/dae-backup/config.dae
+    # 复制到 dotfiles 仓库目录
+    mkdir -p "$HOME/.config/dae"
+    cp /tmp/dae-backup/config.dae "$HOME/.config/dae/config.dae"
+    rm -rf /tmp/dae-backup
+    echo "dae 配置已脱敏备份到 ~/.config/dae/config.dae"
+}
+
+backup_system() {
+    echo "== 备份系统配置 =="
+    # networkd 配置
+    mkdir -p "$HOME/.config/systemd/network"
+    cp /etc/systemd/network/*.network "$HOME/.config/systemd/network/" 2>/dev/null
+    # grub 配置（只备份关键配置）
+    mkdir -p "$HOME/.config/grub"
+    grep -E "^(GRUB_DEFAULT|GRUB_TIMEOUT|GRUB_CMDLINE)" /etc/default/grub > "$HOME/.config/grub/grub.cfg" 2>/dev/null
+    echo "networkd 和 grub 配置已备份"
+}
+
+show_status() {
+    echo "== 定时任务状态 =="
+    systemctl --user list-timers | grep -E "backup|NEXT" || echo "未找到备份定时器"
+}
+
+show_log() {
+    echo "== dotfiles 备份日志（最近 20 行）=="
+    journalctl --user -u "$DOT_SERVICE" --no-pager -n 20
+    echo ""
+    echo "== 壁纸备份日志（最近 20 行）=="
+    journalctl --user -u "$WALL_SERVICE" --no-pager -n 20
+}
+
+case "${1:-backup}" in
+    backup|"") backup_now ;;
+    status)    show_status ;;
+    log)       show_log ;;
+    dae)       backup_dae ;;
+    system)    backup_system ;;
+    all)       backup_now; backup_dae; backup_system ;;
+    help|-h|--help) print_help ;;
+    *) echo "未知参数: $1（可用: backup / status / log / dae / system / all / help）" ;;
+esac

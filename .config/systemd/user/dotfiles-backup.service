@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto backup dotfiles to GitHub
+
+[Service]
+Type=oneshot
+ExecStart=/home/lk/.local/bin/dotfiles-auto-backup.sh
+
+[Install]
+WantedBy=default.target

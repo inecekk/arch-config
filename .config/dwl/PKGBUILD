@@ -1,0 +1,43 @@
+# Maintainer: Matt Quintanilla <matt @ matt quintanilla .xyz
+# Contributor: Devin J. Pohly <djpohly+arch@gmail.com>
+
+pkgname=dwl                                              # 软件包名称
+pkgver=0.8                                               # 软件版本号
+pkgrel=2                                                 # 软件包发布释出号（修订号）
+pkgdesc="Simple, hackable dynamic tiling Wayland compositor (dwm for Wayland)" # 软件包描述
+arch=('x86_64')                                          # 目标 CPU 架构
+url="https://codeberg.org/dwl/dwl"                       # 官方源码主页
+license=('GPL')                                          # 软件开源许可证协议
+depends=('wlroots0.19')                                  # 运行时必须依赖的底层库
+makedepends=('wayland-protocols')                        # 编译时依赖的协议包
+optdepends=('xorg-xwayland: for XWayland support')       # 可选依赖（如 XWayland 支持）
+options=(!debug)                                         # 禁用自动生成调试包 (-debug)，保持目录干净
+
+# 源码及本地配置文件下载源数组
+source=("https://codeberg.org/dwl/dwl/releases/download/v$pkgver/$pkgname-v$pkgver.tar.gz"
+        config.h)
+
+# 对应源码及本地 config.h 文件的 SHA256 校验和
+sha256sums=('ccc8bbb3fb66a7e6f0392693533ac9c8bd4e6283dd1f66992e68ec4d4a9cdee7'
+		'SKIP')
+prepare() {
+	cd "$srcdir/$pkgname-v$pkgver"                    # 进入解压后的源码目录
+	
+	# 如果本地自定义的 config.h 文件不为空，则覆盖到源码目录中
+	if [ -s "$srcdir/config.h" ]; then
+		cp -f "$srcdir/config.h" config.h
+	fi
+	
+	# 若需开启 XWayland 支持，可取消下方 sed 命令的注释
+	#sed -i -e '/-DXWAYLAND\|xcb/s/^#//' config.mk
+}
+
+build() {
+	cd "$srcdir/$pkgname-v$pkgver"                    # 进入源码目录
+	make                                             # 执行 Makefile 编译命令
+}
+
+package() {
+	cd "$srcdir/$pkgname-v$pkgver"                    # 进入源码目录
+	make PREFIX="$pkgdir/usr/" install               # 将编译产物安装到指定的打包目录中
+}

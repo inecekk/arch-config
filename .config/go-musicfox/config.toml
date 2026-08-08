@@ -373,7 +373,7 @@ mode = "last"
 enable = true
 # 音源匹配来源，可配置多个，用逗号分隔
 # 可选: "kuwo", "kugou", "migu", "qq"
-sources = ["kuwo" , "migu" , "qq" , "kugou"]
+sources = ["migu" , "qq" , "kugou"]
 # UNM搜索其他平台限制 0-3
 searchLimit = 0
 # 解除会员限制

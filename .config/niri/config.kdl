@@ -136,7 +136,7 @@ window-rule {                                                               // �
 }
 
 window-rule {                                                               // 窗口规则：全局透明度
-    opacity 0.9                                                             // 将所有窗口的不透明度默认设为 （半透明）
+    opacity 0.95                                                             // 将所有窗口的不透明度默认设为 （半透明）
 }
 
 window-rule {                                                               // 窗口规则：特定应用（foot 终端）

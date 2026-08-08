@@ -4,7 +4,7 @@ binds {
     // ═══════════════════════════════════════════
     "Mod+Slash"              hotkey-overlay-title="快捷键帮助"           { show-hotkey-overlay; }
     "Mod+Shift+E"             hotkey-overlay-title="退出 Niri"            { quit; }
-    "Mod+S"             	hotkey-overlay-title="区域截图"              { screenshot; }          // Win11: Win+Shift+S
+    "Mod+S"             	hotkey-overlay-title="区域截图"              { screenshot; }          
     "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
     "Mod+F5"                  hotkey-overlay-title="热重载配置"            { spawn-sh "niri msg action load-config-file"; }
     "Mod+Shift+S"               hotkey-overlay-title="录屏开关"              { spawn-sh "pkill -INT -x wf-recorder || (mkdir -p ~/Videos && wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4)"; }
@@ -22,7 +22,7 @@ binds {
     "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "zen-browser"; }
     "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "code"; }
     "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "materialgram"; }
-    "Mod+Shift+Q"             hotkey-overlay-title="QQ"                    { spawn "sh" "-c" "qq --enable-features=UseOzonePlatform --ozone-platform=wayland"; }
+    "Mod+Shift+Q"             hotkey-overlay-title="QQ"                    { spawn "qq"; }
     "Mod+M"                   hotkey-overlay-title="启动 musicfox"         { spawn "foot" "-e" "musicfox"; }
     "Mod+shift+N"             hotkey-overlay-title="启动 nnn"              { spawn "foot" "-e" "nnn"; }
     "Mod+N"    hotkey-overlay-title="Noctalia 主页"    { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
@@ -34,8 +34,8 @@ binds {
     "XF86Search"              hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
     "Mod+X"                   hotkey-overlay-title="启动菜单"              { spawn "noctalia" "panel-open" "launcher"; }         // Win11: Win+X
     "Mod+V"                   hotkey-overlay-title="剪贴板历史"            { spawn "noctalia" "msg" "panel-toggle" "clipboard"; } // Win11: Win+V
-    "Mod+Shift+L"              hotkey-overlay-title="关机菜单"              { spawn "noctalia" "msg" "panel-open" "session"; }
-    "Mod+Shift+Return"         hotkey-overlay-title="随机全铺满壁纸"        { spawn "sh" "-c" "noctalia msg wallpaper-random && noctalia msg templates-apply"; }
+    "Mod+Shift+L"             hotkey-overlay-title="关机菜单"              { spawn "noctalia" "msg" "panel-open" "session"; }
+    "Mod+Shift+Alt+Return"    hotkey-overlay-title="随机全铺满壁纸"     	   										{ spawn "sh" "-c" "noctalia msg wallpaper-random && noctalia msg templates-apply"; }
 
     // ═══════════════════════════════════════════
     // 4. Noctalia 系统开关控制 (Win11: 快速设置)

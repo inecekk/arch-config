@@ -5,8 +5,8 @@ background = "#1e1e2e"
 foreground = "#cdd6f4"
 
     [bar.default]
-    border = "#c4b5fd"
-    border_width = 1.0
+    border = "#a78bfa"
+    border_width = 2.0
     start = ["launcher", "workspaces", "clock"]
     end = ["media", "network", "bluetooth", "volume", "battery", "tray", "session"]
 

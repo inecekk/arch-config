@@ -107,8 +107,8 @@ layout {                                                                    // �
         proportion 0.5                                                      // 默认占屏幕 50% 宽度
     }
     focus-ring {                                                            // 焦点窗口边框（高亮指示器）
-        width 1                                                             // 边框宽度 1px
-        active-gradient from="#f43f5e" to="#8b5cf6" angle=90 in="oklch longer hue" // 激活窗口渐变色：红→紫，经橙黄绿蓝形成彩虹
+        width 2                                                             // 边框宽度 2px
+        active-gradient from="#ef4444" to="#e879f9" angle=90 in="oklch longer hue" // 激活窗口渐变色：红→品红，oklch longer hue 沿完整色环经橙黄绿青蓝紫
         inactive-color "#50505020"                                          // 未激活窗口的边框颜色（半透明灰）
     }
     border {                                                                // 普通边框设置

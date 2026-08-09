@@ -85,6 +85,11 @@ if [ "$WITH_SYSTEM" = "1" ]; then
                 echo "      /etc/$f"
             fi
         done
+        if [ -f "$SYSBK/etc/iwd/main.conf" ]; then
+            sudo mkdir -p /etc/iwd
+            sudo cp "$SYSBK/etc/iwd/main.conf" /etc/iwd/main.conf
+            echo "      /etc/iwd/main.conf"
+        fi
         if [ -f "$SYSBK/etc/fstab" ]; then
             echo "    fstab 已恢复，注意核对 UUID 是否与当前分区一致"
         fi

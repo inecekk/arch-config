@@ -26,7 +26,7 @@ backuplk - Arch 配置自动备份工具
   backup 脚本   -> ~/.local/bin/backuplk
   定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 13:00 自动执行)
   dae 配置      -> ~/.config/dae/（敏感信息已脱敏）
-  系统配置      -> ~/.config/system-backup/（fstab/loader/mkinitcpio 等）
+  系统配置      -> ~/.config/system-backup/（fstab/loader/mkinitcpio/iwd 等）
   包列表        -> ~/.config/pkglist/（官方源 + AUR 分开存）
 
 日志查看:
@@ -79,6 +79,13 @@ backup_system() {
     mkdir -p "$HOME/.config/systemd/network"
     cp /etc/systemd/network/*.network "$HOME/.config/systemd/network/" 2>/dev/null
     echo "    /etc/systemd/network/*.network"
+
+    # iwd 配置（不含密码；PSK 在 /var/lib/iwd，特意不入库）
+    if [ -f /etc/iwd/main.conf ]; then
+        mkdir -p "$SYSBK/etc/iwd"
+        cp /etc/iwd/main.conf "$SYSBK/etc/iwd/main.conf"
+        echo "    /etc/iwd/main.conf"
+    fi
 
     # systemd-boot（loader.conf + 启动项）
     if [ -f /boot/loader/loader.conf ]; then

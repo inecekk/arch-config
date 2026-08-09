@@ -31,7 +31,7 @@ enableMouseEvent = true
 # 是否开启 Debug 模式
 debug = false
 # 播放时 UI 刷新帧率（更高帧率可使动画更平滑，但消耗更多cpu）
-frameRate = 5
+frameRate = 15
 # 界面语言（影响 foxful-cli 内置文案，如帮助提示、弹窗按钮）
 # 可选："zh"（中文，默认）、"en"（英文）等；留空跟随中文
 locale = "zh"
@@ -39,13 +39,15 @@ locale = "zh"
 # 实时频谱显示（目前仅支持 osx, beep 播放引擎）
 # 调高 main.frameRate 更丝滑
 [main.visualizer]
-# 是否显示实时频谱
-enable = true
+# 是否显示实时频谱（原生波形图，开启后由 musicfox 渲染频谱）
+enable = false
 # 频谱最大行数（0 表示不限制；会随可用空间自动缩小）
-maxHeight = 8
+maxHeight = 0
+
+# 确保开启水平渐变
 # 频谱渲染样式：bar(柱状图), line(折线图), mirror_bar(镜像柱状图), dot(散点图),
 #   oscilloscope(示波器), vectorscope(向量示波器), spectrogram(滚动频谱图)
-style = "oscilloscope"
+style = "bar"
 # 声道模式：dual(左右声道分开显示，默认) / mono(左右声道合并显示)
 channelMode = "mono"
 
@@ -55,11 +57,9 @@ barFullBlock = "█"
 barEmptyBlock = " "
 barVerticalGradient = false
 # 启用条间水平渐变（每条独立颜色，默认false）
-barHorizontalGradient = true
 # 无声时显示微小顶部标记（cava 风格 idle bar heads）
 showIdleBarHeads = false
 # 条生长方向：bottom(从下往上，默认) / top / left / right / horizontal / vertical
-barOrientation = "bottom"
 
 # mirror_bar 样式字符（留空则沿用 bar 对应项）
 mirrorBarHalfBlock = "▌"
@@ -107,11 +107,11 @@ spectrumPhaseDiff = false
 
 # cava 风格后处理平滑（对 bar/mirror_bar 样式生效）
 # monstercat 指数扩散平滑（0=关，>0=启用，典型值1.0-3.0，值越小条越融合）
-monstercat = 0
+monstercat = 1.5
 # waves 二次扩散模式（与monstercat互斥，0=关，1=开）
 waves = false
 # 视觉超调百分比（0=关，典型值10-30）
-overshoot = 0
+overshoot = 15
 
 
 # 桌面通知相关设置
@@ -147,11 +147,13 @@ renderMode = "wave"
 # 是否显示封面图
 show = true
 # 封面图宽度占窗口宽度的比例（取值范围 0.1-0.8，默认 0.3）
-widthRatio = 0.1
+widthRatio = 0.3
 # 封面图圆角半径百分比（取值范围 0-100，默认 8 即 8%，0 则关闭，越大越圆）
-cornerRadius = 8
+# 50 = 正圆（封面为正方形，50% 圆角即圆形）
+cornerRadius = 50
 # 是否启用旋转封面（需要更高的帧率支持平滑效果）
-spin = true
+# 关闭旋转：旋转动画以方形逐帧渲染，旋转时四角超出显示区会被裁剪，静止显示圆形
+spin = false
 # Kitty图形协议不支持角度变化目前只能以动画呈现，合成动画需要更高的CPU性能
 # 旋转封面帧率（取值范围 1-60，默认 30，更高帧率更流畅但消耗更多CPU）
 spinFPS = 30
@@ -230,7 +232,7 @@ neteaseCookie="JSESSIONID-WYYY=DGcjypSPbWyx2iwg6Gkxak9ddId2hG9e0qSc0Z5gp5Di1m8gK
 [theme]
 # 活跃主题名称（对应主题文件中的 name 字段，默认 "Default"）
 # 主题文件存放于 embed/themes/（内置）和 ~/.config/go-musicfox/themes/（用户自定义）
-activeTheme = "Default"
+activeTheme = "Rainbow"
 # 是否在界面顶部显示标题
 showTitle = true
 # 菜单加载时显示的提示文字
@@ -304,7 +306,8 @@ limit = 0
 [player]
 # 播放引擎，可选: "beep", "dlna", "mpd", "mpv", "osx", "win_media", "auto"（根据系统自动选择）
 # Mac 默认 "osx", Windows 默认 "win_media", 其他系统默认 "beep"
-engine = "mpv"
+# 原生波形图 visualizer 仅支持 beep/osx 引擎，故从 mpv 切到 beep
+engine = "auto"
 # 允许的最大连续失败重试次数
 maxPlayErrCount = 3
 # 期望的歌曲音质

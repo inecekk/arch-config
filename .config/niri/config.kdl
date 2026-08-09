@@ -130,6 +130,11 @@ blur {                                                                      // �
 }
 
 // ==================== 窗口规则 ====================
+// 所有新打开的窗口默认最大化（保留壁纸和状态栏可见，全屏会盖住它们）
+window-rule {                                                               // 窗口规则：默认最大化
+    open-maximized true                                                     // 新窗口打开即最大化，壁纸和状态栏仍可见
+}
+
 // 有意为之：保留最大化贴边缝隙 8px，窗口最大化时不贴到屏幕边缘
 window-rule {                                                               // 窗口规则：最大化行为
     open-maximized-to-edges false                                           // 窗口最大化时保留 8px 缝隙，不紧贴屏幕边缘
@@ -141,8 +146,23 @@ window-rule {                                                               // �
 
 window-rule {                                                               // 窗口规则：特定应用（foot 终端）
     match app-id="^foot$"                                                   // 匹配 app-id 为 foot 的终端窗口
+    open-maximized false                                                    // 不最大化（覆盖全局默认最大化）
+    default-column-width {                                                  // 终端以半屏宽度启动
+        proportion 0.5                                                      // 占屏幕 50% 宽度
+    }
     background-effect {                                                     // 背景特效调整
         blur false                                                          // 关闭 foot 终端的模糊效果
+    }
+}
+
+window-rule {                                                               // 窗口规则：musicfox 音乐终端（foot 标题匹配）
+    match app-id="^foot$" title="^musicfox$"                                // 仅匹配跑 musicfox 的 foot，不影响普通终端
+    open-maximized false                                                    // 不最大化（覆盖全局默认最大化）
+    default-column-width {                                                  // 音乐窗口占半屏，波形图落在左下角
+        proportion 0.5                                                      // 占屏幕 50% 宽度
+    }
+    default-window-height {                                                 // 窗口高度填满整列，波形沉到屏幕底部
+        proportion 1.0                                                      // 占列高 100%
     }
 }
 

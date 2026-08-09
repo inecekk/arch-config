@@ -1,0 +1,10 @@
+__include:
+  - patch:/patch
+schema:
+  - double_pinyin_flypy
+  - luna_pinyin
+switcher:
+  caption: 输入法
+  hotkeys:
+    - "F4"
+  compact_vertical: true

@@ -13,6 +13,7 @@ backuplk - Arch 配置自动备份工具
   backuplk backup   手动备份并显示结果（同默认）
   backuplk dae      备份 dae 代理配置（脱敏处理）
   backuplk system   备份系统配置（networkd/grub）
+  backuplk pkglist  备份已安装包列表（重装恢复用）
   backuplk all      备份所有内容
   backuplk status   查看定时器下次执行时间
   backuplk log      查看完整备份日志
@@ -23,9 +24,10 @@ backuplk - Arch 配置自动备份工具
                     (含 niri、foot、fcitx5 等核心配置)
   壁纸          -> https://github.com/inecekk/wallpapers
   backup 脚本   -> ~/.local/bin/backuplk
-  定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 00:00 自动执行)
+  定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 13:00 自动执行)
   dae 配置      -> ~/.config/dae/（敏感信息已脱敏）
   系统配置      -> ~/.config/systemd/network/ + ~/.config/grub/
+  包列表        -> ~/.config/pkglist/（官方源 + AUR 分开存）
 
 日志查看:
   journalctl --user -u dotfiles-backup.service --no-pager -n 10
@@ -71,6 +73,16 @@ backup_system() {
     echo "networkd 和 grub 配置已备份"
 }
 
+backup_pkglist() {
+    echo "== 备份包列表 =="
+    mkdir -p "$HOME/.config/pkglist"
+    pacman -Qqen > "$HOME/.config/pkglist/pkglist-official.txt"
+    pacman -Qqem > "$HOME/.config/pkglist/pkglist-aur.txt"
+    echo "官方源: $(wc -l < "$HOME/.config/pkglist/pkglist-official.txt") 个"
+    echo "AUR:    $(wc -l < "$HOME/.config/pkglist/pkglist-aur.txt") 个"
+    echo "已备份到 ~/.config/pkglist/"
+}
+
 show_status() {
     echo "== 定时任务状态 =="
     systemctl --user list-timers | grep -E "backup|NEXT" || echo "未找到备份定时器"
@@ -90,7 +102,8 @@ case "${1:-backup}" in
     log)       show_log ;;
     dae)       backup_dae ;;
     system)    backup_system ;;
-    all)       backup_now; backup_dae; backup_system ;;
+    pkglist)   backup_pkglist ;;
+    all)       backup_now; backup_dae; backup_system; backup_pkglist ;;
     help|-h|--help) print_help ;;
-    *) echo "未知参数: $1（可用: backup / status / log / dae / system / all / help）" ;;
+    *) echo "未知参数: $1（可用: backup / status / log / dae / system / pkglist / all / help）" ;;
 esac

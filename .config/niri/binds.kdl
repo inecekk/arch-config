@@ -19,7 +19,7 @@ binds {
     "Mod+Return"              hotkey-overlay-title="启动终端"              { spawn "foot"; }
     "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "pcmanfm"; }        // Win11: Win+E
     "Mod+G"                   hotkey-overlay-title="Chromium"        	   { spawn "chromium"; }
-    "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "zen-browser"; }
+    "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
     "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "code"; }
     "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "materialgram"; }
     "Mod+Shift+Q"             hotkey-overlay-title="QQ"                    { spawn "qq"; }

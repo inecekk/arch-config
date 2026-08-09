@@ -3,6 +3,10 @@
 DOTFILES="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] dotfiles 备份开始"
 
+# 同步系统配置和包列表（无需 sudo，直接纳入每日备份）
+bash "$HOME/.local/bin/backuplk" system >/dev/null 2>&1 || true
+bash "$HOME/.local/bin/backuplk" pkglist >/dev/null 2>&1 || true
+
 # 添加已跟踪文件的改动（不自动加新文件，防止误提交敏感内容）
 $DOTFILES add -u
 

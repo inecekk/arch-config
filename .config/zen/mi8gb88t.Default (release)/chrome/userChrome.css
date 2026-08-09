@@ -1,0 +1,25 @@
+/* Zen UI 定制：圆角
+ * 改完重启 zen 生效。彩虹边框已迁移到 niri focus-ring。
+ */
+
+/* 1. 标签页圆角 */
+.tab-background {
+  border-radius: 10px !important;
+}
+
+/* 2. 地址栏圆角 */
+#urlbar-background,
+#urlbar {
+  border-radius: 12px !important;
+}
+
+/* 3. 侧边栏顶部圆角 */
+#zen-sidebar-top-buttons {
+  border-radius: 10px !important;
+}
+
+/* 4. 新标签页按钮圆角 */
+#vertical-tabs-newtab-button {
+  border-radius: 10px !important;
+}
+@import "/home/lk/.cache/noctalia/zen-browser/zen-userChrome.css";

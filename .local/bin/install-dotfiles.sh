@@ -18,11 +18,52 @@ FORCE=0
 for arg in "$@"; do
     case "$arg" in
         --with-packages) WITH_PACKAGES=1 ;;
+        --with-system) WITH_SYSTEM=1 ;;
         --force) FORCE=1 ;;
     esac
 done
 
 GIT="git --git-dir=$DOTFILES_DIR --work-tree=$HOME"
+
+restore_zen() {
+    echo "    恢复 zen 浏览器自定义样式..."
+    ZEN_DIR="$HOME/.config/zen"
+    [ -d "$ZEN_DIR" ] || { echo "    未找到 zen 配置目录，跳过"; return 0; }
+
+    # 找默认 profile：优先 profiles.ini 里 Install 段的 Default=，其次第一个 Path=
+    DEF_PROFILE=""
+    if [ -f "$ZEN_DIR/profiles.ini" ]; then
+        DEF_PROFILE=$(grep -m1 '^Default=' "$ZEN_DIR/profiles.ini" | cut -d= -f2)
+        [ -z "$DEF_PROFILE" ] && DEF_PROFILE=$(grep -m1 '^Path=' "$ZEN_DIR/profiles.ini" | cut -d= -f2)
+    fi
+
+    TARGET=""
+    if [ -n "$DEF_PROFILE" ] && [ -d "$ZEN_DIR/$DEF_PROFILE" ]; then
+        TARGET="$ZEN_DIR/$DEF_PROFILE"
+    else
+        TARGET=$(ls -d "$ZEN_DIR"/*/chrome 2>/dev/null | head -1 | xargs dirname 2>/dev/null)
+    fi
+    [ -z "$TARGET" ] && { echo "    未找到可用 profile，跳过"; return 0; }
+
+    mkdir -p "$TARGET/chrome"
+    # 从 git 恢复出来的（旧 hash 路径）样式文件复制到当前默认 profile
+    SRC_CSS=$(ls "$ZEN_DIR"/*/chrome/userChrome.css 2>/dev/null | grep -v "$TARGET/chrome" | head -1)
+    if [ -n "$SRC_CSS" ]; then
+        cp "$SRC_CSS" "$TARGET/chrome/userChrome.css"
+        echo "      userChrome.css -> $TARGET/chrome/"
+    fi
+    SRC_CONTENT=$(ls "$ZEN_DIR"/*/chrome/userContent.css 2>/dev/null | grep -v "$TARGET/chrome" | head -1)
+    if [ -n "$SRC_CONTENT" ]; then
+        cp "$SRC_CONTENT" "$TARGET/chrome/userContent.css"
+        echo "      userContent.css -> $TARGET/chrome/"
+    fi
+    SRC_JS=$(ls "$ZEN_DIR"/*/user.js 2>/dev/null | grep -v "$TARGET/" | head -1)
+    if [ -n "$SRC_JS" ]; then
+        cp "$SRC_JS" "$TARGET/user.js"
+        echo "      user.js -> $TARGET/"
+    fi
+    echo "    zen 样式恢复完成（重启 zen 生效）"
+}
 
 echo "==> [1/4] 准备 bare 仓库"
 if [ ! -d "$DOTFILES_DIR" ]; then
@@ -58,6 +99,8 @@ fi
 $GIT config status.showUntrackedFiles no
 echo "    status.showUntrackedFiles 已设为 no"
 
+restore_zen
+
 echo "==> [3/4] 恢复包列表"
 if [ "$WITH_PACKAGES" = "1" ]; then
     OFFICIAL="$HOME/.config/pkglist/pkglist-official.txt"
@@ -90,6 +133,11 @@ if [ "$WITH_SYSTEM" = "1" ]; then
             sudo cp "$SYSBK/etc/iwd/main.conf" /etc/iwd/main.conf
             echo "      /etc/iwd/main.conf"
         fi
+        if [ -d "$SYSBK/etc/systemd/network" ]; then
+            sudo mkdir -p /etc/systemd/network
+            sudo cp "$SYSBK/etc/systemd/network/"*.network /etc/systemd/network/ 2>/dev/null
+            echo "      /etc/systemd/network/*.network"
+        fi
         if [ -f "$SYSBK/etc/fstab" ]; then
             echo "    fstab 已恢复，注意核对 UUID 是否与当前分区一致"
         fi
@@ -106,7 +154,7 @@ else
     echo "    跳过（加 --with-system 可恢复 /etc 和 /boot 配置）"
 fi
 
-echo "==> [5/5] 完成"
+echo "==> [4/4] 完成"
 cat << 'DONE'
 
 后续手动步骤：

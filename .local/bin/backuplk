@@ -75,9 +75,9 @@ backup_system() {
         fi
     done
 
-    # networkd 配置（保留原有位置）
-    mkdir -p "$HOME/.config/systemd/network"
-    cp /etc/systemd/network/*.network "$HOME/.config/systemd/network/" 2>/dev/null
+    # networkd 配置（备份到 system-backup，避免占用用户级 networkd 目录）
+    mkdir -p "$SYSBK/etc/systemd/network"
+    cp /etc/systemd/network/*.network "$SYSBK/etc/systemd/network/" 2>/dev/null
     echo "    /etc/systemd/network/*.network"
 
     # iwd 配置（不含密码；PSK 在 /var/lib/iwd，特意不入库）

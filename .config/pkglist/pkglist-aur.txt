@@ -1,0 +1,6 @@
+jmtpfs
+linuxqq
+materialgram-bin
+miyu
+visual-studio-code-bin
+zen-browser-bin

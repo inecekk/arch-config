@@ -1,0 +1,18 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2
+UUID=c8fb2e0c-0330-47a6-aebf-3974d464e03b	/         	btrfs     	rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvol=/@	0 0
+
+# /dev/nvme0n1p2
+UUID=c8fb2e0c-0330-47a6-aebf-3974d464e03b	/home     	btrfs     	rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvol=/@home	0 0
+
+# /dev/nvme0n1p2
+UUID=c8fb2e0c-0330-47a6-aebf-3974d464e03b	/var/log  	btrfs     	rw,noatime,compress=zstd:3,ssd,discard=async,space_cache=v2,subvol=/@log	0 0
+
+
+# /dev/nvme0n1p1
+UUID=691C-C303      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+/swap_subvol/swapfile none swap defaults 0 0

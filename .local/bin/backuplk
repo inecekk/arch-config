@@ -26,7 +26,7 @@ backuplk - Arch 配置自动备份工具
   backup 脚本   -> ~/.local/bin/backuplk
   定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 13:00 自动执行)
   dae 配置      -> ~/.config/dae/（敏感信息已脱敏）
-  系统配置      -> ~/.config/systemd/network/ + ~/.config/grub/
+  系统配置      -> ~/.config/system-backup/（fstab/loader/mkinitcpio 等）
   包列表        -> ~/.config/pkglist/（官方源 + AUR 分开存）
 
 日志查看:
@@ -64,13 +64,42 @@ backup_dae() {
 
 backup_system() {
     echo "== 备份系统配置 =="
-    # networkd 配置
+    SYSBK="$HOME/.config/system-backup"
+    mkdir -p "$SYSBK/etc" "$SYSBK/boot/loader/entries"
+
+    # /etc 下的关键配置（存在才复制）
+    for f in fstab mkinitcpio.conf locale.conf hostname vconsole.conf; do
+        if [ -f "/etc/$f" ]; then
+            cp "/etc/$f" "$SYSBK/etc/$f"
+            echo "    /etc/$f"
+        fi
+    done
+
+    # networkd 配置（保留原有位置）
     mkdir -p "$HOME/.config/systemd/network"
     cp /etc/systemd/network/*.network "$HOME/.config/systemd/network/" 2>/dev/null
-    # grub 配置（只备份关键配置）
-    mkdir -p "$HOME/.config/grub"
-    grep -E "^(GRUB_DEFAULT|GRUB_TIMEOUT|GRUB_CMDLINE)" /etc/default/grub > "$HOME/.config/grub/grub.cfg" 2>/dev/null
-    echo "networkd 和 grub 配置已备份"
+    echo "    /etc/systemd/network/*.network"
+
+    # systemd-boot（loader.conf + 启动项）
+    if [ -f /boot/loader/loader.conf ]; then
+        cp /boot/loader/loader.conf "$SYSBK/boot/loader/loader.conf"
+        echo "    /boot/loader/loader.conf"
+    fi
+    cp /boot/loader/entries/*.conf "$SYSBK/boot/loader/entries/" 2>/dev/null && echo "    /boot/loader/entries/*.conf"
+
+    # grub 兼容（如果还在用 grub）
+    if [ -f /etc/default/grub ]; then
+        mkdir -p "$HOME/.config/grub"
+        grep -E "^(GRUB_DEFAULT|GRUB_TIMEOUT|GRUB_CMDLINE)" /etc/default/grub > "$HOME/.config/grub/grub.cfg" 2>/dev/null
+        echo "    /etc/default/grub (关键项)"
+    fi
+
+    # iwd WiFi 密码在 /var/lib/iwd（含 PSK 明文，不备份），提醒手动重配
+    if [ -d /var/lib/iwd ]; then
+        echo "    提示: iwd WiFi 密码在 /var/lib/iwd，含明文 PSK 不入库，重装后需手动 iwctl connect"
+    fi
+
+    echo "系统配置已备份到 $SYSBK（重装后 install-dotfiles.sh --with-system 恢复）"
 }
 
 backup_pkglist() {

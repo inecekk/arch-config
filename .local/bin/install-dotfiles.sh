@@ -3,7 +3,8 @@
 # 用法:
 #   curl -fsSL https://raw.githubusercontent.com/inecekk/arch-config/main/.local/bin/install-dotfiles.sh | bash
 #   install-dotfiles.sh --with-packages   # 恢复配置后顺便恢复包列表
-#   install-dotfiles.sh --force           # 已存在文件直接覆盖（默认备份 .bak）
+#   install-dotfiles.sh --with-system        # 顺便恢复 /etc 和 /boot 系统配置
+#   install-dotfiles.sh --force              # 已存在文件直接覆盖（默认备份 .bak）
 
 set -euo pipefail
 
@@ -11,6 +12,7 @@ REPO_SSH="git@github.com:inecekk/arch-config.git"
 REPO_HTTPS="https://github.com/inecekk/arch-config.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 WITH_PACKAGES=0
+WITH_SYSTEM=0
 FORCE=0
 
 for arg in "$@"; do
@@ -72,11 +74,38 @@ else
     echo "    跳过（加 --with-packages 可恢复包列表）"
 fi
 
-echo "==> [4/4] 完成"
+echo "==> [4/4] 恢复系统级配置"
+if [ "$WITH_SYSTEM" = "1" ]; then
+    SYSBK="$HOME/.config/system-backup"
+    if [ -d "$SYSBK" ]; then
+        echo "    恢复 /etc 配置..."
+        for f in fstab mkinitcpio.conf locale.conf hostname vconsole.conf; do
+            if [ -f "$SYSBK/etc/$f" ]; then
+                sudo cp "$SYSBK/etc/$f" "/etc/$f"
+                echo "      /etc/$f"
+            fi
+        done
+        if [ -f "$SYSBK/etc/fstab" ]; then
+            echo "    fstab 已恢复，注意核对 UUID 是否与当前分区一致"
+        fi
+        if [ -d "$SYSBK/boot/loader" ]; then
+            echo "    恢复 systemd-boot 配置..."
+            sudo cp -r "$SYSBK/boot/loader/." /boot/loader/
+            echo "      /boot/loader/"
+        fi
+        echo "    提示: iwd WiFi 密码不在此备份中，需手动 iwctl station wlan0 connect"
+    else
+        echo "    未找到 $SYSBK，先跑 backuplk system 备份"
+    fi
+else
+    echo "    跳过（加 --with-system 可恢复 /etc 和 /boot 配置）"
+fi
+
+echo "==> [5/5] 完成"
 cat << 'DONE'
 
 后续手动步骤：
   1. systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
   2. 确认 niri / fcitx5 / foot / dae 配置是否正常
-  3. /etc 和 /boot 的系统级配置需手动确认（fstab、loader、mkinitcpio）
+  3. 若恢复了 fstab，重启前确认 UUID 无误
 DONE

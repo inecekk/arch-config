@@ -98,6 +98,9 @@ layout {                                                                    // �
     background-color "transparent"                                          // 根背景颜色设为透明
     
     gaps 8                                                                  // 窗口与屏幕边缘、窗口之间的间距为 8px
+    struts {                                                                // 用负 struts 模拟不对称外边距
+        right -2                                                            // 右边距向外扩 2px，实际右边距 = 8-2 = 6px（比左边小2px）
+    }
     preset-column-widths {                                                  // 预设分栏宽度比例列表
         proportion 0.25                                                     // 占屏幕 25% 宽度
         proportion 0.5                                                      // 占屏幕 50% 宽度
@@ -130,9 +133,21 @@ blur {                                                                      // �
 }
 
 // ==================== 窗口规则 ====================
-// 所有新打开的窗口默认最大化（保留壁纸和状态栏可见，全屏会盖住它们）
-window-rule {                                                               // 窗口规则：默认最大化
-    open-maximized true                                                     // 新窗口打开即最大化，壁纸和状态栏仍可见
+// 所有新打开的窗口默认半屏（宽 50%，高填满列；壁纸和状态栏仍可见）
+window-rule {                                                               // 窗口规则：默认半屏
+    open-maximized false                                                    // 新窗口不最大化
+    default-column-width {                                                  // 默认宽度 50%
+        proportion 0.5                                                      // 占屏幕 50% 宽度
+    }
+    default-window-height {                                                 // 高度填满整列
+        proportion 1.0                                                      // 占列高 100%
+    }
+}
+
+// zen 浏览器例外：保持最大化（快捷键启动时全屏体验，不受默认半屏影响）
+window-rule {                                                               // 窗口规则：zen 最大化例外
+    match app-id="^zen$"                                                    // 匹配 zen 浏览器
+    open-maximized true                                                     // 新窗口打开即最大化
 }
 
 // 有意为之：保留最大化贴边缝隙 8px，窗口最大化时不贴到屏幕边缘

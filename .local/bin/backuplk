@@ -12,7 +12,7 @@ backuplk - Arch 配置自动备份工具
   backuplk          手动备份并显示结果
   backuplk backup   手动备份并显示结果（同默认）
   backuplk dae      备份 dae 代理配置（脱敏处理）
-  backuplk system   备份系统配置（networkd/grub）
+  backuplk system   备份系统配置（fstab/iwd/boot loader/mkinitcpio/networkd）
   backuplk pkglist  备份已安装包列表（重装恢复用）
   backuplk all      备份所有内容
   backuplk status   查看定时器下次执行时间

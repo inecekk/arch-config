@@ -8,7 +8,7 @@ global {
 }
 
 node {
-    my_node: 'anytls://[REDACTED]@35.254.87.176:31493/?insecure=1#anytls-us58'
+    my_node: 'ss://[REDACTED]
 }
 
 dns {

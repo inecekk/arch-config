@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable GPP6 (RTL8852BE wifi) wakeup from S4
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/disable-wakeup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

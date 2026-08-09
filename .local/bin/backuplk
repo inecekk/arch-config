@@ -86,6 +86,12 @@ backup_system() {
         cp /etc/iwd/main.conf "$SYSBK/etc/iwd/main.conf"
         echo "    /etc/iwd/main.conf"
     fi
+    # disable-wakeup 服务（合盖休眠防网卡唤醒）
+    if [ -f /etc/systemd/system/disable-wakeup.service ]; then
+        mkdir -p "$SYSBK/etc/systemd/system"
+        cp /etc/systemd/system/disable-wakeup.service "$SYSBK/etc/systemd/system/disable-wakeup.service"
+        echo "    /etc/systemd/system/disable-wakeup.service"
+    fi
 
     # systemd-boot（loader.conf + 启动项）
     if [ -f /boot/loader/loader.conf ]; then

@@ -133,6 +133,20 @@ if [ "$WITH_SYSTEM" = "1" ]; then
             sudo cp "$SYSBK/etc/iwd/main.conf" /etc/iwd/main.conf
             echo "      /etc/iwd/main.conf"
         fi
+        # disable-wakeup 服务：禁用 GPP6（RTL8852BE 网卡）的 S4 唤醒，修复合盖休眠秒醒
+        if [ -f "$SYSBK/etc/systemd/system/disable-wakeup.service" ]; then
+            sudo mkdir -p /etc/systemd/system
+            sudo cp "$SYSBK/etc/systemd/system/disable-wakeup.service" /etc/systemd/system/disable-wakeup.service
+            echo "      /etc/systemd/system/disable-wakeup.service"
+            if [ -f "$HOME/.local/bin/disable-wakeup.sh" ]; then
+                sudo install -m 755 "$HOME/.local/bin/disable-wakeup.sh" /usr/local/bin/disable-wakeup.sh
+                echo "      /usr/local/bin/disable-wakeup.sh"
+            fi
+            sudo systemctl daemon-reload || true
+            sudo systemctl enable disable-wakeup.service 2>/dev/null || true
+            sudo systemctl start disable-wakeup.service 2>/dev/null || true
+            echo "      disable-wakeup.service 已启用"
+        fi
         if [ -d "$SYSBK/etc/systemd/network" ]; then
             sudo mkdir -p /etc/systemd/network
             sudo cp "$SYSBK/etc/systemd/network/"*.network /etc/systemd/network/ 2>/dev/null

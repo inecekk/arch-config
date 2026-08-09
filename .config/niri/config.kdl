@@ -163,6 +163,16 @@ window-rule {                                                               // �
     clip-to-geometry true                                                   // 裁剪窗口内容，使其完美契合圆角
 }
 
+// Zen 浏览器：彩虹渐变焦点环（红到紫走完整色环，视觉上就是彩虹）
+window-rule {                                                               // 窗口规则：Zen 彩虹边框
+    match app-id="^zen$"                                                    // 匹配 Zen 浏览器窗口
+    focus-ring {                                                            // 覆盖焦点环样式
+        width 1                                                             // 边框宽度 1px
+        active-gradient from="#f43f5e" to="#8b5cf6" angle=90 in="oklch longer hue" // 红→紫渐变，经橙黄绿蓝，呈现彩虹
+        inactive-color "#50505020"                                          // 未激活时半透明灰
+    }
+}
+
 // ==================== 图层规则 ====================
 layer-rule {                                                                // 图层规则：壁纸图层
     match namespace="^noctalia-wallpaper$"                                  // 匹配 noctalia 壁纸命名空间

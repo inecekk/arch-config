@@ -18,3 +18,4 @@ x-scheme-handler/https=zen.desktop;
 text/html=zen.desktop;
 x-scheme-handler/chrome=zen.desktop;
 application/octet-stream=vim.desktop;
+image/jpeg=zen.desktop;

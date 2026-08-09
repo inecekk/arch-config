@@ -16,15 +16,16 @@ binds {
     // ═══════════════════════════════════════════
     // 2. 应用启动
     // ═══════════════════════════════════════════
-    "Mod+Return"              hotkey-overlay-title="启动终端"              { spawn "foot"; }
-    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "pcmanfm"; }        // Win11: Win+E
-    "Mod+G"                   hotkey-overlay-title="Chromium"        	   { spawn "chromium"; }
+    "Mod+Return"              hotkey-overlay-title="终端(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
+    "Mod+Shift+Return"        hotkey-overlay-title="强制新开终端"           { spawn "foot"; }
+    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"pcmanfm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || pcmanfm"; }        // Win11: Win+E
+    "Mod+G"                   hotkey-overlay-title="Chromium"             { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"chromium\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || chromium"; }
     "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
-    "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "code"; }
-    "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "materialgram"; }
-    "Mod+Shift+Q"             hotkey-overlay-title="QQ"                    { spawn "qq"; }
-    "Mod+M"                   hotkey-overlay-title="启动 musicfox"         { spawn "foot" "-e" "musicfox"; }
-    "Mod+shift+N"             hotkey-overlay-title="启动 nnn"              { spawn "foot" "-e" "nnn"; }
+    "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
+    "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
+    "Mod+Shift+Q"             hotkey-overlay-title="QQ"                    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || qq"; }
+    "Mod+M"                   hotkey-overlay-title="musicfox(聚焦/新建)"   { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"musicfox\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -e musicfox"; }
+    "Mod+shift+N"             hotkey-overlay-title="nnn(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"nnn\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -e nnn"; }
     "Mod+N"    hotkey-overlay-title="Noctalia 主页"    { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
     // ═══════════════════════════════════════════
     // 3. Noctalia 面板交互 (Win11: 任务栏/操作中心/搜索)
@@ -108,5 +109,5 @@ binds {
     "Mod+Alt+P"                 hotkey-overlay-title="媒体播放切换"           { spawn "noctalia" "msg" "media" "toggle"; }
     "Mod+Period"                hotkey-overlay-title="下一首"                 { spawn "playerctl" "next"; }
     "Mod+Comma"                 hotkey-overlay-title="上一首"                 { spawn "playerctl" "previous"; }
-    "Mod+Alt+Slash"              hotkey-overlay-title="资源监控"               { spawn "foot" "--geometry=100x40" "-e" "btop"; }
+    "Mod+Alt+Slash"              hotkey-overlay-title="资源监控(聚焦/新建)"     { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"btop\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot --geometry=100x40 -e btop"; }
 }

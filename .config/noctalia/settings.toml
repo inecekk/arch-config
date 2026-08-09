@@ -1,7 +1,3 @@
-[general]
-# 状态栏配置
-log_level = "info"
-
 [bar]
 position = "top"
 height = 30
@@ -9,38 +5,20 @@ background = "#1e1e2e"
 foreground = "#cdd6f4"
 
     [bar.default]
-    border = "#f43f5e"
+    border = "#c4b5fd"
     border_width = 1.0
+    start = ["launcher", "workspaces", "clock"]
+    end = ["media", "network", "bluetooth", "volume", "battery", "tray", "session"]
 
-[modules]
-left = ["workspaces", "launcher"]
-center = ["clock"]
-right = ["media", "network", "bluetooth", "volume", "battery", "tray", "power"]
-
-[clock]
+[widget.clock]
 format = "%H:%M:%S"
-interval = 1
 
-[workspaces]
-format = "{name}"
+[widget.bluetooth]
+enabled = true
 
-[launcher]
-command = "rofi -show drun"
+[widget.media]
+hide_when_no_media = true
+title_scroll = "always"
 
-[media]
-format = "{artist} - {title}"
-
-[network]
-format = "{interface}: {rx} / {tx}"
-
-[volume]
-format = "VOL {volume}"
-
-[battery]
-format = "BAT {percentage}%"
-
-[tray]
-icon_size = 16
-
-[power]
-format = "⏻"
+[widget.network]
+show_label = false

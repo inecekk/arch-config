@@ -8,6 +8,10 @@ height = 30
 background = "#1e1e2e"
 foreground = "#cdd6f4"
 
+    [bar.default]
+    border = "#f43f5e"
+    border_width = 1.0
+
 [modules]
 left = ["workspaces", "launcher"]
 center = ["clock"]

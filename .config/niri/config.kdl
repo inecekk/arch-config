@@ -23,17 +23,17 @@ overview {                                                                  // �
 
 // ==================== 动画配置 ====================
 animations {                                                                // 窗口管理器全局动画配置块
-    // 切换工作区动画：阻尼降到 0.5，切换时带明显弹性回弹，更有动感
+    // 切换工作区动画：阻尼提高到 0.85，基本消除回弹，保留顺滑
     workspace-switch {                                                      // 工作区切换动画
-        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001               // 弹簧物理参数：阻尼 0.5，刚度 400
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
-    // 水平视图移动（同工作区左右切换窗口）：同样加强弹性，切换像甩过去一样
+    // 水平视图移动（同工作区左右切换窗口）：阻尼提高，切换不再甩动回弹
     horizontal-view-movement {                                              // 水平视图移动动画
-        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001               // 弹簧物理参数：阻尼 0.5，刚度 400
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
-    // 窗口移动（焦点切换时窗口位置变化）：弹性回弹，切换窗口有明显滑动感
+    // 窗口移动（焦点切换时窗口位置变化）：阻尼提高，切换窗口不再弹跳
     window-movement {                                                       // 窗口位置变移动画
-        spring damping-ratio=0.5 stiffness=400 epsilon=0.0001               // 弹簧物理参数：阻尼 0.5，刚度 400
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
     window-resize {                                                         // 窗口大小调整动画
         spring damping-ratio=0.75 stiffness=500 epsilon=0.0001              // 弹簧物理参数：阻尼 0.75，刚度 500

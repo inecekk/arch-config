@@ -184,3 +184,54 @@ systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
 ## 相关仓库
 
 - 壁纸仓库：<https://github.com/inecekk/wallpapers>
+
+## 已安装软件清单与恢复方法
+
+包列表由 `backuplk pkglist` 自动维护，保存在 `.config/pkglist/`：
+
+| 文件 | 内容 | 数量 |
+| --- | --- | --- |
+| `pkglist-official.txt` | 官方源显式安装的包（自己主动装的，不含依赖） | 53 |
+| `pkglist-aur.txt` | AUR / 本地显式安装的包 | 6 |
+| `pkglist-all.txt` | 全部已安装包（含依赖，562 个，审计用） | 562 |
+
+### 重装后恢复包
+
+```bash
+# 官方源（依赖会自动带上）
+sudo pacman -S --needed - < ~/.config/pkglist/pkglist-official.txt
+
+# AUR（需要先装好 paru）
+paru -S --needed - < ~/.config/pkglist/pkglist-aur.txt
+```
+
+也可以直接走一键恢复：`install-dotfiles.sh --with-packages`（见上文「快速开始」）。
+
+### 显式安装清单（59 个）
+
+**官方源（53）**
+
+- 基础：base base-devel sudo git vim tree jq openssh bash-completion archlinuxcn-keyring
+- 桌面：niri noctalia-git noctalia-greeter-git greetd foot pcmanfm
+- 输入法：fcitx5 fcitx5-gtk fcitx5-qt fcitx5-rime rime-double-pinyin wqy-microhei noto-fonts-emoji
+- 网络：iwd dae wireless-regdb avahi android-tools
+- 音频视频：pipewire-alsa pipewire-pulse alsa-utils ffmpeg4.4 mpv
+- 工具：paru brightnessctl btop fastfetch wf-recorder vnstat upower
+- 蓝牙：bluez-utils bluetui
+- 系统：amd-ucode linux-firmware linux-lts btrfs-progs efibootmgr snapper snap-pac
+- 其他：go-musicfox-git impala supertuxkart
+
+**AUR / 本地（6）**
+
+- zen-browser-bin（Zen 浏览器）
+- linuxqq（QQ）
+- visual-studio-code-bin（VSCode）
+- materialgram-bin（Telegram 第三方客户端）
+- jmtpfs（MTP 挂载）
+- miyu
+
+### 注意事项
+
+- `pkglist-all.txt` 是全量列表（含依赖），只作审计参考，恢复时**不要**用它，否则会显式安装一堆依赖包
+- AUR 包恢复前如果 PKGBUILD 有变化，paru 会提示重新审查，按提示确认即可
+- 恢复后记得 `sudo systemctl enable --now greetd bluetooth dae` 和 `systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer`

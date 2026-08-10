@@ -8,6 +8,7 @@ base-devel
 bash-completion
 bluetui
 bluez-utils
+brightnessctl
 btop
 btrfs-progs
 dae

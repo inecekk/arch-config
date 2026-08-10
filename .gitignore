@@ -64,6 +64,9 @@ Videos/
 # ============ 备份脚本产物 ============
 .config/grub/
 
+# ============ systemd 自动生成 ============
+.config/systemd/user/timers.target.wants/
+
 # ============ 补充 ============
 .dotfiles/
 run_win.sh

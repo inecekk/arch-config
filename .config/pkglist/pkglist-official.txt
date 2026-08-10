@@ -17,6 +17,7 @@ fcitx5
 fcitx5-gtk
 fcitx5-qt
 fcitx5-rime
+ffmpeg4.4
 foot
 git
 go-musicfox-git
@@ -24,8 +25,8 @@ greetd
 impala
 iwd
 jq
-linux
 linux-firmware
+linux-lts
 mpv
 niri
 noctalia-git

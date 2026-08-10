@@ -38,6 +38,8 @@ pcmanfm
 pipewire-alsa
 pipewire-pulse
 rime-double-pinyin
+snap-pac
+snapper
 sudo
 supertuxkart
 tree

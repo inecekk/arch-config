@@ -2,13 +2,13 @@
 # brightness-safe: 背光控制脚本
 # 注意: 本机 amdgpu_bl1 是 raw 类型背光，写入 100% (65535) 时 PWM 溢出翻转，
 #       实测 100% 比 0% 还暗（AMD dc 驱动在 RDNA2 核显 + eDP 上的已知边界问题）。
-#       90% 实测最亮，95% 安全，99% 接近边界可用；上限锁 99% 是为了避开 65535 那个雷。
-#       若 99% 也出现变暗，把 MAX_SAFE 回落回 95 即可。
+#       90% 实测最亮，95% 安全，99% 实测仍会变暗；上限锁 98% 是为了避开 65535 那个雷。
+#       若 98% 也出现变暗，把 MAX_SAFE 继续回落即可。
 # 用法: brightness-safe up|down|set [percent]
 
 DEV="amdgpu_bl1"
 MAX_HW=65535
-MAX_SAFE=99  # 上限百分比（100% 会 PWM 溢出变暗，锁 99%）
+MAX_SAFE=98  # 上限百分比（100% 会 PWM 溢出变暗，实测 99% 仍会变暗，锁 98%）
 
 pct_to_val() { echo $((MAX_HW * $1 / 100)); }
 
@@ -20,14 +20,14 @@ case "$1" in
     brightnessctl -d "$DEV" set "$(pct_to_val "$new")"
     ;;
   down)
-    new=$((cur_pct - 5 < 1 ? 1 : cur_pct - 5))
+    new=$((cur_pct - 5 < 0 ? 0 : cur_pct - 5))
     brightnessctl -d "$DEV" set "$(pct_to_val "$new")"
     ;;
   set)
     new=$2
     [ -z "$new" ] && new=$cur_pct
     new=$((new > MAX_SAFE ? MAX_SAFE : new))
-    new=$((new < 1 ? 1 : new))
+    new=$((new < 0 ? 0 : new))
     brightnessctl -d "$DEV" set "$(pct_to_val "$new")"
     ;;
   *)

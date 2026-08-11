@@ -1,6 +1,7 @@
 jmtpfs
 linuxqq
 materialgram-bin
-miyu
+miyu-git
 visual-studio-code-bin
+voicefox
 zen-browser-bin

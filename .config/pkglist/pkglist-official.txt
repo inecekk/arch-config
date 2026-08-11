@@ -26,8 +26,8 @@ greetd
 impala
 iwd
 jq
+linux
 linux-firmware
-linux-lts
 mpv
 niri
 noctalia-git

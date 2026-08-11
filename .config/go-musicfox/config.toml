@@ -11,7 +11,7 @@ progressOutBounce = true
 # 启动页的持续时长（秒）
 loadingSeconds = 3
 # 启动页欢迎语
-welcome = "musicfox "
+welcome = "voicefox "
 # 启动页动画：sequence、fade-in、rainbow-wave、typewriter、spinner、slide-in、glitch、matrix-rain、particle-burst
 animation = "typewriter"
 # 是否停用启动页动画以减少动态效果
@@ -39,7 +39,7 @@ locale = "zh"
 # 实时频谱显示（目前仅支持 osx, beep 播放引擎）
 # 调高 main.frameRate 更丝滑
 [main.visualizer]
-# 是否显示实时频谱（原生波形图，开启后由 musicfox 渲染频谱）
+# 是否显示实时频谱（原生波形图，开启后由 voicefox 渲染频谱）
 enable = false
 # 频谱最大行数（0 表示不限制；会随可用空间自动缩小）
 maxHeight = 0
@@ -231,7 +231,7 @@ neteaseCookie="JSESSIONID-WYYY=DGcjypSPbWyx2iwg6Gkxak9ddId2hG9e0qSc0Z5gp5Di1m8gK
 # 主题设置
 [theme]
 # 活跃主题名称（对应主题文件中的 name 字段，默认 "Default"）
-# 主题文件存放于 embed/themes/（内置）和 ~/.config/go-musicfox/themes/（用户自定义）
+# 主题文件存放于 embed/themes/（内置）和 ~/.config/go-voicefox/themes/（用户自定义）
 activeTheme = "Rainbow"
 # 是否在界面顶部显示标题
 showTitle = true
@@ -277,7 +277,7 @@ firstEmptyChar = "·"
 [storage]
 # 下载目录
 # 若设置了 MUSICFOX_ROOT 变量，则默认为 ${MUSICFOX_ROOT}/download
-# 若未设置 MUSICFOX_ROOT 变量，则为相应系统的默认下载目录的 go-musicfox 子目录
+# 若未设置 MUSICFOX_ROOT 变量，则为相应系统的默认下载目录的 go-voicefox 子目录
 # 请使用绝对路径
 downloadDir = "/home/lk/Music"
 # 歌词文件的默认下载目录。如果为空，则与downloadDir保持一致。
@@ -292,7 +292,7 @@ downloadSongWithLyric = false
 [storage.cache]
 # 缓存目录
 # 若设置了 MUSICFOX_ROOT 变量，则默认为 ${MUSICFOX_ROOT}/cache
-# 若未设置 MUSICFOX_ROOT 变量，则为相应系统的默认缓存目录的 go-musicfox 子目录
+# 若未设置 MUSICFOX_ROOT 变量，则为相应系统的默认缓存目录的 go-voicefox 子目录
 dir = ""
 # 音乐缓存路径，相对路径相对于 dir
 # 注意：如果使用 mpd，mpd 配置中的 "music_directory" 必须与 musicDir 路径一致
@@ -436,8 +436,8 @@ pageDown = ["ctrl+d", "pgdown"]
 playOrToggle = ["space"]
 # 空数组表示取消此功能的快捷键
 toggle = []
-previous = ["[", "【"]
-next = ["]", "】"]
+previous = ["Down"]
+next = ["Up"]
 backwardFiveSec = ["X"]
 backwardOneSec = ["x"]
 forwardFiveSec = ["v"]

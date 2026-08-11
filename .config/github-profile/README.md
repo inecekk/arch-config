@@ -6,15 +6,6 @@
   </picture>
 </div>
 
-<!-- 彩虹流动标题（自定义 SVG 动画，呼应 niri 彩虹焦点环主题） -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/rainbow-title.svg" alt="inecekk rainbow title" width="65%" />
-</div>
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/inecekk/count.svg" alt="Visitor Counter" />
-</div>
-
 <p align="center">
   <a href="https://github.com/inecekk?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?label=Public%20Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Finecekk&style=flat-square&color=7C3AED" /></a>
   <a href="https://github.com/inecekk?tab=followers"><img src="https://img.shields.io/badge/dynamic/json?label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Finecekk&style=flat-square&color=e879f9" /></a>
@@ -52,44 +43,12 @@
 
 ## 👋 About Me
 
-- 🏠 **OS**: Arch Linux (linux-lts 6.18) · **WM**: Niri (Wayland)
 - 💻 **Editor**: VS Code · **Shell**: bash + tmux
 - 🎨 **Theme**: Dark purple / rainbow gradient focus ring
 - 🎵 **Music**: go-musicfox (lyrics + visualizer) · **Radio**: yes
-- 🌐 **Browser**: Zen Browser
-- 📁 **FM**: PCManFM · **Launcher**: noctalia
-- 🔒 **Security**: snapper btrfs snapshots + daily auto backup to GitHub
 - 🧠 **AI**: Miyu (my personal assistant)
 
 ---
-
-## 🗂️ System Overview
-
-| Component | Choice |
-|-----------|--------|
-| Distribution | Arch Linux (rolling) |
-| Kernel | linux-lts 6.18 (LTS, amd-ucode) |
-| CPU | AMD Ryzen 7 6800H (8C/16T, Rembrandt) |
-| GPU | AMD Radeon 680M (RDNA2, iGPU) |
-| Memory | 16 GB DDR5 |
-| Storage | 476.9 GB NVMe (btrfs: @ / @home / @log / @pkg / @.snapshots) |
-| Display Server | Wayland (niri compositor) |
-| Terminal | foot (alpha 0.9, JetBrainsMono Nerd Font) |
-| Input Method | fcitx5 + rime (双拼) |
-| Network | iwd + systemd-networkd |
-| Firewall | none (home LAN) |
-| Audio | PipeWire 1.6.8 + USB DAC |
-| Bootloader | systemd-boot (LTS default) |
-| Snapshot | snapper (btrfs @.snapshots) |
-| Backup | dotfiles/wallpapers → GitHub daily 13:00 |
-
-### 🌤️ Weather
-
-<div align="center">
-  <img src="https://wttr.in/Shanghai.png?m" alt="Shanghai weather" />
-</div>
-
-> 天气图来自 wttr.in，实时更新。城市可改成你所在的城市（拼音）。
 
 ---
 
@@ -228,10 +187,6 @@
 
 ## 📫 Contact
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=inecekk.inecekk" alt="visitors" />
-</div>
-
 <span align="center">
   <a href="https://github.com/inecekk"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/-Arch%20User-1793D1?style=flat-square&logo=archlinux&logoColor=white" />
@@ -248,3 +203,4 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/footer-dark.svg" />
   <img alt="footer wave" src="https://raw.githubusercontent.com/inecekk/inecekk/main/assets/footer-dark.svg" />
 </picture>
+

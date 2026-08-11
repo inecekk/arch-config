@@ -6,6 +6,8 @@ binds {
     "Mod+Shift+E"             hotkey-overlay-title="退出 Niri"            { quit; }
     "Mod+S"             	hotkey-overlay-title="区域截图"              { screenshot; }          
     "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
+    "Print"                   hotkey-overlay-title="区域截图"              { screenshot; }
+    "XF86SelectiveScreenshot" hotkey-overlay-title="区域截图"              { screenshot; }
     "Mod+F5"                  hotkey-overlay-title="热重载配置"            { spawn-sh "niri msg action load-config-file"; }
     "Mod+Shift+S"               hotkey-overlay-title="录屏开关"              { spawn-sh "pkill -INT -x wf-recorder || (mkdir -p ~/Videos && wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4)"; }
     // 蓝牙键盘多媒体键
@@ -21,6 +23,7 @@ binds {
     "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"pcmanfm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || pcmanfm"; }        // Win11: Win+E
     "Mod+G"                   hotkey-overlay-title="Chromium"             { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"chromium\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || chromium"; }
     "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
+    "XF86Assistant"           hotkey-overlay-title="Zen 浏览器(聚焦/新建)" { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
     "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
     "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
     "Mod+Y"                   hotkey-overlay-title="QQ"                    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
@@ -33,6 +36,7 @@ binds {
     "Mod+A"                   hotkey-overlay-title="控制面板"              { spawn "noctalia" "panel-open" "control-center"; }   // Win11: Win+A
     "Mod+D"                   hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; } // Win11: Win+S
     "XF86Search"              hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    "XF86LaunchB"             hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
     "Mod+X"                   hotkey-overlay-title="启动菜单"              { spawn "noctalia" "panel-open" "launcher"; }         // Win11: Win+X
     "Mod+V"                   hotkey-overlay-title="剪贴板历史"            { spawn "noctalia" "msg" "panel-toggle" "clipboard"; } // Win11: Win+V
     "Mod+Shift+L"             hotkey-overlay-title="关机菜单"              { spawn "noctalia" "msg" "panel-open" "session"; }
@@ -108,8 +112,8 @@ binds {
     "XF86AudioRaiseVolume"      allow-when-locked=true hotkey-overlay-title="音量增加"   { spawn "sh" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+ -l 1.0"; }
     "XF86AudioLowerVolume"      allow-when-locked=true hotkey-overlay-title="音量降低"   { spawn "sh" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-"; }
     "XF86AudioMute"             allow-when-locked=true hotkey-overlay-title="静音切换"   { spawn "sh" "-c" "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-    "XF86MonBrightnessUp"       allow-when-locked=true hotkey-overlay-title="亮度增加"   { spawn "brightnessctl" "--class=backlight" "set" "+10%"; }
-    "XF86MonBrightnessDown"     allow-when-locked=true hotkey-overlay-title="亮度降低"   { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
+    "XF86MonBrightnessUp"       allow-when-locked=true hotkey-overlay-title="亮度增加"   { spawn "/home/lk/.local/bin/brightness-safe" "up"; }
+    "XF86MonBrightnessDown"     allow-when-locked=true hotkey-overlay-title="亮度降低"   { spawn "/home/lk/.local/bin/brightness-safe" "down"; }
     "Mod+Alt+P"                 hotkey-overlay-title="媒体播放切换"           { spawn "noctalia" "msg" "media" "toggle"; }
     "Mod+Period"                hotkey-overlay-title="下一首"                 { spawn "playerctl" "next"; }
     "Mod+Comma"                 hotkey-overlay-title="上一首"                 { spawn "playerctl" "previous"; }

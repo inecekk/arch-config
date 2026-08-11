@@ -70,5 +70,5 @@ Videos/
 # ============ 补充 ============
 .dotfiles/
 run_win.sh
-github-profile/
+/github-profile/
 .vim/

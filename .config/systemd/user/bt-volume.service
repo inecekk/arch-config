@@ -1,0 +1,10 @@
+[Unit]
+Description=Bluetooth default volume 6%
+After=wireplumber.service
+
+[Service]
+ExecStart=%h/.local/bin/bt-volume.sh
+Restart=always
+
+[Install]
+WantedBy=default.target

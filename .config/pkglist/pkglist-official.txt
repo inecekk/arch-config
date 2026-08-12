@@ -11,7 +11,7 @@ bluez-utils
 brightnessctl
 btop
 btrfs-progs
-clang
+chromium
 dae
 efibootmgr
 fastfetch
@@ -23,7 +23,6 @@ ffmpeg4.4
 foot
 git
 go-musicfox-git
-greetd
 impala
 iwd
 jq
@@ -31,8 +30,7 @@ linux
 linux-firmware
 mpv
 niri
-noctalia-git
-noctalia-greeter-git
+noctalia
 noto-fonts-emoji
 openssh
 paru

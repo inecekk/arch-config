@@ -2,7 +2,6 @@ drawpile
 jmtpfs
 linuxqq
 materialgram-bin
-mineral
 miyu
 osu-lazer-bin
 visual-studio-code-bin

@@ -156,7 +156,9 @@ window-rule {                                                               // �
 }
 // musicfox：与普通 foot 共享 0.5 宽度规则，这里只需补充高度差异
 window-rule {                                                               // 窗口规则：musicfox 音乐终端（foot 标题匹配）
-    match app-id="^foot$" title="^musicfox$"                                // 仅匹配跑 musicfox 的 foot，不影响普通终端
+    
+    opacity 0.95                                                             // 将所有窗口的不透明度默认设为半透明
+	match app-id="^foot$" title="^musicfox$"                                // 仅匹配跑 musicfox 的 foot，不影响普通终端
     default-window-height {                                                 // 窗口高度填满整列，波形沉到屏幕底部
         proportion 1.0                                                      // 占列高 100%
     }

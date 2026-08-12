@@ -1,7 +1,10 @@
+drawpile
 jmtpfs
 linuxqq
 materialgram-bin
-miyu-git
+mineral
+miyu
+osu-lazer-bin
 visual-studio-code-bin
 voicefox
 zen-browser-bin

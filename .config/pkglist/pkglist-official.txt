@@ -11,6 +11,7 @@ bluez-utils
 brightnessctl
 btop
 btrfs-progs
+clang
 dae
 efibootmgr
 fastfetch
@@ -38,6 +39,7 @@ paru
 pcmanfm
 pipewire-alsa
 pipewire-pulse
+qt6-websockets
 rime-double-pinyin
 snap-pac
 snapper

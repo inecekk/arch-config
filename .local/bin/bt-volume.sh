@@ -1,6 +1,11 @@
-#!/bin/bash
-# 蓝牙耳机默认音量压到 6%，每 10 秒轮询一次
-while true; do
-  wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.06 2>/dev/null
-  sleep 10
-done
+#!/bin/bash                                       
+# 蓝牙耳机连接后不再强制调音量6%                                
+while true; do                                    
+    sink=$(wpctl status | grep -i bluez | head -1)
+    if [ -n "$sink" ]; then                       
+        # 保留当前音量，不修改                              
+        sleep 30                                  
+    else                                          
+        sleep 5                                   
+    fi                                            
+done                                              

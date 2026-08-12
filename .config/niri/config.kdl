@@ -4,34 +4,26 @@ input {                                                                     // �
         natural-scroll                                                      // 启用自然滚动（方向与触控板方向一致）
     }
 }
-
 cursor {                                                                    // 光标设置
     xcursor-size 18                                                         // 设置 X11 光标大小为 18
 }
-
 output "eDP-1" {                                                            // 显示器输出设备配置（内置屏幕 eDP-1）
     scale 2.0                                                               // 设置屏幕缩放比例为 2.0（HiDPI 屏常用）
 }
-
 hotkey-overlay {                                                            // 快捷键提示覆盖层
     skip-at-startup                                                         // 启动时跳过显示快捷键提示
 }
-
 overview {                                                                  // 概览视图设置（类似多任务全景）
     zoom 0.5                                                                // 设置概览视图的缩放比例为 0.5
 }
-
 // ==================== 动画配置 ====================
 animations {                                                                // 窗口管理器全局动画配置块
-    // 切换工作区动画：阻尼提高到 0.85，基本消除回弹，保留顺滑
     workspace-switch {                                                      // 工作区切换动画
         spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
-    // 水平视图移动（同工作区左右切换窗口）：阻尼提高，切换不再甩动回弹
     horizontal-view-movement {                                              // 水平视图移动动画
         spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
-    // 窗口移动（焦点切换时窗口位置变化）：阻尼提高，切换窗口不再弹跳
     window-movement {                                                       // 窗口位置变移动画
         spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
     }
@@ -50,7 +42,6 @@ animations {                                                                // �
     overview-open-close {                                                   // 概览视图打开/关闭动画
         spring damping-ratio=0.75 stiffness=500 epsilon=0.0001              // 弹簧物理参数：阻尼 0.75，刚度 500
     }
-
     // 窗口关闭动画：以左下角为轴心顺时针甩出（切牌加强版）
     window-close {                                                          // 窗口关闭动画
         duration-ms 700                                                     // 动画持续时间 700 毫秒
@@ -70,7 +61,6 @@ animations {                                                                // �
             }                                                               // 函数结束
         "                                                                   // 自定义着色器结束
     }
-
     // 窗口打开动画：与关闭动画相反的逆过程（从甩出状态摆正归位 + 淡入）
     window-open {                                                           // 窗口打开动画
         duration-ms 700                                                     // 动画持续时间 700 毫秒
@@ -92,11 +82,10 @@ animations {                                                                // �
         "                                                                   // 自定义着色器结束
     }
 }
-
 // ==================== 布局配置 ====================
 layout {                                                                    // 窗口布局配置块
     background-color "transparent"                                          // 根背景颜色设为透明
-    
+
     gaps 8                                                                  // 窗口与屏幕边缘、窗口之间的间距为 8px
     struts {                                                                // 用负 struts 模拟不对称外边距
         right -2                                                            // 右边距向外扩 2px，实际右边距 = 8-2 = 6px（比左边小2px）
@@ -109,9 +98,10 @@ layout {                                                                    // �
     default-column-width {                                                  // 新打开窗口的默认宽度
         proportion 0.5                                                      // 默认占屏幕 50% 宽度
     }
-    focus-ring {                                                            // 焦点窗口边框（高亮指示器）
-        width 2                                                             // 边框宽度 2px
-        active-gradient from="#ef4444" to="#e879f9" angle=90 in="oklch longer hue" // 激活窗口渐变色：红→品红，oklch longer hue 沿完整色环经橙黄绿青蓝紫
+focus-ring {                                                                // 焦点窗口边框（高亮指示器）
+        width 3                                                             // 边框宽度从 2px 加宽到 3px，渐变更容易被看清
+        active-gradient from="#ef4444" to="#e879f9" angle=90 in="oklch longer hue" relative-to="workspace-view" 
+	// 红→品红渐变，oklch 长色相路径，基准跟随窗口在工作区的位置浮动
         inactive-color "#50505020"                                          // 未激活窗口的边框颜色（半透明灰）
     }
     border {                                                                // 普通边框设置
@@ -124,14 +114,13 @@ layout {                                                                    // �
         color "#0007"                                                       // 阴影颜色（半透明黑）
     }
 }
-
-blur {                                                                      // 全局模糊（Background Effect）效果配置
+// 全局默认不开模糊，仅在需要的图层/窗口按需开启，减轻核显负担
+blur {                                                                      // 全局模糊（Background Effect）默认参数
     passes 2                                                                // 模糊渲染迭代次数 2 次
     offset 2                                                                // 模糊采样偏移量 2
     noise 0.02                                                              // 添加细微噪点 0.02（防色带）
     saturation 1.5                                                          // 色彩饱和度提升至 1.5
 }
-
 // ==================== 窗口规则 ====================
 // 所有新打开的窗口默认半屏（宽 50%，高填满列；壁纸和状态栏仍可见）
 window-rule {                                                               // 窗口规则：默认半屏
@@ -143,22 +132,18 @@ window-rule {                                                               // �
         proportion 1.0                                                      // 占列高 100%
     }
 }
-
 // zen 浏览器例外：保持最大化（快捷键启动时全屏体验，不受默认半屏影响）
 window-rule {                                                               // 窗口规则：zen 最大化例外
     match app-id="^zen$"                                                    // 匹配 zen 浏览器
     open-maximized true                                                     // 新窗口打开即最大化
 }
-
 // 有意为之：保留最大化贴边缝隙 8px，窗口最大化时不贴到屏幕边缘
 window-rule {                                                               // 窗口规则：最大化行为
     open-maximized-to-edges false                                           // 窗口最大化时保留 8px 缝隙，不紧贴屏幕边缘
 }
-
 window-rule {                                                               // 窗口规则：全局透明度
-    opacity 0.95                                                             // 将所有窗口的不透明度默认设为 （半透明）
+    opacity 0.95                                                             // 将所有窗口的不透明度默认设为半透明
 }
-
 window-rule {                                                               // 窗口规则：特定应用（foot 终端）
     match app-id="^foot$"                                                   // 匹配 app-id 为 foot 的终端窗口
     open-maximized false                                                    // 不最大化（覆盖全局默认最大化）
@@ -169,18 +154,13 @@ window-rule {                                                               // �
         blur false                                                          // 关闭 foot 终端的模糊效果
     }
 }
-
+// musicfox：与普通 foot 共享 0.5 宽度规则，这里只需补充高度差异
 window-rule {                                                               // 窗口规则：musicfox 音乐终端（foot 标题匹配）
     match app-id="^foot$" title="^musicfox$"                                // 仅匹配跑 musicfox 的 foot，不影响普通终端
-    open-maximized false                                                    // 不最大化（覆盖全局默认最大化）
-    default-column-width {                                                  // 音乐窗口占半屏，波形图落在左下角
-        proportion 0.5                                                      // 占屏幕 50% 宽度
-    }
     default-window-height {                                                 // 窗口高度填满整列，波形沉到屏幕底部
         proportion 1.0                                                      // 占列高 100%
     }
 }
-
 // pcmanfm 文件管理器：圆角 + 磨砂玻璃
 window-rule {                                                               // 窗口规则：pcmanfm 文件管理器
     match app-id="^pcmanfm"                                                 // 匹配以 pcmanfm 开头的应用
@@ -189,7 +169,6 @@ window-rule {                                                               // �
         blur true                                                           // 开启模糊效果
     }
 }
-
 // 强制所有窗口应用圆角并裁剪内容
 window-rule {                                                               // 窗口规则：全局圆角与裁剪
     match is-window-cast-target=false                                       // 匹配非投屏目标的普通窗口
@@ -197,20 +176,18 @@ window-rule {                                                               // �
     geometry-corner-radius 12                                               // 设置窗口四个角的圆角半径为 12px
     clip-to-geometry true                                                   // 裁剪窗口内容，使其完美契合圆角
 }
-
 // ==================== 图层规则 ====================
 layer-rule {                                                                // 图层规则：壁纸图层
     match namespace="^noctalia-wallpaper$"                                  // 匹配 noctalia 壁纸命名空间
     place-within-backdrop true                                              // 放置在底层背景区域内
 }
-
+// 状态栏：不做模糊
 layer-rule {                                                                // 图层规则：顶部/底部状态栏
     match namespace="^noctalia-bar"                                         // 匹配 noctalia 栏命名空间
     background-effect {                                                     // 背景特效
-        blur false                                                          // 关闭模糊
+        blur false                                                          // 关闭模糊（状态栏保持不模糊）
     }
 }
-
 // fcitx5 输入法候选框：高斯模糊
 layer-rule {                                                                // 图层规则：输入法候选框
     match namespace="^fcitx"                                                // 匹配以 fcitx 开头的命名空间
@@ -219,7 +196,6 @@ layer-rule {                                                                // �
         blur true                                                           // 开启高斯模糊
     }
 }
-
 layer-rule {                                                                // 图层规则：系统组件（通知、Dock、OSD）
     match namespace="^noctalia-(notification|dock|osd)$"                    // 匹配 noctalia 的通知、Dock 或 OSD 界面
     background-effect {                                                     // 背景特效
@@ -227,8 +203,7 @@ layer-rule {                                                                // �
         blur true                                                           // 开启高斯模糊
     }
 }
-
-// 面板：玻璃透明 + 高斯模糊
+// 面板：玻璃透明，不做模糊
 layer-rule {                                                                // 图层规则：系统面板
     match namespace="^noctalia-(panel|attached-panel)$"                     // 匹配 noctalia 面板或附加面板
     background-effect {                                                     // 背景特效
@@ -236,18 +211,15 @@ layer-rule {                                                                // �
         blur false                                                          // 关闭模糊
     }
 }
-
 // ==================== 其他 ====================
 switch-events {                                                             // 硬件开关事件响应块
     lid-close {                                                             // 合上笔记本盖子事件
         spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend" // 执行命令：呼叫 noctalia 锁屏并挂起
     }
 }
-
 spawn-at-startup "sh" "-c" "sleep 1 && noctalia"                            // 启动时运行：延迟 1 秒后启动 noctalia 桌面环境
-spawn-at-startup "sh" "-c" "sleep 3 && fcitx5"                            // 启动时运行：延迟 3 秒后启动 fcitx5 输入法
+spawn-at-startup "sh" "-c" "sleep 3 && fcitx5"                              // 启动时运行：延迟 3 秒后启动 fcitx5 输入法
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"                    // 启动时运行：监视剪贴板并通过 cliphist 存储历史
 //spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // （已注释）启动时运行 polkit 认证代理
-
 include "binds.kdl"                                                         // 包含外部快捷键绑定配置文件 binds.kdl
 //include "noctalia.kdl"                                                    // （已注释）包含外部 noctalia 配置文件

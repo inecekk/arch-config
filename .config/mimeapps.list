@@ -52,6 +52,7 @@ video/x-flv=mpv.desktop
 video/mpeg=mpv.desktop
 inode/directory=pcmanfm.desktop
 application/x-desktop=lxshortcut.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 
 [Added Associations]
 x-scheme-handler/http=zen.desktop;

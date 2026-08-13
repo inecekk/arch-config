@@ -11,7 +11,6 @@ bluez-utils
 brightnessctl
 btop
 btrfs-progs
-chromium
 dae
 efibootmgr
 fastfetch
@@ -43,6 +42,7 @@ snap-pac
 snapper
 sudo
 supertuxkart
+tlp
 tree
 ttf-jetbrains-mono-nerd
 upower

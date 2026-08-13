@@ -142,7 +142,10 @@ window-rule {                                                               // �
     open-maximized-to-edges false                                           // 窗口最大化时保留 8px 缝隙，不紧贴屏幕边缘
 }
 window-rule {                                                               // 窗口规则：全局透明度
-    opacity 0.95                                                             // 将所有窗口的不透明度默认设为半透明
+    opacity 0.9                                                             // 将所有窗口的不透明度默认设为半透明
+    background-effect {                                                     // 背景特效调整
+        blur false                                                           // 开启模糊效果
+    }
 }
 window-rule {                                                               // 窗口规则：特定应用（foot 终端）
     match app-id="^foot$"                                                   // 匹配 app-id 为 foot 的终端窗口
@@ -151,7 +154,7 @@ window-rule {                                                               // �
         proportion 0.5                                                      // 占屏幕 50% 宽度
     }
     background-effect {                                                     // 背景特效调整
-        blur false                                                          // 关闭 foot 终端的模糊效果
+        blur false                                                         // foot 终端的模糊效果
     }
 }
 // musicfox：与普通 foot 共享 0.5 宽度规则，这里只需补充高度差异
@@ -183,11 +186,11 @@ layer-rule {                                                                // �
     match namespace="^noctalia-wallpaper$"                                  // 匹配 noctalia 壁纸命名空间
     place-within-backdrop true                                              // 放置在底层背景区域内
 }
-// 状态栏：不做模糊
+// 状态栏
 layer-rule {                                                                // 图层规则：顶部/底部状态栏
     match namespace="^noctalia-bar"                                         // 匹配 noctalia 栏命名空间
     background-effect {                                                     // 背景特效
-        blur false                                                          // 关闭模糊（状态栏保持不模糊）
+        blur true                                                            // 模糊
     }
 }
 // fcitx5 输入法候选框：高斯模糊

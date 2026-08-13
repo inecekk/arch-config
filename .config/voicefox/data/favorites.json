@@ -1,0 +1,31 @@
+[
+  {
+    "id": "480422951",
+    "source": "kg",
+    "name": "是非功过任评说",
+    "singer": "杨西音子",
+    "album_name": "是非功过任评说",
+    "album_id": "156393562",
+    "duration": {
+      "secs": 186,
+      "nanos": 0
+    },
+    "cover_url": null,
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "audio": null,
+    "extra": {
+      "HQFileHash": "8AC2CA76530022E4C7C2F2A5A551E497",
+      "SQFileHash": "DBA61BCB273F0E1369726405BE1CCE69",
+      "FileHash": "3A53F6A1457C7FF62ED9AD9C34E7BBBA",
+      "ResFileHash": "9B6A718FF972436116930C9A8958433C"
+    },
+    "toggle_source": null,
+    "file_path": null,
+    "file_ext": null
+  }
+]

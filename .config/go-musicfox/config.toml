@@ -55,12 +55,12 @@ channelMode = "mono"
 barHalfBlock = "▌"
 barFullBlock = "█"
 barEmptyBlock = " "
-barVerticalGradient = false
+barVerticalGradient = true
 # 启用条间水平渐变（每条独立颜色，默认false）
 # 无声时显示微小顶部标记（cava 风格 idle bar heads）
 showIdleBarHeads = false
 # 条生长方向：bottom(从下往上，默认) / top / left / right / horizontal / vertical
-
+bottom = "vertical"
 # mirror_bar 样式字符（留空则沿用 bar 对应项）
 mirrorBarHalfBlock = "▌"
 mirrorBarFullBlock = "█"
@@ -313,7 +313,7 @@ maxPlayErrCount = 3
 # 期望的歌曲音质
 # 可选: "standard", "exhigh", "higher", "lossless", "hires",
 #       "jyeffect"(高清环绕声), "sky"(沉浸环绕声), "jymaster"(超清母带)
-songLevel = "higher"
+songLevel = "jymaster"
 # 是否获取并显示歌单下的所有歌曲，默认前 1000 首
 # 开启后可能会占用更多内存（大量歌曲数据）和带宽（会同时发送多个请求获取歌单下歌曲数据）
 showAllSongsOfPlaylist = false

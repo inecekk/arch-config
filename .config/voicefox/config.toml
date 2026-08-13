@@ -1,0 +1,253 @@
+version = 9
+
+[player]
+engine = "mpv"
+quality = "flac24bit"
+volume = 80
+playback_speed = 1.0
+audio_device = "auto"
+replaygain_mode = "off"
+replaygain_preamp = -6.0
+channel_mode = "auto"
+balance = 0.0
+replaygain_clip = false
+equalizer_bands = []
+fade_in_ms = 500
+fade_out_ms = 0
+play_mode = "list-loop"
+remember_playback_state = true
+history_limit = 100
+
+[source]
+enabled = [
+    "kg",
+    "tx",
+    "wy",
+    "mg",
+    "bili",
+]
+default = "wy"
+auto_toggle = true
+js_sources = []
+
+[lyric]
+show_translation = true
+show_yrc = true
+offset = 0
+
+[network]
+proxy_url = ""
+timeout = 15
+
+[theme]
+use_dark = true
+accent = "#cba6f7"
+text = "#cdd6f4"
+muted = "#a6adc8"
+border = "#585b70"
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+subtext_1 = "#bac2de"
+subtext_0 = "#a6adc8"
+overlay_2 = "#9399b2"
+overlay_1 = "#7f849c"
+overlay_0 = "#6c7086"
+surface_2 = "#585b70"
+surface_1 = "#45475a"
+surface_0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+[ui]
+enable_mouse = true
+wrap_navigation = true
+scroll_amount = 10
+aggregate_search = true
+show_cover = true
+cover_protocol = "auto"
+max_fps = 20
+status_bar_items = [
+    "state",
+    "source",
+    "sort",
+    "song",
+    "time",
+    "volume",
+    "play-mode",
+    "quality",
+    "queue",
+]
+
+[local_music]
+enabled = true
+paths = ["/home/lk/Music"]
+max_depth = 5
+
+[keybindings.global]
+global_quit = "q"
+global_volume_up = "n"
+global_toggle_favorite = "Ctrl+l"
+global_next_tab = "Tab"
+global_go_to_main = "Esc"
+global_redraw = "Ctrl+r"
+global_volume_down = "b"
+global_cycle_mode = "m"
+global_next_track = "Up"
+global_prev_tab = "Shift+Tab"
+global_play_pause = "Space"
+global_seek_backward = "["
+global_seek_forward = "]"
+global_prev_track = "Down"
+
+[keybindings.pages.favorites]
+list_select_last = "G"
+list_add_to_queue_next = "A"
+favorites_filter = "/"
+favorites_remove = "d"
+list_select_up = "k"
+list_select_down = "j"
+list_add_to_queue = "a"
+list_select_first = "g"
+list_page_up = "Ctrl+u"
+list_activate = "Enter"
+list_go_back = "Esc"
+list_toggle_favorite = "f"
+list_page_down = "Ctrl+d"
+list_cycle_sort = "s"
+
+[keybindings.pages.settings]
+list_select_up = "k"
+settings_export_data = "Shift+F6"
+settings_cycle_playback_speed = "F1"
+settings_cycle_replay_gain_mode = "F3"
+settings_clear_ab_loop = "Shift+F5"
+settings_cycle_channel_mode = "F4"
+settings_cycle_balance = "F6"
+settings_cycle_equalizer_preset = "F10"
+settings_import_data = "Shift+F7"
+list_select_down = "j"
+settings_run_fade_out = "Shift+F2"
+settings_set_ab_loop_start = "Shift+F3"
+settings_edit_audio_device = "F2"
+settings_toggle_replay_gain_clip = "F7"
+settings_cycle_fade_in_duration = "F8"
+settings_set_ab_loop_end = "Shift+F4"
+settings_run_fade_in = "Shift+F1"
+list_go_back = "Esc"
+settings_cycle_replay_gain_preamp = "F5"
+settings_cycle_fade_out_duration = "F9"
+settings_import_playlist = "Shift+F8"
+
+[keybindings.pages.local]
+local_filter = "/"
+list_select_first = "g"
+list_select_last = "G"
+list_cycle_sort = "s"
+list_page_down = "Ctrl+d"
+list_add_to_queue_next = "A"
+list_select_down = "j"
+local_delete = "d"
+list_page_up = "Ctrl+u"
+list_select_up = "k"
+list_add_to_queue = "a"
+list_activate = "Enter"
+local_rescan = "r"
+list_toggle_favorite = "f"
+
+[keybindings.pages.bili_login]
+list_go_back = "Esc"
+
+[keybindings.pages.main]
+list_select_down = "j"
+list_activate = "Enter"
+list_toggle_favorite = "f"
+list_select_first = "g"
+list_select_last = "G"
+list_page_up = "Ctrl+u"
+list_select_up = "k"
+list_page_down = "Ctrl+d"
+
+[keybindings.pages.playlists]
+list_select_up = "k"
+list_select_first = "g"
+list_page_up = "Ctrl+u"
+list_go_back = "Esc"
+search_cycle_source_next = "Right"
+list_toggle_favorite = "f"
+list_activate = "Enter"
+list_add_to_queue = "a"
+list_select_last = "G"
+list_page_down = "Ctrl+d"
+search_cycle_source_prev = "Left"
+list_select_down = "j"
+list_add_to_queue_next = "A"
+
+[keybindings.pages.search]
+search_cycle_source_prev = "Left"
+list_add_to_queue_next = "A"
+list_select_last = "G"
+list_select_up = "k"
+list_page_down = "Ctrl+d"
+search_cycle_source_next = "Right"
+list_activate = "l"
+list_page_up = "Ctrl+u"
+list_select_first = "g"
+search_input_mode = "i"
+list_add_to_queue = "a"
+search_start = "Enter"
+list_toggle_favorite = "f"
+search_toggle_aggregate = "v"
+list_select_down = "j"
+list_go_back = "Esc"
+
+[keybindings.pages.leaderboard]
+list_select_down = "j"
+list_add_to_queue = "a"
+list_select_up = "k"
+list_select_last = "G"
+list_select_first = "g"
+list_activate = "Enter"
+list_toggle_favorite = "f"
+search_cycle_source_prev = "Left"
+list_page_up = "Ctrl+u"
+list_page_down = "Ctrl+d"
+list_add_to_queue_next = "A"
+list_go_back = "Esc"
+search_cycle_source_next = "Right"
+
+[keybindings.pages.history]
+history_filter = "/"
+list_select_last = "G"
+list_select_up = "k"
+list_add_to_queue = "a"
+list_activate = "Enter"
+list_toggle_favorite = "f"
+list_select_first = "g"
+list_add_to_queue_next = "A"
+list_page_up = "Ctrl+u"
+list_cycle_sort = "s"
+list_page_down = "Ctrl+d"
+list_select_down = "j"
+
+[notification]
+enable = true
+inApp = true
+inAppTimeout = 4
+albumCover = true
+trackChange = true
+
+[integration]
+mpris = true

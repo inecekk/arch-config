@@ -1,0 +1,9 @@
+# ��藏应用列表
+# 格式：每行一个 .desktop 文件名（不含路径）
+# 以 # ��头的行为注释
+
+avahi-discover.desktop
+qv4l2.desktop
+foot.desktop
+footclient.desktop
+foot-server.desktop

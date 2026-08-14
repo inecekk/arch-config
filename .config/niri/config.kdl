@@ -99,9 +99,9 @@ layout {                                                                    // �
         proportion 0.5                                                      // 默认占屏幕 50% 宽度
     }
 focus-ring {                                                                // 焦点窗口边框（高亮指示器）
-        width 3                                                             // 边框宽度从 2px 加宽到 3px，渐变更容易被看清
+        width 3                                                             // 边框宽度
         active-gradient from="#ef4444" to="#e879f9" angle=90 in="oklch longer hue" relative-to="workspace-view" 
-	// 红→品红渐变，oklch 长色相路径，基准跟随窗口在工作区的位置浮动
+	// 红→品红
         inactive-color "#50505020"                                          // 未激活窗口的边框颜色（半透明灰）
     }
     border {                                                                // 普通边框设置

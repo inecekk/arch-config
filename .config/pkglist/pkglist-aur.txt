@@ -1,9 +1,10 @@
-drawpile
-jmtpfs
+archlinuxcn-keyring
+go-musicfox-git
 linuxqq
 materialgram-bin
 miyu
 osu-lazer-bin
+paru
 visual-studio-code-bin
 voicefox
 zen-browser-bin

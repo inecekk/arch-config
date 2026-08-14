@@ -95,7 +95,7 @@ vectorscopeEmptyBlock = " "
 
 # spectrogram 滚动频谱图设置
 # 滚动速度（1=慢, 10=快，默认4）
-spectrogramSpeed = 4
+spectrogramSpeed = 6
 
 # FFT 频谱增强（对 line/dot 等频谱样式生效）
 # FFT 帧平均数量（1 表示不平滑，越大越平滑但响应越慢）

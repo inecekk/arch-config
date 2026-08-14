@@ -15,14 +15,13 @@ fcitx5
 fcitx5-gtk
 fcitx5-qt
 fcitx5-rime
-ffmpeg4.4
 foot
 git
 impala
 iwd
 jq
-linux
 linux-firmware
+linux-lts
 mpv
 ncdu
 niri

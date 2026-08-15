@@ -99,8 +99,8 @@ layout {                                                                    // �
         proportion 0.5                                                      // 默认占屏幕 50% 宽度
     }
 focus-ring {                                                                // 焦点窗口边框（高亮指示器）
-        width 3                                                             // 边框宽度
-        active-gradient from="#ef4444" to="#e879f9" angle=90 in="oklch longer hue" relative-to="workspace-view" 
+        width 1.5                                                            // 边框宽度
+        active-gradient from="#ef4444cc" to="#e879f9cc" angle=90 in="oklch longer hue" relative-to="workspace-view" 
 	// 红→品红
         inactive-color "#50505020"                                          // 未激活窗口的边框颜色（半透明灰）
     }
@@ -154,7 +154,7 @@ window-rule {                                                               // �
         proportion 0.5                                                      // 占屏幕 50% 宽度
     }
     background-effect {                                                     // 背景特效调整
-        blur false                                                         // foot 终端的模糊效果
+        blur true                                                         // foot 终端的模糊效果
     }
 }
 // musicfox：与普通 foot 共享 0.5 宽度规则，这里只需补充高度差异

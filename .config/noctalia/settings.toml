@@ -1,24 +1,96 @@
+[location]
+auto_locate = true                                          # 开启自动定位，用于获取天气数据
+
+[weather]
+enabled = true                                              # 启用天气小组件
+unit = "metric"                                             # 使用摄氏度
+refresh_minutes = 30                                        # 每 30 分钟刷新一次天气数据
+effects = true                                               # 显示天气动效
+
 [bar]
-position = "top"
-height = 30
-background = "#1e1e2e"
-foreground = "#cdd6f4"
+position = "top"                                             # 状态栏位置：顶部
+height = 32                                                   # 逻辑像素高度，niri scale 2.0 会自动渲染为物理 64px，无需再手动放大
+background = "#e9d5ff"                                       # 状态栏背景色：浅紫，与 niri window-rule 的磨砂玻璃风格呼应
+foreground = "#4b5563"                                        # 默认文字颜色：柔和中灰
 
     [bar.default]
-    border = "#a78bfa"
-    border_width = 2.0
-    start = ["launcher", "workspaces", "clock"]
-    end = ["media", "network", "bluetooth", "volume", "battery", "tray", "session"]
+    border = "#a78bfa80"                                      # 边框颜色：中紫，透明度约 50%，呼应 niri focus-ring 的渐变红品配色思路
+    border_width = 1.5                                         # 边框宽度（逻辑像素）
+    start = ["launcher", "workspaces", "active_window", "clock", "weather"]
+    end = ["cpu", "gpu", "memory", "netspeed", "network", "media", "notifications", "wallpaper", "control-center", "bluetooth", "volume", "battery", "tray", "power_profile", "session"]
+
+[widget.launcher]
+color = "#c4a6a6"
+
+[widget.workspaces]
+color = "#c9b299"
+
+[widget.active_window]
+color = "#bfb89c"
 
 [widget.clock]
 format = "%H:%M:%S"
+color = "#c9c199"
 
-[widget.bluetooth]
-enabled = true
+[widget.weather]
+color = "#b3bf9e"
+
+[widget.cpu]
+type = "sysmon"
+stat = "cpu_usage"
+color = "#a3c1a6"
+
+[widget.gpu]
+type = "sysmon"
+stat = "gpu_usage"
+color = "#9cc0b5"
+
+[widget.memory]
+type = "sysmon"
+stat = "ram_usage"
+color = "#96bcbf"
+
+[widget.netspeed]
+type = "sysmon"
+stat = "net_rx"
+color = "#93b0bf"
+
+[widget.network]
+show_label = false
+color = "#9ba3c2"
 
 [widget.media]
 hide_when_no_media = true
 title_scroll = "always"
+color = "#a29cc2"
 
-[widget.network]
-show_label = false
+[widget.notifications]
+color = "#af9cc2"
+
+[widget.wallpaper]
+color = "#bd9cc0"
+
+[widget.control-center]
+color = "#c29cb3"
+
+[widget.bluetooth]
+enabled = true
+color = "#c29ca5"
+
+[widget.volume]
+color = "#c2a19c"
+
+[widget.battery]
+color = "#c2ac9c"
+
+[widget.tray]
+color = "#bfb89c"
+
+[widget.power_profile]
+color = "#9cb3bf"
+
+[widget.brightness]
+color = "#a3bfae"
+
+[widget.session]
+color = "#b3bf9e"

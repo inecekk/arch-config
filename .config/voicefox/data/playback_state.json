@@ -1,2784 +1,474 @@
 {
   "playlist": [
     {
-      "id": "627371983",
-      "source": "kg",
-      "name": "踏马肆意挥霍 (就别管那么多)",
-      "singer": "戎大姨",
-      "album_name": "踏马肆意挥霍 (就别管那么多)",
-      "album_id": "200176632",
+      "id": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
+      "source": "local",
+      "name": "Down With Your Love",
+      "singer": "Tinashe,Chris Brown",
+      "album_name": "Down With Your Love",
+      "album_id": "",
       "duration": {
-        "secs": 168,
-        "nanos": 0
+        "secs": 248,
+        "nanos": 555000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260720/20260720173640828261.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/7ab399feee882b4.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "SQFileHash": "82DEB94A84A9BF804862116E9A6D11B0",
-        "ResFileHash": "F03F22AB1423C399BFD610F80EDCE520",
-        "HQFileHash": "A092399CAE9A947B7DDC4CDB73F22DF5",
-        "FileHash": "C8E3F82BC28000BC2E8D220D697FEE19"
+        "file_modified_unix_nanos": "1786355320962395933",
+        "file_size": "6028745"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "451918918",
-      "source": "kg",
-      "name": "月亮照山川 (DJ默涵版)",
-      "singer": "窝窝",
-      "album_name": "月亮照山川",
-      "album_id": "142338715",
-      "duration": {
-        "secs": 228,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250411/20250411163117116797.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "E43C129BDF83AEB4B7E7CA3D62393363",
-        "FileHash": "B5A5604F16889A078D97BDB01EF34D28",
-        "SQFileHash": "D0ED5D889534D3D854A03A0E767D84E9"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "507101337",
-      "source": "kg",
-      "name": "离开我的依赖 (​DJ IónaLee版)",
-      "singer": "王艳薇",
-      "album_name": "离开我的依赖 DJ IónaLee版",
-      "album_id": "168000661",
-      "duration": {
-        "secs": 185,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250725/20250725103502185296.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "B8D19331690C56B0385433BB5D355956",
-        "HQFileHash": "18AFC08B6D7563B192F9E899A6394FD7",
-        "FileHash": "695754E9A95F1B6A46CE9206DE17F11A"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "622894343",
-      "source": "kg",
-      "name": "樱花草 (恋人怀中樱花草)",
-      "singer": "DJ阿智、DJ阿布、yiyi林淑怡",
-      "album_name": "樱花草（节奏氛围版 ）",
-      "album_id": "162876372",
-      "duration": {
-        "secs": 159,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260721/20260721160505408640.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "CBB8A37D2AA584BA442AAB2BC8D43F06",
-        "FileHash": "2241D4D63F9ADCADACC184F1FAE5B9B2",
-        "HQFileHash": "544A32D983B0221EFCD05D29B02518B2"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "549977449",
-      "source": "kg",
-      "name": "春风你不懂我的伤悲 (DJ LayE版)",
-      "singer": "",
-      "album_name": "春风你不懂我的伤悲 DJ LayE版",
-      "album_id": "180626477",
-      "duration": {
-        "secs": 168,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260324/20260324162351522697.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "B61C3C85DB34E0423F57219204C342E4",
-        "SQFileHash": "DD1227630B52DD3C84946BEB84A216F6",
-        "FileHash": "CCB8EFC5BCF6C2101EA09FA326B1EB8B"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "634984851",
-      "source": "kg",
-      "name": "这最后一次的分离 (发了疯的想你)",
-      "singer": "Roling7、Grimmmz",
-      "album_name": "这最后一次的分离(发了疯的想你)",
-      "album_id": "202301736",
-      "duration": {
-        "secs": 137,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805171739287254.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "A5067CA5E9EF07AD702914D5E38E012B",
-        "FileHash": "B9C0CE0176D7E30639FE27F514AF401D",
-        "SQFileHash": "752B13C2598400C2DC0CF2476BB158D6"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "606831946",
-      "source": "kg",
-      "name": "梦的翅膀受了伤 (SouMix Remix)",
-      "singer": "蒋雪儿Snow.J",
-      "album_name": "梦的翅膀受了伤 (SouMix Remix)",
-      "album_id": "196632670",
-      "duration": {
-        "secs": 133,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260623/20260623130702490813.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "5779D38A52E7B071EF6612C97B5DCAAE",
-        "HQFileHash": "1C6CFC1E3A44CE016C9013386CC94BE6",
-        "SQFileHash": "44C7615DD5CC792D5BD831805CB06492"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "610326289",
-      "source": "kg",
-      "name": "遥远的东方",
-      "singer": "哈基眯",
-      "album_name": "遥远的东方",
-      "album_id": "197175030",
+      "id": "/home/lk/Music/Like Girl-DNDM.mp3",
+      "source": "local",
+      "name": "Like Girl",
+      "singer": "DNDM",
+      "album_name": "Back to Retro",
+      "album_id": "",
       "duration": {
         "secs": 208,
-        "nanos": 0
+        "nanos": 170000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260626/20260626235415569831.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/9311869fd9036730.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "FileHash": "0F3787E339CD0BDEDC97EB3FCD7160EC",
-        "HQFileHash": "E665B5527F82BF5D3414344E03AB7F01",
-        "SQFileHash": "A0013A1BF68D9FAC587A4C93D65F8ACC"
+        "file_modified_unix_nanos": "1786435786715477297",
+        "file_size": "5084773"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/Like Girl-DNDM.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "369704957",
-      "source": "kg",
-      "name": "心之火 (DJ版)",
-      "singer": "张鑫",
-      "album_name": "心之火",
-      "album_id": "99191264",
+      "id": "/home/lk/Music/miss you-uuml,7ovey.mp3",
+      "source": "local",
+      "name": "miss you",
+      "singer": "uuml,7ovey",
+      "album_name": "miss you",
+      "album_id": "",
       "duration": {
-        "secs": 181,
-        "nanos": 0
+        "secs": 153,
+        "nanos": 809000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20241111/20241111120903383901.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/405cb2a28220c916.jpg",
       "qualities": [
-        "128k",
+        "128k"
+      ],
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
+      "extra": {
+        "file_modified_unix_nanos": "1785925154440984923",
+        "file_size": "3787802"
+      },
+      "toggle_source": null,
+      "file_path": "/home/lk/Music/miss you-uuml,7ovey.mp3",
+      "file_ext": "mp3"
+    },
+    {
+      "id": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
+      "source": "local",
+      "name": "Mustang cabriolet",
+      "singer": "Paris Brune",
+      "album_name": "L'oeil du cyclone",
+      "album_id": "",
+      "duration": {
+        "secs": 238,
+        "nanos": 942000000
+      },
+      "cover_url": "/home/lk/.cache/voicefox/covers/5a815d023fec0f68.jpg",
+      "qualities": [
         "320k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 320,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "HQFileHash": "9BF47A9390D21231F3482C4135968CB3",
-        "FileHash": "633A149FAB39592AA9D3CFBDF946E012"
+        "file_size": "9680450",
+        "file_modified_unix_nanos": "1786604754034444248"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "584434594",
-      "source": "kg",
-      "name": "无人之岛 (我不会怪你的)",
-      "singer": "DJ寒",
-      "album_name": "无人之岛（我不会怪你的）",
-      "album_id": "193733992",
+      "id": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
+      "source": "local",
+      "name": "Read My Silence 3.0",
+      "singer": "Kira",
+      "album_name": "Read My Silence",
+      "album_id": "",
       "duration": {
-        "secs": 154,
-        "nanos": 0
+        "secs": 220,
+        "nanos": 704000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260601/20260601194552529381.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/c2d79ac717e24ab3.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "FileHash": "5288CCB5E7EF10D9428A58AC96F58E5E",
-        "ResFileHash": "D2D2D71362D434B0E881257AB9838152",
-        "SQFileHash": "77BFAA5D3EA0EEF6D6BD40DB2DF0AAA0",
-        "HQFileHash": "558891E5749AC1AAC3249D15D88F5BB0"
+        "file_size": "7143339",
+        "file_modified_unix_nanos": "1785638235325013471"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "607033430",
-      "source": "kg",
-      "name": "红色高跟鞋 (DJ混音版)",
-      "singer": "雨天Mix",
-      "album_name": "Superstar",
-      "album_id": "196668005",
+      "id": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
+      "source": "local",
+      "name": "We Never Pt.2 (若如初见)",
+      "singer": "YAYI,freezepain",
+      "album_name": "We Never Pt.2 (若如初见)",
+      "album_id": "",
       "duration": {
-        "secs": 143,
-        "nanos": 0
+        "secs": 90,
+        "nanos": 624000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260623/20260623172727399216.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/60c7f93c98ed56f7.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "FileHash": "13E84F7CEE5D1283FA1E971453AB09D1",
-        "HQFileHash": "CE36630EC75AF56ADAF6E087FE906C1E",
-        "SQFileHash": "E8CE1B46099021B81066B5B9B9C47701"
+        "file_modified_unix_nanos": "1786588665982892889",
+        "file_size": "2249396"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "626213693",
-      "source": "kg",
-      "name": "吹吹山顶的风 (烟嗓版)",
-      "singer": "烟嗓队长、DJ铁柱",
-      "album_name": "吹吹山顶的风（烟嗓版）",
-      "album_id": "199776552",
+      "id": "/home/lk/Music/不怕不怕-美美jocie.mp3",
+      "source": "local",
+      "name": "不怕不怕",
+      "singer": "美美jocie",
+      "album_name": "不怕不怕",
+      "album_id": "",
       "duration": {
-        "secs": 207,
-        "nanos": 0
+        "secs": 102,
+        "nanos": 949000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717101118757210.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/eb153d23bedfaef7.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 128,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "SQFileHash": "9EBEA0AACB9356743A650C1CF8DB062D",
-        "FileHash": "33C4DED86E6CFCB56BCBF9F44F91B8EB",
-        "HQFileHash": "75154A38E696FE67C4636ECC70F2FB2A"
+        "file_modified_unix_nanos": "1786248062128459228",
+        "file_size": "1790605"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/不怕不怕-美美jocie.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "322536",
-      "source": "kg",
-      "name": "等一分钟",
-      "singer": "徐誉滕",
-      "album_name": "茉莉花开",
-      "album_id": "2530746",
+      "id": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
+      "source": "local",
+      "name": "他们说这叫爱",
+      "singer": "小雪,池澜",
+      "album_name": "他们说这叫爱",
+      "album_id": "",
       "duration": {
-        "secs": 236,
-        "nanos": 0
+        "secs": 91,
+        "nanos": 481000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250125/20250125121755360044.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/ece30139ea4b9060.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "HQFileHash": "3AAD52046B4CBCB3F2A95797357CEB70",
-        "FileHash": "52ED380B09C692BDF4CE65FD56D918F3",
-        "ResFileHash": "7D829CCC3AECD1B737946D4BED89EC8C",
-        "SQFileHash": "C8894A22AEDD0988FA80C4D81BBA80FB"
+        "file_modified_unix_nanos": "1785651383436638629",
+        "file_size": "2202972"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "551741321",
-      "source": "kg",
-      "name": "菩提树下我为你流泪 (DJ Celes版)",
-      "singer": "",
-      "album_name": "菩提树下我为你流泪 DJ Celes版",
-      "album_id": "181280071",
+      "id": "/home/lk/Music/夜里的心声-张梦弘.mp3",
+      "source": "local",
+      "name": "夜里的心声",
+      "singer": "张梦弘",
+      "album_name": "夜里的心声",
+      "album_id": "",
       "duration": {
-        "secs": 142,
-        "nanos": 0
+        "secs": 214,
+        "nanos": 392000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260329/20260329162302746737.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/43697f74e8b45abc.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "SQFileHash": "8313AC42CCE8DFDAFBEC08CA2F864917",
-        "FileHash": "DAAA8136F0976973035A85015380C547",
-        "HQFileHash": "2EE26E847B185C8443A5FCEF8CDB6A3D"
+        "file_modified_unix_nanos": "1785651004189430028",
+        "file_size": "5204277"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/夜里的心声-张梦弘.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "559378506",
-      "source": "kg",
-      "name": "情网2026 (DJ咚鼓版)",
-      "singer": "DJ大梦儿、DJ大乔、DJ小乔",
-      "album_name": "情网2026（DJ咚鼓版）",
-      "album_id": "183786081",
+      "id": "/home/lk/Music/川の流れのように-邓丽君.mp3",
+      "source": "local",
+      "name": "川の流れのように",
+      "singer": "邓丽君",
+      "album_name": "全曲集～ふたたび(再来)",
+      "album_id": "",
       "duration": {
-        "secs": 266,
-        "nanos": 0
+        "secs": 299,
+        "nanos": 598000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260417/20260417144056610827.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/742b6d619f848eab.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "SQFileHash": "CC4154F01544C760825A98AE0A57853C",
-        "FileHash": "F75CB6F2E12E754ACC75E8E523F047DC",
-        "HQFileHash": "69BA43CCE3FD538BEA7B7B7B998B4B3E"
+        "file_size": "7305603",
+        "file_modified_unix_nanos": "1786524156957826479"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/川の流れのように-邓丽君.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "601772787",
-      "source": "kg",
-      "name": "我珍惜一路 真心的相逢 (DJ)",
-      "singer": "凌波丽",
-      "album_name": "我珍惜一路 真心的相逢",
-      "album_id": "195657662",
+      "id": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
+      "source": "local",
+      "name": "帕萨卡利亚—亨德尔",
+      "singer": "古典",
+      "album_name": "古典赏析",
+      "album_id": "",
       "duration": {
-        "secs": 216,
-        "nanos": 0
+        "secs": 150,
+        "nanos": 439000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260616/20260616100403690718.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/9332a2c2c91b2a9d.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 44100,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "ResFileHash": "5D0E046500CB946F07BFBE8AE31F9762",
-        "FileHash": "440F1D9CD65DF22418A77A64B1C4F7D8",
-        "HQFileHash": "59400284E675AEE7A873D09F0B2CAC2A",
-        "SQFileHash": "69A79CB24833E150E2E7D5617A984616"
+        "file_modified_unix_nanos": "1785984904239017901",
+        "file_size": "3797973"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "531052865",
-      "source": "kg",
-      "name": "抽离 (DJ 阿乐版)",
-      "singer": "徐良、刘丹萌",
-      "album_name": "抽离 DJ 阿乐版",
-      "album_id": "182402494",
+      "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
+      "source": "local",
+      "name": "明日似在遥远",
+      "singer": "官太泽",
+      "album_name": "1a7混子",
+      "album_id": "",
       "duration": {
-        "secs": 202,
-        "nanos": 0
+        "secs": 336,
+        "nanos": 504000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260125/20260125183232121864.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
+      },
       "extra": {
-        "HQFileHash": "0FB772D7F4B8D95FF6EAC650CEDB0C88",
-        "SQFileHash": "91B19A08519657CFF4CF046568D5E26A",
-        "FileHash": "CAE7301F53D084A9F1AA0ACA72079910"
+        "file_modified_unix_nanos": "1786005311913906506",
+        "file_size": "8203574"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "605939515",
-      "source": "kg",
-      "name": "抽离 (现场合唱版)",
-      "singer": "承桓",
-      "album_name": "抽离",
-      "album_id": "196483118",
-      "duration": {
-        "secs": 190,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260622/20260622113654325098.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "BB7593BB0B8FAE5BBE00008FAE51BE99",
-        "FileHash": "06F1D1E89D4CB378DE6A3B9D5FE9043F",
-        "SQFileHash": "FBD4112EF591F6C5F714A75390FE1204",
-        "HQFileHash": "D59F633456AC19A259B4A5AFD58FA290"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "625314124",
-      "source": "kg",
-      "name": "我心痛痛痛 (现场版)(Live)",
-      "singer": "彭妃妃",
-      "album_name": "我心痛痛痛（现场版）",
-      "album_id": "199483845",
-      "duration": {
-        "secs": 264,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260715/20260715102810880055.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "F16F65F789A25B88C757180151C92FE2",
-        "FileHash": "2B1B76D36607FD0E3A4E642DD55AC584",
-        "HQFileHash": "6247696639EE0F4E959D8D875EF609EA"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "626095531",
-      "source": "kg",
-      "name": "这回忆的漩涡 (带感律动版)",
-      "singer": "阿米嘎、小米嘎、青天大老爷",
-      "album_name": "不可能的画面",
-      "album_id": "199737862",
+      "id": "/home/lk/Music/白狐 - 洋澜一.flac",
+      "source": "local",
+      "name": "白狐",
+      "singer": "洋澜一",
+      "album_name": "白狐",
+      "album_id": "",
       "duration": {
         "secs": 282,
         "nanos": 0
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260715/20260715182413335064.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/206978494735f1d3.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "8EBD5DC65C1E74371C21B7C9B2097D54",
-        "HQFileHash": "618B67C3BDC1FDF83AECF505AEB78805",
-        "SQFileHash": "4B92B85CF55DDC43B282AA5FA2150B39"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "204697479",
-      "source": "kg",
-      "name": "其实雨也没多大 (DJ京仔版)",
-      "singer": "万豹",
-      "album_name": "其实雨也没多大",
-      "album_id": "64246643",
-      "duration": {
-        "secs": 202,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20221111/20221111121233216689.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "01C0D4EA18E786647CDCC939D5543DB2",
-        "HQFileHash": "8A7D12748B5FAE9B606890D4B973FD35",
-        "SQFileHash": "DC1C535BF4B0EE714C51C023D13BC464"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "339907609",
-      "source": "kg",
-      "name": "天真的橡皮 (DJ版)",
-      "singer": "白水寒",
-      "album_name": "天真的橡皮 (DJ版)",
-      "album_id": "144241849",
-      "duration": {
-        "secs": 321,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250421/20250421112005661665.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "DCC4B1B24F95FA81F7A0EC5897482867",
-        "FileHash": "7503497161C9C4D036DCB218979D03FC",
-        "SQFileHash": "90D1FEBD38FA7DDEDCFAA9D5E24A4803"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1107644706",
-      "source": "kg",
-      "name": "夜色 (DJ Candy版)",
-      "singer": "DJ Candy、艺涛、梁剑东",
-      "album_name": "Night",
-      "album_id": "8815288",
-      "duration": {
-        "secs": 361,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20180713/20180713204113245107.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
         "flac24bit"
       ],
-      "audio": null,
+      "audio": {
+        "bitrate": 1697,
+        "sample_rate": 48000,
+        "bit_depth": 24,
+        "lossless": true
+      },
       "extra": {
-        "SQFileHash": "0F4AB4A788083AE2149083A3D4B33730",
-        "ResFileHash": "D63A5C4FB780395418B3577F8C5FD100",
-        "FileHash": "44E54A5613C3308D46440A14CE72D9CA",
-        "HQFileHash": "6ABAA99EE82BAE5A58C30C1069AEA431"
+        "file_modified_unix_nanos": "1786512834000967389",
+        "file_size": "59924663"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/白狐 - 洋澜一.flac",
+      "file_ext": "flac"
     },
     {
-      "id": "555552593",
-      "source": "kg",
-      "name": "不如 (DJ版)",
-      "singer": "也可",
-      "album_name": "不如 (DJ女声版)",
-      "album_id": "182382996",
+      "id": "/home/lk/Music/神话 - 张青玫.flac",
+      "source": "local",
+      "name": "神话",
+      "singer": "张青玫",
+      "album_name": "新视听·民乐演奏影视插曲",
+      "album_id": "",
       "duration": {
-        "secs": 164,
-        "nanos": 0
+        "secs": 286,
+        "nanos": 995000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260407/20260407120151655936.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/67d6b797f66a34d2.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "D4A222ED47A6D5764A67A1308D2A7469",
-        "HQFileHash": "80E0958B5AE86D550D127FA6D9249D08",
-        "SQFileHash": "DBE76BAEAFB030752CD70577AD623B7C",
-        "ResFileHash": "1AEB8BDA0C32432A8735743FAD760A91"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1094497871",
-      "source": "kg",
-      "name": "可可托海的牧羊人 (Remix)",
-      "singer": "DJ可乐",
-      "album_name": "将道行",
-      "album_id": "131853567",
-      "duration": {
-        "secs": 416,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260807/20260807182912716666.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "854D4F84EEA7054E59AE826CC4047D83",
-        "HQFileHash": "4D104A9EEDBA624A99E71F2D836EB869"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1088075759",
-      "source": "kg",
-      "name": "朋友的酒 (DJ小鱼儿版)",
-      "singer": "李晓杰、DJ小鱼儿",
-      "album_name": "独一舞二",
-      "album_id": "939081",
-      "duration": {
-        "secs": 383,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20240529/20240529182233948786.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "3FEA8F83407F26E432ECD7EE10E9D318",
-        "HQFileHash": "F09D52D5DD85E0BE3DCB33DE029E30C3",
-        "SQFileHash": "9E61AC44EC2C8163284CCC26653491AD",
-        "ResFileHash": "DD4DF0957CC5BE3DFEF4066E22E30642"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "507908998",
-      "source": "kg",
-      "name": "无人的岛 (节奏版)",
-      "singer": "王一佳",
-      "album_name": "无人的岛（节奏版）",
-      "album_id": "167244251",
-      "duration": {
-        "secs": 146,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20251117/20251117193640584049.jpg",
-      "qualities": [
-        "128k",
-        "320k",
         "flac"
       ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "DF5D4851AE54D8479E73C67A0C47C073",
-        "FileHash": "911ABC6A42BFF62683800EF3BD99823E",
-        "HQFileHash": "247CA9D61A17A718E62B5B068DBEACF2"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "532199501",
-      "source": "kg",
-      "name": "我曾像傻子一样爱你 (DJEva版)",
-      "singer": "黄静美",
-      "album_name": "我曾像傻子一样爱你",
-      "album_id": "174926292",
-      "duration": {
-        "secs": 249,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260129/20260129144120574037.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "6EBA0D2B1C8983A775A14C00564AFD7C",
-        "HQFileHash": "78F6907D8297D16E122F3D025266BF52",
-        "ResFileHash": "AE275EA9D938622D4C8F9B677F497B0E",
-        "FileHash": "39E919AA66EE42E772BF6E2B5D2B1835"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "109300425",
-      "source": "kg",
-      "name": "别错过 (DJ阿卓、DJ阿龙版)",
-      "singer": "程佳佳",
-      "album_name": "别错过",
-      "album_id": "41588834",
-      "duration": {
-        "secs": 139,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20210707/20210707181305430874.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "434E403716656FC6E6CBDC4080673B9D",
-        "HQFileHash": "457D27B58967AC6031CBF68C6D858D7C",
-        "ResFileHash": "994DE1E4D8B3AD79025C576D65055D67",
-        "FileHash": "1BC924046166F8973787840E8CE00CFC"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "427116868",
-      "source": "kg",
-      "name": "游京 (奋斗进行曲)",
-      "singer": "DJ筱轩",
-      "album_name": "游京",
-      "album_id": "133980231",
-      "duration": {
-        "secs": 231,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250103/20250103144003469687.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "36B4E729AE5A79D70B5EA7BD6D21F23A",
-        "SQFileHash": "640A5A0E9048B5D77140755B33CF97F8",
-        "HQFileHash": "0CE5C9198C73D5BC63F64E99A49FD9E4",
-        "FileHash": "EE546B23C14DB5ECDC397C4FDE898A22"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "633969985",
-      "source": "kg",
-      "name": "金达莱花 (猛remix压迫感)",
-      "singer": "阿也",
-      "album_name": "金达莱花(猛remix压迫感)",
-      "album_id": "202039483",
-      "duration": {
-        "secs": 132,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803173124752949.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "BE5A4627631DCFC32CC5E56B53CA45A7",
-        "FileHash": "CC5C5F6BA68E948EA65F2C462E914835",
-        "SQFileHash": "5A9B2572AF6810D4F663D6CB1F92A820",
-        "ResFileHash": "BD1233E3F589647F321707D2ADD04A1A"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "621888236",
-      "source": "kg",
-      "name": "你没钱哪有亲戚 (DJWH版)",
-      "singer": "沧桑小杰office",
-      "album_name": "你没钱哪有亲戚(DJWH版)",
-      "album_id": "198599667",
-      "duration": {
-        "secs": 181,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260708/20260708132153162976.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "D7C7835048ABF8FA8EC925946FA0B90B",
-        "HQFileHash": "E2E4570453D7A83FB6BF2EEE3710E24F",
-        "FileHash": "F1AE381766BA3E3C4CCE7A1B5B6A7A3C",
-        "ResFileHash": "CB290726AE3E9A3AB9BE4201D28B7D7E"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "632242441",
-      "source": "kg",
-      "name": "谁在凌晨把泪擦干 (烟嗓版)",
-      "singer": "烟嗓队长、DJ铁柱",
-      "album_name": "谁在凌晨把泪擦干（烟嗓版）",
-      "album_id": "201629612",
-      "duration": {
-        "secs": 229,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260731/20260731112457857584.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "80DFAE9AC05180AB767BD221868CB2CA",
-        "HQFileHash": "6254B8146AFB3DAD5BBC484710BAF47A",
-        "SQFileHash": "23753108D479CC661EE89029E0CE3614"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "627219967",
-      "source": "kg",
-      "name": "加麻不加辣 (律动版)",
-      "singer": "阿厦",
-      "album_name": "加麻不加辣（律动版）",
-      "album_id": "200135952",
-      "duration": {
-        "secs": 173,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260720/20260720111016690080.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "6D7D9A0AD0DB1B64907054347C0E2BDB",
-        "SQFileHash": "F94D27975181BD393662058FF641CD82",
-        "HQFileHash": "4A4D5231AFC87E7287B2CE56371F93EF"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "558139777",
-      "source": "kg",
-      "name": "听闻山上有路 (DJ豪大大版)",
-      "singer": "王一佳",
-      "album_name": "听闻山上有路",
-      "album_id": "172634614",
-      "duration": {
-        "secs": 137,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260427/20260427122131737947.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "DBDE088581044C2978C1974B8E6A02EF",
-        "ResFileHash": "E2CE0E63283D53544DD9D0EDCC81182E",
-        "FileHash": "EBD6AD797B756F46CE25D799D9332C61",
-        "SQFileHash": "B54FBE66BC44AD8DA0503252FEF871F3"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "628601008",
-      "source": "kg",
-      "name": "策马人间 (律动版)",
-      "singer": "王一佳",
-      "album_name": "策马人间",
-      "album_id": "200513620",
-      "duration": {
-        "secs": 183,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260723/20260723141601393163.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "CD574614B54183B9176328D42A61188A",
-        "ResFileHash": "D74E893BD3BA63EF0313D68FDBA6B929",
-        "SQFileHash": "CC8F64239FD5F4CB35074311826EEF16",
-        "HQFileHash": "AD9EB514E3BD9DDCE1D83383BDDE3F48"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "551298637",
-      "source": "kg",
-      "name": "琵琶曲 (东船与西舫)",
-      "singer": "郑浩、冰洁",
-      "album_name": "琵琶曲",
-      "album_id": "180917343",
-      "duration": {
-        "secs": 130,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260326/20260326181841360691.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "151CB7303CF532F46B3C25F9C5DDBC9E",
-        "SQFileHash": "BB3A91A1A1D0FED2F1DE6ABE2944B462",
-        "FileHash": "9B56E64B29732E5101BA0C6C6E89B5DA"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "580883020",
-      "source": "kg",
-      "name": "误闯天家 (DJ版)",
-      "singer": "DJ阿君",
-      "album_name": "误闯天家（DJ版）",
-      "album_id": "193085557",
-      "duration": {
-        "secs": 196,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260528/20260528164501223185.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "A80B0E9C3ABB4128F8970D1D898A2302",
-        "SQFileHash": "4FB5D3E24989546CF2096D76419E7979",
-        "HQFileHash": "0F7DA652F1FDAA8B177DEB12762B00F7",
-        "FileHash": "AF771C06F34515A15EAABEC89C901DC7"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "623991949",
-      "source": "kg",
-      "name": "想呀想止不住想念-dj版 (Live)",
-      "singer": "陈佳佳、小萌",
-      "album_name": "想呀想止不住想念-dj版",
-      "album_id": "199065534",
-      "duration": {
-        "secs": 191,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260711/20260711212823414032.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "4CA69FFB5343600FAF5EDBD2BDFD35E8",
-        "HQFileHash": "4BCA993FD05B90807D3F0324F05299A2",
-        "SQFileHash": "922E0AFADC73B051C699207E78205EAE",
-        "FileHash": "E5346EB5AE9CC3F42CEF3D522B9EE70C"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "291472842",
-      "source": "kg",
-      "name": "沈园外 (DJ版)",
-      "singer": "阿YueYue、戾格、小田音乐社",
-      "album_name": "沈园外",
-      "album_id": "40796517",
-      "duration": {
-        "secs": 133,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20201228/20201228145605292008.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "E427269586ADAD65F544FB7BFB39B23E",
-        "FileHash": "805F108D3D55B23C06FAD5AB3EB5177F",
-        "HQFileHash": "CBC1E6EBA321D8192FD950D8ECAABD44"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "588523259",
-      "source": "kg",
-      "name": "我珍惜一路 真心的相逢 (岁月如笔写春秋DJ子怡版)",
-      "singer": "许静欢、白子怡",
-      "album_name": "我珍惜一路 真心的相逢（岁月如笔写春秋DJ子怡版）",
-      "album_id": "194105936",
-      "duration": {
-        "secs": 207,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260604/20260604165523642703.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "3342CF48A1DD8928B54E3C2F225E8580",
-        "HQFileHash": "D8333CB6D32F01EEDCC2D5B8A6264C54",
-        "ResFileHash": "A8769DFC745154688405BA645899D4F7",
-        "SQFileHash": "72E8F1A060C2E790ACE56415482D1DED"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "577868116",
-      "source": "kg",
-      "name": "逝去的爱 (DJ版)",
-      "singer": "DJ阿智、DJ阿布",
-      "album_name": "逝去的爱 (DJ版)",
-      "album_id": "192176198",
-      "duration": {
-        "secs": 131,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260525/20260525181550598665.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "4AEED0F75D6805584D3226E9EFEC84DA",
-        "SQFileHash": "54A248C68908D5F3E7B404A5C986E9F5",
-        "HQFileHash": "B11BFA4E9ADBAF3D2118AC2F10316911"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1101159910",
-      "source": "kg",
-      "name": "落了白 (DJ小金版)",
-      "singer": "bluesky",
-      "album_name": "落了白 (DJ小金版)",
-      "album_id": "157837045",
-      "duration": {
-        "secs": 209,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250909/20250909182753690643.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "CA2A25507F2B909BAC4050344B734370",
-        "ResFileHash": "7B597333BAAE7443FC67B50650D3F008",
-        "HQFileHash": "1172AD1A6EE0D8C6E3E2E41A6158D296",
-        "SQFileHash": "DD3E3624C49B55A4F262704B72B1A7D6"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "633924341",
-      "source": "kg",
-      "name": "逆风的船 (律动版)",
-      "singer": "蓝波",
-      "album_name": "逆风的船",
-      "album_id": "199831134",
-      "duration": {
-        "secs": 179,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717180528728379.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "13FBAFE127BB6B38F2FA2F0859418EA9",
-        "SQFileHash": "6D0A5A144D9BBF3BD1F9AB19C59A9F21",
-        "FileHash": "BEC8C085070B88D79A13990BE29ACAA9"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "627225718",
-      "source": "kg",
-      "name": "吹吹山顶的风 (DJ沈念版)",
-      "singer": "巴扎黑",
-      "album_name": "吹吹山顶的风",
-      "album_id": "198304563",
-      "duration": {
-        "secs": 171,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260721/20260721104743915578.png",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "5958C9BFE4E4ABB84B154828952DEDF0",
-        "FileHash": "5AD0A59E866B5C5A91820AABA47AB323",
-        "SQFileHash": "B65B52BC0D675F6C59312D673B9C70B7"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "628585069",
-      "source": "kg",
-      "name": "你最爱的那首歌",
-      "singer": "烟嗓队长、DJ铁柱",
-      "album_name": "你最爱的那首歌",
-      "album_id": "200508523",
-      "duration": {
-        "secs": 145,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260723/20260723130027711348.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "4CCCA45E0023E1F990D5A4B1BBEBDAA8",
-        "SQFileHash": "1D423A34EB38866339A6548E8AD72C7F",
-        "FileHash": "0016AD31D662AD16F9C7D41EE6EA20E2"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "557754322",
-      "source": "kg",
-      "name": "Umbrella (带感高燃版)",
-      "singer": "我期待的不是你",
-      "album_name": "等你等你等你的一切等你(带感高燃版)",
-      "album_id": "183227931",
-      "duration": {
-        "secs": 175,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260413/20260413154642944554.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "9428565BF72B0014C758EEEC09C3CDE0",
-        "SQFileHash": "CB0CFF53FAEAA2FF3C555849290CCE74",
-        "FileHash": "7FEA6EFAD4DC5E3C88E171C6451F4A63"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "458891729",
-      "source": "kg",
-      "name": "夜雨中的迈巴赫 (DJ版)",
-      "singer": "DJ阿能",
-      "album_name": "夜雨中的迈巴赫",
-      "album_id": "146807441",
-      "duration": {
-        "secs": 171,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250514/20250514160204178427.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "8D4F01410D7EDEAC40E1E96E2C03138F",
-        "SQFileHash": "DCA9E0DC46CF658B80358C0A9A7D0D88",
-        "FileHash": "F79AB6978E4B0556B7AA3ADA361802D6"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "601935062",
-      "source": "kg",
-      "name": "野心家 (阚九爷律动版)",
-      "singer": "谱曲者",
-      "album_name": "野心家（阚九爷律动版）",
-      "album_id": "195712513",
-      "duration": {
-        "secs": 123,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260616/20260616180341534980.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "1C0731275134F03F1261254D4D6DA96F",
-        "SQFileHash": "E782B13332AAEA5879AF3819C118EB71",
-        "FileHash": "9DEB733342FA8732CA6D603C73F5B67E"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "601424530",
-      "source": "kg",
-      "name": "红色高跟鞋 (慢摇DJ)",
-      "singer": "DJ阿灰",
-      "album_name": "红色高跟鞋(慢摇DJ)",
-      "album_id": "195542035",
-      "duration": {
-        "secs": 217,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260615/20260615122204739898.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "CEBB67ACE346C03098F3563BFBEBDFCB",
-        "HQFileHash": "1A715FC0A75A6A8853DE7282974BDFD7"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "495386013",
-      "source": "kg",
-      "name": "秋风知我意 (DJ九零版)",
-      "singer": "草原兄弟",
-      "album_name": "秋风知我意 (DJ九零版)",
-      "album_id": "162449524",
-      "duration": {
-        "secs": 202,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250924/20250924144501386176.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "F5FC53FBBDEF370EDE5C0916A9087DB6",
-        "SQFileHash": "BC30174097282398EA6B85244B23833B",
-        "FileHash": "B010680B33D9699893D066115F3D371B",
-        "HQFileHash": "ADD0615185C1EB3A74AA624806FB3948"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "579162583",
-      "source": "kg",
-      "name": "MIX顶级重低音 (哈曼卡顿重低音测试)",
-      "singer": "SkeletoN",
-      "album_name": "开车必听重低音慢摇DJ",
-      "album_id": "192550987",
-      "duration": {
-        "secs": 168,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260525/20260525182001426848.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "9FA0EBF50A62112FB49148FEB6D2BE5A",
-        "FileHash": "043C1B8E844ED241101DC9C8054052A6",
-        "SQFileHash": "F1FEA42B91C55A6E645171A4E466048C",
-        "ResFileHash": "128D5C1C6E4EF04ACB935E49A549A103"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "622732729",
-      "source": "kg",
-      "name": "听闻山顶来的风DJ",
-      "singer": "DJ铁柱",
-      "album_name": "听闻山顶来的风DJ",
-      "album_id": "198727686",
-      "duration": {
-        "secs": 196,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260709/20260709151322924910.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "352BC118F0E83F22CAE19AC673A05C59",
-        "SQFileHash": "B8876C9B9D7677FA5D954B91969F93E0",
-        "ResFileHash": "8AFDB1FC2830BAC7359622F94DCDD128",
-        "HQFileHash": "8F97F8543B2C38366266EF2B5D44888D"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "485164504",
-      "source": "kg",
-      "name": "青衣 (DJ阿泽版)",
-      "singer": "草帽酱、DJ阿泽",
-      "album_name": "青衣 (DJ阿泽版)",
-      "album_id": "158309318",
-      "duration": {
-        "secs": 344,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250822/20250822180801762773.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "CA3F57DD0B45F6B8B741CCA6D3270EAE",
-        "HQFileHash": "3611FFD340F967D605FD21C5C67E80D9",
-        "FileHash": "8D105BD4C1DF7BF554E495C10FA08C3D"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "630534531",
-      "source": "kg",
-      "name": "一滴一滴刺痛我的心 (卡点版)",
-      "singer": "星星的石头",
-      "album_name": "忘你不舍 寻你不休",
-      "album_id": "201210222",
-      "duration": {
-        "secs": 120,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728171313759643.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "FBECB9C7B2DC99A04EF36A7BA1CA1793",
-        "HQFileHash": "272148CAFA8668B98588DA071C87C3A5",
-        "SQFileHash": "1A625D98CEC2FF84958170DCA2E8FB35"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "633087875",
-      "source": "kg",
-      "name": "晚风不懂我悲伤 (烟嗓男声)",
-      "singer": "烟嗓队长、DJ铁柱",
-      "album_name": "晚风不懂我悲伤（烟嗓男声）",
-      "album_id": "201859551",
-      "duration": {
-        "secs": 175,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260731/20260731172755775250.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "42E2CA528CB63E65B85D79C935E7E1CE",
-        "FileHash": "65ACFE0D7395DFE3A1A208F97B46D159",
-        "SQFileHash": "985A87368EC7364CD04B9F73A44E14B6"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "609858409",
-      "source": "kg",
-      "name": "我踏马肆意挥霍 (烟嗓男声)",
-      "singer": "DJ小赫、DJ铁柱",
-      "album_name": "我踏马肆意挥霍（烟嗓男声）",
-      "album_id": "197103100",
-      "duration": {
-        "secs": 187,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260626/20260626135111389832.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "97EA4E361189A55D0199900A94599CCD",
-        "FileHash": "5DB846560E97C0D1EDF95E036EFEEB78",
-        "HQFileHash": "060B7EA4C605E7006A3B896D6909312A"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "632936722",
-      "source": "kg",
-      "name": "只想牵着你的手",
-      "singer": "三凌儿",
-      "album_name": "只想牵着你的手",
-      "album_id": "201794266",
-      "duration": {
-        "secs": 188,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260801/20260801163817810705.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "B4C941332CAEAF3565A5B82FF249AB74",
-        "HQFileHash": "5D62A1D9C9D9D501AE3EA427651BEB2E",
-        "ResFileHash": "8943E1901C056A75728F2E3E75ABD0A6",
-        "SQFileHash": "4D789BB8DEB0CCB3EEF7210B0023933D"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "274869404",
-      "source": "kg",
-      "name": "预谋 (DJ沈念版)",
-      "singer": "许佳慧",
-      "album_name": "预谋(DJ沈念版)",
-      "album_id": "77702734",
-      "duration": {
-        "secs": 216,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250101/20250101184950691977.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "55F86CA3FDBDB559D2A914E699ED2EAE",
-        "HQFileHash": "583EC003F33EF15E0BF9D85D01E9F983",
-        "FileHash": "9C62CFE16A4A7A378A20C0EFA843E908",
-        "ResFileHash": "CF10779AA9F647616EF31C908C0EFCA4"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "525431706",
-      "source": "kg",
-      "name": "咏春",
-      "singer": "DJ.Lee",
-      "album_name": "抖音歌曲最火的歌2026-DJ精选HOT",
-      "album_id": "172679392",
-      "duration": {
-        "secs": 176,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260123/20260123163330993849.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "3578B7B86A6F3FCF732190F1E37AB300",
-        "SQFileHash": "99DD53BE28ADDC8C918B5F71F29CEC0A",
-        "HQFileHash": "025DA2208D50B772E484667EEA8CA8C8"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "541530479",
-      "source": "kg",
-      "name": "敲水管进行曲 (我太想进步了DJ)",
-      "singer": "DJ蛋蛋",
-      "album_name": "敲水管进行曲（我太想进步了DJ）",
-      "album_id": "177453431",
-      "duration": {
-        "secs": 206,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260225/20260225154305671456.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "DF9D742D214FBD377323C224DE2B9A23",
-        "FileHash": "16DD8B1F1D02BC6AC2721AC07AFF3117",
-        "HQFileHash": "DF60460F75FAD26D1F0EB4C4CAE065A0"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "631202632",
-      "source": "kg",
-      "name": "风雪凄凄葬旧王",
-      "singer": "乐轩吖",
-      "album_name": "风雪凄凄葬旧王",
-      "album_id": "201365212",
-      "duration": {
-        "secs": 120,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260729/20260729183922280223.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "89F146C02C7567DD43CC436A1957FB94",
-        "SQFileHash": "2E44972919D28E9FBE4DEDDFC31D25BC",
-        "HQFileHash": "9F6DE1C9C858B4BC2990D0ABF2E246C9"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "634002602",
-      "source": "kg",
-      "name": "刀枪炮",
-      "singer": "七喜",
-      "album_name": "刀枪炮",
-      "album_id": "202048762",
-      "duration": {
-        "secs": 119,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803182132795394.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "41C13CD3447464BB96CB53CE72282431",
-        "SQFileHash": "BA84A699A828A53CC99BF275CC417A37",
-        "FileHash": "BA6ECEA83ACB305610A178FF83C1F323",
-        "ResFileHash": "B889527DD85063D9A8E99B547B1DC761"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "374068693",
-      "source": "kg",
-      "name": "探故知 (超梦幻DJ版)",
-      "singer": "浅影阿",
-      "album_name": "探故知",
-      "album_id": "79427976",
-      "duration": {
-        "secs": 185,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20241028/20241028112542415541.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "8D83CE276386E415ED3BA87BCF2E39B1",
-        "ResFileHash": "45BA13C3F8B27F9F39866736129B8497",
-        "HQFileHash": "83004AE3DFED708CD4513BAE680E17F4",
-        "SQFileHash": "74319C95182A40A2939761783A529D55"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "500907947",
-      "source": "kg",
-      "name": "搀扶 (DJ 晓烁版)",
-      "singer": "",
-      "album_name": "搀扶 DJ 晓烁版",
-      "album_id": "168000708",
-      "duration": {
-        "secs": 294,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20241224/20241224170023397646.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "13948F2107C438AF5464976F994312EC",
-        "HQFileHash": "A2DDFCCC69393D285BAD058A12947E4C",
-        "SQFileHash": "0342697C9B2533073AF9A5FF1543A1F5"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "371432333",
-      "source": "kg",
-      "name": "猜不透 (DJ版)",
-      "singer": "椰子水很甜",
-      "album_name": "猜不透",
-      "album_id": "99602201",
-      "duration": {
-        "secs": 134,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20240722/20240722131813224087.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "D1FEACB4E65FCA126FB31D3EB5D04010",
-        "SQFileHash": "6D5C41A16272BE17DBC723EE168FB209",
-        "ResFileHash": "043DA6D1E6E8DD6301F800035AF5447F",
-        "HQFileHash": "0D05E0207DF85424E166576EF6CE8AE3"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "628152438",
-      "source": "kg",
-      "name": "山风山风等等我 (DJ艾可版)",
-      "singer": "万海东",
-      "album_name": "山风山风等等我",
-      "album_id": "200106963",
-      "duration": {
-        "secs": 158,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260727/20260727114241535084.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "51737AFA0285F75B4A724B6E09589F9B",
-        "FileHash": "F77E60DF5A2AC39BCA2BA9F9E08AD949"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "625198382",
-      "source": "kg",
-      "name": "恋人怀中樱花草 (DJ版)",
-      "singer": "阿米嘎、小米嘎、青天大老爷",
-      "album_name": "假又何妨",
-      "album_id": "199445707",
-      "duration": {
-        "secs": 319,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260714/20260714174632293512.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "55DC7DF1B17BE83E7FCF332C5FAC73AF",
-        "HQFileHash": "3761308ECED259943352D2B7187307A7",
-        "SQFileHash": "267436A048553B500478EBB2ACD67843"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "574449494",
-      "source": "kg",
-      "name": "乌兰巴托的夜 (DJ版)",
-      "singer": "谭歌",
-      "album_name": "乌兰巴托的夜（DJ版）",
-      "album_id": "191143353",
-      "duration": {
-        "secs": 198,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260513/20260513213927665729.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "0F6330658FEA25F3B192E5A3C0D1A5D6",
-        "FileHash": "A8D38B09FE734642F5CFB112F3D4FB21",
-        "HQFileHash": "52718B19CD9F55169BF3A37455944DFF",
-        "SQFileHash": "ECD56DBBBEB98480580C5E701C2F733A"
+      "audio": {
+        "bitrate": 825,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "lossless": true
       },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "624140047",
-      "source": "kg",
-      "name": "岁月如笔写春秋 (DJ默涵版)",
-      "singer": "花姐",
-      "album_name": "岁月如笔写春秋",
-      "album_id": "198074979",
-      "duration": {
-        "secs": 204,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260703/20260703223943851973.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "F026B6D9B20E5E42783986193994FCCA",
-        "ResFileHash": "43E92E1706498B442194A7D3D11E3A21",
-        "FileHash": "D4EC6A9BE294E4ED31B0B2CB8F9913D2",
-        "HQFileHash": "F4A4C5D22A5AB876144D15E251CAF58C"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "513021413",
-      "source": "kg",
-      "name": "离开我的依赖 (依赖摇DJ版)",
-      "singer": "红线redline",
-      "album_name": "氛围流行音乐纯享",
-      "album_id": "167506427",
-      "duration": {
-        "secs": 133,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20251113/20251113141142836200.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "4818E47728C7348E511DE77A92B08299",
-        "HQFileHash": "4DBEF1DD98280B080896F813B5F3B184",
-        "FileHash": "3C68FC0738F8CF82D031FCBE569AC725"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "629087061",
-      "source": "kg",
-      "name": "琵琶曲 (东船与西舫)(remix)",
-      "singer": "耳麦布响、阿也",
-      "album_name": "琵琶曲(东船与西舫)(remix)",
-      "album_id": "200691175",
-      "duration": {
-        "secs": 125,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260724/20260724145636363998.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "5D5474A88F80EC5FADB6E7DCD9BD9B72",
-        "ResFileHash": "DCCB35E56F4088C3945E686C4AC4468B",
-        "HQFileHash": "0406E66E72969C60231CD5F19205D669",
-        "FileHash": "138CCFB6A2AF2812D0AA2710AF169CBF"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "629194509",
-      "source": "kg",
-      "name": "等一分钟 (DJ空灵鼓)",
-      "singer": "DJ阿全",
-      "album_name": "等一分钟 (DJ空灵鼓)",
-      "album_id": "200728152",
-      "duration": {
-        "secs": 203,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260724/20260724184818751944.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "38905BF1F797CA6C6D2ABC95AA6A100D",
-        "HQFileHash": "D52E277D4FF5BE2F35C48481BB42637B",
-        "SQFileHash": "54C6EC8FFB2BEA88E3F79FFD3400E712"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "513808386",
-      "source": "kg",
-      "name": "如果最后不是你 (DJ粤A版)",
-      "singer": "阿美呀",
-      "album_name": "如果最后不是你",
-      "album_id": "169358901",
-      "duration": {
-        "secs": 210,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20251127/20251127190855226791.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "F30B42171B4387A8DAC5AD4A80F72C8E",
-        "HQFileHash": "69FD888C9636C8E147B4242A15F21D45",
-        "ResFileHash": "310971AFE9D68520E994BC33C5BB9440",
-        "SQFileHash": "7AB7A5B1A90AA94B079882EB0C3E7EE0"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "550136898",
-      "source": "kg",
-      "name": "纵马 (DJ阿尼版)",
-      "singer": "王一佳",
-      "album_name": "纵马（DJ阿尼版）",
-      "album_id": "180510536",
-      "duration": {
-        "secs": 123,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260323/20260323163613223197.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "7F1B481E579693CD060CE828BF907874",
-        "FileHash": "68C2DBD43EFBEDE87C22A81E7196AF73",
-        "HQFileHash": "DE8C27C031F8B3551A60E1BFD35E78AF"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "570640042",
-      "source": "kg",
-      "name": "宝贝对不起 (DJ蹦迪神曲)",
-      "singer": "贝利伢",
-      "album_name": "此招名曰 我为宇宙",
-      "album_id": "189911951",
-      "duration": {
-        "secs": 128,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260507/20260507191057459248.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "7639BB3B255B3FC095EF23871B957BF8",
-        "SQFileHash": "4E7097044A933FA81F9D793AC588234C",
-        "HQFileHash": "2362B68CB88AE0F68CC0DA148D3EC204"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "625524158",
-      "source": "kg",
-      "name": "我不后悔 (DJ咚鼓版)",
-      "singer": "DJ回响",
-      "album_name": "我不后悔(DJ咚鼓版)",
-      "album_id": "199548535",
-      "duration": {
-        "secs": 173,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260715/20260715195148588310.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "C8A48872113E7E39CAB564462453D590",
-        "SQFileHash": "9A15A5971630FA34B147964CDB3A9DA5",
-        "FileHash": "6B3E6CDC97D3F4B3681147432D04DA3D"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "609824658",
-      "source": "kg",
-      "name": "唯有靠自己才心安 (DJ女版)",
-      "singer": "大虹",
-      "album_name": "唯有靠自己才心安(DJ女版)",
-      "album_id": "197099234",
-      "duration": {
-        "secs": 186,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260626/20260626130441189991.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "DAF761D23FF3B5190DEA8B6F2181CB0A",
-        "SQFileHash": "756AA4B912E43A64FCD5BF107A44290E",
-        "HQFileHash": "3E5F94F50A5CB7A297D6E2FD8D7D2F2F"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "564837586",
-      "source": "kg",
-      "name": "九分伤换一分爱",
-      "singer": "DJ慕容儿、DJ玉芬",
-      "album_name": "九分伤换一分爱",
-      "album_id": "186309749",
-      "duration": {
-        "secs": 183,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260429/20260429154611321905.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "7992560288E118D410BF110703AA054C",
-        "HQFileHash": "4BEF6A4364C6D93B135C965AA523992D",
-        "SQFileHash": "9A6D3022482A398A13B8452CBDFF5430"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "359844552",
-      "source": "kg",
-      "name": "列车开往春天 (Remix)(DJ沈乐版)",
-      "singer": "就是南方凯",
-      "album_name": "列车开往春天 (DJ沈乐Remix)",
-      "album_id": "96116921",
-      "duration": {
-        "secs": 211,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20240611/20240611181704595503.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "427C494E099287701C9603C25598F3AE",
-        "HQFileHash": "8071C812926052B2D843643674D24F85",
-        "FileHash": "33017CC891F0F2FEA5F25F9312E3EDA0",
-        "SQFileHash": "D9E124F54DB1DF92228C15DCE0CFB3A9"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "501520325",
-      "source": "kg",
-      "name": "从此我碰花碰草不碰情 (DJ 霓湮版)",
-      "singer": "",
-      "album_name": "从此我碰花碰草不碰情 DJ 霓湮版",
-      "album_id": "168000641",
-      "duration": {
-        "secs": 156,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250911/20250911163531224039.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "CED89EB1E130D1F93673BDD4054CBDCA",
-        "HQFileHash": "E9FFA70D43CD93FD56B9B7CF4CE7D9A6",
-        "FileHash": "7FCADA1C12846FA645EF0899369BD882"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "625727080",
-      "source": "kg",
-      "name": "莫问归期 (DJ版)",
-      "singer": "Missy",
-      "album_name": "莫问归期",
-      "album_id": "199607689",
-      "duration": {
-        "secs": 275,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260716/20260716103431251340.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "93CCDAEA34830CABA1BDAEB8F132077F",
-        "HQFileHash": "4531AE46E303043ACD52CD14F87AD338",
-        "SQFileHash": "582E797E7647C07E58FB2220F0EE1BBC"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "551765021",
-      "source": "kg",
-      "name": "万物终归向海 (氛围版)",
-      "singer": "DJ铁柱、奶察",
-      "album_name": "午夜审判",
-      "album_id": "181080233",
-      "duration": {
-        "secs": 132,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260327/20260327202555321747.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "3FC267EC7511119F5A25BB9CFB2B689A",
-        "FileHash": "907982D6B1B1E5D8F8CE97D8760DD9EB",
-        "ResFileHash": "09ABA6D50C94C5F50E5A475035117FC0",
-        "SQFileHash": "4309CA4257A20401024C7C439DF5F1DE"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "564282110",
-      "source": "kg",
-      "name": "自渡 (烟嗓男版)",
-      "singer": "沙哑大叔",
-      "album_name": "自渡（烟嗓男版）",
-      "album_id": "185980435",
-      "duration": {
-        "secs": 181,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260428/20260428172741317685.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "08639D0A0BEFE44F3D49697B49D013F0",
-        "SQFileHash": "432BE49B9E7EA5763191030B415399F3",
-        "HQFileHash": "37D944B28E148D6DA2BCB4868257B13B",
-        "ResFileHash": "59FFF16E234AF1CE711EF2F9FF2ECE26"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "459008022",
-      "source": "kg",
-      "name": "此生不换 (DJ降调版)",
-      "singer": "DJ.SmartD",
-      "album_name": "此生不换（DJ再有一万年深情也不变）",
-      "album_id": "146846145",
-      "duration": {
-        "secs": 182,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250514/20250514220706963463.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "96EBBF96AD6C4728DC3681CFF2A25B93",
-        "HQFileHash": "9C3A62D92C76804EDB08E84C4E59DD7C",
-        "SQFileHash": "0C3A03C600764A3F39BD766983350C3C"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "601040090",
-      "source": "kg",
-      "name": "夜雨中的迈巴赫 (岑溪DJ辉仔 remix)",
-      "singer": "岑溪DJ辉仔",
-      "album_name": "岑溪DJ辉仔翻唱集",
-      "album_id": "77793132",
-      "duration": {
-        "secs": 171,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260616/20260616105228198149.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "BA3DE067006FE0873D1EF7E82B7FF9F1",
-        "ResFileHash": "06DBE53891D60C3295498C5B6556F917",
-        "HQFileHash": "C2FBDC3C1D95A3F391FBDB9B43D4AD7D",
-        "SQFileHash": "FCA07A6C30B1B38F9EA220C2BE11D8FD"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "584234145",
-      "source": "kg",
-      "name": "山顶看日落 (dj阿尼版)",
-      "singer": "王一佳",
-      "album_name": "山顶看日落",
-      "album_id": "192139074",
-      "duration": {
-        "secs": 156,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260522/20260522172132767727.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "BE0E04080781D2AE95EA203EC7143DAC",
-        "FileHash": "F3630979D56F0695E8D22503A63CC9AC",
-        "HQFileHash": "4EF7F017C358A16820FC75AC873BA6B7"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "493365479",
-      "source": "kg",
-      "name": "纵此生 (戏腔0.8x版)",
-      "singer": "泽国同学",
-      "album_name": "纵此生 (戏腔0.8x版)",
-      "album_id": "161670252",
-      "duration": {
-        "secs": 167,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250917/20250917103721875765.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "76D2B194898B0D828818BA74F3815CED",
-        "HQFileHash": "916F0819D07A653B862C1F1CE028E546",
-        "SQFileHash": "9ED9F99FF3D22403CFC8A7E9609DDEB4",
-        "ResFileHash": "70A508B7EF84A4CDAEC426002E9502D6"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "410942579",
-      "source": "kg",
-      "name": "拥抱你离去 (DJ九零版)",
-      "singer": "张北北",
-      "album_name": "拥抱你离去(DJ九零版)",
-      "album_id": "130387946",
-      "duration": {
-        "secs": 243,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20241126/20241126145401976167.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "EB071769370EC5583AB4AA04DBC657CC",
-        "HQFileHash": "3BEE9D5905BD0972C968F3FB4D8A2CB8",
-        "SQFileHash": "3C494663CA7370255078E66E9E420552"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "477161736",
-      "source": "kg",
-      "name": "你答应过的",
-      "singer": "阿布",
-      "album_name": "你答应过的",
-      "album_id": "155033617",
-      "duration": {
-        "secs": 183,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250721/20250721182052546297.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "B6CDB7CFD1380088D5F24BD914038C5A",
-        "HQFileHash": "785FC6CBA96C9946D7812DB55C7C113F",
-        "ResFileHash": "54AE7ED3F88AED77DC0590DCD813B9D1",
-        "SQFileHash": "C51D29E56A8C4F9604E7DDE0E8AB42A8"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "78608030",
-      "source": "kg",
-      "name": "忘川彼岸 (DJ名龙版)",
-      "singer": "零一九零贰",
-      "album_name": "忘川彼岸",
-      "album_id": "38497594",
-      "duration": {
-        "secs": 180,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20200714/20200714155411691880.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "44CCB8F01C671AE35BED731F416E64FB",
-        "HQFileHash": "C72814E6786ECFFEB8DAA3E097D1272B",
-        "ResFileHash": "7531B55F4BCA394BA496BEDD5D5B2415",
-        "FileHash": "26CAC1EB02164B22CFD272D529BFE312"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "205010945",
-      "source": "kg",
-      "name": "难却 (待上浓妆好戏开场)(DJ细霖版)",
-      "singer": "平生不晚",
-      "album_name": "难却",
-      "album_id": "59487317",
-      "duration": {
-        "secs": 204,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20220914/20220914173948888956.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "HQFileHash": "6E941614B4762AAF98B665CB4BEB4361",
-        "SQFileHash": "99D1F9F0647047A9F0F51A65A06FF0D1",
-        "FileHash": "D040D083B34B62919AC42F203FCE9F4B"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "358916278",
-      "source": "kg",
-      "name": "万物生 (电子木鱼)",
-      "singer": "ss.沧川",
-      "album_name": "万物生（电子木鱼）",
-      "album_id": "95787237",
-      "duration": {
-        "secs": 129,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20240608/20240608124305140902.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "FileHash": "8FFDC241594D7E82B6008553008E19A7",
-        "HQFileHash": "AC2844A231650D9CF1F997104A96525B",
-        "SQFileHash": "52B221146FEC5D334D322633E4FE2455"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "441440868",
-      "source": "kg",
-      "name": "离别的车站 (DJ Bo版)",
-      "singer": "孙露",
-      "album_name": "离别的车站 DJ Bo版",
-      "album_id": "167998710",
-      "duration": {
-        "secs": 212,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20250513/20250513012615234011.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "5E63B4E4940BFBA468D38100088C7FFB",
-        "FileHash": "32CB66FD94A554135430EB86BAD99503",
-        "SQFileHash": "E147A91D298B58ABD149272E1E0ADBF7",
-        "HQFileHash": "DE919D9C13948322CE73705F51B6B521"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "542763062",
-      "source": "kg",
-      "name": "过火 (DJ版)",
-      "singer": "DJ黑桃",
-      "album_name": "耳边逆旅",
-      "album_id": "177859624",
-      "duration": {
-        "secs": 255,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260228/20260228200753896225.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {
-        "SQFileHash": "1D1E13B1A013D13E08C1D994163678A4",
-        "FileHash": "AF82724CA3173E1FC00C40C94A861393",
-        "HQFileHash": "81FA4F8883C9D09B1751775DD554EF1F"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "626218773",
-      "source": "kg",
-      "name": "愿晚风带走我的忧伤 (烟嗓版)",
-      "singer": "DJ铁柱、烟嗓队长",
-      "album_name": "愿晚风带走我的忧伤（烟嗓版）",
-      "album_id": "199778419",
-      "duration": {
-        "secs": 173,
-        "nanos": 0
-      },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717103740309163.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
       "extra": {
-        "FileHash": "C597E1E3B5B700BF65E5B308886BB7B7",
-        "HQFileHash": "44AE8F105E8F6771693D14341FFA9985",
-        "SQFileHash": "E1C31E2330FE82A4BE8CB98F0F4C86C7"
+        "file_modified_unix_nanos": "1786512662877148742",
+        "file_size": "29853141"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/神话 - 张青玫.flac",
+      "file_ext": "flac"
     },
     {
-      "id": "636101544",
-      "source": "kg",
-      "name": "今生劫换来生缘 (花开又花谢花满天)",
-      "singer": "黄静美",
-      "album_name": "今生劫换来生缘（花开又花谢花满天）",
-      "album_id": "202565327",
+      "id": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
+      "source": "local",
+      "name": "纸月亮 带人声",
+      "singer": "阿亚,花间",
+      "album_name": "花间集",
+      "album_id": "",
       "duration": {
-        "secs": 152,
-        "nanos": 0
+        "secs": 230,
+        "nanos": 304000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260811/20260811102407588612.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/d5295e6f7253949c.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac"
+        "128k"
       ],
-      "audio": null,
-      "extra": {
-        "FileHash": "0EC832D2791A7AD5F6B76135F2D2313E",
-        "HQFileHash": "D0D61BBEB5B818EBF568081D900717FF",
-        "SQFileHash": "3E1016A59DB0439A93B38A8A4E801057"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "625401022",
-      "source": "kg",
-      "name": "AGUDO (FUNK)",
-      "singer": "等一会就睡",
-      "album_name": "让一切随风（DJ版）",
-      "album_id": "199508009",
-      "duration": {
-        "secs": 121,
-        "nanos": 0
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260715/20260715155504524380.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
       "extra": {
-        "HQFileHash": "90C620F2606A484A2008495197F3A387",
-        "SQFileHash": "061D277F1696A2FF196355AD4763E850",
-        "FileHash": "096A96EA61012F7738C021812872E142"
+        "file_modified_unix_nanos": "1785667339243676711",
+        "file_size": "5749634"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
+      "file_ext": "mp3"
     },
     {
-      "id": "502506415",
-      "source": "kg",
-      "name": "无人扶我青云志 我自踏雪至山巅",
-      "singer": "insyufeng",
-      "album_name": "幻昼 (DJ旋律纯享版)",
-      "album_id": "165145712",
+      "id": "/home/lk/Music/跳舞街-陈慧娴.mp3",
+      "source": "local",
+      "name": "跳舞街",
+      "singer": "陈慧娴",
+      "album_name": "宝丽金劲爆跳舞街",
+      "album_id": "",
       "duration": {
-        "secs": 236,
-        "nanos": 0
+        "secs": 226,
+        "nanos": 416000000
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20260529/20260529102611727253.jpg",
+      "cover_url": "/home/lk/.cache/voicefox/covers/b75d7df31e532128.jpg",
       "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
+        "128k"
       ],
-      "audio": null,
-      "extra": {
-        "ResFileHash": "52CC4BC0F9D7FF87AC98F189D0BE6BA2",
-        "HQFileHash": "53E535EC76B9A8B4B3F92F5E78D42419",
-        "SQFileHash": "3595900842E183498A04C839B2C33013",
-        "FileHash": "1C9B9EFF56AD546F6F6480BE2AC9F133"
-      },
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "495311935",
-      "source": "kg",
-      "name": "真英雄 (若是真英雄怎会怕)",
-      "singer": "姜姜",
-      "album_name": "真英雄",
-      "album_id": "130067699",
-      "duration": {
-        "secs": 197,
-        "nanos": 0
+      "audio": {
+        "bitrate": 192,
+        "sample_rate": 48000,
+        "bit_depth": null,
+        "lossless": false
       },
-      "cover_url": "http://imge.kugou.com/stdmusic/500/20241121/20241121235805679868.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
       "extra": {
-        "SQFileHash": "1664D5A5353BDEE90C03E215D615C2B6",
-        "HQFileHash": "C01327523F60596BDBD926F56D0925EA",
-        "ResFileHash": "DFA36A340182EB9A1F9D4DB69FE0FB15",
-        "FileHash": "DA7D6E5E06F16CEDE2BE8C2C859D1665"
+        "file_size": "5955870",
+        "file_modified_unix_nanos": "1786006600306785556"
       },
       "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
+      "file_path": "/home/lk/Music/跳舞街-陈慧娴.mp3",
+      "file_ext": "mp3"
     }
   ],
-  "current_index": 41,
+  "current_index": 12,
   "position": {
-    "secs": 7,
-    "nanos": 808136338
+    "secs": 178,
+    "nanos": 325104748
   },
-  "state": "playing"
+  "state": "paused"
 }

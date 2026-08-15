@@ -1,5 +1,322 @@
 [
   {
+    "id": "/home/lk/Music/白狐 - 洋澜一.flac",
+    "source": "local",
+    "name": "白狐",
+    "singer": "洋澜一",
+    "album_name": "白狐",
+    "duration": {
+      "secs": 282,
+      "nanos": 0
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/206978494735f1d3.jpg",
+    "qualities": [
+      "flac24bit"
+    ],
+    "file_path": "/home/lk/Music/白狐 - 洋澜一.flac"
+  },
+  {
+    "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
+    "source": "local",
+    "name": "明日似在遥远",
+    "singer": "官太泽",
+    "album_name": "1a7混子",
+    "duration": {
+      "secs": 336,
+      "nanos": 504000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
+    "source": "local",
+    "name": "Mustang cabriolet",
+    "singer": "Paris Brune",
+    "album_name": "L'oeil du cyclone",
+    "duration": {
+      "secs": 238,
+      "nanos": 942000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/5a815d023fec0f68.jpg",
+    "qualities": [
+      "320k"
+    ],
+    "file_path": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3"
+  },
+  {
+    "id": "/home/lk/Music/miss you-uuml,7ovey.mp3",
+    "source": "local",
+    "name": "miss you",
+    "singer": "uuml,7ovey",
+    "album_name": "miss you",
+    "duration": {
+      "secs": 153,
+      "nanos": 809000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/405cb2a28220c916.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/miss you-uuml,7ovey.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Like Girl-DNDM.mp3",
+    "source": "local",
+    "name": "Like Girl",
+    "singer": "DNDM",
+    "album_name": "Back to Retro",
+    "duration": {
+      "secs": 208,
+      "nanos": 170000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/9311869fd9036730.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/Like Girl-DNDM.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
+    "source": "local",
+    "name": "Down With Your Love",
+    "singer": "Tinashe,Chris Brown",
+    "album_name": "Down With Your Love",
+    "duration": {
+      "secs": 248,
+      "nanos": 555000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/7ab399feee882b4.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3"
+  },
+  {
+    "id": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
+    "source": "local",
+    "name": "他们说这叫爱",
+    "singer": "小雪,池澜",
+    "album_name": "他们说这叫爱",
+    "duration": {
+      "secs": 91,
+      "nanos": 481000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/ece30139ea4b9060.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3"
+  },
+  {
+    "id": "374813097",
+    "source": "kg",
+    "name": "Una Mattina",
+    "singer": "Papa Tin",
+    "album_name": "Una Mattina",
+    "duration": {
+      "secs": 177,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260608/20260608022320730343.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "41556491",
+    "source": "kg",
+    "name": "Once upon a Time",
+    "singer": "Max Oazo、Moonessa",
+    "album_name": "曾几何时",
+    "duration": {
+      "secs": 206,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144540186255.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "48238877",
+    "source": "kg",
+    "name": "Let Go",
+    "singer": "Beau Young Prince",
+    "album_name": "放弃",
+    "duration": {
+      "secs": 177,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250806/20250806052820404078.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "452644501",
+    "source": "kg",
+    "name": "Montagem Nada Tropica",
+    "singer": "Eternxlkz",
+    "album_name": "Montagem Nada Tropica",
+    "duration": {
+      "secs": 119,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250616/20250616182523605098.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "24443967",
+    "source": "kg",
+    "name": "I'm Waiting (Radio Edit)",
+    "singer": "Stage Rockers",
+    "album_name": "我在等待",
+    "duration": {
+      "secs": 270,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250101/20250101101805235469.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22154421",
+    "source": "kg",
+    "name": "We Don't Talk Anymore (Mr. Collipark Remix)",
+    "singer": "Charlie Puth、Selena Gomez",
+    "album_name": "只剩沉默",
+    "duration": {
+      "secs": 254,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250813/20250813073642531553.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "305454156",
+    "source": "kg",
+    "name": "バカみたいに (Like an Idiot)",
+    "singer": "柿崎ユウタ",
+    "album_name": "像个白痴一样",
+    "duration": {
+      "secs": 130,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250101/20250101191659398773.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "504419",
+    "source": "kg",
+    "name": "Poker Face",
+    "singer": "Lady Gaga",
+    "album_name": "扑克脸",
+    "duration": {
+      "secs": 237,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250101/20250101144318469372.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "550109760",
+    "source": "kg",
+    "name": "Fever Pitch",
+    "singer": "Richz",
+    "album_name": "Fever Pitch",
+    "duration": {
+      "secs": 135,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260812/20260812174442213058.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22571731",
+    "source": "kg",
+    "name": "The Other Side Of Paradise (Explicit)",
+    "singer": "Glass Animals",
+    "album_name": "天堂的彼端",
+    "duration": {
+      "secs": 320,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20210809/20210809125603527147.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "630497145",
+    "source": "kg",
+    "name": "金达莱花 (猛Remix)",
+    "singer": "猛弟/邹子寒",
+    "album_name": "진달래꽃 金达莱花(猛Remix）",
+    "duration": {
+      "secs": 138,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728131317447280.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
     "id": "577868116",
     "source": "kg",
     "name": "逝去的爱 (DJ版)",
@@ -463,24 +780,6 @@
     "file_path": null
   },
   {
-    "id": "531052865",
-    "source": "kg",
-    "name": "抽离 (DJ 阿乐版)",
-    "singer": "徐良、刘丹萌",
-    "album_name": "抽离 DJ 阿乐版",
-    "duration": {
-      "secs": 202,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20260125/20260125183232121864.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
     "id": "601772787",
     "source": "kg",
     "name": "我珍惜一路 真心的相逢 (DJ)",
@@ -565,6 +864,24 @@
       "nanos": 0
     },
     "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717101118757210.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "531052865",
+    "source": "kg",
+    "name": "抽离 (DJ 阿乐版)",
+    "singer": "徐良、刘丹萌",
+    "album_name": "抽离 DJ 阿乐版",
+    "duration": {
+      "secs": 202,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260125/20260125183232121864.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -802,22 +1119,6 @@
       "128k"
     ],
     "file_path": "/home/lk/Music/夜里的心声-张梦弘.mp3"
-  },
-  {
-    "id": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
-    "source": "local",
-    "name": "他们说这叫爱",
-    "singer": "小雪,池澜",
-    "album_name": "他们说这叫爱",
-    "duration": {
-      "secs": 91,
-      "nanos": 481000000
-    },
-    "cover_url": "/home/lk/.cache/voicefox/covers/ece30139ea4b9060.jpg",
-    "qualities": [
-      "128k"
-    ],
-    "file_path": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3"
   },
   {
     "id": "/home/lk/Music/不怕不怕-美美jocie.mp3",
@@ -1121,22 +1422,6 @@
       "128k"
     ],
     "file_path": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3"
-  },
-  {
-    "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
-    "source": "local",
-    "name": "明日似在遥远",
-    "singer": "官太泽",
-    "album_name": "1a7混子",
-    "duration": {
-      "secs": 336,
-      "nanos": 504000000
-    },
-    "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
-    "qualities": [
-      "128k"
-    ],
-    "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3"
   },
   {
     "id": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
@@ -1507,295 +1792,6 @@
       "nanos": 0
     },
     "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000030NGhw4Temro.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "002Wx0zQ22LD9y",
-    "source": "tx",
-    "name": "Right Now (Na Na Na)",
-    "singer": "Chikyl、DJ Dark",
-    "album_name": "Right Now (Na Na Na)",
-    "duration": {
-      "secs": 163,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000Sux2t3bBzeG.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "001RRmsp4EXaiQ",
-    "source": "tx",
-    "name": "三万英尺 (氛围版)",
-    "singer": "瑞-Gary、东木木",
-    "album_name": "三万英尺",
-    "duration": {
-      "secs": 291,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000FFnAh0Mv2sT.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "0019zLT93DxrP2",
-    "source": "tx",
-    "name": "Lap-la-lace! Cakequake!",
-    "singer": "The 1999",
-    "album_name": "拉普拉斯！蛋糕狂欢！Lap-la-lace! Cakequake!",
-    "duration": {
-      "secs": 183,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000009irRY3kF1Wn.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "001pOA6G3j076d",
-    "source": "tx",
-    "name": "Paper Hearts",
-    "singer": "Tori Kelly",
-    "album_name": "Foreword",
-    "duration": {
-      "secs": 199,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000002CGphI0BpdSE.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "004OPJ5u2wNuqp",
-    "source": "tx",
-    "name": "Sei tu (是你)",
-    "singer": "Camellia、Ellis Vibe",
-    "album_name": "Nentori",
-    "duration": {
-      "secs": 206,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001542B23GHGCl.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "003ZcOuq2UZsKb",
-    "source": "tx",
-    "name": "我不后悔",
-    "singer": "郑源",
-    "album_name": "真的用心良苦",
-    "duration": {
-      "secs": 251,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000000ISeg94WBekN.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "0017Yx2G3GWajQ",
-    "source": "tx",
-    "name": "小人国 (小心地滑少女版)",
-    "singer": "唐晓茵",
-    "album_name": "小人国",
-    "duration": {
-      "secs": 225,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M0000030tB2t2Ufp93.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "000XqXNY2IHdIs",
-    "source": "tx",
-    "name": "我想part2",
-    "singer": "法老、杨秋儒",
-    "album_name": "生于未来 (Explicit)",
-    "duration": {
-      "secs": 281,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000001iixNK0HCmxt.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "002k2SUo10gt4a",
-    "source": "tx",
-    "name": "飞1999",
-    "singer": "99 God",
-    "album_name": "飞1999",
-    "duration": {
-      "secs": 98,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003JnwQE1CKNd8.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "0046lvpf2lWJaN",
-    "source": "tx",
-    "name": "34+35 (Explicit)",
-    "singer": "Ariana Grande",
-    "album_name": "Positions (Deluxe) [Explicit]",
-    "duration": {
-      "secs": 173,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004W2wKc4M67a2.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "002U6qAT0IMMwf",
-    "source": "tx",
-    "name": "No Boundaries",
-    "singer": "周深、北京环球度假区",
-    "album_name": "环球五周年，任你超无限",
-    "duration": {
-      "secs": 185,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000004T2U7i3TrVFC.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "000giVB80xHYaV",
-    "source": "tx",
-    "name": "街道（天黑不睡觉 天亮还在熬）",
-    "singer": "Ravixen",
-    "album_name": "街道（天黑不睡觉 天亮还在熬）",
-    "duration": {
-      "secs": 90,
-      "nanos": 0
-    },
-    "cover_url": "https://y.gtimg.cn/music/photo_new/T002R500x500M000003EHY6A10MaSi.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "3419073235",
-    "source": "wy",
-    "name": "正道任凭谁说",
-    "singer": "一枚明月",
-    "album_name": "尘言风骨·重生行歌",
-    "duration": {
-      "secs": 479,
-      "nanos": 200000000
-    },
-    "cover_url": "http://p1.music.126.net/Aq4CJiZUooBaxRv19ArttQ==/109951172952443435.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "1125473987",
-    "source": "mg",
-    "name": "桥边姑娘",
-    "singer": "小倩",
-    "album_name": "桥边姑娘",
-    "duration": {
-      "secs": 179,
-      "nanos": 0
-    },
-    "cover_url": "/data/oss/resource/00/2c/p5/qb.webp",
-    "qualities": [
-      "128k",
-      "320k"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "9898",
-    "source": "mg",
-    "name": "本草纲目",
-    "singer": "周杰伦",
-    "album_name": "依然范特西",
-    "duration": {
-      "secs": 209,
-      "nanos": 0
-    },
-    "cover_url": "/data/oss/resource/00/5i/v9/86e72364b42c40699a22ade2c34b35b8.webp",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "3790007",
-    "source": "mg",
-    "name": "晴天",
-    "singer": "周杰伦",
-    "album_name": "叶惠美",
-    "duration": {
-      "secs": 270,
-      "nanos": 0
-    },
-    "cover_url": "/data/oss/resource/00/4t/9y/679feb591df148ddbc1e98110cd108de.webp",
     "qualities": [
       "128k",
       "320k",

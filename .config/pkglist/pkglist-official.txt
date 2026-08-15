@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 avahi
 base
+base-devel
 bash-completion
 bluetui
 bluez-utils
@@ -9,6 +10,7 @@ brightnessctl
 btop
 btrfs-progs
 dae
+dust
 efibootmgr
 fastfetch
 fcitx5
@@ -20,10 +22,10 @@ git
 impala
 iwd
 jq
+kitty
 linux-firmware
 linux-lts
 mpv
-ncdu
 niri
 noctalia
 openssh

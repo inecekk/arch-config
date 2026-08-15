@@ -11,7 +11,7 @@ progressOutBounce = true
 # 启动页的持续时长（秒）
 loadingSeconds = 3
 # 启动页欢迎语
-welcome = "voicefox "
+welcome = "welcome lk "
 # 启动页动画：sequence、fade-in、rainbow-wave、typewriter、spinner、slide-in、glitch、matrix-rain、particle-burst
 animation = "typewriter"
 # 是否停用启动页动画以减少动态效果
@@ -80,11 +80,11 @@ dotFullBlock = "•"
 dotHalfBlock = "•"
 dotEmptyBlock = " "
 
-# oscilloscope 示波器样式：braille(盲文，细腻) / block(块字符，醒目)
-oscilloscopeMode = "braille"
+# oscilloscope 示波器样式：改为 block 配合下半块字符实现竖向堆叠
+oscilloscopeMode = "block"
 oscilloscopeScatter = false
 oscilloscopeFullBlock = "█"
-oscilloscopeHalfBlock = "▌"
+oscilloscopeHalfBlock = "▄"
 oscilloscopeEmptyBlock = " "
 
 # vectorscope 向量示波器样式：braille(盲文，细腻) / block(块字符，醒目)
@@ -109,7 +109,7 @@ spectrumPhaseDiff = false
 # monstercat 指数扩散平滑（0=关，>0=启用，典型值1.0-3.0，值越小条越融合）
 monstercat = 1.5
 # waves 二次扩散模式（与monstercat互斥，0=关，1=开）
-waves = false
+waves = true
 # 视觉超调百分比（0=关，典型值10-30）
 overshoot = 15
 
@@ -147,13 +147,13 @@ renderMode = "wave"
 # 是否显示封面图
 show = true
 # 封面图宽度占窗口宽度的比例（取值范围 0.1-0.8，默认 0.3）
-widthRatio = 0.3
+widthRatio = 0.2
 # 封面图圆角半径百分比（取值范围 0-100，默认 8 即 8%，0 则关闭，越大越圆）
 # 50 = 正圆（封面为正方形，50% 圆角即圆形）
-cornerRadius = 50
+cornerRadius = 100
 # 是否启用旋转封面（需要更高的帧率支持平滑效果）
 # 关闭旋转：旋转动画以方形逐帧渲染，旋转时四角超出显示区会被裁剪，静止显示圆形
-spin = false
+spin = true
 # Kitty图形协议不支持角度变化目前只能以动画呈现，合成动画需要更高的CPU性能
 # 旋转封面帧率（取值范围 1-60，默认 30，更高帧率更流畅但消耗更多CPU）
 spinFPS = 30

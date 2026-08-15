@@ -137,12 +137,11 @@ window-rule {                                                               // �
     match app-id="^zen$"                                                    // 匹配 zen 浏览器
     open-maximized true                                                     // 新窗口打开即最大化
 }
-// 有意为之：保留最大化贴边缝隙 8px，窗口最大化时不贴到屏幕边缘
 window-rule {                                                               // 窗口规则：最大化行为
     open-maximized-to-edges false                                           // 窗口最大化时保留 8px 缝隙，不紧贴屏幕边缘
 }
 window-rule {                                                               // 窗口规则：全局透明度
-    opacity 0.9                                                             // 将所有窗口的不透明度默认设为半透明
+    opacity 0.85                                                             // 将所有窗口的不透明度默认设为半透明
     background-effect {                                                     // 背景特效调整
         blur false                                                           // 开启模糊效果
     }
@@ -154,7 +153,7 @@ window-rule {                                                               // �
         proportion 0.5                                                      // 占屏幕 50% 宽度
     }
     background-effect {                                                     // 背景特效调整
-        blur true                                                         // foot 终端的模糊效果
+        blur false                                                         // foot 终端的模糊效果
     }
 }
 // musicfox：与普通 foot 共享 0.5 宽度规则，这里只需补充高度差异
@@ -188,7 +187,7 @@ layer-rule {                                                                // �
 }
 // 状态栏
 layer-rule {                                                                // 图层规则：顶部/底部状态栏
-    match namespace="^noctalia-bar"                                         // 匹配 noctalia 栏命名空间
+    match namespace="^noctalia-bar"                                             // 匹配 noctalia 栏命名空间
     background-effect {                                                     // 背景特效
         blur true                                                            // 模糊
     }

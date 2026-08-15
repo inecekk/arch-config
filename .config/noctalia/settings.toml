@@ -1,21 +1,23 @@
 [location]
-auto_locate = true                                          # 开启自动定位，用于获取天气数据
+auto_locate = false                                         # 自动定位
 
 [weather]
 enabled = true                                              # 启用天气小组件
 unit = "metric"                                             # 使用摄氏度
 refresh_minutes = 30                                        # 每 30 分钟刷新一次天气数据
-effects = true                                               # 显示天气动效
+effects = true                                              # 显示天气动效
 
 [bar]
-position = "top"                                             # 状态栏位置：顶部
-height = 32                                                   # 逻辑像素高度，niri scale 2.0 会自动渲染为物理 64px，无需再手动放大
-background = "#e9d5ff"                                       # 状态栏背景色：浅紫，与 niri window-rule 的磨砂玻璃风格呼应
-foreground = "#4b5563"                                        # 默认文字颜色：柔和中灰
+position = "top"                                            # 状态栏位置：顶部
+height = 32                                                 # 逻辑像素高度，niri scale 2.0 会自动渲染为物理 64px，无需再手动放大
+background = "#e9d5ff"                                      # 状态栏背景色：浅紫，与 niri window-rule 的磨砂玻璃风格呼应
+foreground = "#4b5563"                                      # 默认文字颜色：柔和中灰
+color = "#e9d5ff"                                           # 补全：状态栏整体未设置颜色的默认浅紫基调
 
     [bar.default]
-    border = "#a78bfa80"                                      # 边框颜色：中紫，透明度约 50%，呼应 niri focus-ring 的渐变红品配色思路
-    border_width = 1.5                                         # 边框宽度（逻辑像素）
+    border = "#a78bfa80"                                    # 边框颜色：中紫，透明度约 50%，呼应 niri focus-ring 的渐变红品配色思路
+    border_width = 1.5                                      # 边框宽度（逻辑像素）
+    color = "#d8b4fe"                                       # 补全：未单独指定颜色组件的默认浅紫色
     start = ["launcher", "workspaces", "active_window", "clock", "weather"]
     end = ["cpu", "gpu", "memory", "netspeed", "network", "media", "notifications", "wallpaper", "control-center", "bluetooth", "volume", "battery", "tray", "power_profile", "session"]
 
@@ -90,7 +92,7 @@ color = "#bfb89c"
 color = "#9cb3bf"
 
 [widget.brightness]
-color = "#a3bfae"
+color = "#d8b4fe"                                           # 补全：原先漏掉的亮度组件，现已设为浅紫色
 
 [widget.session]
 color = "#b3bf9e"

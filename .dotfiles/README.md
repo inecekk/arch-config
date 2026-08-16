@@ -348,3 +348,11 @@ backuplk all         # 备份所有内容
 backuplk status      # 查看定时任务状态
 backuplk log         # 查看完整备份日志
 ```
+
+---
+
+## 📖 完整安装指南
+
+详细的 **手动安装 Arch Linux 步骤** 请参考单独文档：
+
+[📄 install-arch.md](install-arch.md) —— 含分区、加密、systemd-boot、LUKS、niri 桌面、Dotfiles 恢复、常见问题等完整流程

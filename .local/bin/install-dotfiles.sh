@@ -152,6 +152,11 @@ if [ "$WITH_SYSTEM" = "1" ]; then
             sudo cp "$SYSBK/etc/systemd/network/"*.network /etc/systemd/network/ 2>/dev/null
             echo "      /etc/systemd/network/*.network"
         fi
+        if [ -d "$SYSBK/etc/modprobe.d" ]; then
+            sudo mkdir -p /etc/modprobe.d
+            sudo cp "$SYSBK/etc/modprobe.d/"*.conf /etc/modprobe.d/ 2>/dev/null
+            echo "      /etc/modprobe.d/*.conf"
+        fi
         if [ -f "$SYSBK/etc/fstab" ]; then
             echo "    fstab 已恢复，注意核对 UUID 是否与当前分区一致"
         fi

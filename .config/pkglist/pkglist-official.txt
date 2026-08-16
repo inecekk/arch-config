@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 avahi
 base
+base-devel
 bash-completion
 bluetui
 bluez-utils

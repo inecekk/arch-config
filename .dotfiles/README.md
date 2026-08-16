@@ -185,3 +185,133 @@ MIT License — 随意 fork、修改、使用。
 > **维护者**: inecekk  
 > **最后更新**: 2025-08-16  
 > **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime
+
+---
+
+## 📘 install-dotfiles.sh 安装脚本使用详解
+
+### 基本用法
+
+```bash
+# 下载并执行（推荐 SSH 克隆）
+curl -fsSL https://raw.githubusercontent.com/inecekk/arch-config/main/.local/bin/install-dotfiles.sh | bash
+
+# 或手动克隆后执行
+install-dotfiles.sh
+install-dotfiles.sh --with-packages     # 恢复 + 自动安装软件包
+install-dotfiles.sh --with-system       # 恢复 + 同步 /etc、/boot 系统配置
+install-dotfiles.sh --full              # 等同于 --with-packages --with-system
+install-dotfiles.sh --force             # 覆盖已有配置文件（默认备份 .bak）
+```
+
+### 参数说明
+
+| 参数 | 说明 |
+|------|------|
+| `--help`, `-h` | 显示完整帮助信息 |
+| `--with-packages` | 自动安装官方源 + AUR 包列表（来自 `.config/pkglist/`） |
+| `--with-system` | 恢复 `/etc`、`/boot` 等系统级配置（需要 `sudo`，从 `~/.config/system-backup/` 同步） |
+| `--force` | 强制覆盖已有文件，跳过 `.bak` 备份流程 |
+| `--full` | 复合参数，等同于 `--with-packages --with-system` |
+
+### 帮助信息示例
+
+```bash
+$ install-dotfiles.sh --help
+┌─────────────────────────────────────────────────────────┐
+│ install-dotfiles.sh — Arch Linux dotfiles 一键安装脚本  │
+├─────────────────────── 用法 ────────────────────────────┤
+│  install-dotfiles.sh [选项]                             │
+│                                                         │
+│  --help, -h            显示本帮助信息                   │
+│  --with-packages       恢复配置 + 安装包列表            │
+│  --with-system         恢复 /etc、/boot 系统配置        │
+│  --force               强制覆盖已有文件                 │
+│  --full                等价于 --with-packages --with-system│
+└─────────────────────────────────────────────────────────┘
+
+恢复内容:
+  • $HOME 下所有 dotfiles (niri/foot/fcitx5/dae/...)
+  • ~/.config/system-backup/ 下的 /etc、/boot 配置
+  • ~/.config/pkglist/ 下的官方源 + AUR 包列表
+  • zen 浏览器用户样式 (自动合并到默认 profile)
+```
+
+### 恢复的系统级配置清单
+
+| 分类 | 文件/目录 | 说明 |
+|------|-----------|------|
+| 核心系统 | `fstab`, `mkinitcpio.conf`, `locale.conf`, `hostname`, `vconsole.conf` | 文件系统挂载、初始化RAM盘、本地化 |
+| 网络 | `iwd/main.conf`, `systemd/network/*.network` | Wi-Fi 认证配置、网络管理 |
+| 包管理 | `pacman.conf`, `paru.conf`, `makepkg.conf` | 包源镜像、AUR 助手、编译配置 |
+| 电源管理 | `tlp.conf` | Linux 电源优化 |
+| 本地化 | `locale.gen` | 语系生成配置 |
+| 服务默认值 | `default/*` | GRUB、sndiod 等系统服务默认参数 |
+| 内核模块 | `modprobe.d/*.conf` | 看门狗黑名单、AMD GPU 调试掩码、WiFi 电源 |
+| 防火墙 | `nftables.conf`, `arptables.conf`, `ebtables.conf` | 网络过滤规则 |
+| 系统服务 | `systemd/system/disable-wakeup.service` | 禁止 RTL8852BE 唤醒（修复合盖秒醒） |
+| 启动配置 | `boot/loader/*` | systemd-boot 引导配置 |
+
+### 安装后手动步骤
+
+安装完成后，请务必执行以下步骤：
+
+1. **启用自动备份定时器**
+   ```bash
+   systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
+   ```
+
+2. **检查桌面环境**
+   ```bash
+   # 确认 niri 合成器正常
+   niri --version
+   # 检测 fcitx5 输入法状态
+   fcitx5-diagnose
+   # 查看 foot 终端配置
+   cat ~/.config/foot/foot.ini
+   ```
+
+3. **同步系统配置（如使用 --with-system）**
+   ```bash
+   # 若恢复 locale.gen，请生成语系
+   sudo locale-gen
+   # 若恢复 nftables，请加载规则
+   sudo nft -f /etc/nftables.conf
+   ```
+
+4. **验证 fstab（如恢复）**
+   ```bash
+   # 校验 UUID 合法性
+   lsblk -f
+   findmnt -D
+   ```
+
+---
+
+### 🔄 自动备份 (Systemd Timers)
+
+```bash
+# 启用自动备份定时器
+systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
+
+# 查看状态
+systemctl --user status dotfiles-backup.timer wallpapers-backup.timer
+
+# 查看日志
+journalctl --user -u dotfiles-backup -f
+```
+
+> - `dotfiles-backup.timer`: 每日备份 `$HOME` 配置文件到 `~/.config/system-backup/`
+> - `wallpapers-backup.timer`: 定期同步壁纸仓库
+
+### 🧰 常用管理命令
+
+```bash
+# 在任意目录管理 dotfiles
+dotfiles status          # 查看变更
+dotfiles add FILE        # 添加新文件
+dotfiles commit -m "MSG" # 提交变更
+dotfiles push            # 推送到 GitHub
+dotfiles pull            # 拉取远程更新
+dotfiles log --oneline -5 # 查看最近提交
+```

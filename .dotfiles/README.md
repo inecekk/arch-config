@@ -141,21 +141,17 @@ dotfiles log --oneline -10
 |------|------|------|
 | **合成器** | `niri` | 可滚动平铺，动画流畅 |
 | **终端** | `foot` | 轻量、GPU 加速 |
-| **状态栏** | `yambar-wayland` (AUR) | 模块化，支持 niri 工作区 |
-| **启动器** | `fuzzel` | dmenu 替代，Wayland 原生 |
-| **通知** | `swaync` | 通知中心 + 控制面板 |
+| **输入法** | `fcitx5` + `fcitx5-rime` | Rime 引擎，中英混输 |
 | **壁纸** | `swaybg` | Wayland 壁纸设置 |
 | **锁屏** | `swaylock` | 配合 swayidle 自动锁屏 |
-| **输入法** | `fcitx5` + `fcitx5-rime` | Rime 引擎，中英混输 |
-| **文件管理** | `thunar` + `gvfs` | GTK 文件管理器 |
+| **通知** | `mako` | 轻量通知守护进程 |
 
 ### Noctalia 主题
 
 统一配色方案应用于：
 - `foot` 终端配色
 - `niri` 边框/活跃窗口色
-- `yambar` 状态栏配色
-- `fuzzel` 启动器配色
+- `mako` 通知配色
 - `swaylock` 锁屏界面
 - `btop` / `cava` 监控配色
 
@@ -205,8 +201,8 @@ journalctl --user -u dotfiles-backup -f
 # 窗口/合成器
 niri foot fcitx5 fcitx5-rime
 
-# 状态栏/启动器/通知
-yambar-wayland fuzzel swaync swaybg swaylock swayidle
+# 状态栏/通知/锁屏
+mako swaybg swaylock swayidle
 
 # 系统工具
 btop cava iwd systemd-networkd mkinitcpio tlp
@@ -308,4 +304,4 @@ $ install-dotfiles.sh --help
 
 > **维护者**: inecekk  
 > **最后更新**: 2025-08-16  
-> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime · yambar-wayland · Noctalia
+> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime · mako · Noctalia

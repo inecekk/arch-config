@@ -17,4 +17,16 @@ music() {
     foot -T musicfox -e musicfox &
   fi
 }
+# 1. 强制所有 Qt 应用（如 OBS, VLC 等）整体缩放 2 倍
+export QT_SCALE_FACTOR=2
 
+# 2. 强制 GTK 应用整体缩放 2 倍
+export GDK_SCALE=2
+
+# 3. 强制 Electron 应用（VS Code, Discord 等）在 Wayland 下按比例缩放
+export ELECTRON_FORCE_WINDOW_DSF=2.0
+
+# 4. 确保应用强制走纯 Wayland 通道，避免模糊
+export ELECTRON_OZONE_PLATFORM_HINT="wayland"
+export MOZ_ENABLE_WAYLAND=1
+export QT_QPA_PLATFORM="wayland"

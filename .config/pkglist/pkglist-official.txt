@@ -2,7 +2,6 @@ alsa-utils
 amd-ucode
 avahi
 base
-base-devel
 bash-completion
 bluetui
 bluez-utils
@@ -12,7 +11,6 @@ btrfs-progs
 dae
 dust
 efibootmgr
-fastfetch
 fcitx5
 fcitx5-gtk
 fcitx5-qt
@@ -22,14 +20,13 @@ git
 impala
 iwd
 jq
-kitty
-linux-firmware
+linux-firmware-amdgpu
+linux-firmware-realtek
 linux-lts
 mpv
 niri
 noctalia
 openssh
-pcmanfm
 pipewire-alsa
 pipewire-pulse
 qt6-websockets
@@ -37,7 +34,7 @@ rime-double-pinyin
 sudo
 tlp
 tree
-ttf-jetbrains-mono-nerd
+ttf-jetbrains-mono
 upower
 vim
 vnstat

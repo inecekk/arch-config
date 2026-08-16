@@ -1,474 +1,2312 @@
 {
   "playlist": [
     {
-      "id": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
-      "source": "local",
-      "name": "Down With Your Love",
-      "singer": "Tinashe,Chris Brown",
-      "album_name": "Down With Your Love",
-      "album_id": "",
+      "id": "624683929",
+      "source": "kw",
+      "name": "山风山风等等我",
+      "singer": "万海东",
+      "album_name": "山风山风等等我",
+      "album_id": "97652689",
       "duration": {
-        "secs": 248,
-        "nanos": 555000000
+        "secs": 209,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/7ab399feee882b4.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786355320962395933",
-        "file_size": "6028745"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/Like Girl-DNDM.mp3",
-      "source": "local",
-      "name": "Like Girl",
-      "singer": "DNDM",
-      "album_name": "Back to Retro",
-      "album_id": "",
+      "id": "567247828",
+      "source": "kw",
+      "name": "你有没有真的爱过我",
+      "singer": "阿图表妹",
+      "album_name": "你有没有真的爱过我",
+      "album_id": "91992117",
       "duration": {
-        "secs": 208,
-        "nanos": 170000000
+        "secs": 243,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/9311869fd9036730.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786435786715477297",
-        "file_size": "5084773"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/Like Girl-DNDM.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/miss you-uuml,7ovey.mp3",
-      "source": "local",
-      "name": "miss you",
-      "singer": "uuml,7ovey",
-      "album_name": "miss you",
-      "album_id": "",
+      "id": "595898177",
+      "source": "kw",
+      "name": "踏马寻花向自由 (雷鬼版)",
+      "singer": "超哥",
+      "album_name": "踏马寻花向自由（雷鬼版）",
+      "album_id": "94558104",
       "duration": {
-        "secs": 153,
-        "nanos": 809000000
+        "secs": 179,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/405cb2a28220c916.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785925154440984923",
-        "file_size": "3787802"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/miss you-uuml,7ovey.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
-      "source": "local",
-      "name": "Mustang cabriolet",
-      "singer": "Paris Brune",
-      "album_name": "L'oeil du cyclone",
-      "album_id": "",
+      "id": "570482802",
+      "source": "kw",
+      "name": "岁月如笔写春秋",
+      "singer": "河南三妹5233",
+      "album_name": "岁月如笔写春秋",
+      "album_id": "92746761",
       "duration": {
-        "secs": 238,
-        "nanos": 942000000
+        "secs": 251,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/5a815d023fec0f68.jpg",
+      "cover_url": null,
       "qualities": [
-        "320k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 320,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "9680450",
-        "file_modified_unix_nanos": "1786604754034444248"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
-      "source": "local",
-      "name": "Read My Silence 3.0",
-      "singer": "Kira",
-      "album_name": "Read My Silence",
-      "album_id": "",
+      "id": "628379347",
+      "source": "kw",
+      "name": "金达莱花 (猛Remix)",
+      "singer": "猛弟/邹子寒",
+      "album_name": "진달래꽃 金达莱花(猛Remix）",
+      "album_id": "98541335",
       "duration": {
-        "secs": 220,
-        "nanos": 704000000
+        "secs": 138,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/c2d79ac717e24ab3.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "7143339",
-        "file_modified_unix_nanos": "1785638235325013471"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
-      "source": "local",
-      "name": "We Never Pt.2 (若如初见)",
-      "singer": "YAYI,freezepain",
-      "album_name": "We Never Pt.2 (若如初见)",
-      "album_id": "",
+      "id": "594551679",
+      "source": "kw",
+      "name": "黄昏（纵然青丝如霜） (R&B版)",
+      "singer": "落日微醺",
+      "album_name": "黄昏（纵然青丝如霜）（R&B版）",
+      "album_id": "94478552",
       "duration": {
-        "secs": 90,
-        "nanos": 624000000
+        "secs": 245,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/60c7f93c98ed56f7.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786588665982892889",
-        "file_size": "2249396"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/不怕不怕-美美jocie.mp3",
-      "source": "local",
-      "name": "不怕不怕",
-      "singer": "美美jocie",
-      "album_name": "不怕不怕",
-      "album_id": "",
-      "duration": {
-        "secs": 102,
-        "nanos": 949000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/eb153d23bedfaef7.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 128,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786248062128459228",
-        "file_size": "1790605"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/不怕不怕-美美jocie.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
-      "source": "local",
-      "name": "他们说这叫爱",
-      "singer": "小雪,池澜",
-      "album_name": "他们说这叫爱",
-      "album_id": "",
-      "duration": {
-        "secs": 91,
-        "nanos": 481000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/ece30139ea4b9060.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785651383436638629",
-        "file_size": "2202972"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/夜里的心声-张梦弘.mp3",
-      "source": "local",
-      "name": "夜里的心声",
-      "singer": "张梦弘",
-      "album_name": "夜里的心声",
-      "album_id": "",
-      "duration": {
-        "secs": 214,
-        "nanos": 392000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/43697f74e8b45abc.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785651004189430028",
-        "file_size": "5204277"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/夜里的心声-张梦弘.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/川の流れのように-邓丽君.mp3",
-      "source": "local",
-      "name": "川の流れのように",
-      "singer": "邓丽君",
-      "album_name": "全曲集～ふたたび(再来)",
-      "album_id": "",
-      "duration": {
-        "secs": 299,
-        "nanos": 598000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/742b6d619f848eab.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "7305603",
-        "file_modified_unix_nanos": "1786524156957826479"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/川の流れのように-邓丽君.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
-      "source": "local",
-      "name": "帕萨卡利亚—亨德尔",
-      "singer": "古典",
-      "album_name": "古典赏析",
-      "album_id": "",
-      "duration": {
-        "secs": 150,
-        "nanos": 439000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/9332a2c2c91b2a9d.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785984904239017901",
-        "file_size": "3797973"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
-      "source": "local",
-      "name": "明日似在遥远",
-      "singer": "官太泽",
-      "album_name": "1a7混子",
-      "album_id": "",
-      "duration": {
-        "secs": 336,
-        "nanos": 504000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786005311913906506",
-        "file_size": "8203574"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/白狐 - 洋澜一.flac",
-      "source": "local",
-      "name": "白狐",
-      "singer": "洋澜一",
-      "album_name": "白狐",
-      "album_id": "",
+      "id": "486366800",
+      "source": "kw",
+      "name": "野心家",
+      "singer": "张靓颖",
+      "album_name": "灼灼韶华 影视原声带",
+      "album_id": "75898470",
       "duration": {
         "secs": 282,
         "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/206978494735f1d3.jpg",
+      "cover_url": null,
       "qualities": [
-        "flac24bit"
-      ],
-      "audio": {
-        "bitrate": 1697,
-        "sample_rate": 48000,
-        "bit_depth": 24,
-        "lossless": true
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786512834000967389",
-        "file_size": "59924663"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/白狐 - 洋澜一.flac",
-      "file_ext": "flac"
-    },
-    {
-      "id": "/home/lk/Music/神话 - 张青玫.flac",
-      "source": "local",
-      "name": "神话",
-      "singer": "张青玫",
-      "album_name": "新视听·民乐演奏影视插曲",
-      "album_id": "",
-      "duration": {
-        "secs": 286,
-        "nanos": 995000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/67d6b797f66a34d2.jpg",
-      "qualities": [
+        "128k",
+        "320k",
         "flac"
       ],
-      "audio": {
-        "bitrate": 825,
-        "sample_rate": 44100,
-        "bit_depth": 16,
-        "lossless": true
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786512662877148742",
-        "file_size": "29853141"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/神话 - 张青玫.flac",
-      "file_ext": "flac"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
-      "source": "local",
-      "name": "纸月亮 带人声",
-      "singer": "阿亚,花间",
-      "album_name": "花间集",
-      "album_id": "",
+      "id": "22888701",
+      "source": "kw",
+      "name": "梦的翅膀受了伤",
+      "singer": "蒋雪儿Snow.J",
+      "album_name": "梦的翅膀受了伤",
+      "album_id": "2185106",
+      "duration": {
+        "secs": 275,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "550221152",
+      "source": "kw",
+      "name": "人生路漫漫",
+      "singer": "白小白",
+      "album_name": "人生路漫漫",
+      "album_id": "87851503",
+      "duration": {
+        "secs": 235,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "521282545",
+      "source": "kw",
+      "name": "街角的晚风",
+      "singer": "陈小春",
+      "album_name": "街角的晚风",
+      "album_id": "80674075",
+      "duration": {
+        "secs": 240,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "563734238",
+      "source": "kw",
+      "name": "谁 (男女扎心合唱)",
+      "singer": "梨子芥菜、戚悦",
+      "album_name": "谁（男女扎心合唱）",
+      "album_id": "91085736",
+      "duration": {
+        "secs": 238,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "320462",
+      "source": "kw",
+      "name": "青花",
+      "singer": "周传雄",
+      "album_name": "蓝色土耳其",
+      "album_id": "12247",
+      "duration": {
+        "secs": 297,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "93151",
+      "source": "kw",
+      "name": "美人鱼",
+      "singer": "林俊杰",
+      "album_name": "第二天堂",
+      "album_id": "15772",
+      "duration": {
+        "secs": 254,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "133360",
+      "source": "kw",
+      "name": "樱花草",
+      "singer": "Sweety",
+      "album_name": "花言乔语 (精装版)",
+      "album_id": "8975",
+      "duration": {
+        "secs": 283,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1044318",
+      "source": "kw",
+      "name": "黄昏",
+      "singer": "周传雄",
+      "album_name": "Transfer",
+      "album_id": "63488",
+      "duration": {
+        "secs": 344,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "193290598",
+      "source": "kw",
+      "name": "如愿",
+      "singer": "王菲",
+      "album_name": "如愿",
+      "album_id": "23285874",
+      "duration": {
+        "secs": 265,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1035026",
+      "source": "kw",
+      "name": "雨爱",
+      "singer": "杨丞琳",
+      "album_name": "雨爱",
+      "album_id": "2182993",
+      "duration": {
+        "secs": 260,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "617069861",
+      "source": "kw",
+      "name": "吹吹山顶的风",
+      "singer": "巴扎黑",
+      "album_name": "吹吹山顶的风",
+      "album_id": "96659804",
+      "duration": {
+        "secs": 179,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "398013033",
+      "source": "kw",
+      "name": "白鸽乌鸦相爱的戏码",
+      "singer": "潘成（皮卡潘）",
+      "album_name": "白鸽乌鸦相爱的戏码",
+      "album_id": "56446521",
+      "duration": {
+        "secs": 173,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "465829",
+      "source": "kw",
+      "name": "情歌",
+      "singer": "梁静茹",
+      "album_name": "靜茹 & 情歌 別再为他流泪",
+      "album_id": "32445",
+      "duration": {
+        "secs": 260,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "22807949",
+      "source": "kw",
+      "name": "半壶纱",
+      "singer": "刘珂矣",
+      "album_name": "半壶纱",
+      "album_id": "506448",
+      "duration": {
+        "secs": 221,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1697454",
+      "source": "kw",
+      "name": "盛夏的果实",
+      "singer": "莫文蔚",
+      "album_name": "NO.1新曲精选全记录20首",
+      "album_id": "64540",
+      "duration": {
+        "secs": 251,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "386305156",
+      "source": "kw",
+      "name": "恋人",
+      "singer": "李荣浩",
+      "album_name": "黑马",
+      "album_id": "59947290",
+      "duration": {
+        "secs": 275,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "501646",
+      "source": "kw",
+      "name": "奢香夫人",
+      "singer": "凤凰传奇",
+      "album_name": "最炫民族风",
+      "album_id": "36539",
+      "duration": {
+        "secs": 259,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "221822646",
+      "source": "kw",
+      "name": "可能",
+      "singer": "程响",
+      "album_name": "可能",
+      "album_id": "28739820",
+      "duration": {
+        "secs": 217,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "201182467",
+      "source": "kw",
+      "name": "天地龙鳞",
+      "singer": "王力宏",
+      "album_name": "天地龙鳞",
+      "album_id": "24638679",
+      "duration": {
+        "secs": 196,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "554627654",
+      "source": "kw",
+      "name": "海屿你",
+      "singer": "Sixteen",
+      "album_name": "海屿你 (求你别离开我)",
+      "album_id": "88876425",
+      "duration": {
+        "secs": 260,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "89427629",
+      "source": "kw",
+      "name": "离开我的依赖",
+      "singer": "王艳薇",
+      "album_name": "离开我的依赖",
+      "album_id": "12660338",
+      "duration": {
+        "secs": 233,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "284892811",
+      "source": "kw",
+      "name": "离别开出花",
+      "singer": "就是南方凯",
+      "album_name": "离别开出花",
+      "album_id": "39652877",
       "duration": {
         "secs": 230,
-        "nanos": 304000000
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/d5295e6f7253949c.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785667339243676711",
-        "file_size": "5749634"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/跳舞街-陈慧娴.mp3",
-      "source": "local",
-      "name": "跳舞街",
-      "singer": "陈慧娴",
-      "album_name": "宝丽金劲爆跳舞街",
-      "album_id": "",
+      "id": "450444",
+      "source": "kw",
+      "name": "红色高跟鞋",
+      "singer": "蔡健雅",
+      "album_name": "若你碰到他",
+      "album_id": "38279",
       "duration": {
-        "secs": 226,
-        "nanos": 416000000
+        "secs": 206,
+        "nanos": 0
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/b75d7df31e532128.jpg",
+      "cover_url": null,
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "5955870",
-        "file_modified_unix_nanos": "1786006600306785556"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/跳舞街-陈慧娴.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "6468891",
+      "source": "kw",
+      "name": "演员",
+      "singer": "薛之谦",
+      "album_name": "绅士",
+      "album_id": "503766",
+      "duration": {
+        "secs": 261,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "628909",
+      "source": "kw",
+      "name": "失眠",
+      "singer": "Suki刘舒妤",
+      "album_name": "Ladies Night",
+      "album_id": "45558",
+      "duration": {
+        "secs": 211,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "9880330",
+      "source": "kw",
+      "name": "下完这场雨",
+      "singer": "后弦",
+      "album_name": "下完这场雨",
+      "album_id": "1354062",
+      "duration": {
+        "secs": 271,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "493628625",
+      "source": "kw",
+      "name": "同进退",
+      "singer": "倪浩毅",
+      "album_name": "同进退",
+      "album_id": "74139639",
+      "duration": {
+        "secs": 212,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "597628954",
+      "source": "kw",
+      "name": "热血颂 (女声版)",
+      "singer": "苏娜",
+      "album_name": "热血颂",
+      "album_id": "94746790",
+      "duration": {
+        "secs": 246,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "473537986",
+      "source": "kw",
+      "name": "背着风流泪",
+      "singer": "文夫",
+      "album_name": "背着风流泪 (我怕见面就想重新拥有)",
+      "album_id": "68971188",
+      "duration": {
+        "secs": 253,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "148411214",
+      "source": "kw",
+      "name": "虞兮叹",
+      "singer": "闻人听書_",
+      "album_name": "虞兮叹",
+      "album_id": "15408770",
+      "duration": {
+        "secs": 210,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "70180725",
+      "source": "kw",
+      "name": "我走后",
+      "singer": "小咪",
+      "album_name": "我走后",
+      "album_id": "10148787",
+      "duration": {
+        "secs": 248,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "38958726",
+      "source": "kw",
+      "name": "后会无期",
+      "singer": "徐良、汪苏泷",
+      "album_name": "不良少年",
+      "album_id": "84024",
+      "duration": {
+        "secs": 211,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "93157",
+      "source": "kw",
+      "name": "江南",
+      "singer": "林俊杰",
+      "album_name": "第二天堂",
+      "album_id": "15772",
+      "duration": {
+        "secs": 267,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "318448522",
+      "source": "kw",
+      "name": "情罪",
+      "singer": "陈瑞",
+      "album_name": "情罪",
+      "album_id": "44151644",
+      "duration": {
+        "secs": 285,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "203164",
+      "source": "kw",
+      "name": "西海情歌",
+      "singer": "刀郎",
+      "album_name": "刀郎Ⅲ",
+      "album_id": "15948",
+      "duration": {
+        "secs": 343,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "555806443",
+      "source": "kw",
+      "name": "有风的日落",
+      "singer": "万海东",
+      "album_name": "有风的日落",
+      "album_id": "89102192",
+      "duration": {
+        "secs": 229,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "545340770",
+      "source": "kw",
+      "name": "菩提树下我为你流泪",
+      "singer": "铃小花",
+      "album_name": "菩提树下我为你流泪",
+      "album_id": "86679650",
+      "duration": {
+        "secs": 160,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "321260769",
+      "source": "kw",
+      "name": "唯一",
+      "singer": "G.E.M. 邓紫棋",
+      "album_name": "T.I.M.E.",
+      "album_id": "44227706",
+      "duration": {
+        "secs": 253,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "528052465",
+      "source": "kw",
+      "name": "我曾像傻子一样爱你",
+      "singer": "老板",
+      "album_name": "我曾像傻子一样爱你",
+      "album_id": "82166326",
+      "duration": {
+        "secs": 243,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "14299479",
+      "source": "kw",
+      "name": "舍得",
+      "singer": "王唯旖",
+      "album_name": "舍得",
+      "album_id": "1366921",
+      "duration": {
+        "secs": 262,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "5886682",
+      "source": "kw",
+      "name": "海阔天空",
+      "singer": "BEYOND",
+      "album_name": "乐与怒",
+      "album_id": "2676",
+      "duration": {
+        "secs": 324,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "254321407",
+      "source": "kw",
+      "name": "相思遥",
+      "singer": "魏玉慧",
+      "album_name": "相思遥",
+      "album_id": "33590737",
+      "duration": {
+        "secs": 193,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "17934506",
+      "source": "kw",
+      "name": "我记得你眼里的依恋",
+      "singer": "音乐磁场",
+      "album_name": "音乐磁场10-国语经典名曲",
+      "album_id": "2035076",
+      "duration": {
+        "secs": 266,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "613620217",
+      "source": "kw",
+      "name": "走错太多路 (治愈版)",
+      "singer": "戎大姨",
+      "album_name": "走错太多路(治愈版)",
+      "album_id": "96482072",
+      "duration": {
+        "secs": 213,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "480126684",
+      "source": "kw",
+      "name": "乱世书",
+      "singer": "风华音纪、平生不晚",
+      "album_name": "乱世书",
+      "album_id": "70884578",
+      "duration": {
+        "secs": 200,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "9918220",
+      "source": "kw",
+      "name": "成都",
+      "singer": "赵雷",
+      "album_name": "成都",
+      "album_id": "1357632",
+      "duration": {
+        "secs": 328,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "77861",
+      "source": "kw",
+      "name": "忘了你忘了我",
+      "singer": "王杰",
+      "album_name": "忘了你‧忘了我",
+      "album_id": "860",
+      "duration": {
+        "secs": 277,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "80403",
+      "source": "kw",
+      "name": "十年",
+      "singer": "陈奕迅",
+      "album_name": "黑白灰",
+      "album_id": "7000",
+      "duration": {
+        "secs": 205,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "28879676",
+      "source": "kw",
+      "name": "阿衣莫",
+      "singer": "阿吉太组合",
+      "album_name": "阿衣莫",
+      "album_id": "4044048",
+      "duration": {
+        "secs": 314,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "21762578",
+      "source": "kw",
+      "name": "一生所爱",
+      "singer": "卢冠廷、莫文蔚",
+      "album_name": "齐天周大圣之西游双记 电影歌乐游唱版",
+      "album_id": "4168738",
+      "duration": {
+        "secs": 273,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "15213376",
+      "source": "kw",
+      "name": "That Girl",
+      "singer": "Olly Murs",
+      "album_name": "24 HRS (Deluxe)",
+      "album_id": "1722836",
+      "duration": {
+        "secs": 176,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "441426083",
+      "source": "kw",
+      "name": "搀扶",
+      "singer": "马健涛",
+      "album_name": "搀扶",
+      "album_id": "61555627",
+      "duration": {
+        "secs": 327,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "7186051",
+      "source": "kw",
+      "name": "手放开",
+      "singer": "李圣杰",
+      "album_name": "绝对痴心·手放开",
+      "album_id": "5292",
+      "duration": {
+        "secs": 265,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "22837479",
+      "source": "kw",
+      "name": "坏女孩",
+      "singer": "徐良、小凌",
+      "album_name": "不良少年",
+      "album_id": "84024",
+      "duration": {
+        "secs": 246,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "382021182",
+      "source": "kw",
+      "name": "有风无风皆自由",
+      "singer": "王一佳",
+      "album_name": "有风无风皆自由",
+      "album_id": "53621611",
+      "duration": {
+        "secs": 190,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "157033821",
+      "source": "kw",
+      "name": "落了白",
+      "singer": "蒋雪儿Snow.J",
+      "album_name": "落了白",
+      "album_id": "16732068",
+      "duration": {
+        "secs": 180,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "145913448",
+      "source": "kw",
+      "name": "天下",
+      "singer": "张杰",
+      "album_name": "听！我们的歌",
+      "album_id": "14982533",
+      "duration": {
+        "secs": 221,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "622510397",
+      "source": "kw",
+      "name": "岁月如笔写春秋（DJ默涵版）",
+      "singer": "花姐",
+      "album_name": "岁月如笔写春秋",
+      "album_id": "96530252",
+      "duration": {
+        "secs": 204,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "551976195",
+      "source": "kw",
+      "name": "Fever Pitch",
+      "singer": "Richz",
+      "album_name": "Fever Pitch",
+      "album_id": "88247602",
+      "duration": {
+        "secs": 135,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "246113640",
+      "source": "kw",
+      "name": "西楼儿女",
+      "singer": "海来阿木",
+      "album_name": "西楼儿女",
+      "album_id": "32366051",
+      "duration": {
+        "secs": 257,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "296504",
+      "source": "kw",
+      "name": "遇见",
+      "singer": "孙燕姿",
+      "album_name": "The Moment",
+      "album_id": "16098",
+      "duration": {
+        "secs": 210,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3202719",
+      "source": "kw",
+      "name": "半点心",
+      "singer": "草蜢",
+      "album_name": "Grasshopper IV",
+      "album_id": "114339",
+      "duration": {
+        "secs": 232,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "237910",
+      "source": "kw",
+      "name": "曾经的你",
+      "singer": "许巍",
+      "album_name": "每一刻都是崭新的",
+      "album_id": "137",
+      "duration": {
+        "secs": 261,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "466125433",
+      "source": "kw",
+      "name": "月亮照山川",
+      "singer": "窝窝",
+      "album_name": "月亮照山川",
+      "album_id": "66960321",
+      "duration": {
+        "secs": 197,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "104595",
+      "source": "kw",
+      "name": "一直很安静",
+      "singer": "阿桑",
+      "album_name": "寂寞在唱歌",
+      "album_id": "15898",
+      "duration": {
+        "secs": 250,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "499778",
+      "source": "kw",
+      "name": "偏爱",
+      "singer": "张芸京",
+      "album_name": "破天荒",
+      "album_id": "36115",
+      "duration": {
+        "secs": 212,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "458663",
+      "source": "kw",
+      "name": "如果当时",
+      "singer": "许嵩",
+      "album_name": "自定义",
+      "album_id": "31996",
+      "duration": {
+        "secs": 316,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "314563313",
+      "source": "kw",
+      "name": "不如见一面",
+      "singer": "海来阿木",
+      "album_name": "不如见一面",
+      "album_id": "43502932",
+      "duration": {
+        "secs": 247,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "662376",
+      "source": "kw",
+      "name": "爱江山更爱美人",
+      "singer": "李丽芬",
+      "album_name": "就这样约定",
+      "album_id": "6825",
+      "duration": {
+        "secs": 319,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "4387631",
+      "source": "kw",
+      "name": "只对你有感觉",
+      "singer": "飞轮海、田馥甄",
+      "album_name": "飞轮海 首张同名专辑",
+      "album_id": "15977",
+      "duration": {
+        "secs": 239,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "325842",
+      "source": "kw",
+      "name": "开始懂了",
+      "singer": "孙燕姿",
+      "album_name": "我要的幸福",
+      "album_id": "2153",
+      "duration": {
+        "secs": 271,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "518420032",
+      "source": "kw",
+      "name": "乌兰巴托的夜 (深情烟嗓版)",
+      "singer": "大头针 Official",
+      "album_name": "乌兰巴托的夜（深情烟嗓版）",
+      "album_id": "80083502",
+      "duration": {
+        "secs": 217,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "142801",
+      "source": "kw",
+      "name": "偏偏喜欢你",
+      "singer": "陈百强",
+      "album_name": "偏偏喜欢你",
+      "album_id": "59",
+      "duration": {
+        "secs": 212,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1033391",
+      "source": "kw",
+      "name": "真的爱你",
+      "singer": "BEYOND",
+      "album_name": "BEYOND IV",
+      "album_id": "69368",
+      "duration": {
+        "secs": 275,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "564462837",
+      "source": "kw",
+      "name": "我是不是该安静的走开 (粤语女声版)",
+      "singer": "林咏诗",
+      "album_name": "我是不是该安静的走开(粤语女声版)",
+      "album_id": "91261021",
+      "duration": {
+        "secs": 223,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "625170",
+      "source": "kw",
+      "name": "朋友的酒",
+      "singer": "李晓杰",
+      "album_name": "老大",
+      "album_id": "45293",
+      "duration": {
+        "secs": 261,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "393305",
+      "source": "kw",
+      "name": "猜不透",
+      "singer": "丁当",
+      "album_name": "我爱上的",
+      "album_id": "22394",
+      "duration": {
+        "secs": 233,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "75307023",
+      "source": "kw",
+      "name": "莫问归期",
+      "singer": "蒋雪儿Snow.J",
+      "album_name": "莫问归期",
+      "album_id": "10567969",
+      "duration": {
+        "secs": 219,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "228908",
+      "source": "kw",
+      "name": "晴天",
+      "singer": "周杰伦",
+      "album_name": "叶惠美",
+      "album_id": "1293",
+      "duration": {
+        "secs": 269,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "499610341",
+      "source": "kw",
+      "name": "珊瑚颂",
+      "singer": "徐子尧",
+      "album_name": "山歌响起的地方",
+      "album_id": "73602553",
+      "duration": {
+        "secs": 239,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "231323",
+      "source": "kw",
+      "name": "我怀念的",
+      "singer": "孙燕姿",
+      "album_name": "逆光",
+      "album_id": "9979",
+      "duration": {
+        "secs": 289,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "176704915",
+      "source": "kw",
+      "name": "这世界那么多人",
+      "singer": "莫文蔚",
+      "album_name": "这世界那么多人 (电影《我要我们在一起》主题曲)",
+      "album_id": "20272616",
+      "duration": {
+        "secs": 285,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3205111",
+      "source": "kw",
+      "name": "黄昏",
+      "singer": "罗文",
+      "album_name": "戏说人生",
+      "album_id": "29541",
+      "duration": {
+        "secs": 300,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "102428",
+      "source": "kw",
+      "name": "爱错",
+      "singer": "王力宏",
+      "album_name": "心中的日月",
+      "album_id": "5406",
+      "duration": {
+        "secs": 238,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "561511715",
+      "source": "kw",
+      "name": "风说",
+      "singer": "陈默默",
+      "album_name": "风说",
+      "album_id": "90545003",
+      "duration": {
+        "secs": 196,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "291598",
+      "source": "kw",
+      "name": "隐形的翅膀",
+      "singer": "张韶涵",
+      "album_name": "潘朵拉",
+      "album_id": "7938",
+      "duration": {
+        "secs": 224,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "140935285",
+      "source": "kw",
+      "name": "你的万水千山",
+      "singer": "海来阿木",
+      "album_name": "你的万水千山",
+      "album_id": "14153155",
+      "duration": {
+        "secs": 249,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "380050108",
+      "source": "kw",
+      "name": "我可以假装很好",
+      "singer": "何洁、苏醒AllenSu",
+      "album_name": "我可以假装很好",
+      "album_id": "53318412",
+      "duration": {
+        "secs": 247,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "557155474",
+      "source": "kw",
+      "name": "慢慢人生路",
+      "singer": "姜成万、烟嗓明哥",
+      "album_name": "慢慢人生路",
+      "album_id": "89474722",
+      "duration": {
+        "secs": 327,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "39515638",
+      "source": "kw",
+      "name": "桃花诺",
+      "singer": "G.E.M. 邓紫棋",
+      "album_name": "上古情歌 电视剧原声带",
+      "album_id": "3668654",
+      "duration": {
+        "secs": 219,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "105274",
+      "source": "kw",
+      "name": "一个人的天荒地老",
+      "singer": "张宇",
+      "album_name": "温古知新 一个人的天荒地老",
+      "album_id": "63825",
+      "duration": {
+        "secs": 297,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "556907469",
+      "source": "kw",
+      "name": "不跪的花",
+      "singer": "央金拉姆",
+      "album_name": "不跪的花",
+      "album_id": "89400666",
+      "duration": {
+        "secs": 192,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "23542423",
+      "source": "kw",
+      "name": "蓝莲花",
+      "singer": "许巍",
+      "album_name": "曾经的你",
+      "album_id": "15655",
+      "duration": {
+        "secs": 270,
+        "nanos": 0
+      },
+      "cover_url": null,
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
     }
   ],
-  "current_index": 12,
+  "current_index": 80,
   "position": {
-    "secs": 178,
-    "nanos": 325104748
+    "secs": 0,
+    "nanos": 0
   },
-  "state": "paused"
+  "state": "playing"
 }

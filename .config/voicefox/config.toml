@@ -2,18 +2,18 @@ version = 9
 
 [player]
 engine = "mpv"
-quality = "flac24bit"
+quality = "320k"
 volume = 80
 playback_speed = 1.0
 audio_device = "auto"
-replaygain_mode = "off"
+replaygain_mode = "track"
 replaygain_preamp = -6.0
 channel_mode = "auto"
 balance = 0.0
-replaygain_clip = false
+replaygain_clip = true
 equalizer_bands = []
 fade_in_ms = 500
-fade_out_ms = 0
+fade_out_ms = 250
 play_mode = "list-loop"
 remember_playback_state = true
 history_limit = 100
@@ -24,7 +24,6 @@ enabled = [
     "tx",
     "wy",
     "mg",
-    "bili",
 ]
 default = "wy"
 auto_toggle = true
@@ -97,157 +96,157 @@ paths = ["/home/lk/Music"]
 max_depth = 5
 
 [keybindings.global]
-global_quit = "q"
-global_volume_up = "n"
-global_toggle_favorite = "Ctrl+l"
-global_next_tab = "Tab"
-global_go_to_main = "Esc"
-global_redraw = "Ctrl+r"
-global_volume_down = "b"
 global_cycle_mode = "m"
-global_next_track = "Up"
-global_prev_tab = "Shift+Tab"
+global_volume_down = "b"
+global_next_tab = "Tab"
 global_play_pause = "Space"
-global_seek_backward = "["
 global_seek_forward = "]"
+global_redraw = "Ctrl+r"
+global_toggle_favorite = "Ctrl+l"
 global_prev_track = "Down"
+global_volume_up = "n"
+global_seek_backward = "["
+global_next_track = "Up"
+global_quit = "q"
+global_prev_tab = "Shift+Tab"
+global_go_to_main = "Esc"
 
-[keybindings.pages.favorites]
-list_select_last = "G"
-list_add_to_queue_next = "A"
-favorites_filter = "/"
-favorites_remove = "d"
-list_select_up = "k"
-list_select_down = "j"
+[keybindings.pages.leaderboard]
 list_add_to_queue = "a"
-list_select_first = "g"
-list_page_up = "Ctrl+u"
-list_activate = "Enter"
-list_go_back = "Esc"
-list_toggle_favorite = "f"
-list_page_down = "Ctrl+d"
-list_cycle_sort = "s"
-
-[keybindings.pages.settings]
-list_select_up = "k"
-settings_export_data = "Shift+F6"
-settings_cycle_playback_speed = "F1"
-settings_cycle_replay_gain_mode = "F3"
-settings_clear_ab_loop = "Shift+F5"
-settings_cycle_channel_mode = "F4"
-settings_cycle_balance = "F6"
-settings_cycle_equalizer_preset = "F10"
-settings_import_data = "Shift+F7"
+search_cycle_source_next = "Right"
 list_select_down = "j"
-settings_run_fade_out = "Shift+F2"
-settings_set_ab_loop_start = "Shift+F3"
-settings_edit_audio_device = "F2"
-settings_toggle_replay_gain_clip = "F7"
-settings_cycle_fade_in_duration = "F8"
-settings_set_ab_loop_end = "Shift+F4"
-settings_run_fade_in = "Shift+F1"
-list_go_back = "Esc"
-settings_cycle_replay_gain_preamp = "F5"
-settings_cycle_fade_out_duration = "F9"
-settings_import_playlist = "Shift+F8"
-
-[keybindings.pages.local]
-local_filter = "/"
+search_cycle_source_prev = "Left"
+list_page_up = "Ctrl+u"
+list_toggle_favorite = "f"
 list_select_first = "g"
+list_go_back = "Esc"
 list_select_last = "G"
-list_cycle_sort = "s"
+list_select_up = "k"
+list_activate = "Enter"
 list_page_down = "Ctrl+d"
 list_add_to_queue_next = "A"
-list_select_down = "j"
-local_delete = "d"
-list_page_up = "Ctrl+u"
-list_select_up = "k"
-list_add_to_queue = "a"
-list_activate = "Enter"
-local_rescan = "r"
-list_toggle_favorite = "f"
 
 [keybindings.pages.bili_login]
 list_go_back = "Esc"
 
-[keybindings.pages.main]
+[keybindings.pages.history]
+list_page_up = "Ctrl+u"
 list_select_down = "j"
-list_activate = "Enter"
-list_toggle_favorite = "f"
 list_select_first = "g"
-list_select_last = "G"
-list_page_up = "Ctrl+u"
-list_select_up = "k"
+history_filter = "/"
+list_add_to_queue_next = "A"
 list_page_down = "Ctrl+d"
-
-[keybindings.pages.playlists]
-list_select_up = "k"
-list_select_first = "g"
-list_page_up = "Ctrl+u"
-list_go_back = "Esc"
-search_cycle_source_next = "Right"
+list_select_last = "G"
 list_toggle_favorite = "f"
+list_cycle_sort = "s"
 list_activate = "Enter"
 list_add_to_queue = "a"
+list_select_up = "k"
+
+[keybindings.pages.settings]
+settings_set_ab_loop_end = "Shift+F4"
+settings_cycle_balance = "F6"
+list_select_up = "k"
+settings_set_ab_loop_start = "Shift+F3"
+settings_cycle_fade_out_duration = "F9"
+list_go_back = "Esc"
+settings_run_fade_in = "Shift+F1"
+settings_edit_audio_device = "F2"
+settings_import_playlist = "Shift+F8"
+settings_cycle_channel_mode = "F4"
+settings_cycle_fade_in_duration = "F8"
+settings_cycle_replay_gain_mode = "F3"
+settings_run_fade_out = "Shift+F2"
+settings_export_data = "Shift+F6"
+settings_cycle_replay_gain_preamp = "F5"
+settings_clear_ab_loop = "Shift+F5"
+settings_toggle_replay_gain_clip = "F7"
+list_select_down = "j"
+settings_import_data = "Shift+F7"
+settings_cycle_playback_speed = "F1"
+settings_cycle_equalizer_preset = "F10"
+
+[keybindings.pages.favorites]
+list_activate = "Enter"
+list_go_back = "Esc"
+list_select_up = "k"
+list_add_to_queue_next = "A"
+favorites_filter = "/"
+list_cycle_sort = "s"
 list_select_last = "G"
 list_page_down = "Ctrl+d"
-search_cycle_source_prev = "Left"
+favorites_remove = "d"
+list_select_first = "g"
+list_toggle_favorite = "f"
+list_add_to_queue = "a"
+list_page_up = "Ctrl+u"
 list_select_down = "j"
-list_add_to_queue_next = "A"
 
 [keybindings.pages.search]
-search_cycle_source_prev = "Left"
-list_add_to_queue_next = "A"
-list_select_last = "G"
-list_select_up = "k"
-list_page_down = "Ctrl+d"
-search_cycle_source_next = "Right"
-list_activate = "l"
-list_page_up = "Ctrl+u"
-list_select_first = "g"
 search_input_mode = "i"
-list_add_to_queue = "a"
+list_select_last = "G"
+list_select_down = "j"
+search_cycle_source_next = "Right"
+list_go_back = "Esc"
+list_add_to_queue_next = "A"
+list_activate = "l"
 search_start = "Enter"
 list_toggle_favorite = "f"
+list_page_up = "Ctrl+u"
+list_page_down = "Ctrl+d"
+list_select_up = "k"
 search_toggle_aggregate = "v"
-list_select_down = "j"
-list_go_back = "Esc"
-
-[keybindings.pages.leaderboard]
-list_select_down = "j"
-list_add_to_queue = "a"
-list_select_up = "k"
-list_select_last = "G"
-list_select_first = "g"
-list_activate = "Enter"
-list_toggle_favorite = "f"
 search_cycle_source_prev = "Left"
+list_select_first = "g"
+list_add_to_queue = "a"
+
+[keybindings.pages.playlists]
+search_cycle_source_prev = "Left"
+list_select_first = "g"
 list_page_up = "Ctrl+u"
+list_toggle_favorite = "f"
+list_select_last = "G"
+list_activate = "Enter"
+list_select_down = "j"
 list_page_down = "Ctrl+d"
 list_add_to_queue_next = "A"
-list_go_back = "Esc"
 search_cycle_source_next = "Right"
+list_add_to_queue = "a"
+list_select_up = "k"
+list_go_back = "Esc"
 
-[keybindings.pages.history]
-history_filter = "/"
+[keybindings.pages.local]
+list_add_to_queue = "a"
+list_select_down = "j"
+list_page_down = "Ctrl+d"
+local_delete = "d"
+local_filter = "/"
+list_select_last = "G"
+list_page_up = "Ctrl+u"
+list_activate = "Enter"
+list_select_up = "k"
+list_select_first = "g"
+local_rescan = "r"
+list_toggle_favorite = "f"
+list_add_to_queue_next = "A"
+list_cycle_sort = "s"
+
+[keybindings.pages.main]
+list_toggle_favorite = "f"
+list_page_down = "Ctrl+d"
+list_activate = "Enter"
+list_select_down = "j"
+list_select_first = "g"
 list_select_last = "G"
 list_select_up = "k"
-list_add_to_queue = "a"
-list_activate = "Enter"
-list_toggle_favorite = "f"
-list_select_first = "g"
-list_add_to_queue_next = "A"
 list_page_up = "Ctrl+u"
-list_cycle_sort = "s"
-list_page_down = "Ctrl+d"
-list_select_down = "j"
 
 [notification]
 enable = true
 inApp = true
 inAppTimeout = 4
 albumCover = true
-trackChange = true
+trackChange = false
 
 [integration]
 mpris = true

@@ -5,7 +5,7 @@ input {                                                                     // �
     }
 }
 cursor {                                                                    // 光标设置
-    xcursor-size 18                                                         // 设置 X11 光标大小为 18
+    xcursor-size 20                                                         
 }
 output "eDP-1" {                                                            // 显示器输出设备配置（内置屏幕 eDP-1）
     scale 2.0                                                               // 设置屏幕缩放比例为 2.0（HiDPI 屏常用）
@@ -14,7 +14,7 @@ hotkey-overlay {                                                            // �
     skip-at-startup                                                         // 启动时跳过显示快捷键提示
 }
 overview {                                                                  // 概览视图设置（类似多任务全景）
-    zoom 0.5                                                                // 设置概览视图的缩放比例为 0.5
+    zoom 0.3                                                              
 }
 // ==================== 动画配置 ====================
 animations {                                                                // 窗口管理器全局动画配置块
@@ -162,9 +162,9 @@ window-rule {                                                               // �
         proportion 1.0                                                      // 占列高 100%
     }
 }
-// pcmanfm 文件管理器：圆角 + 磨砂玻璃，模糊强度跟随全局 blur {} 块
-window-rule {                                                               // 窗口规则：pcmanfm 文件管理器
-    match app-id="^pcmanfm"                                                 // 匹配以 pcmanfm 开头的应用
+// spacefm 文件管理器：圆角 + 磨砂玻璃，模糊强度跟随全局 blur {} 块
+window-rule {                                                               
+    match app-id="^spacefm"                                                
     opacity 0.92                                                            // 单独设置不透明度为 0.92
     background-effect {                                                     // 背景特效调整
         blur true                                                           // 开启模糊效果

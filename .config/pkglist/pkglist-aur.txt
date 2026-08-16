@@ -3,8 +3,10 @@ go-musicfox-git
 linuxqq
 materialgram-bin
 miyu
+neofetch-git
 osu-lazer-bin
 paru
+spacefm-bin
 visual-studio-code-bin
 voicefox
 zen-browser-bin

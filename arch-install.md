@@ -1,11 +1,25 @@
-```markdown
-# Arch Linux 手动安装指南 (Btrfs + 子卷方案)
+# Arch Linux 手动安装指南
 
-> 适用：UEFI + systemd-boot + Btrfs (含子卷) + LUKS 加密 (可选) + niri Wayland 桌面
->
-> 目标磁盘：`/dev/nvme0n1` (NVMe) 或 `/dev/sda` (SATA)
->
-> ⚠️ **警告**：以下命令需在 root 权限下执行，会清空目标磁盘数据，请务必确认磁盘设备名无误后再操作。
+**Btrfs + 子卷方案 · niri Wayland 桌面**
+
+> - 适用场景：UEFI + systemd-boot + Btrfs（含子卷）+ LUKS 加密（可选）
+> - 目标磁盘：`/dev/nvme0n1`（NVMe）或 `/dev/sda`（SATA）
+> - ⚠️ **警告**：以下命令需在 root 权限下执行，会清空目标磁盘数据，操作前请务必确认磁盘设备名无误
+
+---
+
+## 目录
+
+- [1. 准备工作](#1-准备工作)
+- [2. 启动与网络](#2-启动与网络)
+- [3. 磁盘分区与 Btrfs 子卷](#3-磁盘分区与-btrfs-子卷核心)
+- [4. 镜像源优化](#4-镜像源优化)
+- [5. 基础系统安装](#5-基础系统安装)
+- [6. 系统配置](#6-系统配置)
+- [7. 桌面环境](#7-桌面环境niri--相关组件)
+- [8. 重启进入系统](#8-重启进入系统)
+- [9. 恢复个人配置](#9-恢复个人配置dotfiles)
+- [10. 日常维护](#10-日常维护)
 
 ---
 
@@ -14,9 +28,9 @@
 - 下载 ISO 并校验（`sha256sum` 或 GPG 签名）
 - 使用 `dd` 或 Rufus / Etcher 写入 U 盘
 - BIOS 设置：
-  - UEFI Only（关闭 Legacy/CSM）
-  - Secure Boot：Disabled
-  - Fast Boot：Disabled
+  - UEFI Only（关闭 Legacy / CSM）
+  - Secure Boot：`Disabled`
+  - Fast Boot：`Disabled`
 
 ## 2. 启动与网络
 
@@ -42,9 +56,11 @@ timedatectl set-ntp true
 
 目标磁盘：`/dev/nvme0n1`
 
-> 💡 子卷布局说明：`@` 根目录、`@home` 用户目录、`@snapshots` 快照专用、`@cache`/`@log` 隔离高写入目录以减少快照体积。建议后续用 `snapper` 管理 `@` 与 `@home` 的快照。
+> **子卷布局说明**
+> `@` 根目录、`@home` 用户目录、`@snapshots` 快照专用、`@cache`/`@log` 隔离高写入目录以减少快照体积。建议后续用 `snapper` 管理 `@` 与 `@home` 的快照。
 
-### 方案 A：标准 UEFI（无加密）
+<details>
+<summary><b>方案 A：标准 UEFI（无加密）</b></summary>
 
 ```bash
 cfdisk /dev/nvme0n1
@@ -74,7 +90,10 @@ mount -o noatime,compress=zstd,subvol=@log       /dev/nvme0n1p2 /mnt/var/log
 mount /dev/nvme0n1p1 /mnt/boot
 ```
 
-### 方案 B：LUKS2 全盘加密 + Btrfs
+</details>
+
+<details>
+<summary><b>方案 B：LUKS2 全盘加密 + Btrfs</b></summary>
 
 ```bash
 cfdisk /dev/nvme0n1
@@ -108,7 +127,9 @@ mount -o noatime,compress=zstd,subvol=@log       /dev/mapper/cryptroot /mnt/var/
 mount /dev/nvme0n1p1 /mnt/boot
 ```
 
-### （可选）交换空间 / 休眠支持
+</details>
+
+**（可选）交换空间 / 休眠支持**
 
 若需要支持休眠（hibernate），建议在 `@` 子卷下创建 Btrfs swapfile：
 
@@ -135,7 +156,7 @@ pacstrap -K /mnt base base-devel linux linux-firmware \
     sudo vim git networkmanager iwd intel-ucode amd-ucode btrfs-progs
 ```
 
-> 根据 CPU 厂商，`intel-ucode` 与 `amd-ucode` 只需保留对应一项，另一项可省略以节省空间（保留两者也不影响正常使用）。
+> 根据 CPU 厂商，`intel-ucode` 与 `amd-ucode` 只需保留对应一项，保留两者也不影响正常使用。
 
 生成 fstab：
 
@@ -151,7 +172,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
-### 时区与本地化
+### 6.1 时区与本地化
 
 ```bash
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -170,7 +191,7 @@ locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 ```
 
-### 主机名、网络与用户
+### 6.2 主机名、网络与用户
 
 ```bash
 echo "arch" > /etc/hostname
@@ -189,7 +210,7 @@ visudo
 # 取消注释：%wheel ALL=(ALL:ALL) ALL
 ```
 
-### Mkinitcpio（Btrfs / LUKS）
+### 6.3 Mkinitcpio（Btrfs / LUKS）
 
 编辑 `/etc/mkinitcpio.conf` 中的 `HOOKS`：
 
@@ -207,7 +228,7 @@ HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont bl
 mkinitcpio -P
 ```
 
-### 引导（systemd-boot）
+### 6.4 引导（systemd-boot）
 
 ```bash
 bootctl install
@@ -239,13 +260,13 @@ initrd  /initramfs-linux.img
 
 > 提示：使用 `blkid` 查看对应分区的 UUID（无加密方案取 `p2` 的 UUID，LUKS 方案取加密分区本身的 UUID）。
 
-### 启用服务
+### 6.5 启用服务
 
 ```bash
 systemctl enable NetworkManager iwd bluetooth fstrim.timer
 ```
 
-> Btrfs 已内置压缩与 CoW 特性，`fstrim.timer` 对 SSD/NVMe 定期 TRIM 有助于维持性能。
+> `fstrim.timer` 对 SSD/NVMe 定期 TRIM 有助于维持性能。
 
 ---
 
@@ -259,7 +280,7 @@ pacman -S pipewire wireplumber pipewire-pulse btop cava
 
 配置 fcitx5 环境变量（`/etc/environment` 或 `~/.pam_environment`）：
 
-```
+```bash
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
@@ -313,6 +334,8 @@ snapper -c root cleanup number
 
 ---
 
-**维护者**：inecekk
-**Host**：Arch Linux (linux-lts) · niri · foot · fcitx5-rime · Noctalia
-```
+| | |
+|---|---|
+| **维护者** | inecekk |
+| **Host** | Arch Linux (linux-lts) |
+| **组件栈** | niri · foot · fcitx5-rime · Noctalia |

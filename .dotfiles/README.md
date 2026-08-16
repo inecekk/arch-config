@@ -315,3 +315,33 @@ dotfiles push            # 推送到 GitHub
 dotfiles pull            # 拉取远程更新
 dotfiles log --oneline -5 # 查看最近提交
 ```
+
+---
+
+## 🧰 常用管理命令
+
+### dotfiles 管理
+
+```bash
+# 在任意目录管理 dotfiles
+dotfiles status          # 查看变更
+dotfiles add FILE        # 添加新文件
+dotfiles commit -m "MSG" # 提交变更
+dotfiles push            # 推送到 GitHub
+dotfiles pull            # 拉取远程更新
+dotfiles log --oneline -5 # 查看最近提交
+dotfiles restore FILE    # 恢复单个文件
+```
+
+### backuplk 备份工具
+
+```bash
+backuplk help        # 显示帮助
+backuplk pkglist     # 备份已安装包列表 (官方+AUR)
+backuplk pkglist-full # 备份完整包列表 (含依赖 + 恢复命令)
+backuplk system      # 备份 /etc 和 /boot 配置
+backuplk dae         # 备份 dae 代理配置 (脱敏处理)
+backuplk all         # 备份所有内容
+backuplk status      # 查看定时任务状态
+backuplk log         # 查看完整备份日志
+```

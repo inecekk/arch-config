@@ -198,8 +198,9 @@ curl -fsSL https://raw.githubusercontent.com/inecekk/arch-config/main/.local/bin
 
 # 或手动克隆后执行
 install-dotfiles.sh
-install-dotfiles.sh --with-packages     # 恢复 + 自动安装软件包
-install-dotfiles.sh --with-system       # 恢复 + 同步 /etc、/boot 系统配置
+install-dotfiles.sh --with-packages           # 恢复 + 自动安装软件包 (官方+AUR, 推荐)
+install-dotfiles.sh --with-packages-full      # 恢复 + 安装完整包列表 (含依赖)
+install-dotfiles.sh --with-system             # 恢复 + 同步 /etc、/boot 系统配置
 install-dotfiles.sh --full              # 等同于 --with-packages --with-system
 install-dotfiles.sh --force             # 覆盖已有配置文件（默认备份 .bak）
 ```
@@ -209,7 +210,8 @@ install-dotfiles.sh --force             # 覆盖已有配置文件（默认备�
 | 参数 | 说明 |
 |------|------|
 | `--help`, `-h` | 显示完整帮助信息 |
-| `--with-packages` | 自动安装官方源 + AUR 包列表（来自 `.config/pkglist/`） |
+| `--with-packages` | 自动安装官方源 + AUR 包列表（来自 `.config/pkglist/`，**推荐**） |
+| `--with-packages-full` | 自动安装完整包列表（含所有依赖，来自 `pkglist-all.txt`） |
 | `--with-system` | 恢复 `/etc`、`/boot` 等系统级配置（需要 `sudo`，从 `~/.config/system-backup/` 同步） |
 | `--force` | 强制覆盖已有文件，跳过 `.bak` 备份流程 |
 | `--full` | 复合参数，等同于 `--with-packages --with-system` |
@@ -224,7 +226,8 @@ $ install-dotfiles.sh --help
 │  install-dotfiles.sh [选项]                             │
 │                                                         │
 │  --help, -h            显示本帮助信息                   │
-│  --with-packages       恢复配置 + 安装包列表            │
+│  --with-packages       恢复配置 + 安装包列表 (推荐)     │
+│  --with-packages-full  恢复完整包列表 (含依赖)          │
 │  --with-system         恢复 /etc、/boot 系统配置        │
 │  --force               强制覆盖已有文件                 │
 │  --full                等价于 --with-packages --with-system│

@@ -2,11 +2,12 @@
 # install-dotfiles.sh - 新机器一键恢复 Arch 配置（niri/foot/fcitx5/dae/noctalia 等）
 # 用法:
 #   curl -fsSL https://raw.githubusercontent.com/inecekk/arch-config/main/.local/bin/install-dotfiles.sh | bash
-#   install-dotfiles.sh --help              # 显示帮助
-#   install-dotfiles.sh --with-packages     # 恢复配置后顺便恢复包列表
-#   install-dotfiles.sh --with-system       # 顺便恢复 /etc 和 /boot 系统配置
-#   install-dotfiles.sh --force             # 已存在文件直接覆盖（默认备份 .bak）
-#   install-dotfiles.sh --full              # 等价于 --with-packages --with-system
+#   install-dotfiles.sh --help                # 显示帮助
+#   install-dotfiles.sh --with-packages       # 恢复配置后顺便恢复包列表 (pkglist-official/aur)
+#   install-dotfiles.sh --with-packages-full  # 恢复完整包列表 (pkglist-all.txt, 含依赖)
+#   install-dotfiles.sh --with-system         # 顺便恢复 /etc 和 /boot 系统配置
+#   install-dotfiles.sh --force               # 已存在文件直接覆盖（默认备份 .bak）
+#   install-dotfiles.sh --full                # 等价于 --with-packages --with-system
 
 show_help() {
     cat << 'HELP'
@@ -16,17 +17,19 @@ install-dotfiles.sh — Arch Linux dotfiles 一键安装脚本
   install-dotfiles.sh [选项]
 
 选项:
-  --help, -h             显示本帮助信息
-  --with-packages        恢复配置后自动安装 pkglist 包列表
-  --with-system          恢复 /etc、/boot 等系统级配置 (需 sudo)
-  --force                强制覆盖已有配置文件 (默认备份 .bak)
-  --full                 等价于 --with-packages --with-system
+  --help, -h               显示本帮助信息
+  --with-packages          恢复配置后自动安装 pkglist 包列表 (官方+AUR, 推荐)
+  --with-packages-full     恢复完整包列表 (含所有依赖, pkglist-all.txt)
+  --with-system            恢复 /etc、/boot 等系统级配置 (需 sudo)
+  --force                  强制覆盖已有配置文件 (默认备份 .bak)
+  --full                   等价于 --with-packages --with-system
 
 示例:
-  install-dotfiles.sh                       # 仅恢复 dotfiles
-  install-dotfiles.sh --with-packages       # 恢复 + 安装软件包
-  install-dotfiles.sh --with-system         # 恢复 + 系统配置
-  install-dotfiles.sh --full --force        # 全量恢复 + 强制覆盖
+  install-dotfiles.sh                           # 仅恢复 dotfiles
+  install-dotfiles.sh --with-packages           # 恢复 + 安装软件包 (官方+AUR)
+  install-dotfiles.sh --with-packages-full      # 恢复 + 安装完整包列表 (含依赖)
+  install-dotfiles.sh --with-system             # 恢复 + 系统配置
+  install-dotfiles.sh --full --force            # 全量恢复 + 强制覆盖
 
 恢复内容:
   • $HOME 下所有 dotfiles (niri/foot/fcitx5/dae/...)
@@ -40,6 +43,7 @@ REPO_SSH="git@github.com:inecekk/arch-config.git"
 REPO_HTTPS="https://github.com/inecekk/arch-config.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 WITH_PACKAGES=0
+WITH_PACKAGES_FULL=0
 WITH_SYSTEM=0
 FORCE=0
 
@@ -47,6 +51,7 @@ for arg in "$@"; do
     case "$arg" in
         --help|-h) show_help; exit 0 ;;
         --with-packages) WITH_PACKAGES=1 ;;
+        --with-packages-full) WITH_PACKAGES=1; WITH_PACKAGES_FULL=1 ;;
         --with-system) WITH_SYSTEM=1 ;;
         --force) FORCE=1 ;;
         --full) WITH_PACKAGES=1; WITH_SYSTEM=1 ;;
@@ -133,18 +138,30 @@ restore_zen
 
 echo "==> [3/4] 恢复包列表"
 if [ "$WITH_PACKAGES" = "1" ]; then
-    OFFICIAL="$HOME/.config/pkglist/pkglist-official.txt"
-    AUR="$HOME/.config/pkglist/pkglist-aur.txt"
-    if [ -f "$OFFICIAL" ]; then
-        echo "    恢复官方源包（$(wc -l < "$OFFICIAL") 个）..."
-        sudo pacman -S --needed - < "$OFFICIAL"
+    if [ "$WITH_PACKAGES_FULL" = "1" ]; then
+        FULL_LIST="$HOME/.config/pkglist/pkglist-all.txt"
+        if [ -f "$FULL_LIST" ]; then
+            echo "    恢复完整包列表（$(wc -l < "$FULL_LIST") 个，含依赖）..."
+            sudo pacman -S --needed - < "$FULL_LIST"
+        else
+            echo "    未找到 pkglist-all.txt，退回到官方+AUR 列表"
+            WITH_PACKAGES_FULL=0
+        fi
     fi
-    if [ -f "$AUR" ]; then
-        echo "    恢复 AUR 包（$(wc -l < "$AUR") 个）..."
-        paru -S --needed - < "$AUR" || echo "    AUR 恢复失败，请确认 paru 已安装"
+    if [ "$WITH_PACKAGES_FULL" = "0" ]; then
+        OFFICIAL="$HOME/.config/pkglist/pkglist-official.txt"
+        AUR="$HOME/.config/pkglist/pkglist-aur.txt"
+        if [ -f "$OFFICIAL" ]; then
+            echo "    恢复官方源包（$(wc -l < "$OFFICIAL") 个）..."
+            sudo pacman -S --needed - < "$OFFICIAL"
+        fi
+        if [ -f "$AUR" ]; then
+            echo "    恢复 AUR 包（$(wc -l < "$AUR") 个）..."
+            paru -S --needed - < "$AUR" || echo "    AUR 恢复失败，请确认 paru 已安装"
+        fi
     fi
 else
-    echo "    跳过（加 --with-packages 可恢复包列表）"
+    echo "    跳过（加 --with-packages 或 --with-packages-full 可恢复包列表）"
 fi
 
 echo "==> [4/4] 恢复系统级配置"

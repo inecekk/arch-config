@@ -139,76 +139,20 @@ dotfiles log --oneline -10
 
 | 组件 | 包名 | 说明 |
 |------|------|------|
-| **合成器** | `niri` | 可滚动平铺，动画流畅 |
-| **终端** | `foot` | 轻量、GPU 加速 |
-| **输入法** | `fcitx5` + `fcitx5-rime` | Rime 引擎，中英混输 |
-| **壁纸** | `swaybg` | Wayland 壁纸设置 |
-| **锁屏** | `swaylock` | 配合 swayidle 自动锁屏 |
-| **通知** | `mako` | 轻量通知守护进程 |
-
-### Noctalia 主题
-
-统一配色方案应用于：
-- `foot` 终端配色
-- `niri` 边框/活跃窗口色
-- `mako` 通知配色
-- `swaylock` 锁屏界面
-- `btop` / `cava` 监控配色
+| **合成器** | `niri` | 可滚动平铺 Wayland 合成器 |
+| **终端** | `foot` | 轻量级终端模拟器 |
+| **输入法** | `fcitx5` + `fcitx5-rime` | 中文输入法引擎 |
 
 ---
 
-## 📦 包列表备份/恢复
-
-```bash
-# 备份当前安装的包（官方源 + AUR）
-backuplk pkglist
-
-# 恢复（需在新机器上先安装 base-devel、git、paru）
-install-dotfiles.sh --with-packages
-```
-
-包列表存放位置：`~/.config/pkglist/pkglist-official.txt` / `pkglist-aur.txt`
-
-完整依赖列表：`pkglist-all.txt`（含所有依赖，用于完整复现）
-
----
-
-## 🔄 自动备份（systemd timers）
-
-```bash
-# 启用定时备份（配置文件 + 壁纸仓库）
-systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
-
-# 查看状态
-systemctl --user status dotfiles-backup.timer
-journalctl --user -u dotfiles-backup -f
-```
-
----
-
-## 🌐 相关仓库
-
-| 仓库 | 用途 | 地址 |
-|------|------|------|
-| **arch-config** (本仓库) | 系统/用户配置、脚本、包列表 | `git@github.com:inecekk/arch-config.git` |
-| **wallpapers** | 壁纸收集，定时自动备份 | `git@github.com:inecekk/wallpapers.git` |
-
----
-
-## 📋 依赖核心软件包
+## 📦 依赖核心软件包
 
 ```bash
 # 窗口/合成器
 niri foot fcitx5 fcitx5-rime
 
-# 状态栏/通知/锁屏
-mako swaybg swaylock swayidle
-
-# 系统工具
-btop cava iwd systemd-networkd mkinitcpio tlp
-
-# 字体
-noto-fonts noto-fonts-cjk ttf-jetbrains-mono-nerd
+# 字体（需手动安装）
+ttf-jetbrains-mono-nerd wqy-microhei
 
 # 音频
 pipewire wireplumber pipewire-pulse
@@ -304,4 +248,4 @@ $ install-dotfiles.sh --help
 
 > **维护者**: inecekk  
 > **最后更新**: 2025-08-16  
-> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime · mako · Noctalia
+> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime · Noctalia

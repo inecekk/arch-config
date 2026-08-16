@@ -2,6 +2,8 @@
 
 > **Bare repository dotfiles** — 直接以 `$HOME` 为工作树，无需符号链接，干净、极简。
 
+---
+
 ## 📦 仓库结构
 
 ```
@@ -9,6 +11,8 @@
 ~/                    ← 工作树（你的整个 $HOME）
 ~/.local/bin/dotfiles ← 管理别名脚本
 ```
+
+---
 
 ## 🚀 快速开始（新机器）
 
@@ -28,13 +32,20 @@ dotfiles config status.showUntrackedFiles no
 | 参数 | 作用 |
 |------|------|
 | `--with-packages` | 恢复官方源 + AUR 包列表 |
-| `--with-system`   | 恢复 `/etc`、 `/boot` 等系统级配置 |
-| `--force`         | 冲突文件直接覆盖（默认备份 `.bak`） |
+| `--with-packages-full` | 恢复完整包列表（含依赖，`pkglist-all.txt`） |
+| `--with-system` | 恢复 `/etc`、 `/boot` 等系统级配置 |
+| `--force` | 冲突文件直接覆盖（默认备份 `.bak`） |
+| `--full` | 等价于 `--with-packages --with-system` |
 
 ```bash
 # 完整恢复：配置 + 包 + 系统配置
 install-dotfiles.sh --with-packages --with-system
+
+# 完整恢复（含所有依赖包）：
+install-dotfiles.sh --with-packages-full --with-system
 ```
+
+---
 
 ## 🛠 日常管理
 
@@ -66,19 +77,20 @@ dotfiles log --oneline -10
 
 > ⚡ **提示**：把 `alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'` 加入 `.bashrc` / `.zshrc` 后可直接使用 `dotfiles` 命令。
 
+---
+
 ## 📁 追踪内容概览
 
 ### 用户配置（`$HOME`）
+
 ```
 .config/
-├── niri/           # Wayland 合成器配置
+├── niri/           # Wayland 合成器配置（核心 WM）
 ├── foot/           # 终端模拟器配置
 ├── fcitx5/         # 输入法配置（Rime、拼音、通知等）
 ├── btop/           # 系统监视器
 ├── cava/           # 音频可视化器
 ├── dae/            # 透明代理配置
-├── dwl/            # Wayland 窗口管理器（备选）
-├── denial/         # 网络配置
 ├── fontconfig/     # 字体配置
 ├── systemd/user/   # 用户级 systemd 服务
 └── ...
@@ -96,6 +108,7 @@ dotfiles log --oneline -10
 ```
 
 ### 系统级配置（`/etc`, `/boot`）→ 存放在 `~/.config/system-backup/`
+
 ```
 .config/system-backup/
 ├── etc/
@@ -116,6 +129,38 @@ dotfiles log --oneline -10
 
 > 💡 恢复系统配置需 `install-dotfiles.sh --with-system`（需 sudo 权限）
 
+---
+
+## 🎨 桌面环境：niri + Noctalia
+
+本配置专为 **niri**（可滚动平铺 Wayland 合成器）设计，配合 **Noctalia** 主题风格。
+
+### 核心组件
+
+| 组件 | 包名 | 说明 |
+|------|------|------|
+| **合成器** | `niri` | 可滚动平铺，动画流畅 |
+| **终端** | `foot` | 轻量、GPU 加速 |
+| **状态栏** | `yambar-wayland` (AUR) | 模块化，支持 niri 工作区 |
+| **启动器** | `fuzzel` | dmenu 替代，Wayland 原生 |
+| **通知** | `swaync` | 通知中心 + 控制面板 |
+| **壁纸** | `swaybg` | Wayland 壁纸设置 |
+| **锁屏** | `swaylock` | 配合 swayidle 自动锁屏 |
+| **输入法** | `fcitx5` + `fcitx5-rime` | Rime 引擎，中英混输 |
+| **文件管理** | `thunar` + `gvfs` | GTK 文件管理器 |
+
+### Noctalia 主题
+
+统一配色方案应用于：
+- `foot` 终端配色
+- `niri` 边框/活跃窗口色
+- `yambar` 状态栏配色
+- `fuzzel` 启动器配色
+- `swaylock` 锁屏界面
+- `btop` / `cava` 监控配色
+
+---
+
 ## 📦 包列表备份/恢复
 
 ```bash
@@ -128,6 +173,10 @@ install-dotfiles.sh --with-packages
 
 包列表存放位置：`~/.config/pkglist/pkglist-official.txt` / `pkglist-aur.txt`
 
+完整依赖列表：`pkglist-all.txt`（含所有依赖，用于完整复现）
+
+---
+
 ## 🔄 自动备份（systemd timers）
 
 ```bash
@@ -139,6 +188,8 @@ systemctl --user status dotfiles-backup.timer
 journalctl --user -u dotfiles-backup -f
 ```
 
+---
+
 ## 🌐 相关仓库
 
 | 仓库 | 用途 | 地址 |
@@ -146,21 +197,31 @@ journalctl --user -u dotfiles-backup -f
 | **arch-config** (本仓库) | 系统/用户配置、脚本、包列表 | `git@github.com:inecekk/arch-config.git` |
 | **wallpapers** | 壁纸收集，定时自动备份 | `git@github.com:inecekk/wallpapers.git` |
 
+---
+
 ## 📋 依赖核心软件包
 
 ```bash
 # 窗口/合成器
 niri foot fcitx5 fcitx5-rime
 
-# 状态栏/启动器
-yambar-wayland (AUR)  # 依赖 wayland, gtk4, libsoup3 等
+# 状态栏/启动器/通知
+yambar-wayland fuzzel swaync swaybg swaylock swayidle
 
 # 系统工具
-btop cava btop iwd systemd-networkd mkinitcpio
+btop cava iwd systemd-networkd mkinitcpio tlp
+
+# 字体
+noto-fonts noto-fonts-cjk ttf-jetbrains-mono-nerd
+
+# 音频
+pipewire wireplumber pipewire-pulse
 
 # 备份/同步
-git rsync inotify-tools (for auto-backup)
+git rsync inotify-tools
 ```
+
+---
 
 ## 🔐 SSH 密钥配置（推送权限）
 
@@ -176,15 +237,11 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
+---
+
 ## 📝 许可证
 
 MIT License — 随意 fork、修改、使用。
-
----
-
-> **维护者**: inecekk  
-> **最后更新**: 2025-08-16  
-> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime
 
 ---
 
@@ -193,7 +250,7 @@ MIT License — 随意 fork、修改、使用。
 ### 基本用法
 
 ```bash
-# 下载并执行（推荐 SSH 克隆）
+# 下载并执行（推荐：SSH）
 curl -fsSL https://raw.githubusercontent.com/inecekk/arch-config/main/.local/bin/install-dotfiles.sh | bash
 
 # 或手动克隆后执行
@@ -201,8 +258,8 @@ install-dotfiles.sh
 install-dotfiles.sh --with-packages           # 恢复 + 自动安装软件包 (官方+AUR, 推荐)
 install-dotfiles.sh --with-packages-full      # 恢复 + 安装完整包列表 (含依赖)
 install-dotfiles.sh --with-system             # 恢复 + 同步 /etc、/boot 系统配置
-install-dotfiles.sh --full              # 等同于 --with-packages --with-system
-install-dotfiles.sh --force             # 覆盖已有配置文件（默认备份 .bak）
+install-dotfiles.sh --full                    # 等同于 --with-packages --with-system
+install-dotfiles.sh --force                   # 覆盖已有配置文件（默认备份 .bak）
 ```
 
 ### 参数说明
@@ -237,116 +294,6 @@ $ install-dotfiles.sh --help
   • $HOME 下所有 dotfiles (niri/foot/fcitx5/dae/...)
   • ~/.config/system-backup/ 下的 /etc、/boot 配置
   • ~/.config/pkglist/ 下的官方源 + AUR 包列表
-  • zen 浏览器用户样式 (自动合并到默认 profile)
-```
-
-### 恢复的系统级配置清单
-
-| 分类 | 文件/目录 | 说明 |
-|------|-----------|------|
-| 核心系统 | `fstab`, `mkinitcpio.conf`, `locale.conf`, `hostname`, `vconsole.conf` | 文件系统挂载、初始化RAM盘、本地化 |
-| 网络 | `iwd/main.conf`, `systemd/network/*.network` | Wi-Fi 认证配置、网络管理 |
-| 包管理 | `pacman.conf`, `paru.conf`, `makepkg.conf` | 包源镜像、AUR 助手、编译配置 |
-| 电源管理 | `tlp.conf` | Linux 电源优化 |
-| 本地化 | `locale.gen` | 语系生成配置 |
-| 服务默认值 | `default/*` | GRUB、sndiod 等系统服务默认参数 |
-| 内核模块 | `modprobe.d/*.conf` | 看门狗黑名单、AMD GPU 调试掩码、WiFi 电源 |
-| 防火墙 | `nftables.conf`, `arptables.conf`, `ebtables.conf` | 网络过滤规则 |
-| 系统服务 | `systemd/system/disable-wakeup.service` | 禁止 RTL8852BE 唤醒（修复合盖秒醒） |
-| 启动配置 | `boot/loader/*` | systemd-boot 引导配置 |
-
-### 安装后手动步骤
-
-安装完成后，请务必执行以下步骤：
-
-1. **启用自动备份定时器**
-   ```bash
-   systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
-   ```
-
-2. **检查桌面环境**
-   ```bash
-   # 确认 niri 合成器正常
-   niri --version
-   # 检测 fcitx5 输入法状态
-   fcitx5-diagnose
-   # 查看 foot 终端配置
-   cat ~/.config/foot/foot.ini
-   ```
-
-3. **同步系统配置（如使用 --with-system）**
-   ```bash
-   # 若恢复 locale.gen，请生成语系
-   sudo locale-gen
-   # 若恢复 nftables，请加载规则
-   sudo nft -f /etc/nftables.conf
-   ```
-
-4. **验证 fstab（如恢复）**
-   ```bash
-   # 校验 UUID 合法性
-   lsblk -f
-   findmnt -D
-   ```
-
----
-
-### 🔄 自动备份 (Systemd Timers)
-
-```bash
-# 启用自动备份定时器
-systemctl --user enable --now dotfiles-backup.timer wallpapers-backup.timer
-
-# 查看状态
-systemctl --user status dotfiles-backup.timer wallpapers-backup.timer
-
-# 查看日志
-journalctl --user -u dotfiles-backup -f
-```
-
-> - `dotfiles-backup.timer`: 每日备份 `$HOME` 配置文件到 `~/.config/system-backup/`
-> - `wallpapers-backup.timer`: 定期同步壁纸仓库
-
-### 🧰 常用管理命令
-
-```bash
-# 在任意目录管理 dotfiles
-dotfiles status          # 查看变更
-dotfiles add FILE        # 添加新文件
-dotfiles commit -m "MSG" # 提交变更
-dotfiles push            # 推送到 GitHub
-dotfiles pull            # 拉取远程更新
-dotfiles log --oneline -5 # 查看最近提交
-```
-
----
-
-## 🧰 常用管理命令
-
-### dotfiles 管理
-
-```bash
-# 在任意目录管理 dotfiles
-dotfiles status          # 查看变更
-dotfiles add FILE        # 添加新文件
-dotfiles commit -m "MSG" # 提交变更
-dotfiles push            # 推送到 GitHub
-dotfiles pull            # 拉取远程更新
-dotfiles log --oneline -5 # 查看最近提交
-dotfiles restore FILE    # 恢复单个文件
-```
-
-### backuplk 备份工具
-
-```bash
-backuplk help        # 显示帮助
-backuplk pkglist     # 备份已安装包列表 (官方+AUR)
-backuplk pkglist-full # 备份完整包列表 (含依赖 + 恢复命令)
-backuplk system      # 备份 /etc 和 /boot 配置
-backuplk dae         # 备份 dae 代理配置 (脱敏处理)
-backuplk all         # 备份所有内容
-backuplk status      # 查看定时任务状态
-backuplk log         # 查看完整备份日志
 ```
 
 ---
@@ -356,3 +303,9 @@ backuplk log         # 查看完整备份日志
 详细的 **手动安装 Arch Linux 步骤** 请参考单独文档：
 
 [📄 install-arch.md](install-arch.md) —— 含分区、加密、systemd-boot、LUKS、niri 桌面、Dotfiles 恢复、常见问题等完整流程
+
+---
+
+> **维护者**: inecekk  
+> **最后更新**: 2025-08-16  
+> **Host**: Arch Linux (linux-lts) · niri · foot · fcitx5-rime · yambar-wayland · Noctalia

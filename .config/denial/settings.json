@@ -1,0 +1,84 @@
+{
+  "animations": {
+    "animateLockScreen": true,
+    "durationScale": 1.0,
+    "panelTravel": 32.0,
+    "windowCloseEffect": "explosion"
+  },
+  "appearance": {
+    "accentSource": "wallpaper",
+    "backdropBlurEnabled": true,
+    "backdropBlurOpacityThreshold": 0.05,
+    "backdropBlurSigma": 18.0,
+    "cursorSize": 32.0,
+    "customAccentColor": 4291869951,
+    "focusedWindowOpacity": 1.0,
+    "panelOpacity": 0.75,
+    "panelRadius": 28.0,
+    "unfocusedWindowOpacity": 1.0,
+    "windowRadius": 8.0
+  },
+  "keyboard": {
+    "layouts": [
+      {
+        "layout": "us",
+        "variant": ""
+      }
+    ],
+    "options": [],
+    "repeatDelayMs": 600,
+    "repeatRateHz": 25
+  },
+  "layout": {
+    "clipboardTrayEdge": "right",
+    "clipboardTrayExtent": 250.0,
+    "maximizePadding": 10.0,
+    "systemBarOutputs": [
+      "eDP-1"
+    ],
+    "systemBarSide": "top",
+    "systemBarThickness": 32.0
+  },
+  "localization": {
+    "locale": "system"
+  },
+  "lockScreen": {
+    "blurRadius": 8.0,
+    "clockScale": 1.0,
+    "dimAmount": 0.24,
+    "showSystemStatus": true,
+    "useSystemWallpaper": true
+  },
+  "overlays": {
+    "dashboard": {
+      "anchor": "bottomLeft",
+      "height": 620.0,
+      "margin": 14.0,
+      "width": 470.0
+    },
+    "launcher": {
+      "anchor": "topLeft",
+      "height": 620.0,
+      "margin": 14.0,
+      "width": 680.0
+    },
+    "notifications": {
+      "anchor": "topLeft",
+      "height": 640.0,
+      "margin": 16.0,
+      "width": 410.0
+    },
+    "systemHud": {
+      "anchor": "bottomCenter",
+      "height": 74.0,
+      "margin": 28.0,
+      "width": 380.0
+    }
+  },
+  "power": {
+    "idleDpmsEnabled": true,
+    "idleDpmsTimeoutMinutes": 10
+  },
+  "revision": 16,
+  "version": 8
+}

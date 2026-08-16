@@ -1,6 +1,6 @@
 # Arch Linux 手动安装指南
 
-**Btrfs + 子卷方案 · niri Wayland 桌面**
+**Btrfs + 子卷方案 · niri Wayland 桌面 · Noctalia Shell**
 
 > - 适用场景：UEFI + systemd-boot + Btrfs（含子卷）+ LUKS 加密（可选）
 > - 目标磁盘：`/dev/nvme0n1`（NVMe）或 `/dev/sda`（SATA）
@@ -16,7 +16,7 @@
 - [4. 镜像源优化](#4-镜像源优化)
 - [5. 基础系统安装](#5-基础系统安装)
 - [6. 系统配置](#6-系统配置)
-- [7. 桌面环境](#7-桌面环境niri--相关组件)
+- [7. 桌面环境](#7-桌面环境niri--noctalia)
 - [8. 重启进入系统](#8-重启进入系统)
 - [9. 恢复个人配置](#9-恢复个人配置dotfiles)
 - [10. 日常维护](#10-日常维护)
@@ -149,6 +149,20 @@ reflector --country China --age 12 --protocol https --sort rate \
   --save /etc/pacman.d/mirrorlist
 ```
 
+**添加 archlinuxcn 源**（Noctalia、niri 等较新/AUR 打包软件可通过该源直接安装，避免手动编译）：
+
+```bash
+cat >> /etc/pacman.conf << EOF
+
+[archlinuxcn]
+Server = https://repo.archlinuxcn.org/\$arch
+EOF
+
+pacman -Sy archlinuxcn-keyring
+```
+
+> 也可将 Server 替换为国内镜像站（如中科大 `https://mirrors.ustc.edu.cn/archlinuxcn/$arch`）以提升下载速度。
+
 ## 5. 基础系统安装
 
 ```bash
@@ -210,6 +224,8 @@ visudo
 # 取消注释：%wheel ALL=(ALL:ALL) ALL
 ```
 
+> chroot 内若要使用 archlinuxcn 源，需重复第 4 步中 `/etc/pacman.conf` 的配置（chroot 环境与安装环境的 pacman.conf 是独立的）。
+
 ### 6.3 Mkinitcpio（Btrfs / LUKS）
 
 编辑 `/etc/mkinitcpio.conf` 中的 `HOOKS`：
@@ -270,13 +286,16 @@ systemctl enable NetworkManager iwd bluetooth fstrim.timer
 
 ---
 
-## 7. 桌面环境（niri + 相关组件）
+## 7. 桌面环境（niri + Noctalia）
 
 ```bash
-pacman -S niri foot fcitx5 fcitx5-rime swaybg swaylock swayidle mako
-pacman -S noto-fonts noto-fonts-cjk ttf-jetbrains-mono-nerd
+pacman -S niri noctalia-shell foot fcitx5 fcitx5-rime
+pacman -S wqy-microhei ttf-jetbrains-mono-nerd
 pacman -S pipewire wireplumber pipewire-pulse btop cava
 ```
+
+> - `noctalia-shell` 来自 archlinuxcn 源，提供 Wayland shell（状态栏、锁屏、壁纸、通知等），因此无需单独安装 `swaybg`/`swaylock`/`swayidle`/`mako`。
+> - `wqy-microhei`（文泉驿微米黑）作为中文字体，可根据需要额外安装 `wqy-zenhei` 或思源字体补充覆盖率。
 
 配置 fcitx5 环境变量（`/etc/environment` 或 `~/.pam_environment`）：
 
@@ -314,7 +333,7 @@ dotfiles config status.showUntrackedFiles no
 ## 10. 日常维护
 
 ```bash
-# 系统更新（含 AUR）
+# 系统更新（含 AUR / archlinuxcn）
 paru -Syu
 
 # 清理 pacman 缓存，仅保留最近 3 个版本
@@ -338,4 +357,4 @@ snapper -c root cleanup number
 |---|---|
 | **维护者** | inecekk |
 | **Host** | Arch Linux (linux-lts) |
-| **组件栈** | niri · foot · fcitx5-rime · Noctalia |
+| **组件栈** | niri · Noctalia · foot · fcitx5-rime · archlinuxcn |

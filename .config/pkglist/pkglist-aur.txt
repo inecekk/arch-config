@@ -1,12 +1,9 @@
-archlinuxcn-keyring
 go-musicfox-git
+impala
 linuxqq
 materialgram-bin
 miyu
 neofetch-git
 osu-lazer-bin
-paru
 spacefm-bin
-visual-studio-code-bin
-voicefox
 zen-browser-bin

@@ -1,11 +1,12 @@
-# 显式安装软件包清单 (57 个)
+# 显式安装软件包清单 (54 个)
 
-> 来源: `pacman -Qqe`  
-> 更新时间: 2025-08-16
+> 来源: `pacman -Qqe` + AUR 包  
+> 更新时间: 2025-08-16  
+> 官方源: 45 个 | AUR: 9 个
 
 ---
 
-## 📦 分类清单
+## 📦 官方源包 (45)
 
 ### 基础系统 (8)
 ```
@@ -19,9 +20,9 @@ amd-ucode btrfs-progs efibootmgr wireless-regdb
 alsa-utils upower
 ```
 
-### 网络与安全 (4)
+### 网络与安全 (5)
 ```
-iwd avahi openssh wireless-regdb
+iwd avahi openssh wireless-regdb tlp
 ```
 
 ### 桌面环境 (12)
@@ -30,31 +31,19 @@ niri foot fcitx5 fcitx5-gtk fcitx5-qt fcitx5-rime
 noctalia swaybg swayidle swaylock swaync waybar
 ```
 
-### 字体 (4)
+### 字体 (3)
 ```
-ttf-jetbrains-mono wqy-microhei noto-fonts noto-fonts-cjk noto-fonts-emoji
+ttf-jetbrains-mono wqy-microhei noto-fonts
 ```
 
-### 音频 (5)
+### 音频 (4)
 ```
 pipewire pipewire-alsa pipewire-pulse wireplumber
 ```
 
-### 工具与实用程序 (12)
+### 工具与实用程序 (7)
 ```
-btop dust tree jq neofetch-git impala
-go-musicfox-git mpv osu-lazer-bin voicefox
-zen-browser-bin
-```
-
-### 开发与编辑器 (2)
-```
-visual-studio-code-bin vim
-```
-
-### 电源与外设 (6)
-```
-tlp brightnessctl bluetui bluez-utils
+btop dust tree jq neofetch-git impala mpv
 ```
 
 ### 截图录屏 (3)
@@ -62,9 +51,14 @@ tlp brightnessctl bluetui bluez-utils
 wf-recorder grim slurp
 ```
 
-### 代理与输入法 (4)
+### 电源与外设 (3)
 ```
-dae rime-double-pinyin qt6-websockets
+tlp brightnessctl bluez-utils
+```
+
+### 代理与输入法 (2)
+```
+dae qt6-websockets
 ```
 
 ### 文件管理 (2)
@@ -77,12 +71,60 @@ spacefm-bin w3m
 paru rsync inotify-tools
 ```
 
-### 其他 (6)
+---
+
+## 📦 AUR 包 (9)
+
+### 通信/社交
 ```
-archlinuxcn-keyring miyu vnstat alsa-utils upower
+linuxqq materialgram-bin
+```
+
+### 开发/工具
+```
+go-musicfox-git miyu visual-studio-code-bin
+```
+
+### 游戏/娱乐
+```
+osu-lazer-bin zen-browser-bin
+```
+
+### 文件管理/其他
+```
+spacefm-bin neofetch-git
 ```
 
 ---
 
-> 总计: **57 个显式安装包**  
-> 完整依赖列表: `pacman -Qq` (含依赖)
+## 🔧 安装方法
+
+### 一键安装 (推荐)
+```bash
+# 安装官方源包
+sudo pacman -S --needed - < ~/.dotfiles/pkglist-official.txt
+
+# 安装 AUR 包 (需 paru)
+paru -S --needed - < ~/.dotfiles/pkglist-aur.txt
+
+# 或完整安装
+paru -S --needed - < ~/.dotfiles/pkglist-all.txt
+```
+
+### 通过 dotfiles 恢复
+```bash
+# 克隆后自动恢复包
+install-dotfiles.sh --with-packages
+```
+
+---
+
+## 📋 总计
+
+| 类型 | 数量 |
+|------|------|
+| 官方源 | 45 |
+| AUR | 9 |
+| **总计** | **54** |
+
+> 完整依赖列表: `pacman -Qq` (含依赖, 通常 500+ 个)

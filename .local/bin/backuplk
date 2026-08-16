@@ -12,9 +12,10 @@ backuplk - Arch 配置自动备份工具
   backuplk          手动备份并显示结果
   backuplk backup   手动备份并显示结果（同默认）
   backuplk dae      备份 dae 代理配置（脱敏处理）
-  backuplk system   备份系统配置（fstab/iwd/boot loader/mkinitcpio/networkd）
-  backuplk pkglist  备份已安装包列表（重装恢复用）
-  backuplk all      备份所有内容
+  backuplk system   备份系统配置（fstab/mkinitcpio/boot loader/networkd）
+  backuplk pkglist  备份已安装包列表（.md 格式，重装恢复用）
+  backuplk pkglist-full  备份完整依赖包列表（含依赖，.md 格式）
+  backuplk all      备份所有内容（含自动提交推送）
   backuplk status   查看定时器下次执行时间
   backuplk log      查看完整备份日志
   backuplk help     显示本帮助
@@ -24,10 +25,10 @@ backuplk - Arch 配置自动备份工具
                     (含 niri、foot、fcitx5 等核心配置)
   壁纸          -> https://github.com/inecekk/wallpapers
   backup 脚本   -> ~/.local/bin/backuplk
-  定时任务      -> ~/.config/systemd/user/ 下的两个 timer（每天 13:00 自动执行)
+  定时任务      -> ~/.config/systemd/user/ 下的 timer（每天 13:00 自动执行)
   dae 配置      -> ~/.config/dae/（敏感信息已脱敏）
   系统配置      -> ~/.config/system-backup/（fstab/loader/mkinitcpio/iwd 等）
-  包列表        -> ~/.config/pkglist/（官方源 + AUR 分开存）
+  包列表        -> ~/.dotfiles/（.md 格式，官方源 + AUR 分开存，每行3个包）
 
 日志查看:
   journalctl --user -u dotfiles-backup.service --no-pager -n 10
@@ -51,14 +52,12 @@ backup_now() {
 
 backup_dae() {
     echo "== 备份 dae 配置 =="
-    # 创建临时目录存放脱敏配置
     mkdir -p /tmp/dae-backup
-    # 复制配置文件并脱敏敏感信息
     sudo sed -E 's/(anytls:\/\/|ss:\/\/|vmess:\/\/|vless:\/\/)[^@ ]*/\1[REDACTED]/g; s/uuid:[a-f0-9-]+/uuid:[REDACTED]/g' /etc/dae/config.dae > /tmp/dae-backup/config.dae
-    # 复制到 dotfiles 仓库目录
     mkdir -p "$HOME/.config/dae"
     cp /tmp/dae-backup/config.dae "$HOME/.config/dae/config.dae"
-    rm -rf /tmp/dae-backup
+    rm -f /tmp/dae-backup/config.dae
+    rmdir /tmp/dae-backup
     echo "dae 配置已脱敏备份到 ~/.config/dae/config.dae"
 }
 
@@ -67,7 +66,6 @@ backup_system() {
     SYSBK="$HOME/.config/system-backup"
     mkdir -p "$SYSBK/etc" "$SYSBK/boot/loader/entries"
 
-    # /etc 下的关键配置（存在才复制）
     for f in fstab mkinitcpio.conf locale.conf hostname vconsole.conf; do
         if [ -f "/etc/$f" ]; then
             cp "/etc/$f" "$SYSBK/etc/$f"
@@ -75,39 +73,33 @@ backup_system() {
         fi
     done
 
-    # networkd 配置（备份到 system-backup，避免占用用户级 networkd 目录）
     mkdir -p "$SYSBK/etc/systemd/network"
-    cp /etc/systemd/network/*.network "$SYSBK/etc/systemd/network/" 2>/dev/null
-    echo "    /etc/systemd/network/*.network"
+    cp /etc/systemd/network/*.network "$SYSBK/etc/systemd/network/" 2>/dev/null && echo "    /etc/systemd/network/*.network"
 
-    # iwd 配置（不含密码；PSK 在 /var/lib/iwd，特意不入库）
     if [ -f /etc/iwd/main.conf ]; then
         mkdir -p "$SYSBK/etc/iwd"
         cp /etc/iwd/main.conf "$SYSBK/etc/iwd/main.conf"
         echo "    /etc/iwd/main.conf"
     fi
-    # disable-wakeup 服务（合盖休眠防网卡唤醒）
+
     if [ -f /etc/systemd/system/disable-wakeup.service ]; then
         mkdir -p "$SYSBK/etc/systemd/system"
         cp /etc/systemd/system/disable-wakeup.service "$SYSBK/etc/systemd/system/disable-wakeup.service"
         echo "    /etc/systemd/system/disable-wakeup.service"
     fi
 
-    # systemd-boot（loader.conf + 启动项）
     if [ -f /boot/loader/loader.conf ]; then
         cp /boot/loader/loader.conf "$SYSBK/boot/loader/loader.conf"
         echo "    /boot/loader/loader.conf"
     fi
     cp /boot/loader/entries/*.conf "$SYSBK/boot/loader/entries/" 2>/dev/null && echo "    /boot/loader/entries/*.conf"
 
-    # grub 兼容（如果还在用 grub）
     if [ -f /etc/default/grub ]; then
         mkdir -p "$HOME/.config/grub"
         grep -E "^(GRUB_DEFAULT|GRUB_TIMEOUT|GRUB_CMDLINE)" /etc/default/grub > "$HOME/.config/grub/grub.cfg" 2>/dev/null
         echo "    /etc/default/grub (关键项)"
     fi
 
-    # iwd WiFi 密码在 /var/lib/iwd（含 PSK 明文，不备份），提醒手动重配
     if [ -d /var/lib/iwd ]; then
         echo "    提示: iwd WiFi 密码在 /var/lib/iwd，含明文 PSK 不入库，重装后需手动 iwctl connect"
     fi
@@ -115,14 +107,68 @@ backup_system() {
     echo "系统配置已备份到 $SYSBK（重装后 install-dotfiles.sh --with-system 恢复）"
 }
 
+format_packages_3cols() {
+    local input_file="$1"
+    local output_file="$2"
+    local title="$3"
+    
+    # Read packages, group by 3
+    packages=($(cat "$input_file"))
+    total=${#packages[@]}
+    
+    {
+        echo "# $title"
+        echo ""
+        echo "> 来源: \`pacman -Qqe\`"
+        echo "> 更新时间: $(date '+%Y-%m-%d')"
+        echo ""
+        
+        # Group by 3 columns
+        for ((i=0; i<total; i+=3)); do
+            line=""
+            for ((j=0; j<3; j++)); do
+                idx=$((i + j))
+                if [ $idx -lt $total ]; then
+                    printf -v pkg "%-25s" "${packages[$idx]}"
+                    line="$line$pkg"
+                fi
+            done
+            echo "$line"
+        done
+        echo ""
+        echo "**总计: $total 个**"
+    } > "$output_file"
+}
+
 backup_pkglist() {
     echo "== 备份包列表 =="
-    mkdir -p "$HOME/.config/pkglist"
-    pacman -Qqen > "$HOME/.config/pkglist/pkglist-official.txt"
-    pacman -Qqem > "$HOME/.config/pkglist/pkglist-aur.txt"
-    echo "官方源: $(wc -l < "$HOME/.config/pkglist/pkglist-official.txt") 个"
-    echo "AUR:    $(wc -l < "$HOME/.config/pkglist/pkglist-aur.txt") 个"
-    echo "已备份到 ~/.config/pkglist/"
+    mkdir -p "$HOME/.dotfiles"
+
+    # 官方源包
+    pacman -Qqen > "$HOME/.dotfiles/pkglist-official.txt"
+    # AUR 包
+    pacman -Qqem > "$HOME/.dotfiles/pkglist-aur.txt"
+    # 合并列表
+    cat "$HOME/.dotfiles/pkglist-official.txt" "$HOME/.dotfiles/pkglist-aur.txt" | sort -u > "$HOME/.dotfiles/pkglist-all.txt"
+
+    # 格式化为 markdown (每行3个包)
+    format_packages_3cols "$HOME/.dotfiles/pkglist-official.txt" "$HOME/.dotfiles/pkglist-official.md" "官方源包列表"
+    format_packages_3cols "$HOME/.dotfiles/pkglist-aur.txt" "$HOME/.dotfiles/pkglist-aur.md" "AUR 包列表"
+    
+    # 合并列表 markdown
+    cat "$HOME/.dotfiles/pkglist-all.txt" > "$HOME/.dotfiles/pkglist-all.md"
+
+    echo "官方源: $(wc -l < "$HOME/.dotfiles/pkglist-official.txt") 个"
+    echo "AUR:    $(wc -l < "$HOME/.dotfiles/pkglist-aur.txt") 个"
+    echo "已备份到 ~/.dotfiles/ (md 格式，每行3个包)"
+}
+
+backup_pkglist_full() {
+    echo "== 备份完整依赖包列表 =="
+    mkdir -p "$HOME/.dotfiles"
+    pacman -Qq > "$HOME/.dotfiles/pkglist-full.md"
+    echo "完整依赖列表: $(wc -l < "$HOME/.dotfiles/pkglist-full.md") 个"
+    echo "已备份到 ~/.dotfiles/pkglist-full.md"
 }
 
 show_status() {
@@ -138,14 +184,33 @@ show_log() {
     journalctl --user -u "$WALL_SERVICE" --no-pager -n 20
 }
 
+auto_commit_push() {
+    echo "== 自动提交并推送 =="
+    cd "$HOME"
+    git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" add \
+        .dotfiles/pkglist-*.md \
+        .dotfiles/pkglist-*.txt \
+        .config/dae/ \
+        .config/system-backup/ \
+        .local/bin/backuplk \
+        2>/dev/null
+    if git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" diff --cached --quiet; then
+        echo "无新变更，跳过提交"
+    else
+        git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" commit -m "feat: 自动备份更新 $(date '+%Y-%m-%d %H:%M')" 2>/dev/null
+        git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" push origin main 2>&1 | tail -3
+    fi
+}
+
 case "${1:-backup}" in
-    backup|"") backup_now ;;
-    status)    show_status ;;
-    log)       show_log ;;
-    dae)       backup_dae ;;
-    system)    backup_system ;;
-    pkglist)   backup_pkglist ;;
-    all)       backup_now; backup_dae; backup_system; backup_pkglist ;;
-    help|-h|--help) print_help ;;
-    *) echo "未知参数: $1（可用: backup / status / log / dae / system / pkglist / all / help）" ;;
+    backup|"")       backup_now ;;
+    status)          show_status ;;
+    log)             show_log ;;
+    dae)             backup_dae ;;
+    system)          backup_system ;;
+    pkglist)         backup_pkglist ;;
+    pkglist-full)    backup_pkglist_full ;;
+    all)             backup_now; backup_dae; backup_system; backup_pkglist; backup_pkglist_full; auto_commit_push ;;
+    help|-h|--help)  print_help ;;
+    *) echo "未知参数: $1（可用: backup / status / log / dae / system / pkglist / pkglist-full / all / help）" ;;
 esac

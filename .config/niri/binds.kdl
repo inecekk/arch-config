@@ -1,110 +1,124 @@
 binds {
     // ═══════════════════════════════════════════
-    // 1. 系统通用与截图
+    // 1. 系统通用（去重复）
     // ═══════════════════════════════════════════
     "Mod+Slash"              hotkey-overlay-title="快捷键帮助"           { show-hotkey-overlay; }
     "Mod+Shift+E"             hotkey-overlay-title="退出 Niri"            { quit; }
-    "Mod+S"             	hotkey-overlay-title="区域截图"              { screenshot; }          
-    "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
     "Print"                   hotkey-overlay-title="区域截图"              { screenshot; }
-    "XF86SelectiveScreenshot" hotkey-overlay-title="区域截图"              { screenshot; }
+    "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
     "Mod+F5"                  hotkey-overlay-title="热重载配置"            { spawn-sh "niri msg action load-config-file"; }
-    "Mod+Shift+S"               hotkey-overlay-title="录屏开关"              { spawn-sh "pkill -INT -x wf-recorder || (mkdir -p ~/Videos && wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4)"; }
-    // 蓝牙键盘多媒体键
+    
+    // 优化：Mod+Shift+S 改为截图(剪贴板)，录屏移到 Mod+Shift+R
+    "Mod+Shift+S"             hotkey-overlay-title="区域截图(剪贴板)"      { spawn-sh "grim -g \"$(slurp)\" - | wl-copy"; }
+    "Mod+Shift+R"             hotkey-overlay-title="录屏开关"              { spawn-sh "pkill -INT -x wf-recorder || (mkdir -p ~/Videos && wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4)"; }
+    
     "XF86AudioPrev"           hotkey-overlay-title="上一首"                { spawn "playerctl" "previous"; }
     "XF86AudioPlay"           hotkey-overlay-title="播放/暂停"             { spawn "playerctl" "-p" "musicfox" "play-pause"; }
     "XF86AudioNext"           hotkey-overlay-title="下一首"                { spawn "playerctl" "next"; }
 
     // ═══════════════════════════════════════════
-    // 2. 应用启动
+    // 2. 应用启动（去重复，统一模式）
     // ═══════════════════════════════════════════
-    "Mod+Return"              hotkey-overlay-title="强制新开终端"           { spawn "foot"; }
+    "Mod+Return"              hotkey-overlay-title="新建终端"              { spawn "foot"; }
     "Mod+Shift+Return"        hotkey-overlay-title="终端(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
-    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }        // Win11: Win+E
+    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }
     "Mod+G"                   hotkey-overlay-title="Chromium"             { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"chromium\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || chromium"; }
     "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
-    "XF86Assistant"           hotkey-overlay-title="Zen 浏览器(聚焦/新建)" { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
-    "Mod+Shift+C"             hotkey-overlay-title="VSCode"                { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
-    "Mod+T"                   hotkey-overlay-title="Materialgram"          { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
+    
+    // 优化：小爱键从 Zen 改为应用菜单
+    "XF86Assistant"           hotkey-overlay-title="应用菜单"              { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    
+    "Mod+Shift+C"             hotkey-overlay-title="VSCode"               { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
+    "Mod+T"                   hotkey-overlay-title="Materialgram"         { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
     "Mod+Y"                   hotkey-overlay-title="QQ"                    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
     "Mod+M"                   hotkey-overlay-title="music(聚焦/新建)"      { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title == \"musicfox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -o colors.alpha=0.8 -T musicfox -e musicfox"; }
-    "Mod+shift+N"             hotkey-overlay-title="nnn(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"nnn\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -T nnn -e nnn"; }
-    "Mod+N"    hotkey-overlay-title="Noctalia 主页"    { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
-    // ═══════════════════════════════════════════
-    // 3. Noctalia 面板交互 (Win11: 任务栏/操作中心/搜索)
-    // ═══════════════════════════════════════════
-    "Mod+A"                   hotkey-overlay-title="控制面板"              { spawn "noctalia" "panel-open" "control-center"; }   // Win11: Win+A
-    "Mod+D"                   hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; } // Win11: Win+S
-    "XF86Search"              hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
-    "XF86LaunchB"             hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
-    "Mod+X"                   hotkey-overlay-title="启动菜单"              { spawn "noctalia" "panel-open" "launcher"; }         // Win11: Win+X
-    "Mod+V"                   hotkey-overlay-title="剪贴板历史"            { spawn "noctalia" "msg" "panel-toggle" "clipboard"; } // Win11: Win+V
-    "Mod+Shift+L"             hotkey-overlay-title="关机菜单"              { spawn "noctalia" "msg" "panel-open" "session"; }
-    "Mod+Shift+Alt+Return"    hotkey-overlay-title="随机全铺满壁纸"     	   										{ spawn "sh" "-c" "noctalia msg wallpaper-random && noctalia msg templates-apply"; }
+    
+    // 优化：删掉 Mod+shift+N (nnn)，功能冗余
+    // 优化：删掉 Mod+H（和 Mod+3/Mod+Alt+Slash 重复）
+    
+    "Mod+N"                   hotkey-overlay-title="Noctalia 主页"         { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
 
     // ═══════════════════════════════════════════
-    // 4. Noctalia 系统开关控制 (Win11: 快速设置)
+    // 3. Noctalia 面板交互
     // ═══════════════════════════════════════════
-    "Mod+I"                   hotkey-overlay-title="系统设置"              { spawn "noctalia" "msg" "settings-open"; }           // Win11: Win+I
-    "Mod+L"                   hotkey-overlay-title="锁定屏幕"              { spawn "noctalia" "msg" "session" "lock"; } // Win11: Win+L
-    "Mod+Alt+B"                hotkey-overlay-title="蓝牙切换"              { spawn "noctalia" "msg" "bluetooth-toggle"; }
-    "Mod+Alt+W"                hotkey-overlay-title="Wi-Fi 切换"            { spawn "noctalia" "msg" "wifi-toggle"; }
-    "Mod+Alt+M"                hotkey-overlay-title="麦克风静音"            { spawn "noctalia" "msg" "mic-mute"; }
-    "Mod+Alt+N"                hotkey-overlay-title="勿扰模式"              { spawn "noctalia" "msg" "notification-dnd-toggle"; }
-    "Mod+Alt+C"                hotkey-overlay-title="休眠抑制"              { spawn "noctalia" "msg" "caffeine-toggle"; }
-    "Mod+Alt+T"                hotkey-overlay-title="夜间模式"              { spawn "noctalia" "msg" "nightlight-toggle"; }
-    "Mod+Alt+R"                hotkey-overlay-title="系统重启"              { spawn "noctalia" "msg" "session" "reboot"; }
-    "Mod+Shift+Alt+Q"           hotkey-overlay-title="强制关机"              { spawn "noctalia" "msg" "session" "shutdown"; }
-    "Mod+B"               hotkey-overlay-title="切换状态栏"            { spawn "noctalia" "msg" "bar-toggle"; }
-    "Mod+Ctrl+D"               hotkey-overlay-title="切换 Dock"             { spawn "noctalia" "msg" "dock-toggle"; }
-    "Mod+Ctrl+W"               hotkey-overlay-title="切换小部件"            { spawn "noctalia" "msg" "desktop-widgets-toggle"; }
-    "Mod+Ctrl+M"               hotkey-overlay-title="主题切换"              { spawn "noctalia" "msg" "theme-mode-toggle"; }
-    "XF86PowerOff"             hotkey-overlay-title="锁屏加睡眠"            { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"; }
+    "Mod+A"                   hotkey-overlay-title="控制面板"              { spawn "noctalia" "panel-open" "control-center"; }
+    "Mod+D"                   hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    "XF86Search"              hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    "XF86LaunchB"             hotkey-overlay-title="搜索/启动器"           { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    "Mod+X"                   hotkey-overlay-title="启动菜单"              { spawn "noctalia" "panel-open" "launcher"; }
+    "Mod+V"                   hotkey-overlay-title="剪贴板历史"            { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    "Mod+Shift+L"             hotkey-overlay-title="关机菜单"              { spawn "noctalia" "msg" "panel-open" "session"; }
+    
+    // 优化：4键组合改为3键
+    "Mod+Shift+W"             hotkey-overlay-title="随机壁纸"              { spawn-sh "noctalia msg wallpaper-random && noctalia msg templates-apply"; }
+
+    // ═══════════════════════════════════════════
+    // 4. Noctalia 系统开关控制
+    // ═══════════════════════════════════════════
+    "Mod+I"                   hotkey-overlay-title="系统设置"              { spawn "noctalia" "msg" "settings-open"; }
+    "Mod+L"                   hotkey-overlay-title="锁定屏幕"              { spawn "noctalia" "msg" "session" "lock"; }
+    "Mod+Alt+B"               hotkey-overlay-title="蓝牙切换"              { spawn "noctalia" "msg" "bluetooth-toggle"; }
+    "Mod+Alt+W"               hotkey-overlay-title="Wi-Fi 切换"            { spawn "noctalia" "msg" "wifi-toggle"; }
+    "Mod+Alt+M"               hotkey-overlay-title="麦克风静音"            { spawn "noctalia" "msg" "mic-mute"; }
+    "Mod+Alt+N"               hotkey-overlay-title="勿扰模式"              { spawn "noctalia" "msg" "notification-dnd-toggle"; }
+    "Mod+Alt+C"               hotkey-overlay-title="休眠抑制"              { spawn "noctalia" "msg" "caffeine-toggle"; }
+    "Mod+Alt+T"               hotkey-overlay-title="夜间模式"              { spawn "noctalia" "msg" "nightlight-toggle"; }
+    "Mod+Alt+R"               hotkey-overlay-title="系统重启"              { spawn "noctalia" "msg" "session" "reboot"; }
+    "Mod+Shift+Alt+Q"         hotkey-overlay-title="强制关机"              { spawn "noctalia" "msg" "session" "shutdown"; }
+    "Mod+B"                   hotkey-overlay-title="切换状态栏"            { spawn "noctalia" "msg" "bar-toggle"; }
+    "Mod+Ctrl+D"              hotkey-overlay-title="切换 Dock"             { spawn "noctalia" "msg" "dock-toggle"; }
+    "Mod+Ctrl+W"              hotkey-overlay-title="切换小部件"            { spawn "noctalia" "msg" "desktop-widgets-toggle"; }
+    "Mod+Ctrl+M"              hotkey-overlay-title="主题切换"              { spawn "noctalia" "msg" "theme-mode-toggle"; }
+    "XF86PowerOff"            hotkey-overlay-title="锁屏加睡眠"            { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"; }
 
     // ═══════════════════════════════════════════
     // 5. 窗口与布局控制
     // ═══════════════════════════════════════════
-    "Mod+Q"                   hotkey-overlay-title="关闭当前窗口"          { close-window; }                              // Win11: Alt+F4 类比
-    "Mod+F"                   hotkey-overlay-title="最大化列"              { maximize-column; }                           // Win11: Win+Up
-    "Mod+Shift+F"              hotkey-overlay-title="全屏/退出切换"         { spawn "sh" "-c" "niri msg action fullscreen-window && noctalia msg bar-toggle && if noctalia msg status | grep -q '\"dock_visible\":true'; then noctalia msg dock-hide; fi && noctalia msg desktop-widgets-toggle"; }
-    "Mod+Alt+V"                hotkey-overlay-title="切换窗口浮动"          { toggle-window-floating; }
+    "Mod+Q"                   hotkey-overlay-title="关闭当前窗口"          { close-window; }
+    "Mod+F"                   hotkey-overlay-title="最大化列"              { maximize-column; }
+    
+    // 优化：去掉复杂脚本，避免状态不同步
+    "Mod+Shift+F"             hotkey-overlay-title="全屏切换"              { fullscreen-window; }
+    
+    "Mod+Alt+V"               hotkey-overlay-title="切换窗口浮动"          { toggle-window-floating; }
     "Mod+C"                   hotkey-overlay-title="居中列"                { center-column; }
-    "Mod+0"                   hotkey-overlay-title="打开概览"              { open-overview; }                             // Win11: Win+Tab (任务视图)
+    "Mod+0"                   hotkey-overlay-title="打开概览"              { open-overview; }
     "Mod+Tab"                 hotkey-overlay-title="切换浮动/平铺焦点"     { switch-focus-between-floating-and-tiling; }
 
     // ═══════════════════════════════════════════
-    // 6. 焦点与工作区控制 (Win11: Win+方向键 贴靠/切换)
+    // 6. 焦点与工作区控制（保持应用绑定）
     // ═══════════════════════════════════════════
-    "Mod+Left"                 hotkey-overlay-title="左移焦点"              { focus-column-left; }
-    "Mod+Right"                hotkey-overlay-title="右移焦点"              { focus-column-right; }
-    "Mod+Shift+Left"           hotkey-overlay-title="左移列"                { move-column-left; }
-    "Mod+Shift+Right"          hotkey-overlay-title="右移列"                { move-column-right; }
-    "Mod+Up"                   hotkey-overlay-title="上一工作区"            { focus-workspace-up; }
-    "Mod+Down"                 hotkey-overlay-title="下一工作区"            { focus-workspace-down; }
-    "Mod+Shift+Up"              hotkey-overlay-title="移动列到上方工作区"    { move-column-to-workspace-up; }
-    "Mod+Shift+Down"            hotkey-overlay-title="移动列到下方工作区"    { move-column-to-workspace-down; }
-    "Mod+1"                    hotkey-overlay-title="终端(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
-    "Mod+2"                    hotkey-overlay-title="Zen 浏览器(聚焦/新建)"  { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
-    "Mod+3"                    hotkey-overlay-title="资源监控(聚焦/新建)"      { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"btop\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -T btop -W 100x40 -e btop"; }
-    "Mod+4"                    hotkey-overlay-title="文件管理器(聚焦/新建)"    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }
-    "Mod+5"                    hotkey-overlay-title="QQ(聚焦/新建)"           { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
-    "Mod+6"                    hotkey-overlay-title="VSCode(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
-    "Mod+7"                    hotkey-overlay-title="Materialgram(聚焦/新建)" { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
-    "Mod+8"                    hotkey-overlay-title="music(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title == \"musicfox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -o colors.alpha=0.0 -T musicfox -e musicfox"; }
-    "Mod+9"                    hotkey-overlay-title="关机菜单"                { spawn "noctalia" "msg" "panel-open" "session"; }
-    "Mod+Ctrl+1"                hotkey-overlay-title="移动列到工作区 1"      { move-column-to-workspace 1; }
-    "Mod+Ctrl+2"                hotkey-overlay-title="移动列到工作区 2"      { move-column-to-workspace 2; }
-    "Mod+WheelScrollDown"       cooldown-ms=150 hotkey-overlay-title="下一工作区" { focus-workspace-down; }
-    "Mod+WheelScrollUp"         cooldown-ms=150 hotkey-overlay-title="上一工作区" { focus-workspace-up; }
+    "Mod+1"                   hotkey-overlay-title="终端(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
+    "Mod+2"                   hotkey-overlay-title="Zen 浏览器(聚焦/新建)"  { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
+    "Mod+3"                   hotkey-overlay-title="资源监控(聚焦/新建)"      { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"btop\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -T btop -W 100x40 -e btop"; }
+    "Mod+4"                   hotkey-overlay-title="文件管理器(聚焦/新建)"    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }
+    "Mod+5"                   hotkey-overlay-title="QQ(聚焦/新建)"           { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
+    "Mod+6"                   hotkey-overlay-title="VSCode(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
+    "Mod+7"                   hotkey-overlay-title="Materialgram(聚焦/新建)" { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
+    "Mod+8"                   hotkey-overlay-title="music(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title == \"musicfox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -o -T musicfox -e musicfox"; }
+    "Mod+9"                   hotkey-overlay-title="关机菜单"                { spawn "noctalia" "msg" "panel-open" "session"; }
+    
+    // 优化：删掉 Mod+Ctrl+1~2（和 Mod+Shift+1~9 重复）
+    
+    "Mod+Left"                hotkey-overlay-title="左移焦点"              { focus-column-left; }
+    "Mod+Right"               hotkey-overlay-title="右移焦点"              { focus-column-right; }
+    "Mod+Shift+Left"          hotkey-overlay-title="左移列"                { move-column-left; }
+    "Mod+Shift+Right"         hotkey-overlay-title="右移列"                { move-column-right; }
+    "Mod+Up"                  hotkey-overlay-title="上一工作区"            { focus-workspace-up; }
+    "Mod+Down"                hotkey-overlay-title="下一工作区"            { focus-workspace-down; }
+    "Mod+Shift+Up"            hotkey-overlay-title="移动列到上方工作区"    { move-column-to-workspace-up; }
+    "Mod+Shift+Down"          hotkey-overlay-title="移动列到下方工作区"    { move-column-to-workspace-down; }
+    "Mod+WheelScrollDown"     cooldown-ms=150 hotkey-overlay-title="下一工作区" { focus-workspace-down; }
+    "Mod+WheelScrollUp"       cooldown-ms=150 hotkey-overlay-title="上一工作区" { focus-workspace-up; }
 
     // ═══════════════════════════════════════════
     // 7. 列宽控制
     // ═══════════════════════════════════════════
-    "Mod+R"                    hotkey-overlay-title="切换列宽预设"          { switch-preset-column-width; }
-    "Mod+Minus"                 hotkey-overlay-title="缩小列宽"              { set-column-width "-10%"; }
-    "Mod+Equal"                 hotkey-overlay-title="增大列宽"              { set-column-width "+10%"; }
-    "Mod+Alt+H"                 hotkey-overlay-title="向左吞入/排出"         { consume-or-expel-window-left; }
-    "Mod+Alt+L"                 hotkey-overlay-title="向右吞入/排出"         { consume-or-expel-window-right; }
+    "Mod+R"                   hotkey-overlay-title="切换列宽预设"          { switch-preset-column-width; }
+    "Mod+Minus"               hotkey-overlay-title="缩小列宽"              { set-column-width "-10%"; }
+    "Mod+Equal"               hotkey-overlay-title="增大列宽"              { set-column-width "+10%"; }
+    "Mod+Alt+H"               hotkey-overlay-title="向左吞入/排出"         { consume-or-expel-window-left; }
+    "Mod+Alt+L"               hotkey-overlay-title="向右吞入/排出"         { consume-or-expel-window-right; }
 
     // ═══════════════════════════════════════════
     // 8. 媒体与硬件控制
@@ -114,9 +128,9 @@ binds {
     "XF86AudioMute"             allow-when-locked=true hotkey-overlay-title="静音切换"   { spawn "sh" "-c" "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
     "XF86MonBrightnessUp"       allow-when-locked=true hotkey-overlay-title="亮度增加"   { spawn "/home/lk/.local/bin/brightness-safe" "up"; }
     "XF86MonBrightnessDown"     allow-when-locked=true hotkey-overlay-title="亮度降低"   { spawn "/home/lk/.local/bin/brightness-safe" "down"; }
-    "Mod+Alt+P"                 hotkey-overlay-title="媒体播放切换"           { spawn "noctalia" "msg" "media" "toggle"; }
-    "Mod+H" hotkey-overlay-title="系统监控" { spawn "foot" "-T" "btop" "-e" "btop"; }
+    "Mod+Alt+P"               hotkey-overlay-title="媒体播放切换"           { spawn "noctalia" "msg" "media" "toggle"; }
     "Mod+Period"                hotkey-overlay-title="下一首"                 { spawn "playerctl" "next"; }
     "Mod+Comma"                 hotkey-overlay-title="上一首"                 { spawn "playerctl" "previous"; }
-    "Mod+Alt+Slash"              hotkey-overlay-title="资源监控(聚焦/新建)"     { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"btop\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -T btop -W 100x40 -e btop"; }
+    
+    // 优化：删掉 Mod+Alt+Slash（和 Mod+3 重复）
 }

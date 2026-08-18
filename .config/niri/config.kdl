@@ -1,230 +1,217 @@
-input {                                                                     // 输入设备配置块
-    touchpad {                                                              // 触控板设置
-        tap                                                                 // 启用点击触控
-        natural-scroll                                                      // 启用自然滚动（方向与触控板方向一致）
+input {
+    touchpad {
+        tap
+        natural-scroll
     }
 }
-cursor {                                                                    // 光标设置
-    xcursor-size 20                                                         
+cursor {
+    xcursor-size 20
 }
-output "eDP-1" {                                                            // 显示器输出设备配置（内置屏幕 eDP-1）
-    scale 2.0                                                               // 设置屏幕缩放比例为 2.0（HiDPI 屏常用）
+output "eDP-1" {
+    scale 2.0
 }
-hotkey-overlay {                                                            // 快捷键提示覆盖层
-    skip-at-startup                                                         // 启动时跳过显示快捷键提示
+hotkey-overlay {
+    skip-at-startup
 }
-overview {                                                                  // 概览视图设置（类似多任务全景）
-    zoom 1                                                              
+overview {
+    zoom 1
 }
-// ==================== 动画配置 ====================
-animations {                                                                // 窗口管理器全局动画配置块
-    workspace-switch {                                                      // 工作区切换动画
-        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
+
+// 优化1：缩短动画 duration，减少 GPU 着色器执行时间
+animations {
+    workspace-switch {
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001
     }
-    horizontal-view-movement {                                              // 水平视图移动动画
-        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
+    horizontal-view-movement {
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001
     }
-    window-movement {                                                       // 窗口位置变移动画
-        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001              // 弹簧物理参数：阻尼 0.62，刚度 400
+    window-movement {
+        spring damping-ratio=0.62 stiffness=400 epsilon=0.0001
     }
-    window-resize {                                                         // 窗口大小调整动画
-        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001              // 弹簧物理参数：阻尼 0.75，刚度 500
+    window-resize {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
     }
-    config-notification-open-close {                                        // 配置通知弹窗打开/关闭动画
-        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001               // 弹簧物理参数：阻尼 0.5，刚度 500
+    config-notification-open-close {
+        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001
     }
-    exit-confirmation-open-close {                                          // 退出确认弹窗打开/关闭动画
-        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001               // 弹簧物理参数：阻尼 0.5，刚度 500
+    exit-confirmation-open-close {
+        spring damping-ratio=0.5 stiffness=500 epsilon=0.0001
     }
-    screenshot-ui-open {                                                    // 截图界面打开动画
-        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001              // 弹簧物理参数：阻尼 0.75，刚度 500
+    screenshot-ui-open {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
     }
-    overview-open-close {                                                   // 概览视图打开/关闭动画
-        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001              // 弹簧物理参数：阻尼 0.75，刚度 500
+    overview-open-close {
+        spring damping-ratio=0.75 stiffness=500 epsilon=0.0001
     }
-    // 窗口关闭动画：以左下角为轴心顺时针甩出（切牌加强版）
-    window-close {                                                          // 窗口关闭动画
-        duration-ms 700                                                     // 动画持续时间 700 毫秒
-        curve "linear"                                                      // 动画速率曲线：线性
-        custom-shader r"                                                    // 自定义 GLSL 着色器开始
-            vec4 close_color(vec3 coords_geo, vec3 size_geo) {              // 自定义关闭颜色函数
-                float progress = niri_clamped_progress * niri_clamped_progress; // 计算非线性进度
-                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy; // 坐标系转换到左下角
-                float angle = progress * 0.7;                               // 计算旋转角度
-                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle)); // 旋转矩阵
-                coords = rotate * coords;                                   // 应用旋转
-                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy; // 应用位移偏转
-                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0); // 恢复几何坐标
-                vec3 coords_tex = niri_geo_to_tex * coords_geo;             // 映射到纹理坐标
-                vec4 color = texture2D(niri_tex, coords_tex.st);            // 采样窗口纹理
-                return color * (1.0 - niri_clamped_progress);               // 随进度淡出
-            }                                                               // 函数结束
-        "                                                                   // 自定义着色器结束
+    window-close {
+        duration-ms 400
+        curve "linear"
+        custom-shader r"
+            vec4 close_color(vec3 coords_geo, vec3 size_geo) {
+                float progress = niri_clamped_progress * niri_clamped_progress;
+                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy;
+                float angle = progress * 0.7;
+                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
+                coords = rotate * coords;
+                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy;
+                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0);
+                vec3 coords_tex = niri_geo_to_tex * coords_geo;
+                vec4 color = texture2D(niri_tex, coords_tex.st);
+                return color * (1.0 - niri_clamped_progress);
+            }
+        "
     }
-    // 窗口打开动画：与关闭动画相反的逆过程（从甩出状态摆正归位 + 淡入）
-    window-open {                                                           // 窗口打开动画
-        duration-ms 700                                                     // 动画持续时间 700 毫秒
-        curve "linear"                                                      // 动画速率曲线：线性
-        custom-shader r"                                                    // 自定义 GLSL 着色器开始
-            vec4 open_color(vec3 coords_geo, vec3 size_geo) {               // 自定义打开颜色函数
-                float inv = 1.0 - niri_clamped_progress;                    // 计算反向进度
-                float progress = inv * inv;                                 // 计算非线性进度
-                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy; // 坐标系转换到左下角
-                float angle = progress * 0.7;                               // 计算旋转角度
-                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle)); // 旋转矩阵
-                coords = rotate * coords;                                   // 应用旋转
-                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy; // 应用位移偏转
-                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0); // 恢复几何坐标
-                vec3 coords_tex = niri_geo_to_tex * coords_geo;             // 映射到纹理坐标
-                vec4 color = texture2D(niri_tex, coords_tex.st);            // 采样窗口纹理
-                return color * niri_clamped_progress;                       // 随进度淡入
-            }                                                               // 函数结束
-        "                                                                   // 自定义着色器结束
-    }
-}
-layout {                                                                    // 窗口布局配置块
-    background-color "transparent"                                          // 根背景颜色设为透明
-    gaps 8                                                                  // 窗口与屏幕边缘、窗口之间的间距为 8px
-    struts {                                                                // 用负 struts 模拟不对称外边距
-        right -2                                                            // 右边距向外扩 2px，实际右边距 = 8-2 = 6px（比左边小2px）
-    }
-    preset-column-widths {                                                  // 预设分栏宽度比例列表
-        proportion 0.25                                                     // 占屏幕 25% 宽度
-        proportion 0.5                                                      // 占屏幕 50% 宽度
-        proportion 0.75                                                     // 占屏幕 75% 宽度
-    }
-    default-column-width {                                                  // 新打开窗口的默认宽度
-        proportion 0.5                                                      // 默认占屏幕 50% 宽度
-    }
-    focus-ring {                                                            // 焦点窗口边框（高亮指示器）
-        width 1.5                                                            // 边框宽度
-        active-gradient from="#ef4444cc" to="#e879f9cc" angle=90 in="oklch longer hue" relative-to="workspace-view" // 红→品红
-        inactive-color "#50505020"                                          // 未激活窗口的边框颜色（半透明灰）
-    }
-    border {                                                                // 普通边框设置
-        off                                                                 // 关闭普通边框（使用 focus-ring 代替）
-    }
-    shadow {                                                                // 窗口阴影设置
-        softness 35                                                         // 阴影柔和度/模糊半径 35
-        spread 6                                                            // 阴影扩散范围 6
-        offset x=0 y=6                                                      // 阴影偏移量：水平 0，垂直 6
-        color "#0007"                                                       // 阴影颜色（半透明黑）
+    window-open {
+        duration-ms 400
+        curve "linear"
+        custom-shader r"
+            vec4 open_color(vec3 coords_geo, vec3 size_geo) {
+                float inv = 1.0 - niri_clamped_progress;
+                float progress = inv * inv;
+                vec2 coords = (coords_geo.xy - vec2(0.0, 1.0)) * size_geo.xy;
+                float angle = progress * 0.7;
+                mat2 rotate = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
+                coords = rotate * coords;
+                coords += vec2(progress * 0.15, progress * 0.15) * size_geo.xy;
+                coords_geo = vec3(coords / size_geo.xy + vec2(0.0, 1.0), 1.0);
+                vec3 coords_tex = niri_geo_to_tex * coords_geo;
+                vec4 color = texture2D(niri_tex, coords_tex.st);
+                return color * niri_clamped_progress;
+            }
+        "
     }
 }
-// 全局模糊：修复失效问题——offset 恢复到接近官方默认（3）的可感知强度，passes 提到 2 增加柔和度
-blur {                                                                      // 全局模糊（Background Effect）默认参数
-    passes 2                                                                // 模糊渲染迭代次数：从 1 提到 2，明显更柔和
-    offset 1.8                                                                // 模糊采样偏移
-    noise 0.03                                                              // 噪点保持不变，防止色带
-    saturation 1.3                                                          // 色彩饱和度
+
+layout {
+    background-color "transparent"
+    gaps 8
+    struts {
+        right -2
+    }
+    preset-column-widths {
+        proportion 0.25
+        proportion 0.5
+        proportion 0.75
+    }
+    default-column-width {
+        proportion 0.5
+    }
+    focus-ring {
+        width 1.5
+        active-gradient from="#ef4444cc" to="#e879f9cc" angle=90 in="oklch longer hue" relative-to="workspace-view"
+        inactive-color "#50505020"
+    }
+    border {
+        off
+    }
+    shadow {
+        softness 35
+        spread 6
+        offset x=0 y=6
+        color "#0007"
+    }
 }
-// ==================== 窗口规则 ====================
-// 所有新打开的窗口默认半屏（宽 50%，高填满列；壁纸和状态栏仍可见），
-// 同时设置全局默认不透明度与圆角/裁剪
-window-rule {                                                               // 窗口规则：默认布局 + 透明度 + 模糊开关
-    open-maximized false                                                    // 新窗口不最大化
-    default-column-width {                                                  // 默认宽度 50%
-        proportion 0.5                                                      // 占屏幕 50% 宽度
-    }
-    default-window-height {                                                 // 高度填满整列
-        proportion 1.0                                                      // 占列高 100%
-    }
-    open-maximized-to-edges false                                           // 窗口最大化时保留 8px 缝隙，不紧贴屏幕边缘
-    opacity 0.85                                                            // 全局默认不透明度 0.85（半透明）
-    background-effect {                                                     // 背景特效调整
-        blur false                                                          // 全局默认关闭模糊，减轻核显负担
-    }
+
+blur {
+    passes 2
+    offset 1.8
+    noise 0.03
+    saturation 1.3
 }
-// zen 浏览器例外：保持最大化（快捷键启动时全屏体验，不受默认半屏影响）
-window-rule {                                                               // 窗口规则：zen 最大化例外
-    match app-id="^zen$"                                                    // 匹配 zen 浏览器
-    open-maximized true    // 新窗口打开即最大化
+
+window-rule {
+    open-maximized false
+    default-column-width {
+        proportion 0.5
+    }
+    default-window-height {
+        proportion 1.0
+    }
+    open-maximized-to-edges false
+    opacity 0.85
     background-effect {
-	    blur true
-}
-}
-// foot 终端：覆盖默认最大化行为，开启模糊
-window-rule {                                                               // 窗口规则：foot 终端
-    match app-id="^foot$"                                                   // 匹配 app-id 为 foot 的终端窗口
-    open-maximized false                                                    // 不最大化
-    default-column-width {                                                  // 终端以半屏宽度启动
-        proportion 0.5                                                      // 占屏幕 50% 宽度
-    }
-    background-effect {                                                     // 背景特效调整
-        blur true                                                          // 模糊
+        blur false
     }
 }
-// musicfox：跑在 foot 里，与普通 foot 共享 0.5 宽度规则，这里只补充高度与透明度差异
-window-rule {                                                               // 窗口规则：musicfox 音乐终端（foot 标题匹配）
-    match app-id="^foot$" title="^musicfox$"                                // 仅匹配跑 musicfox 的 foot，不影响普通终端
-    opacity 0.95                                                            // 不透明度单独设为 0.95
-    default-window-height {                                                 // 窗口高度填满整列，波形沉到屏幕底部
-        proportion 1.0                                                      // 占列高 100%
+window-rule {
+    match app-id="^zen$"
+    open-maximized true
+    background-effect {
+        blur true
     }
 }
-// spacefm 文件管理器：圆角 + 磨砂玻璃，模糊强度跟随全局 blur {} 块
-window-rule {                                                               
-    match app-id="^spacefm"                                                
-    opacity 0.92                                                            // 单独设置不透明度为 0.92
-    background-effect {                                                     // 背景特效调整
-        blur true                                                           // 开启模糊效果
+window-rule {
+    match app-id="^foot$"
+    open-maximized false
+    default-column-width {
+        proportion 0.5
+    }
+    background-effect {
+        blur true
     }
 }
-// 强制所有非投屏窗口应用圆角并裁剪内容
-window-rule {                                                               // 窗口规则：全局圆角与裁剪
-    match is-window-cast-target=false                                       // 匹配非投屏目标的普通窗口
-    draw-border-with-background false                                       // 关闭带背景的边框绘制
-    geometry-corner-radius 12                                               // 设置窗口四个角的圆角半径为 12px
-    clip-to-geometry true                                                   // 裁剪窗口内容，使其完美契合圆角
-}
-// ==================== 图层规则 ====================
-// 状态栏：开启模糊
-layer-rule {                                                                // 图层规则：顶部/底部状态栏
-    match namespace="^noctalia-bar"                                         // 匹配 noctalia 栏命名空间
-    background-effect {                                                     // 背景特效
-        blur true                                                            // 模糊
+window-rule {
+    match app-id="^foot$" title="^musicfox$"
+    opacity 0.95
+    default-window-height {
+        proportion 1.0
     }
 }
-// fcitx5 输入法候选框：高斯模糊 + xray 透视模式
-layer-rule {                                                                // 图层规则：输入法候选框
-    match namespace="^fcitx"                                                // 匹配以 fcitx 开头的命名空间
-    background-effect {                                                     // 背景特效
-        xray true                                                           // 开启 X-ray 透视模糊模式
-        blur true                                                           // 开启高斯模糊
+window-rule {
+    match app-id="^spacefm"
+    opacity 0.92
+    background-effect {
+        blur true
     }
 }
-// 系统组件（通知、Dock、OSD）：高斯模糊 + xray 透视模式
-layer-rule {                                                                // 图层规则：系统组件（通知、Dock、OSD）
-    match namespace="^noctalia-(notification|dock|osd)$"                    // 匹配 noctalia 的通知、Dock 或 OSD 界面
-    background-effect {                                                     // 背景特效
-        xray true                                                           // 开启 X-ray 透视模糊模式
-        blur true                                                           // 开启高斯模糊
+window-rule {
+    match is-window-cast-target=false
+    draw-border-with-background false
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
+layer-rule {
+    match namespace="^noctalia-bar"
+    background-effect {
+        blur true
     }
 }
-// 壁纸：不做模糊
-layer-rule {                                                                // 图层规则：壁纸图层
-    match namespace="^noctalia-wallpaper$"                                  // 匹配 noctalia 壁纸命名空间
-    background-effect {                                                     // 背景特效
-        blur false                                                          // 壁纸本身不模糊
+layer-rule {
+    match namespace="^fcitx"
+    background-effect {
+        xray true
+        blur true
     }
 }
-// 面板：玻璃透明，不做模糊
-layer-rule {                                                                // 图层规则：系统面板
-    match namespace="^noctalia-(panel|attached-panel)$"                     // 匹配 noctalia 面板或附加面板
-    background-effect {                                                     // 背景特效
-        xray false                                                          // 关闭 X-ray
-        blur true                                                          // 模糊
+layer-rule {
+    match namespace="^noctalia-(notification|dock|osd)$"
+    background-effect {
+        xray true
+        blur true
     }
 }
-// ==================== 其他 ====================
-switch-events {                                                             // 硬件开关事件响应块
-    lid-close {                                                             // 合上笔记本盖子事件
-        spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend" // 执行命令：呼叫 noctalia 锁屏并挂起
+layer-rule {
+    match namespace="^noctalia-wallpaper$"
+    background-effect {
+        blur false
     }
 }
-spawn-at-startup "sh" "-c" "sleep 1 && noctalia"                            // 启动时运行：延迟 1 秒后启动 noctalia 桌面环境
-spawn-at-startup "sh" "-c" "sleep 3 && fcitx5"                              // 启动时运行：延迟 3 秒后启动 fcitx5 输入法
-spawn-at-startup "wl-paste" "--watch" "cliphist" "store"                    // 启动时运行：监视剪贴板并通过 cliphist 存储历史
-//spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // （已注释）启动时运行 polkit 认证代理
-include "binds.kdl"                                                         // 包含外部快捷键绑定配置文件 binds.kdl
-//include "noctalia.kdl"                                                    // （已注释）包含外部 noctalia 配置文件
+layer-rule {
+    match namespace="^noctalia-(panel|attached-panel)$"
+    background-effect {
+        xray false
+        blur true
+    }
+}
+
+switch-events {
+    lid-close {
+        spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"
+    }
+}
+spawn-at-startup "sh" "-c" "sleep 1 && noctalia"
+spawn-at-startup "sh" "-c" "sleep 3 && fcitx5"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+
+include "binds.kdl"

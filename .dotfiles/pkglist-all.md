@@ -5,6 +5,7 @@ avahi
 base
 base-devel
 bash-completion
+bc
 bluetui
 bluez-utils
 brightnessctl
@@ -25,7 +26,6 @@ iwd
 jq
 linux-firmware-amdgpu
 linux-firmware-realtek
-linux-lts
 linuxqq
 materialgram-bin
 miyu
@@ -51,7 +51,9 @@ visual-studio-code-bin
 vnstat
 voicefox
 w3m
+wev
 wf-recorder
+wget
 wireless-regdb
 wqy-microhei
 zen-browser-bin

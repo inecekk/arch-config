@@ -24,6 +24,7 @@ base
 base-devel
 bash
 bash-completion
+bc
 binutils
 bison
 bluetui
@@ -43,6 +44,7 @@ ca-certificates-utils
 cairo
 capnproto
 chafa
+compiler-rt
 coreutils
 cpio
 cryptsetup
@@ -217,6 +219,7 @@ libgcc
 libgcrypt
 libgfortran
 libgirepository
+libgit2
 libglvnd
 libgomp
 libgpg-error
@@ -347,12 +350,14 @@ libxxf86vm
 libyuv
 licenses
 lilv
+linux
 linux-api-headers
 linux-firmware-amdgpu
 linux-firmware-realtek
 linux-firmware-whence
-linux-lts
 linuxqq
+lld
+llhttp
 llvm-libs
 lm_sensors
 lmdb
@@ -449,6 +454,7 @@ rime-terra-pinyin
 ripgrep
 rnnoise
 rubberband
+rust
 sbc
 sdbus-cpp
 sdl2-compat
@@ -510,6 +516,7 @@ w3m
 wayland
 webrtc-audio-processing-1
 wf-recorder
+wget
 which
 wireless-regdb
 wireplumber

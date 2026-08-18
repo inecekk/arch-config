@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 archlinuxcn-keyring
 avahi
+awww
 base
 base-devel
 bash-completion
@@ -11,6 +12,7 @@ bluez-utils
 brightnessctl
 btop
 btrfs-progs
+cava
 dae
 dust
 efibootmgr
@@ -20,7 +22,7 @@ fcitx5-qt
 fcitx5-rime
 foot
 git
-go-musicfox-git
+hyprpicker
 impala
 iwd
 jq
@@ -38,11 +40,11 @@ noctalia
 openssh
 osu-lazer-bin
 paru
+pcmanfm
 pipewire-alsa
 pipewire-pulse
 qt6-websockets
 rime-double-pinyin
-spacefm-bin
 sudo
 tlp
 tree

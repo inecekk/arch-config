@@ -7,7 +7,7 @@
 [General]
 
 [Window]
-width=841
+width=1638
 height=1002
 maximized=0
 
@@ -59,7 +59,7 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/lk/.dotfiles
+panel1_show-s=////home/lk/Pictures/Screenshots
 panel1_show-x=0
 panel1_show-key=49
 panel1_show-keymod=4
@@ -190,8 +190,8 @@ sortby_type-b=2
 sortby_perm-b=2
 sortby_owner-b=2
 sortby_date-b=2
-sortby_ascend-b=1
-sortby_descend-b=2
+sortby_ascend-b=2
+sortby_descend-b=1
 sortx_natural-b=1
 sortx_case-b=2
 sortx_folders-b=1
@@ -226,10 +226,12 @@ prop_perm-keymod=4
 panel1_show_toolbox-b=1
 panel1_show_book-b=1
 panel1_show_sidebar-b=2
+panel1_list_detailed-x=0
+panel1_list_detailed-y=1
 panel1_list_detailed-b=1
 panel1_show_hidden-key=104
 panel1_show_hidden-keymod=4
-panel1_show_hidden-b=1
+panel1_show_hidden-b=2
 panel1_detcol_name-x=0
 panel1_detcol_name-b=1
 panel1_detcol_size-x=1
@@ -265,6 +267,7 @@ panel2_sort_extra-b=1
 panel2_book_fol-b=1
 panel3_show_toolbox-b=1
 panel3_show_devmon-b=2
+panel3_show_dirtree-b=1
 panel3_show_book-b=2
 panel3_show_sidebar-b=2
 panel3_list_detailed-b=1
@@ -524,4 +527,15 @@ panel3_detcol_date0-b=2
 panel3_slider_positions0-s=0
 panel3_slider_positions0-x=0
 panel3_slider_positions0-y=0
+panel1_tool_s-child=cstm_65d55aa3
+cstm_65d55aa3-next=cstm_43c22525
+cstm_65d55aa3-tool=2
+cstm_65d55aa3-parent=panel1_tool_s
+cstm_43c22525-next=cstm_27a7273b
+cstm_43c22525-tool=3
+cstm_43c22525-prev=cstm_65d55aa3
+cstm_27a7273b-tool=4
+cstm_27a7273b-prev=cstm_43c22525
+text_dlg-s=820
+text_dlg-z=986
 

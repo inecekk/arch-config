@@ -942,3 +942,215 @@
 2026-08-18T04:13:08.160382Z  WARN voicefox: current source playback failed: Raw(-17)
 2026-08-18T04:13:08.212418Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
 2026-08-18T04:13:08.363802Z  WARN lx_player::engine: libmpv seek failed: Raw(-10)
+2026-08-18T09:41:30.824663Z  INFO voicefox: voicefox starting on linux (x86_64)
+2026-08-18T09:41:30.909191Z  WARN lx_player::engine: libmpv cache-size option unavailable: Raw(-5)
+2026-08-18T09:41:30.965287Z  INFO voicefox::cover::render: cover protocol Sixel, font size FontSize { width: 20, height: 40 }
+2026-08-18T09:41:32.012205Z  INFO lx_source::local: 扫描本地音乐: 16 首 (/home/lk/Music)
+2026-08-18T09:41:32.012284Z  INFO lx_source::local: 本地音乐扫描完成，共 16 首
+2026-08-18T09:41:32.014627Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:35.843775Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:35.865066Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:38.397047Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:38.450652Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:43.604733Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:43.658630Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:46.017669Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:46.070416Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:48.351863Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:48.405187Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:50.882322Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:50.936464Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:53.370321Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:53.423912Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:56.169299Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:56.222917Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:41:58.480262Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:41:58.533034Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:42:02.157066Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:42:02.210484Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:42:10.490593Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:42:10.511630Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:42:12.589098Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:42:12.642755Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:15.783593Z  WARN voicefox: current source playback failed: Raw(-13)
+2026-08-18T09:43:15.837596Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:18.627273Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:18.681130Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:21.107007Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:21.160052Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:23.492375Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:23.545492Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:26.866364Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:26.920453Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:31.522853Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:31.579347Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:33.906678Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:33.961031Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:36.390489Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:36.444562Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:39.186419Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:39.240339Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:43:41.676390Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:43:41.730205Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:04.096833Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:04.150555Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:06.343449Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:06.382293Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:08.499759Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:08.522885Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:13.224891Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:13.279218Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:15.501847Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:15.555224Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:17.906341Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:17.961112Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:18.155922Z  INFO voicefox: importing JS source: https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js
+2026-08-18T09:44:20.169157Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:20.223274Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:21.008846Z  WARN voicefox: JS source import failed: JS 音源加载失败（已重试 3 次）: 当前 Node.js 不支持权限隔离模式，请升级 Node.js
+2026-08-18T09:44:21.010021Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:22.732820Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:22.786943Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:25.727138Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:25.781708Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:27.725292Z  INFO voicefox: importing JS source: https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js
+2026-08-18T09:44:29.375915Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:29.430430Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:30.049623Z  WARN voicefox: JS source import failed: JS 音源加载失败（已重试 3 次）: 当前 Node.js 不支持权限隔离模式，请升级 Node.js
+2026-08-18T09:44:30.051669Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:33.400628Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:33.454730Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:35.674114Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:35.727205Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:44:38.302011Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:44:38.356206Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:00.454644Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:00.507924Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:03.188272Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:03.243030Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:07.519310Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:07.573472Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:11.249935Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:11.285575Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:13.998639Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:14.025888Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:17.092760Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:17.146495Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:19.167429Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:19.222677Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:21.865197Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:21.920068Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:32.915728Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:32.969578Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:56.641702Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:45:56.680548Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:45:57.247863Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:00.000343Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:01.395131Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:06.244883Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:07.001352Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:07.653026Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T09:46:10.973704Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:46:10.986272Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:46:16.973837Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:46:17.028610Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:46:20.501220Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:46:20.509111Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:46:22.696762Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:46:22.750947Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:50:03.723305Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:50:03.776695Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:50:08.666651Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:50:08.721030Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:50:11.457848Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:50:11.511660Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:50:13.622529Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:50:13.675870Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:51:26.099731Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:51:26.153549Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:51:28.559545Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:51:28.613386Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:51:31.694379Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:51:31.725789Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:51:34.608905Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:51:34.641015Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:51:36.465878Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:51:36.520477Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:36.685369Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:36.742671Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:39.013453Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:39.067798Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:41.964780Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:42.019771Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:43.851030Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:43.904743Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:47.738394Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:47.792603Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:55:50.301701Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:55:50.355192Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:56:53.140150Z  WARN voicefox: current source playback failed: Raw(-13)
+2026-08-18T09:56:53.195885Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:56:57.892982Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:56:57.947199Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:57:00.377658Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:57:00.430723Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:57:05.328062Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:57:05.382928Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:57:07.708608Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:57:07.764376Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:57:56.377051Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:57:56.431303Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:57:58.440762Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:57:58.495677Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:58:02.094360Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:58:02.148889Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:59:25.135756Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:59:25.191072Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T09:59:32.000090Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T09:59:32.055799Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:00:17.291779Z  INFO voicefox: voicefox starting on linux (x86_64)
+2026-08-18T10:00:17.366267Z  WARN lx_player::engine: libmpv cache-size option unavailable: Raw(-5)
+2026-08-18T10:00:17.413651Z  INFO voicefox::cover::render: cover protocol Sixel, font size FontSize { width: 20, height: 40 }
+2026-08-18T10:00:18.352799Z  INFO lx_source::local: 扫描本地音乐: 16 首 (/home/lk/Music)
+2026-08-18T10:00:18.352858Z  INFO lx_source::local: 本地音乐扫描完成，共 16 首
+2026-08-18T10:00:18.367323Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:00:18.460855Z  WARN lx_player::engine: libmpv seek failed: Raw(-10)
+2026-08-18T10:00:25.790781Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:00:25.843970Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:01:20.565595Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:01:20.619582Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:02:15.205267Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:02:15.260106Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:02:17.979190Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:02:18.034067Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:02:19.923280Z  WARN lx_player::engine: stale libmpv event error: Raw(-17)
+2026-08-18T10:02:23.441704Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:02:23.494360Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:02:25.556795Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:02:25.612129Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:02:27.182671Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:02:27.187712Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:05:58.776593Z  INFO voicefox: voicefox starting on linux (x86_64)
+2026-08-18T10:05:58.853124Z  WARN lx_player::engine: libmpv cache-size option unavailable: Raw(-5)
+2026-08-18T10:05:58.900825Z  INFO voicefox::cover::render: cover protocol Sixel, font size FontSize { width: 20, height: 40 }
+2026-08-18T10:05:58.903365Z  WARN lx_player::engine: libmpv seek failed: Raw(-10)
+2026-08-18T10:05:59.847521Z  INFO lx_source::local: 扫描本地音乐: 16 首 (/home/lk/Music)
+2026-08-18T10:05:59.847598Z  INFO lx_source::local: 本地音乐扫描完成，共 16 首
+2026-08-18T10:05:59.873336Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:06:15.054044Z  INFO voicefox: voicefox starting on linux (x86_64)
+2026-08-18T10:06:15.132554Z  WARN lx_player::engine: libmpv cache-size option unavailable: Raw(-5)
+2026-08-18T10:06:15.179875Z  INFO voicefox::cover::render: cover protocol Sixel, font size FontSize { width: 20, height: 40 }
+2026-08-18T10:06:15.182618Z  WARN lx_player::engine: libmpv seek failed: Raw(-10)
+2026-08-18T10:06:16.108976Z  INFO lx_source::local: 扫描本地音乐: 16 首 (/home/lk/Music)
+2026-08-18T10:06:16.109037Z  INFO lx_source::local: 本地音乐扫描完成，共 16 首
+2026-08-18T10:06:16.148382Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:12:17.743627Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:12:17.797518Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:12:35.191816Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:12:35.245900Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:17:04.495963Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:17:04.550967Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:17:07.608823Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:17:07.663125Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-18T10:17:10.732556Z  WARN voicefox: current source playback failed: Raw(-17)
+2026-08-18T10:17:10.786169Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable

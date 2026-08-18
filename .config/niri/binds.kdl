@@ -7,12 +7,12 @@ binds {
     "Print"                   hotkey-overlay-title="区域截图"              { screenshot; }
     "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
     "Mod+F5"                  hotkey-overlay-title="热重载配置"            { spawn-sh "niri msg action load-config-file"; }
-    
-    "Mod+Shift+S"             hotkey-overlay-title="区域截图(剪贴板)"      { spawn-sh "grim -g \"$(slurp)\" - | wl-copy"; }
+    "Mod+Shift+S" { screenshot; }
+//    "Mod+Shift+S"             hotkey-overlay-title="区域截图(剪贴板)"      { spawn-sh "grim -g \"$(slurp)\" - | wl-copy"; }
     "Mod+Shift+R"             hotkey-overlay-title="录屏开关"              { spawn-sh "pkill -INT -x wf-recorder || (mkdir -p ~/Videos && wf-recorder -f ~/Videos/rec-$(date +%Y%m%d-%H%M%S).mp4)"; }
     
     "XF86AudioPrev"           hotkey-overlay-title="上一首"                { spawn "playerctl" "previous"; }
-    "XF86AudioPlay"           hotkey-overlay-title="播放/暂停"             { spawn "playerctl" "-p" "musicfox" "play-pause"; }
+    "XF86AudioPlay"           hotkey-overlay-title="播放/暂停"             { spawn "playerctl" "-p" "voicefox" "play-pause"; }
     "XF86AudioNext"           hotkey-overlay-title="下一首"                { spawn "playerctl" "next"; }
 
     // ═══════════════════════════════════════════
@@ -20,7 +20,7 @@ binds {
     // ═══════════════════════════════════════════
     "Mod+Return"              hotkey-overlay-title="新建终端"              { spawn "foot"; }
     "Mod+Shift+Return"        hotkey-overlay-title="终端(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
-    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }
+    "Mod+E"                   hotkey-overlay-title="文件管理器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"pcmanfm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || pacmanfm"; }
     "Mod+G"                   hotkey-overlay-title="Chromium"             { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"chromium\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || chromium"; }
     "Mod+Z"                   hotkey-overlay-title="Zen 浏览器"            { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
     
@@ -30,7 +30,7 @@ binds {
     "Mod+Y"                   hotkey-overlay-title="QQ"                    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
     
     "Mod+N"                   hotkey-overlay-title="Noctalia 主页"         { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
-    "Mod+M"                   hotkey-overlay-title="Musicfox(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"musicfox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot --app-id=musicfox -e musicfox"; }
+    "Mod+M"                   hotkey-overlay-title="Voicefox(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"voicefox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot --app-id=voicefox -e voicefox"; }
     // 3. Noctalia 面板交互
     // ═══════════════════════════════════════════
     "Mod+A"                   hotkey-overlay-title="控制面板"              { spawn "noctalia" "panel-open" "control-center"; }
@@ -84,11 +84,11 @@ binds {
     "Mod+1"                   hotkey-overlay-title="终端(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"foot\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot"; }
     "Mod+2"                   hotkey-overlay-title="Zen 浏览器(聚焦/新建)"  { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"zen\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || zen-browser"; }
     "Mod+3"                   hotkey-overlay-title="资源监控(聚焦/新建)"      { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title | test(\"btop\")) | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -T btop -W 100x40 -e btop"; }
-    "Mod+4"                   hotkey-overlay-title="文件管理器(聚焦/新建)"    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"spacefm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || spacefm"; }
+    "Mod+4"                   hotkey-overlay-title="文件管理器(聚焦/新建)"    { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"pcamanfm\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || pcmanfm"; }
     "Mod+5"                   hotkey-overlay-title="QQ(聚焦/新建)"           { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select((.app_id | ascii_downcase)==\"qq\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || linuxqq"; }
     "Mod+6"                   hotkey-overlay-title="VSCode(聚焦/新建)"       { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"code\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || code"; }
     "Mod+7"                   hotkey-overlay-title="Materialgram(聚焦/新建)" { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.app_id==\"materialgram\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || materialgram"; }
-    "Mod+8"                   hotkey-overlay-title="music(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title == \"musicfox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -o -T musicfox -e musicfox"; }
+    "Mod+8"                   hotkey-overlay-title="music(聚焦/新建)"        { spawn "sh" "-c" "wid=$(niri msg --json windows | jq -r '.[] | select(.title == \"voicefox\") | .id' | head -1); [ -n \"$wid\" ] && niri msg action focus-window --id \"$wid\" || foot -o -T voicefox -e voicefox"; }
     "Mod+9"                   hotkey-overlay-title="关机菜单"                { spawn "noctalia" "msg" "panel-open" "session"; }
     
     // 优化：删掉 Mod+Ctrl+1~2（和 Mod+Shift+1~9 重复）

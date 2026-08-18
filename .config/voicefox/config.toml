@@ -1,49 +1,46 @@
-version = 9
+# voicefox 配置文件
+version = 9  # 配置文件版本号，用于迁移/兼容判断
 
 [player]
-engine = "mpv"
-quality = "320k"
-volume = 80
-playback_speed = 1.0
-audio_device = "auto"
-replaygain_mode = "track"
-replaygain_preamp = -6.0
-channel_mode = "auto"
-balance = 0.0
-replaygain_clip = true
-equalizer_bands = []
-fade_in_ms = 500
-fade_out_ms = 250
-play_mode = "list-loop"
-remember_playback_state = true
-history_limit = 100
+engine = "mpv"                # 播放后端，使用 mpv
+quality = "320k"               # 音质，320k 为高品质
+volume = 80                    # 初始音量 (0-100)
+playback_speed = 1.0           # 播放速度倍率
+audio_device = "auto"          # 音频输出设备，auto 为自动选择
+replaygain_mode = "track"      # ReplayGain 模式：按单曲音量归一化
+replaygain_preamp = -6.0       # ReplayGain 预增益 (dB)
+channel_mode = "auto"          # 声道模式，auto 自动
+balance = 0.0                  # 左右声道平衡 (-1.0 左 ~ 1.0 右)
+replaygain_clip = true         # 是否防止 ReplayGain 导致削波
+equalizer_bands = []           # 均衡器频段设置，空即未启用
+fade_in_ms = 500                # 淡入时长 (毫秒)
+fade_out_ms = 250                # 淡出时长 (毫秒)
+play_mode = "list-loop"        # 播放模式：列表循环
+remember_playback_state = true # 是否记住上次播放进度/曲目
+history_limit = 100            # 播放历史保留条数上限
 
 [source]
-enabled = [
-    "kg",
-    "tx",
-    "wy",
-    "mg",
-]
-default = "wy"
-auto_toggle = true
-js_sources = []
+enabled = ["wy", "tx", "kg", "mg"]  # 启用的音源：酷狗、腾讯、网易云、咪咕
+default = "wy"                       # 默认音源：网易云
+auto_toggle = true                   # 单曲不可用时是否自动切换音源
+js_sources = []                      # 自定义 JS 音源脚本列表
 
 [lyric]
-show_translation = true
-show_yrc = true
-offset = 0
+show_translation = true  # 是否显示歌词翻译
+show_yrc = true          # 是否显示逐字歌词 (YRC)
+offset = 0                # 歌词时间偏移 (毫秒)
 
 [network]
-proxy_url = ""
-timeout = 15
+proxy_url = ""   # 代理地址，空表示不使用代理
+timeout = 15     # 网络请求超时时间 (秒)
 
 [theme]
-use_dark = true
-accent = "#cba6f7"
-text = "#cdd6f4"
-muted = "#a6adc8"
-border = "#585b70"
+use_dark = true          # 使用深色主题
+# 以下为 Catppuccin Mocha 配色方案
+accent = "#cba6f7"       # 强调色（同 mauve）
+text = "#cdd6f4"         # 主文本色
+muted = "#a6adc8"        # 次要/弱化文本色
+border = "#585b70"       # 边框色
 rosewater = "#f5e0dc"
 flamingo = "#f2cdcd"
 pink = "#f5c2e7"
@@ -66,187 +63,190 @@ overlay_0 = "#6c7086"
 surface_2 = "#585b70"
 surface_1 = "#45475a"
 surface_0 = "#313244"
-base = "#1e1e2e"
-mantle = "#181825"
-crust = "#11111b"
+base = "#1e1e2e"          # 背景色
+mantle = "#181825"        # 次级背景色（更暗）
+crust = "#11111b"         # 最暗背景色
 
 [ui]
-enable_mouse = true
-wrap_navigation = true
-scroll_amount = 10
-aggregate_search = true
-show_cover = true
-cover_protocol = "auto"
-max_fps = 20
-status_bar_items = [
-    "state",
-    "source",
-    "sort",
-    "song",
-    "time",
-    "volume",
-    "play-mode",
-    "quality",
-    "queue",
+enable_mouse = true       # 是否启用鼠标操作
+wrap_navigation = true    # 列表导航到边界后是否循环
+scroll_amount = 10        # 每次滚动的行数
+aggregate_search = true   # 搜索时是否聚合多音源结果
+show_cover = true         # 是否显示封面
+cover_protocol = "auto"   # 封面显示协议，auto 自动检测终端支持
+max_fps = 20               # UI 最大刷新率
+status_bar_items = [       # 状态栏显示的信息项及顺序
+    "state",       # 播放状态
+    "source",      # 当前音源
+    "sort",        # 排序方式
+    "song",        # 曲目信息
+    "time",        # 播放时间/进度
+    "volume",      # 音量
+    "play-mode",   # 播放模式
+    "quality",     # 音质
+    "queue",       # 播放队列
+    "js-source-state",  # JS 音源状态
 ]
 
 [local_music]
-enabled = true
-paths = ["/home/lk/Music"]
-max_depth = 5
+enabled = true                 # 是否启用本地音乐
+paths = ["/home/lk/Music"]     # 本地音乐扫描路径
+max_depth = 5                  # 目录递归扫描最大深度
+
+# ===== 快捷键绑定 =====
 
 [keybindings.global]
-global_next_tab = "Tab"
-global_quit = "q"
-global_prev_track = "Down"
-global_seek_forward = "]"
-global_prev_tab = "Shift+Tab"
-global_toggle_favorite = "Ctrl+l"
-global_seek_backward = "["
-global_volume_up = "n"
-global_next_track = "Up"
-global_play_pause = "Space"
-global_cycle_mode = "m"
-global_volume_down = "b"
-global_go_to_main = "Esc"
-global_redraw = "Ctrl+r"
-
-[keybindings.pages.playlists]
-list_page_up = "Ctrl+u"
-list_page_down = "Ctrl+d"
-list_toggle_favorite = "f"
-list_select_first = "g"
-search_cycle_source_prev = "Left"
-list_select_last = "G"
-list_activate = "Enter"
-list_add_to_queue = "a"
-list_add_to_queue_next = "A"
-search_cycle_source_next = "Right"
-list_select_down = "j"
-list_go_back = "Esc"
-list_select_up = "k"
-
-[keybindings.pages.local]
-local_rescan = "r"
-list_page_up = "Ctrl+u"
-list_activate = "Enter"
-list_select_down = "j"
-list_page_down = "Ctrl+d"
-list_select_first = "g"
-list_add_to_queue = "a"
-list_toggle_favorite = "f"
-list_cycle_sort = "s"
-list_select_up = "k"
-list_select_last = "G"
-local_filter = "/"
-local_delete = "d"
-list_add_to_queue_next = "A"
-
-[keybindings.pages.leaderboard]
-list_select_last = "G"
-list_select_up = "k"
-list_activate = "Enter"
-list_page_up = "Ctrl+u"
-search_cycle_source_prev = "Left"
-list_toggle_favorite = "f"
-list_select_down = "j"
-list_go_back = "Esc"
-list_page_down = "Ctrl+d"
-list_add_to_queue_next = "A"
-list_add_to_queue = "a"
-list_select_first = "g"
-search_cycle_source_next = "Right"
-
-[keybindings.pages.history]
-list_activate = "Enter"
-list_select_down = "j"
-list_cycle_sort = "s"
-list_select_last = "G"
-list_page_up = "Ctrl+u"
-list_page_down = "Ctrl+d"
-list_select_up = "k"
-list_toggle_favorite = "f"
-list_add_to_queue = "a"
-list_add_to_queue_next = "A"
-history_filter = "/"
-list_select_first = "g"
-
-[keybindings.pages.settings]
-settings_edit_audio_device = "F2"
-list_select_down = "j"
-settings_cycle_replay_gain_preamp = "F5"
-settings_cycle_playback_speed = "F1"
-settings_run_fade_in = "Shift+F1"
-settings_export_data = "Shift+F6"
-list_select_up = "k"
-settings_set_ab_loop_start = "Shift+F3"
-settings_cycle_balance = "F6"
-settings_set_ab_loop_end = "Shift+F4"
-settings_import_playlist = "Shift+F8"
-settings_toggle_replay_gain_clip = "F7"
-settings_cycle_fade_in_duration = "F8"
-settings_run_fade_out = "Shift+F2"
-list_go_back = "Esc"
-settings_cycle_replay_gain_mode = "F3"
-settings_cycle_equalizer_preset = "F10"
-settings_clear_ab_loop = "Shift+F5"
-settings_import_data = "Shift+F7"
-settings_cycle_channel_mode = "F4"
-settings_cycle_fade_out_duration = "F9"
+global_play_pause = "Space"       # 播放/暂停
+global_cycle_mode = "m"            # 切换播放模式
+global_next_track = "Down"           # 下一曲
+global_prev_tab = "Shift+Tab"      # 上一个标签页
+global_volume_down = "b"           # 音量减小
+global_seek_backward = "["         # 快退
+global_volume_up = "n"             # 音量增大
+global_next_tab = "Tab"            # 下一个标签页
+global_quit = "q"                  # 退出程序
+global_prev_track = "Up"         # 上一曲
+global_toggle_favorite = "Ctrl+l"  # 切换收藏状态
+global_seek_forward = "]"          # 快进
+global_go_to_main = "Esc"          # 返回主页面
+global_redraw = "Ctrl+r"           # 重绘界面
 
 [keybindings.pages.favorites]
-list_page_down = "Ctrl+d"
-list_add_to_queue = "a"
-list_toggle_favorite = "f"
-list_go_back = "Esc"
-favorites_remove = "d"
-list_select_up = "k"
-list_select_first = "g"
-list_select_last = "G"
-list_page_up = "Ctrl+u"
-list_add_to_queue_next = "A"
-list_activate = "Enter"
-list_select_down = "j"
-favorites_filter = "/"
-list_cycle_sort = "s"
+list_toggle_favorite = "f"     # 切换收藏
+list_select_last = "G"         # 跳到最后一项
+favorites_remove = "d"         # 移除收藏
+list_cycle_sort = "s"          # 切换排序方式
+list_page_down = "Ctrl+d"      # 向下翻页
+list_select_down = "j"         # 下移选中项
+list_add_to_queue = "a"        # 加入播放队列
+list_activate = "Enter"        # 确认/播放
+list_go_back = "Esc"           # 返回
+list_select_up = "k"           # 上移选中项
+list_select_first = "g"        # 跳到第一项
+list_add_to_queue_next = "A"   # 插入到队列下一首
+favorites_filter = "/"         # 筛选/搜索收藏
+list_page_up = "Ctrl+u"        # 向上翻页
+
+[keybindings.pages.settings]
+settings_cycle_channel_mode = "F4"        # 切换声道模式
+settings_cycle_fade_out_duration = "F9"   # 切换淡出时长
+settings_cycle_fade_in_duration = "F8"    # 切换淡入时长
+settings_run_fade_in = "Shift+F1"         # 手动触发淡入
+settings_cycle_replay_gain_preamp = "F5"  # 切换 ReplayGain 预增益
+settings_export_data = "Shift+F6"         # 导出数据
+list_select_up = "k"                      # 上移选中项
+settings_cycle_equalizer_preset = "F10"   # 切换均衡器预设
+settings_set_ab_loop_end = "Shift+F4"     # 设置 AB 循环终点
+settings_import_playlist = "Shift+F8"     # 导入歌单
+settings_toggle_replay_gain_clip = "F7"   # 切换防削波开关
+settings_set_ab_loop_start = "Shift+F3"   # 设置 AB 循环起点
+settings_clear_ab_loop = "Shift+F5"       # 清除 AB 循环
+settings_import_data = "Shift+F7"         # 导入数据
+settings_cycle_replay_gain_mode = "F3"    # 切换 ReplayGain 模式
+settings_cycle_balance = "F6"             # 切换声道平衡
+settings_cycle_playback_speed = "F1"      # 切换播放速度
+settings_edit_audio_device = "F2"         # 编辑音频输出设备
+list_select_down = "j"                    # 下移选中项
+list_go_back = "Esc"                      # 返回
+settings_run_fade_out = "Shift+F2"        # 手动触发淡出
+
+[keybindings.pages.history]
+history_filter = "/"           # 筛选历史记录
+list_activate = "Enter"        # 确认/播放
+list_select_up = "k"           # 上移选中项
+list_cycle_sort = "s"          # 切换排序方式
+list_page_up = "Ctrl+u"        # 向上翻页
+list_select_down = "j"         # 下移选中项
+list_select_last = "G"         # 跳到最后一项
+list_toggle_favorite = "f"     # 切换收藏
+list_add_to_queue = "a"        # 加入播放队列
+list_add_to_queue_next = "A"   # 插入到队列下一首
+list_page_down = "Ctrl+d"      # 向下翻页
+list_select_first = "g"        # 跳到第一项
 
 [keybindings.pages.main]
-list_select_up = "k"
-list_select_first = "g"
-list_page_up = "Ctrl+u"
-list_activate = "Enter"
-list_select_last = "G"
-list_page_down = "Ctrl+d"
-list_select_down = "j"
-list_toggle_favorite = "f"
+list_select_first = "g"    # 跳到第一项
+list_page_down = "Ctrl+d"  # 向下翻页
+list_page_up = "Ctrl+u"    # 向上翻页
+list_select_down = "j"     # 下移选中项
+list_select_up = "k"       # 上移选中项
+list_select_last = "G"     # 跳到最后一项
+list_activate = "Enter"    # 确认/播放
+list_toggle_favorite = "f" # 切换收藏
 
-[keybindings.pages.search]
-search_toggle_aggregate = "v"
-list_toggle_favorite = "f"
-list_select_last = "G"
-list_select_first = "g"
-list_activate = "l"
-search_cycle_source_next = "Right"
-list_select_down = "j"
-list_add_to_queue = "a"
-list_select_up = "k"
-list_page_down = "Ctrl+d"
-search_input_mode = "i"
-search_start = "Enter"
-search_cycle_source_prev = "Left"
-list_page_up = "Ctrl+u"
-list_add_to_queue_next = "A"
-list_go_back = "Esc"
+[keybindings.pages.playlists]
+search_cycle_source_prev = "Left"   # 切换到上一个音源
+list_page_up = "Ctrl+u"             # 向上翻页
+list_select_up = "k"                # 上移选中项
+list_select_last = "G"              # 跳到最后一项
+list_add_to_queue_next = "A"        # 插入到队列下一首
+list_page_down = "Ctrl+d"           # 向下翻页
+search_cycle_source_next = "Right"  # 切换到下一个音源
+list_toggle_favorite = "f"          # 切换收藏
+list_add_to_queue = "a"             # 加入播放队列
+list_activate = "Enter"             # 确认/播放
+list_go_back = "Esc"                # 返回
+list_select_first = "g"             # 跳到第一项
+list_select_down = "j"              # 下移选中项
 
 [keybindings.pages.bili_login]
-list_go_back = "Esc"
+list_go_back = "Esc"  # 返回
+
+[keybindings.pages.search]
+search_input_mode = "i"             # 进入搜索输入模式
+list_add_to_queue_next = "A"        # 插入到队列下一首
+list_select_down = "j"              # 下移选中项
+list_select_last = "G"              # 跳到最后一项
+list_page_up = "Ctrl+u"             # 向上翻页
+search_cycle_source_next = "Right"  # 切换到下一个音源
+list_go_back = "Esc"                # 返回
+list_add_to_queue = "a"             # 加入播放队列
+search_toggle_aggregate = "v"       # 切换聚合搜索
+list_toggle_favorite = "f"          # 切换收藏
+search_cycle_source_prev = "Left"   # 切换到上一个音源
+list_select_first = "g"             # 跳到第一项
+search_start = "Enter"              # 开始搜索
+list_activate = "l"                 # 确认/播放
+list_page_down = "Ctrl+d"           # 向下翻页
+list_select_up = "k"                # 上移选中项
+
+[keybindings.pages.local]
+list_activate = "Enter"         # 确认/播放
+local_rescan = "r"              # 重新扫描本地音乐
+list_toggle_favorite = "f"      # 切换收藏
+list_page_up = "Ctrl+u"         # 向上翻页
+list_add_to_queue_next = "A"    # 插入到队列下一首
+list_cycle_sort = "s"           # 切换排序方式
+list_select_first = "g"         # 跳到第一项
+list_select_up = "k"            # 上移选中项
+list_add_to_queue = "a"         # 加入播放队列
+list_page_down = "Ctrl+d"       # 向下翻页
+list_select_down = "j"          # 下移选中项
+local_delete = "d"              # 删除本地曲目
+local_filter = "/"              # 筛选本地曲目
+list_select_last = "G"          # 跳到最后一项
+
+[keybindings.pages.leaderboard]
+list_select_up = "k"                # 上移选中项
+list_select_first = "g"             # 跳到第一项
+list_go_back = "Esc"                # 返回
+list_add_to_queue_next = "A"        # 插入到队列下一首
+list_activate = "Enter"             # 确认/播放
+list_toggle_favorite = "f"          # 切换收藏
+list_add_to_queue = "a"             # 加入播放队列
+list_select_down = "j"              # 下移选中项
+search_cycle_source_next = "Right"  # 切换到下一个音源
+list_page_up = "Ctrl+u"             # 向上翻页
+list_page_down = "Ctrl+d"           # 向下翻页
+list_select_last = "G"              # 跳到最后一项
+search_cycle_source_prev = "Left"   # 切换到上一个音源
 
 [notification]
-enable = true
-inApp = true
-inAppTimeout = 4
-albumCover = true
-trackChange = false
+enable = true          # 是否启用通知
+inApp = true            # 是否在应用内显示通知
+inAppTimeout = 4         # 应用内通知显示时长 (秒)
+albumCover = true        # 通知中是否显示专辑封面
+trackChange = false      # 切歌时是否发送通知
 
 [integration]
-mpris = true
+mpris = true  # 是否启用 MPRIS 集成（系统媒体控制）

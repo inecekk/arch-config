@@ -1,15 +1,111 @@
 [
   {
-    "id": "480126684",
-    "source": "kw",
-    "name": "乱世书",
-    "singer": "风华音纪、平生不晚",
-    "album_name": "乱世书",
+    "id": "/home/lk/Music/跳舞街-陈慧娴.mp3",
+    "source": "local",
+    "name": "跳舞街",
+    "singer": "陈慧娴",
+    "album_name": "宝丽金劲爆跳舞街",
     "duration": {
-      "secs": 200,
+      "secs": 226,
+      "nanos": 416000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/b75d7df31e532128.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/跳舞街-陈慧娴.mp3"
+  },
+  {
+    "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
+    "source": "local",
+    "name": "明日似在遥远",
+    "singer": "官太泽",
+    "album_name": "1a7混子",
+    "duration": {
+      "secs": 336,
+      "nanos": 504000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3"
+  },
+  {
+    "id": "/home/lk/Music/白狐 - 洋澜一.flac",
+    "source": "local",
+    "name": "白狐",
+    "singer": "洋澜一",
+    "album_name": "白狐",
+    "duration": {
+      "secs": 282,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "/home/lk/.cache/voicefox/covers/206978494735f1d3.jpg",
+    "qualities": [
+      "flac24bit"
+    ],
+    "file_path": "/home/lk/Music/白狐 - 洋澜一.flac"
+  },
+  {
+    "id": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
+    "source": "local",
+    "name": "帕萨卡利亚—亨德尔",
+    "singer": "古典",
+    "album_name": "古典赏析",
+    "duration": {
+      "secs": 150,
+      "nanos": 439000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/9332a2c2c91b2a9d.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3"
+  },
+  {
+    "id": "/home/lk/Music/川の流れのように-邓丽君.mp3",
+    "source": "local",
+    "name": "川の流れのように",
+    "singer": "邓丽君",
+    "album_name": "全曲集～ふたたび(再来)",
+    "duration": {
+      "secs": 299,
+      "nanos": 598000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/742b6d619f848eab.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/川の流れのように-邓丽君.mp3"
+  },
+  {
+    "id": "/home/lk/Music/不怕不怕-美美jocie.mp3",
+    "source": "local",
+    "name": "不怕不怕",
+    "singer": "美美jocie",
+    "album_name": "不怕不怕",
+    "duration": {
+      "secs": 102,
+      "nanos": 949000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/eb153d23bedfaef7.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/不怕不怕-美美jocie.mp3"
+  },
+  {
+    "id": "597507118",
+    "source": "kg",
+    "name": "黄昏 (纵然青丝如霜)(R&B版)",
+    "singer": "落日微醺",
+    "album_name": "黄昏（纵然青丝如霜）（R&B版）",
+    "duration": {
+      "secs": 245,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260609/20260609161011216344.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -18,16 +114,35 @@
     "file_path": null
   },
   {
-    "id": "613620217",
-    "source": "kw",
-    "name": "走错太多路 (治愈版)",
-    "singer": "戎大姨",
-    "album_name": "走错太多路(治愈版)",
+    "id": "295072162",
+    "source": "kg",
+    "name": "碎碎念",
+    "singer": "队长",
+    "album_name": "碎碎念",
     "duration": {
-      "secs": 213,
+      "secs": 132,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20231107/20231107223800767836.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "637393620",
+    "source": "kg",
+    "name": "山风山风等等我 (对唱版)",
+    "singer": "万海东、天雯",
+    "album_name": "山风山风等等我（对唱版）",
+    "duration": {
+      "secs": 209,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260810/20260810181758207741.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -36,494 +151,27 @@
     "file_path": null
   },
   {
-    "id": "17934506",
-    "source": "kw",
-    "name": "我记得你眼里的依恋",
-    "singer": "音乐磁场",
-    "album_name": "音乐磁场10-国语经典名曲",
+    "id": "302451553",
+    "source": "kg",
+    "name": "阴天",
+    "singer": "莫文蔚",
+    "album_name": "You Can",
     "duration": {
-      "secs": 266,
+      "secs": 242,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20230822/20230822173602614845.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "254321407",
-    "source": "kw",
-    "name": "相思遥",
-    "singer": "魏玉慧",
-    "album_name": "相思遥",
-    "duration": {
-      "secs": 193,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "5886682",
-    "source": "kw",
-    "name": "海阔天空",
-    "singer": "BEYOND",
-    "album_name": "乐与怒",
-    "duration": {
-      "secs": 324,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "14299479",
-    "source": "kw",
-    "name": "舍得",
-    "singer": "王唯旖",
-    "album_name": "舍得",
-    "duration": {
-      "secs": 262,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "528052465",
-    "source": "kw",
-    "name": "我曾像傻子一样爱你",
-    "singer": "老板",
-    "album_name": "我曾像傻子一样爱你",
-    "duration": {
-      "secs": 243,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "321260769",
-    "source": "kw",
-    "name": "唯一",
-    "singer": "G.E.M. 邓紫棋",
-    "album_name": "T.I.M.E.",
-    "duration": {
-      "secs": 253,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "545340770",
-    "source": "kw",
-    "name": "菩提树下我为你流泪",
-    "singer": "铃小花",
-    "album_name": "菩提树下我为你流泪",
-    "duration": {
-      "secs": 160,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "555806443",
-    "source": "kw",
-    "name": "有风的日落",
-    "singer": "万海东",
-    "album_name": "有风的日落",
-    "duration": {
-      "secs": 229,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "203164",
-    "source": "kw",
-    "name": "西海情歌",
-    "singer": "刀郎",
-    "album_name": "刀郎Ⅲ",
-    "duration": {
-      "secs": 343,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "318448522",
-    "source": "kw",
-    "name": "情罪",
-    "singer": "陈瑞",
-    "album_name": "情罪",
-    "duration": {
-      "secs": 285,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "93157",
-    "source": "kw",
-    "name": "江南",
-    "singer": "林俊杰",
-    "album_name": "第二天堂",
-    "duration": {
-      "secs": 267,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "38958726",
-    "source": "kw",
-    "name": "后会无期",
-    "singer": "徐良、汪苏泷",
-    "album_name": "不良少年",
-    "duration": {
-      "secs": 211,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "70180725",
-    "source": "kw",
-    "name": "我走后",
-    "singer": "小咪",
-    "album_name": "我走后",
-    "duration": {
-      "secs": 248,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "148411214",
-    "source": "kw",
-    "name": "虞兮叹",
-    "singer": "闻人听書_",
-    "album_name": "虞兮叹",
-    "duration": {
-      "secs": 210,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "473537986",
-    "source": "kw",
-    "name": "背着风流泪",
-    "singer": "文夫",
-    "album_name": "背着风流泪 (我怕见面就想重新拥有)",
-    "duration": {
-      "secs": 253,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "597628954",
-    "source": "kw",
-    "name": "热血颂 (女声版)",
-    "singer": "苏娜",
-    "album_name": "热血颂",
-    "duration": {
-      "secs": 246,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "493628625",
-    "source": "kw",
-    "name": "同进退",
-    "singer": "倪浩毅",
-    "album_name": "同进退",
-    "duration": {
-      "secs": 212,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "9880330",
-    "source": "kw",
-    "name": "下完这场雨",
-    "singer": "后弦",
-    "album_name": "下完这场雨",
-    "duration": {
-      "secs": 271,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "628909",
-    "source": "kw",
-    "name": "失眠",
-    "singer": "Suki刘舒妤",
-    "album_name": "Ladies Night",
-    "duration": {
-      "secs": 211,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "6468891",
-    "source": "kw",
-    "name": "演员",
-    "singer": "薛之谦",
-    "album_name": "绅士",
-    "duration": {
-      "secs": 261,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "450444",
-    "source": "kw",
-    "name": "红色高跟鞋",
-    "singer": "蔡健雅",
-    "album_name": "若你碰到他",
-    "duration": {
-      "secs": 206,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "284892811",
-    "source": "kw",
-    "name": "离别开出花",
-    "singer": "就是南方凯",
-    "album_name": "离别开出花",
-    "duration": {
-      "secs": 230,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "89427629",
-    "source": "kw",
-    "name": "离开我的依赖",
-    "singer": "王艳薇",
-    "album_name": "离开我的依赖",
-    "duration": {
-      "secs": 233,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "554627654",
-    "source": "kw",
-    "name": "海屿你",
-    "singer": "Sixteen",
-    "album_name": "海屿你 (求你别离开我)",
-    "duration": {
-      "secs": 260,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "201182467",
-    "source": "kw",
-    "name": "天地龙鳞",
-    "singer": "王力宏",
-    "album_name": "天地龙鳞",
-    "duration": {
-      "secs": 196,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "221822646",
-    "source": "kw",
-    "name": "可能",
-    "singer": "程响",
-    "album_name": "可能",
-    "duration": {
-      "secs": 217,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "501646",
-    "source": "kw",
-    "name": "奢香夫人",
-    "singer": "凤凰传奇",
-    "album_name": "最炫民族风",
-    "duration": {
-      "secs": 259,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "386305156",
-    "source": "kw",
+    "id": "363537969",
+    "source": "kg",
     "name": "恋人",
     "singer": "李荣浩",
     "album_name": "黑马",
@@ -531,25 +179,26 @@
       "secs": 275,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20241016/20241016175101115675.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "1697454",
-    "source": "kw",
-    "name": "盛夏的果实",
-    "singer": "莫文蔚",
-    "album_name": "NO.1新曲精选全记录20首",
+    "id": "2497914",
+    "source": "kg",
+    "name": "此生不换",
+    "singer": "青鸟飞鱼",
+    "album_name": "仙剑奇侠传三 电视剧原声带",
     "duration": {
-      "secs": 251,
+      "secs": 265,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620075535876793.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -558,16 +207,16 @@
     "file_path": null
   },
   {
-    "id": "22807949",
-    "source": "kw",
-    "name": "半壶纱",
-    "singer": "刘珂矣",
-    "album_name": "半壶纱",
+    "id": "638585035",
+    "source": "kg",
+    "name": "杀破狼 (R&B氛围版)",
+    "singer": "萧泽",
+    "album_name": "杀破狼",
     "duration": {
-      "secs": 221,
+      "secs": 198,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260813/20260813103609357200.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -576,62 +225,8 @@
     "file_path": null
   },
   {
-    "id": "465829",
-    "source": "kw",
-    "name": "情歌",
-    "singer": "梁静茹",
-    "album_name": "靜茹 & 情歌 別再为他流泪",
-    "duration": {
-      "secs": 260,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "398013033",
-    "source": "kw",
-    "name": "白鸽乌鸦相爱的戏码",
-    "singer": "潘成（皮卡潘）",
-    "album_name": "白鸽乌鸦相爱的戏码",
-    "duration": {
-      "secs": 173,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "617069861",
-    "source": "kw",
-    "name": "吹吹山顶的风",
-    "singer": "巴扎黑",
-    "album_name": "吹吹山顶的风",
-    "duration": {
-      "secs": 179,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "1035026",
-    "source": "kw",
+    "id": "348980",
+    "source": "kg",
     "name": "雨爱",
     "singer": "杨丞琳",
     "album_name": "雨爱",
@@ -639,25 +234,7 @@
       "secs": 260,
       "nanos": 0
     },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "193290598",
-    "source": "kw",
-    "name": "如愿",
-    "singer": "王菲",
-    "album_name": "如愿",
-    "duration": {
-      "secs": 265,
-      "nanos": 0
-    },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250716/20250716140851912935.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -667,679 +244,51 @@
     "file_path": null
   },
   {
-    "id": "1044318",
-    "source": "kw",
-    "name": "黄昏",
-    "singer": "周传雄",
-    "album_name": "Transfer",
-    "duration": {
-      "secs": 344,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "133360",
-    "source": "kw",
+    "id": "256293",
+    "source": "kg",
     "name": "樱花草",
     "singer": "Sweety",
-    "album_name": "花言乔语 (精装版)",
+    "album_name": "花言巧语",
     "duration": {
       "secs": 283,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260610/20260610172641662788.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "93151",
-    "source": "kw",
-    "name": "美人鱼",
-    "singer": "林俊杰",
-    "album_name": "第二天堂",
-    "duration": {
-      "secs": 254,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "320462",
-    "source": "kw",
-    "name": "青花",
-    "singer": "周传雄",
-    "album_name": "蓝色土耳其",
-    "duration": {
-      "secs": 297,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "563734238",
-    "source": "kw",
-    "name": "谁 (男女扎心合唱)",
-    "singer": "梨子芥菜、戚悦",
-    "album_name": "谁（男女扎心合唱）",
-    "duration": {
-      "secs": 238,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "521282545",
-    "source": "kw",
-    "name": "街角的晚风",
-    "singer": "陈小春",
-    "album_name": "街角的晚风",
-    "duration": {
-      "secs": 240,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "550221152",
-    "source": "kw",
-    "name": "人生路漫漫",
-    "singer": "白小白",
-    "album_name": "人生路漫漫",
-    "duration": {
-      "secs": 235,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "22888701",
-    "source": "kw",
-    "name": "梦的翅膀受了伤",
-    "singer": "蒋雪儿Snow.J",
-    "album_name": "梦的翅膀受了伤",
-    "duration": {
-      "secs": 275,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "486366800",
-    "source": "kw",
-    "name": "野心家",
-    "singer": "张靓颖",
-    "album_name": "灼灼韶华 影视原声带",
-    "duration": {
-      "secs": 282,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "594551679",
-    "source": "kw",
-    "name": "黄昏（纵然青丝如霜） (R&B版)",
-    "singer": "落日微醺",
-    "album_name": "黄昏（纵然青丝如霜）（R&B版）",
-    "duration": {
-      "secs": 245,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "628379347",
-    "source": "kw",
-    "name": "金达莱花 (猛Remix)",
-    "singer": "猛弟/邹子寒",
-    "album_name": "진달래꽃 金达莱花(猛Remix）",
-    "duration": {
-      "secs": 138,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "570482802",
-    "source": "kw",
-    "name": "岁月如笔写春秋",
-    "singer": "河南三妹5233",
-    "album_name": "岁月如笔写春秋",
-    "duration": {
-      "secs": 251,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "595898177",
-    "source": "kw",
-    "name": "踏马寻花向自由 (雷鬼版)",
-    "singer": "超哥",
-    "album_name": "踏马寻花向自由（雷鬼版）",
-    "duration": {
-      "secs": 179,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "567247828",
-    "source": "kw",
-    "name": "你有没有真的爱过我",
-    "singer": "阿图表妹",
-    "album_name": "你有没有真的爱过我",
-    "duration": {
-      "secs": 243,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "624683929",
-    "source": "kw",
-    "name": "山风山风等等我",
-    "singer": "万海东",
-    "album_name": "山风山风等等我",
-    "duration": {
-      "secs": 209,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "1033391",
-    "source": "kw",
-    "name": "真的爱你",
-    "singer": "BEYOND",
-    "album_name": "BEYOND IV",
-    "duration": {
-      "secs": 275,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "142801",
-    "source": "kw",
-    "name": "偏偏喜欢你",
-    "singer": "陈百强",
-    "album_name": "偏偏喜欢你",
-    "duration": {
-      "secs": 212,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "518420032",
-    "source": "kw",
-    "name": "乌兰巴托的夜 (深情烟嗓版)",
-    "singer": "大头针 Official",
-    "album_name": "乌兰巴托的夜（深情烟嗓版）",
-    "duration": {
-      "secs": 217,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "325842",
-    "source": "kw",
-    "name": "开始懂了",
-    "singer": "孙燕姿",
-    "album_name": "我要的幸福",
-    "duration": {
-      "secs": 271,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "4387631",
-    "source": "kw",
-    "name": "只对你有感觉",
-    "singer": "飞轮海、田馥甄",
-    "album_name": "飞轮海 首张同名专辑",
-    "duration": {
-      "secs": 239,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "662376",
-    "source": "kw",
-    "name": "爱江山更爱美人",
-    "singer": "李丽芬",
-    "album_name": "就这样约定",
-    "duration": {
-      "secs": 319,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "314563313",
-    "source": "kw",
-    "name": "不如见一面",
-    "singer": "海来阿木",
-    "album_name": "不如见一面",
-    "duration": {
-      "secs": 247,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "458663",
-    "source": "kw",
-    "name": "如果当时",
-    "singer": "许嵩",
-    "album_name": "自定义",
-    "duration": {
-      "secs": 316,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "499778",
-    "source": "kw",
-    "name": "偏爱",
-    "singer": "张芸京",
-    "album_name": "破天荒",
-    "duration": {
-      "secs": 212,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "104595",
-    "source": "kw",
-    "name": "一直很安静",
-    "singer": "阿桑",
-    "album_name": "寂寞在唱歌",
+    "id": "301315251",
+    "source": "kg",
+    "name": "盛夏的果实",
+    "singer": "莫文蔚",
+    "album_name": "《北极光》国语版",
     "duration": {
       "secs": 250,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250221/20250221180820211739.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "466125433",
-    "source": "kw",
-    "name": "月亮照山川",
-    "singer": "窝窝",
-    "album_name": "月亮照山川",
+    "id": "304645874",
+    "source": "kg",
+    "name": "历史的天空",
+    "singer": "毛阿敏",
+    "album_name": "毛阿敏 同名精选集",
     "duration": {
-      "secs": 197,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "237910",
-    "source": "kw",
-    "name": "曾经的你",
-    "singer": "许巍",
-    "album_name": "每一刻都是崭新的",
-    "duration": {
-      "secs": 261,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "3202719",
-    "source": "kw",
-    "name": "半点心",
-    "singer": "草蜢",
-    "album_name": "Grasshopper IV",
-    "duration": {
-      "secs": 232,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "296504",
-    "source": "kw",
-    "name": "遇见",
-    "singer": "孙燕姿",
-    "album_name": "The Moment",
-    "duration": {
-      "secs": 210,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "246113640",
-    "source": "kw",
-    "name": "西楼儿女",
-    "singer": "海来阿木",
-    "album_name": "西楼儿女",
-    "duration": {
-      "secs": 257,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "551976195",
-    "source": "kw",
-    "name": "Fever Pitch",
-    "singer": "Richz",
-    "album_name": "Fever Pitch",
-    "duration": {
-      "secs": 135,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "622510397",
-    "source": "kw",
-    "name": "岁月如笔写春秋（DJ默涵版）",
-    "singer": "花姐",
-    "album_name": "岁月如笔写春秋",
-    "duration": {
-      "secs": 204,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "145913448",
-    "source": "kw",
-    "name": "天下",
-    "singer": "张杰",
-    "album_name": "听！我们的歌",
-    "duration": {
-      "secs": 221,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "157033821",
-    "source": "kw",
-    "name": "落了白",
-    "singer": "蒋雪儿Snow.J",
-    "album_name": "落了白",
-    "duration": {
-      "secs": 180,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "382021182",
-    "source": "kw",
-    "name": "有风无风皆自由",
-    "singer": "王一佳",
-    "album_name": "有风无风皆自由",
-    "duration": {
-      "secs": 190,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "22837479",
-    "source": "kw",
-    "name": "坏女孩",
-    "singer": "徐良、小凌",
-    "album_name": "不良少年",
-    "duration": {
-      "secs": 246,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "7186051",
-    "source": "kw",
-    "name": "手放开",
-    "singer": "李圣杰",
-    "album_name": "绝对痴心·手放开",
-    "duration": {
-      "secs": 265,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "441426083",
-    "source": "kw",
-    "name": "搀扶",
-    "singer": "马健涛",
-    "album_name": "搀扶",
-    "duration": {
-      "secs": 327,
+      "secs": 187,
       "nanos": 0
     },
     "cover_url": null,
@@ -1352,16 +301,33 @@
     "file_path": null
   },
   {
-    "id": "15213376",
-    "source": "kw",
-    "name": "That Girl",
-    "singer": "Olly Murs",
-    "album_name": "24 HRS (Deluxe)",
+    "id": "3395677679",
+    "source": "wy",
+    "name": "星",
+    "singer": "女王蜂",
+    "album_name": "星",
     "duration": {
-      "secs": 176,
-      "nanos": 0
+      "secs": 224,
+      "nanos": 26000000
     },
-    "cover_url": null,
+    "cover_url": "http://p2.music.126.net/yxusCkgOONd37-tMUZ0lTw==/109951173423612116.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3403097821",
+    "source": "wy",
+    "name": "ホウキボシ",
+    "singer": "ロクデナシ",
+    "album_name": "ホウキボシ",
+    "duration": {
+      "secs": 181,
+      "nanos": 69000000
+    },
+    "cover_url": "http://p2.music.126.net/R2ecjTM9yBAc02Pl3b8vqg==/109951173523901972.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1370,16 +336,67 @@
     "file_path": null
   },
   {
-    "id": "21762578",
-    "source": "kw",
-    "name": "一生所爱",
-    "singer": "卢冠廷、莫文蔚",
-    "album_name": "齐天周大圣之西游双记 电影歌乐游唱版",
+    "id": "3399354456",
+    "source": "wy",
+    "name": "さよならララ",
+    "singer": "いきものがかり",
+    "album_name": "さよならララ",
     "duration": {
-      "secs": 273,
-      "nanos": 0
+      "secs": 294,
+      "nanos": 844000000
     },
-    "cover_url": null,
+    "cover_url": "http://p2.music.126.net/03f62cL15udLnY-NxtW0aw==/109951173476435541.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3397955247",
+    "source": "wy",
+    "name": "Sunny",
+    "singer": "milet",
+    "album_name": "Sunny",
+    "duration": {
+      "secs": 214,
+      "nanos": 47000000
+    },
+    "cover_url": "http://p2.music.126.net/cOr4edS1NJ4E5Ajt_04o7g==/109951173454709120.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3412809398",
+    "source": "wy",
+    "name": "GO GHOST",
+    "singer": "King Gnu",
+    "album_name": "GO GHOST",
+    "duration": {
+      "secs": 170,
+      "nanos": 135000000
+    },
+    "cover_url": "http://p2.music.126.net/yz0wdp_WhXFTLHufAP8TkQ==/109951173654880302.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3394003744",
+    "source": "wy",
+    "name": "Stay Alive ～Regain～",
+    "singer": "高橋李依",
+    "album_name": "TVアニメ「Re：ゼロから始める異世界生活」4th season挿入歌「Stay Alive ～Regain～」",
+    "duration": {
+      "secs": 293,
+      "nanos": 999000000
+    },
+    "cover_url": "http://p2.music.126.net/Gd4zWSExEAFYtFBDuC5UCg==/109951173389698384.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1388,16 +405,50 @@
     "file_path": null
   },
   {
-    "id": "28879676",
-    "source": "kw",
-    "name": "阿衣莫",
-    "singer": "阿吉太组合",
-    "album_name": "阿衣莫",
+    "id": "3395677517",
+    "source": "wy",
+    "name": "祈り、終われば",
+    "singer": "中島美嘉",
+    "album_name": "祈り、終われば",
     "duration": {
-      "secs": 314,
-      "nanos": 0
+      "secs": 237,
+      "nanos": 217000000
     },
-    "cover_url": null,
+    "cover_url": "http://p2.music.126.net/V-E_hYiVqp_1zNBNVJvrPg==/109951173423607578.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3403370101",
+    "source": "wy",
+    "name": "Hearts Glow",
+    "singer": "Hana Hope",
+    "album_name": "Hearts Glow",
+    "duration": {
+      "secs": 234,
+      "nanos": 710000000
+    },
+    "cover_url": "http://p2.music.126.net/M48j0d0xH9UId5PHppUabw==/109951173526626603.jpg",
+    "qualities": [
+      "128k",
+      "320k"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3393883370",
+    "source": "wy",
+    "name": "Don't tell your dreams",
+    "singer": "STOSLIV、LOVIXX",
+    "album_name": "Don't tell your dreams",
+    "duration": {
+      "secs": 141,
+      "nanos": 40000000
+    },
+    "cover_url": "http://p2.music.126.net/RQkCsBhLe15EUbxA7Nbarw==/109951173387966522.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1406,16 +457,35 @@
     "file_path": null
   },
   {
-    "id": "80403",
-    "source": "kw",
-    "name": "十年",
-    "singer": "陈奕迅",
-    "album_name": "黑白灰",
+    "id": "3406230208",
+    "source": "wy",
+    "name": "burger",
+    "singer": "bbno$",
+    "album_name": "burger",
     "duration": {
-      "secs": 205,
-      "nanos": 0
+      "secs": 121,
+      "nanos": 535000000
     },
-    "cover_url": null,
+    "cover_url": "http://p2.music.126.net/1VtNKIT5_a68_6Uj-NyJBg==/109951173601782108.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3395921362",
+    "source": "wy",
+    "name": "OK (feat. Don Toliver)",
+    "singer": "Kanye West、Ye、Don Toliver",
+    "album_name": "BULLY - DELUXE",
+    "duration": {
+      "secs": 158,
+      "nanos": 193000000
+    },
+    "cover_url": "http://p2.music.126.net/wJhFaiWhdinuBl8dUcs6jA==/109951173427879020.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1424,11 +494,200 @@
     "file_path": null
   },
   {
-    "id": "77861",
-    "source": "kw",
-    "name": "忘了你忘了我",
-    "singer": "王杰",
-    "album_name": "忘了你‧忘了我",
+    "id": "517915939",
+    "source": "kg",
+    "name": "难寄相思",
+    "singer": "刘君",
+    "album_name": "难寄相思",
+    "duration": {
+      "secs": 211,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20251218/20251218191124146162.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "475603770",
+    "source": "kg",
+    "name": "庙堂之外",
+    "singer": "陈楚生",
+    "album_name": "长安的荔枝 电影原声音乐专辑",
+    "duration": {
+      "secs": 282,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250715/20250715204841594132.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "602294565",
+    "source": "kg",
+    "name": "春庭雪 (r&b微醺版)",
+    "singer": "落日微醺",
+    "album_name": "春庭雪（r&b微醺版）",
+    "duration": {
+      "secs": 224,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260617/20260617165805239121.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "523328471",
+    "source": "kg",
+    "name": "我恨明月不照我",
+    "singer": "阿YueYue",
+    "album_name": "我恨明月不照我",
+    "duration": {
+      "secs": 252,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20251231/20251231104001181980.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "337899629",
+    "source": "kg",
+    "name": "落 (花开花落日升日没)",
+    "singer": "唐伯虎Annie",
+    "album_name": "《Fall》国语版",
+    "duration": {
+      "secs": 184,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240318/20240318191004314961.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1105696595",
+    "source": "kg",
+    "name": "主角",
+    "singer": "王菲",
+    "album_name": "主角",
+    "duration": {
+      "secs": 300,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260506/20260506111442641887.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "344155745",
+    "source": "kg",
+    "name": "知了",
+    "singer": "陈默之",
+    "album_name": "知了",
+    "duration": {
+      "secs": 231,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240409/20240409135806448993.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "519737894",
+    "source": "kg",
+    "name": "琵琶曲",
+    "singer": "郑浩、冰洁",
+    "album_name": "琵琶曲",
+    "duration": {
+      "secs": 235,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260326/20260326181841360691.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "493831657",
+    "source": "kg",
+    "name": "岸边客",
+    "singer": "夏子航（2603）",
+    "album_name": "岸边客",
+    "duration": {
+      "secs": 272,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250917/20250917175051932783.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "56897932",
+    "source": "kg",
+    "name": "吹梦到西洲",
+    "singer": "昭爻tsuki、千世",
+    "album_name": "吹梦到西洲",
+    "duration": {
+      "secs": 315,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20231009/20231009174946887769.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "576353068",
+    "source": "kg",
+    "name": "洛神",
+    "singer": "乱徵",
+    "album_name": "",
     "duration": {
       "secs": 277,
       "nanos": 0
@@ -1442,178 +701,92 @@
     "file_path": null
   },
   {
-    "id": "9918220",
-    "source": "kw",
-    "name": "成都",
-    "singer": "赵雷",
-    "album_name": "成都",
-    "duration": {
-      "secs": 328,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "23542423",
-    "source": "kw",
-    "name": "蓝莲花",
-    "singer": "许巍",
-    "album_name": "曾经的你",
-    "duration": {
-      "secs": 270,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "556907469",
-    "source": "kw",
-    "name": "不跪的花",
-    "singer": "央金拉姆",
-    "album_name": "不跪的花",
-    "duration": {
-      "secs": 192,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "105274",
-    "source": "kw",
-    "name": "一个人的天荒地老",
-    "singer": "张宇",
-    "album_name": "温古知新 一个人的天荒地老",
-    "duration": {
-      "secs": 297,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "39515638",
-    "source": "kw",
-    "name": "桃花诺",
-    "singer": "G.E.M. 邓紫棋",
-    "album_name": "上古情歌 电视剧原声带",
-    "duration": {
-      "secs": 219,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "557155474",
-    "source": "kw",
-    "name": "慢慢人生路",
-    "singer": "姜成万、烟嗓明哥",
-    "album_name": "慢慢人生路",
-    "duration": {
-      "secs": 327,
-      "nanos": 0
-    },
-    "cover_url": null,
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "380050108",
-    "source": "kw",
-    "name": "我可以假装很好",
-    "singer": "何洁、苏醒AllenSu",
-    "album_name": "我可以假装很好",
+    "id": "327648123",
+    "source": "kg",
+    "name": "冷夜",
+    "singer": "陈默之",
+    "album_name": "冷夜",
     "duration": {
       "secs": 247,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240131/20240131141218754280.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "140935285",
-    "source": "kw",
-    "name": "你的万水千山",
-    "singer": "海来阿木",
-    "album_name": "你的万水千山",
+    "id": "287554867",
+    "source": "kg",
+    "name": "探故知",
+    "singer": "浅影阿、汐音社",
+    "album_name": "探故知",
     "duration": {
-      "secs": 249,
+      "secs": 201,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20241028/20241028112542415541.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "291598",
-    "source": "kw",
-    "name": "隐形的翅膀",
-    "singer": "张韶涵",
-    "album_name": "潘朵拉",
+    "id": "557136019",
+    "source": "kg",
+    "name": "翩翩",
+    "singer": "周煜琦",
+    "album_name": "翩翩",
     "duration": {
-      "secs": 224,
+      "secs": 283,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260411/20260411125111979967.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "561511715",
-    "source": "kw",
-    "name": "风说",
-    "singer": "陈默默",
-    "album_name": "风说",
+    "id": "1106587145",
+    "source": "kg",
+    "name": "挽红纱",
+    "singer": "龚琳娜、张云雷",
+    "album_name": "挽红纱",
     "duration": {
-      "secs": 196,
+      "secs": 221,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260610/20260610152505154095.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1099164186",
+    "source": "kg",
+    "name": "失眠",
+    "singer": "Suki刘舒妤",
+    "album_name": "Ladies Night",
+    "duration": {
+      "secs": 211,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260415/20260415190622329436.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1622,70 +795,73 @@
     "file_path": null
   },
   {
-    "id": "102428",
-    "source": "kw",
-    "name": "爱错",
-    "singer": "王力宏",
-    "album_name": "心中的日月",
+    "id": "78323754",
+    "source": "kg",
+    "name": "明天过后",
+    "singer": "张杰",
+    "album_name": "听!我们的歌",
     "duration": {
       "secs": 238,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20221205/20221205230912991735.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "3205111",
-    "source": "kw",
-    "name": "黄昏",
-    "singer": "罗文",
-    "album_name": "戏说人生",
+    "id": "618417595",
+    "source": "kg",
+    "name": "吹吹山顶的风",
+    "singer": "巴扎黑",
+    "album_name": "吹吹山顶的风",
     "duration": {
-      "secs": 300,
+      "secs": 179,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260721/20260721104743915578.png",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "176704915",
-    "source": "kw",
-    "name": "这世界那么多人",
-    "singer": "莫文蔚",
-    "album_name": "这世界那么多人 (电影《我要我们在一起》主题曲)",
+    "id": "571484095",
+    "source": "kg",
+    "name": "你有没有真的爱过我",
+    "singer": "阿图表妹",
+    "album_name": "你有没有真的爱过我",
     "duration": {
-      "secs": 285,
+      "secs": 243,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260604/20260604164021847508.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "231323",
-    "source": "kw",
-    "name": "我怀念的",
-    "singer": "孙燕姿",
-    "album_name": "逆光",
+    "id": "1106816298",
+    "source": "kg",
+    "name": "甲乙丙丁 (你我怎么两清)",
+    "singer": "李佳薇",
+    "album_name": "甲乙丙丁",
     "duration": {
-      "secs": 289,
+      "secs": 210,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260630/20260630202952972321.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1694,34 +870,35 @@
     "file_path": null
   },
   {
-    "id": "499610341",
-    "source": "kw",
-    "name": "珊瑚颂",
-    "singer": "徐子尧",
-    "album_name": "山歌响起的地方",
+    "id": "27252395",
+    "source": "kg",
+    "name": "九张机",
+    "singer": "叶炫清",
+    "album_name": "《双世宠妃》网络剧主题曲",
     "duration": {
-      "secs": 239,
+      "secs": 220,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144440441395.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "228908",
-    "source": "kw",
-    "name": "晴天",
-    "singer": "周杰伦",
-    "album_name": "叶惠美",
+    "id": "39125019",
+    "source": "kg",
+    "name": "叹云兮",
+    "singer": "鞠婧祎",
+    "album_name": "《芸汐传》电视剧片尾曲",
     "duration": {
-      "secs": 269,
+      "secs": 283,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20180702/20180702162123692929.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1730,52 +907,73 @@
     "file_path": null
   },
   {
-    "id": "75307023",
-    "source": "kw",
-    "name": "莫问归期",
-    "singer": "蒋雪儿Snow.J",
-    "album_name": "莫问归期",
+    "id": "322158941",
+    "source": "kg",
+    "name": "小美满",
+    "singer": "周深",
+    "album_name": "《热辣滚烫》电影热辣陪伴曲",
     "duration": {
-      "secs": 219,
+      "secs": 214,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240205/20240205142001926246.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "393305",
-    "source": "kw",
-    "name": "猜不透",
-    "singer": "丁当",
-    "album_name": "我爱上的",
+    "id": "48312021",
+    "source": "kg",
+    "name": "等你的季节",
+    "singer": "刘诗诗",
+    "album_name": "《步步惊心》电视剧插曲",
     "duration": {
-      "secs": 233,
+      "secs": 241,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250828/20250828154331351008.jpg",
     "qualities": [
       "128k",
       "320k",
-      "flac"
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   },
   {
-    "id": "625170",
-    "source": "kw",
-    "name": "朋友的酒",
-    "singer": "李晓杰",
-    "album_name": "老大",
+    "id": "1107597772",
+    "source": "kg",
+    "name": "野草 (致老狗)",
+    "singer": "曾舜晞",
+    "album_name": "《九门》网络剧吴老狗角色曲",
     "duration": {
-      "secs": 261,
+      "secs": 236,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260804/20260804115143750712.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "26952339",
+    "source": "kg",
+    "name": "追光者",
+    "singer": "岑宁儿",
+    "album_name": "《夏至未至》电视剧插曲",
+    "duration": {
+      "secs": 235,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20211224/20211224095604242382.jpg",
     "qualities": [
       "128k",
       "320k",
@@ -1784,20 +982,868 @@
     "file_path": null
   },
   {
-    "id": "564462837",
-    "source": "kw",
-    "name": "我是不是该安静的走开 (粤语女声版)",
-    "singer": "林咏诗",
-    "album_name": "我是不是该安静的走开(粤语女声版)",
+    "id": "4019510",
+    "source": "kg",
+    "name": "平凡之路",
+    "singer": "朴树",
+    "album_name": "《后会无期》电影主题曲",
+    "duration": {
+      "secs": 301,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20210113/20210113083150114326.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "104682858",
+    "source": "kg",
+    "name": "忘记时间",
+    "singer": "胡歌",
+    "album_name": "《仙剑奇侠传三》电视剧片尾曲",
+    "duration": {
+      "secs": 272,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250221/20250221180731140818.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "336735",
+    "source": "kg",
+    "name": "你不知道的事",
+    "singer": "王力宏",
+    "album_name": "《恋爱通告》电影主题曲",
+    "duration": {
+      "secs": 278,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200308/20200308041406794049.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1107580187",
+    "source": "kg",
+    "name": "来我的岛",
+    "singer": "刘宇宁",
+    "album_name": "《去你的岛》电影主题曲",
     "duration": {
       "secs": 223,
       "nanos": 0
     },
-    "cover_url": null,
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260731/20260731141620397821.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "4976968",
+    "source": "kg",
+    "name": "少一点天份",
+    "singer": "孙盛希",
+    "album_name": "《俏摩女抢头婚》电视剧片尾曲",
+    "duration": {
+      "secs": 274,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20150720/20150720205709235300.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "23542495",
+    "source": "kg",
+    "name": "天若有情",
+    "singer": "A-Lin",
+    "album_name": "《锦绣未央》电视剧主题曲",
+    "duration": {
+      "secs": 257,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144202112165.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "23660306",
+    "source": "kg",
+    "name": "天赋",
+    "singer": "唐嫣、罗晋",
+    "album_name": "《锦绣未央》电视剧片尾曲",
+    "duration": {
+      "secs": 277,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144208140008.jpg",
     "qualities": [
       "128k",
       "320k",
       "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "11299767",
+    "source": "kg",
+    "name": "See You Again (feat. Charlie Puth)",
+    "singer": "Wiz Khalifa、Charlie Puth",
+    "album_name": "《速度与激情7》电影主题曲",
+    "duration": {
+      "secs": 229,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250311/20250311105030201587.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "301339714",
+    "source": "kg",
+    "name": "命运",
+    "singer": "家家",
+    "album_name": "《逆转胜》电影插曲",
+    "duration": {
+      "secs": 230,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20150719/20150719062345133387.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "619386",
+    "source": "kg",
+    "name": "渡情",
+    "singer": "古月、张慧清",
+    "album_name": "《新白娘子传奇 1992版》电视剧片尾曲",
+    "duration": {
+      "secs": 196,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20210112/20210112101147785612.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "135231216",
+    "source": "kg",
+    "name": "无名的人",
+    "singer": "毛不易",
+    "album_name": "《雄狮少年》电影主题曲",
+    "duration": {
+      "secs": 282,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250213/20250213164103493849.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "18758291",
+    "source": "kg",
+    "name": "勋章",
+    "singer": "鹿晗",
+    "album_name": "《我是证人》电影主题曲",
+    "duration": {
+      "secs": 213,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144212257577.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "105823392",
+    "source": "kg",
+    "name": "不遗憾",
+    "singer": "李荣浩",
+    "album_name": "《你的婚礼》电影主题曲",
+    "duration": {
+      "secs": 320,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20221207/20221207213831458349.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "334733",
+    "source": "kg",
+    "name": "那些年",
+    "singer": "胡夏",
+    "album_name": "《那些年，我们一起追的女孩。》电影主题曲",
+    "duration": {
+      "secs": 371,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200614/20200614215004258386.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22045000",
+    "source": "kg",
+    "name": "不该 (with aMEI)",
+    "singer": "周杰伦、张惠妹",
+    "album_name": "《幻城凡世》网络剧主题曲",
+    "duration": {
+      "secs": 291,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620103601113025.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "36150190",
+    "source": "kg",
+    "name": "体面",
+    "singer": "于文文",
+    "album_name": "《前任3：再见前任》电影插曲",
+    "duration": {
+      "secs": 282,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20171221/20171221090821129644.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "695495",
+    "source": "kg",
+    "name": "一个人想着一个人",
+    "singer": "曾沛慈",
+    "album_name": "《终极一班3》电视剧插曲",
+    "duration": {
+      "secs": 243,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250207/20250207161119832439.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "12146615",
+    "source": "kg",
+    "name": "不将就",
+    "singer": "李荣浩",
+    "album_name": "《何以笙箫默》电影片尾曲",
+    "duration": {
+      "secs": 312,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250808/20250808181823962480.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "298888513",
+    "source": "kg",
+    "name": "一路向北",
+    "singer": "周杰伦",
+    "album_name": "《头文字D》电影插曲",
+    "duration": {
+      "secs": 294,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250125/20250125121743958387.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1107339515",
+    "source": "kg",
+    "name": "全世界的雨",
+    "singer": "周深、Ella陈嘉桦",
+    "album_name": "《八仙！》电影主题曲",
+    "duration": {
+      "secs": 248,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260714/20260714162932487114.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22339974",
+    "source": "kg",
+    "name": "落空",
+    "singer": "印子月",
+    "album_name": "《旋风少女第二季》电视剧主题曲",
+    "duration": {
+      "secs": 233,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250319/20250319232204316906.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "288965",
+    "source": "kg",
+    "name": "恶作剧",
+    "singer": "王蓝茵",
+    "album_name": "《恶作剧之吻 2005台湾版》电视剧片尾曲",
+    "duration": {
+      "secs": 226,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240318/20240318181757600760.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "14862187",
+    "source": "kg",
+    "name": "女孩",
+    "singer": "韦礼安",
+    "album_name": "《长不大的爸爸》电视剧片头曲",
+    "duration": {
+      "secs": 306,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20210419/20210419145704880487.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22179363",
+    "source": "kg",
+    "name": "还魂门",
+    "singer": "胡彦斌",
+    "album_name": "《老九门》电视剧主题曲",
+    "duration": {
+      "secs": 256,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20230105/20230105001716694797.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1107587306",
+    "source": "kg",
+    "name": "一诺",
+    "singer": "刘宇宁",
+    "album_name": "《花开锦绣》网络剧主题曲/片尾曲",
+    "duration": {
+      "secs": 220,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803180043476567.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "22299058",
+    "source": "kg",
+    "name": "后来的我们",
+    "singer": "五月天",
+    "album_name": "《后来的我们》电影片名曲",
+    "duration": {
+      "secs": 346,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620080504731678.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "43967225",
+    "source": "kg",
+    "name": "无情画",
+    "singer": "王唯旖",
+    "album_name": "《双世宠妃Ⅱ》网络剧片头曲",
+    "duration": {
+      "secs": 255,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20180926/20180926143430837718.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "25093915",
+    "source": "kg",
+    "name": "繁花",
+    "singer": "董真",
+    "album_name": "《三生三世十里桃花》电视剧插曲",
+    "duration": {
+      "secs": 225,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250228/20250228160405854968.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "27564567",
+    "source": "kg",
+    "name": "生死相随",
+    "singer": "崔子格、杨培安",
+    "album_name": "《秦时丽人明月心》电视剧片尾曲",
+    "duration": {
+      "secs": 230,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620075454255736.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "37657556",
+    "source": "kg",
+    "name": "忽而今夏",
+    "singer": "汪苏泷",
+    "album_name": "《忽而今夏》网络剧主题曲",
+    "duration": {
+      "secs": 260,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250217/20250217144436428585.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3254190",
+    "source": "kg",
+    "name": "终会与你同行",
+    "singer": "白挺",
+    "album_name": "《熊出没之过年》电影片尾曲",
+    "duration": {
+      "secs": 224,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20220210/20220210091506520943.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "37431656",
+    "source": "kg",
+    "name": "左手指月",
+    "singer": "萨顶顶",
+    "album_name": "《香蜜沉沉烬如霜》电视剧片尾曲",
+    "duration": {
+      "secs": 230,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20220618/20220618004410136649.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "255876",
+    "source": "kg",
+    "name": "当",
+    "singer": "动力火车",
+    "album_name": "《还珠格格 第一部》电视剧原版片头曲",
+    "duration": {
+      "secs": 293,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20190613/20190613154602607735.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "582322",
+    "source": "kg",
+    "name": "稳稳的幸福",
+    "singer": "陈奕迅",
+    "album_name": "《越来越好之村晚》电影主题曲",
+    "duration": {
+      "secs": 223,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250228/20250228160327560756.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "104996705",
+    "source": "kg",
+    "name": "王招君 (你看你拉住我的模样)",
+    "singer": "任素汐",
+    "album_name": "《寻汉计》电影推广曲",
+    "duration": {
+      "secs": 255,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20240204/20240204175601843475.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "218945",
+    "source": "kg",
+    "name": "生生世世爱",
+    "singer": "吴雨霏",
+    "album_name": "《仙剑奇侠传三》电视剧主题曲",
+    "duration": {
+      "secs": 282,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620075535876793.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "255547",
+    "source": "kg",
+    "name": "因为爱情",
+    "singer": "陈奕迅、王菲",
+    "album_name": "《将爱情进行到底》电影主题曲",
+    "duration": {
+      "secs": 216,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620075222886058.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "301295224",
+    "source": "kg",
+    "name": "伤心太平洋",
+    "singer": "任贤齐",
+    "album_name": "《双响炮》电视剧插曲",
+    "duration": {
+      "secs": 266,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250125/20250125121630963172.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "12121663",
+    "source": "kg",
+    "name": "默",
+    "singer": "那英",
+    "album_name": "《何以笙箫默》电影插曲",
+    "duration": {
+      "secs": 325,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20220611/20220611061113851593.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "329617",
+    "source": "kg",
+    "name": "不再犹豫",
+    "singer": "BEYOND",
+    "album_name": "《BEYOND日记之莫欺少年穷》电影主题曲",
+    "duration": {
+      "secs": 254,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250213/20250213090303734966.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "64413135",
+    "source": "kg",
+    "name": "我是如此相信",
+    "singer": "周杰伦",
+    "album_name": "《天·火》电影主题曲",
+    "duration": {
+      "secs": 265,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20220714/20220714213006413283.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "213916356",
+    "source": "kg",
+    "name": "去有风的地方",
+    "singer": "郁可唯",
+    "album_name": "《去有风的地方》电视剧主题曲",
+    "duration": {
+      "secs": 231,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20230111/20230111202902780153.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "121555048",
+    "source": "kg",
+    "name": "如愿",
+    "singer": "王菲",
+    "album_name": "《我和我的父辈》电影主题推广曲",
+    "duration": {
+      "secs": 265,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20210924/20210924225802830393.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "25630281",
+    "source": "kg",
+    "name": "为爱痴狂 (想要问问你敢不敢)",
+    "singer": "金志文",
+    "album_name": "《花火》电视剧片头曲",
+    "duration": {
+      "secs": 141,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260610/20260610201047735386.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "325529",
+    "source": "kg",
+    "name": "灰色轨迹",
+    "singer": "BEYOND",
+    "album_name": "《天若有情》电影插曲",
+    "duration": {
+      "secs": 327,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20250213/20250213091902691104.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "1107399993",
+    "source": "kg",
+    "name": "汹涌",
+    "singer": "吴莫愁",
+    "album_name": "《这一秒过火》网络剧暧昧情感曲",
+    "duration": {
+      "secs": 261,
+      "nanos": 0
+    },
+    "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717205512777923.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
     ],
     "file_path": null
   }

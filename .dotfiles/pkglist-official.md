@@ -4,20 +4,22 @@
 > 更新时间: 2026-08-18
 
 alsa-utils               amd-ucode                avahi                    
-base                     base-devel               bash-completion          
-bc                       bluetui                  bluez-utils              
-brightnessctl            btop                     btrfs-progs              
-dae                      dust                     efibootmgr               
-fcitx5                   fcitx5-gtk               fcitx5-qt                
-fcitx5-rime              foot                     git                      
+awww                     base                     base-devel               
+bash-completion          bc                       bluetui                  
+bluez-utils              brightnessctl            btop                     
+btrfs-progs              cava                     dae                      
+dust                     efibootmgr               fcitx5                   
+fcitx5-gtk               fcitx5-qt                fcitx5-rime              
+foot                     git                      hyprpicker               
 impala                   iwd                      jq                       
 linux                    linux-firmware-amdgpu    linux-firmware-realtek   
 mkinitcpio               mpv                      niri                     
-noctalia                 openssh                  pipewire-alsa            
-pipewire-pulse           qt6-websockets           rime-double-pinyin       
-sudo                     tlp                      tree                     
-ttf-jetbrains-mono       upower                   vim                      
-vnstat                   w3m                      wf-recorder              
-wget                     wireless-regdb           wqy-microhei             
+noctalia                 openssh                  pcmanfm                  
+pipewire-alsa            pipewire-pulse           qt6-websockets           
+rime-double-pinyin       sudo                     tlp                      
+tree                     ttf-jetbrains-mono       upower                   
+vim                      vnstat                   w3m                      
+wf-recorder              wget                     wireless-regdb           
+wqy-microhei             
 
-**总计: 48 个**
+**总计: 52 个**

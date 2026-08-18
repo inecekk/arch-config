@@ -20,6 +20,7 @@ audit
 autoconf
 automake
 avahi
+awww
 base
 base-devel
 bash
@@ -43,8 +44,8 @@ ca-certificates-mozilla
 ca-certificates-utils
 cairo
 capnproto
+cava
 chafa
-compiler-rt
 coreutils
 cpio
 cryptsetup
@@ -80,7 +81,6 @@ fcitx5-gtk
 fcitx5-qt
 fcitx5-rime
 ffmpeg
-ffmpegthumbnailer
 fftw
 file
 filesystem
@@ -118,7 +118,6 @@ gmp
 gnulib-l10n
 gnupg
 gnutls
-go-musicfox-git
 gobject-introspection-runtime
 google-glog
 gperftools
@@ -127,7 +126,6 @@ gpm
 graphene
 graphite
 grep
-grim
 groff
 gsettings-desktop-schemas
 gsettings-system-schemas
@@ -146,10 +144,14 @@ hidapi
 highway
 hunspell
 hwdata
+hyprpicker
+hyprutils
+hyprwayland-scanner
 iana-etc
 icu
 imagemagick
 impala
+iniparser
 iproute2
 iptables
 iputils
@@ -212,14 +214,17 @@ libelf
 libepoxy
 libevdev
 libevent
+libexif
 libfdk-aac
 libffi
+libfm
+libfm-extra
+libfm-gtk3
 libfreeaptx
 libgcc
 libgcrypt
 libgfortran
 libgirepository
-libgit2
 libglvnd
 libgomp
 libgpg-error
@@ -232,7 +237,6 @@ libidn2
 libiec61883
 libimobiledevice
 libimobiledevice-glue
-libinih
 libinput
 libisl
 libjpeg-turbo
@@ -356,8 +360,6 @@ linux-firmware-amdgpu
 linux-firmware-realtek
 linux-firmware-whence
 linuxqq
-lld
-llhttp
 llvm-libs
 lm_sensors
 lmdb
@@ -366,6 +368,7 @@ lua
 lua54
 luajit
 lv2
+lxmenu-data
 lz4
 lzo
 m4
@@ -374,6 +377,7 @@ make
 marisa
 materialgram-bin
 md4c
+menu-cache
 mesa
 minizip
 miyu
@@ -417,6 +421,7 @@ pango
 paru
 patch
 pciutils
+pcmanfm
 pcre2
 perl
 perl-error
@@ -436,6 +441,7 @@ portaudio
 procps-ng
 protobuf
 psmisc
+pugixml
 python
 qt6-base
 qt6-declarative
@@ -454,7 +460,6 @@ rime-terra-pinyin
 ripgrep
 rnnoise
 rubberband
-rust
 sbc
 sdbus-cpp
 sdl2-compat
@@ -465,12 +470,10 @@ serd
 shaderc
 shadow
 shared-mime-info
-slurp
 snappy
 sndio
 sord
 source-highlight
-spacefm-bin
 spandsp
 speex
 speexdsp
@@ -478,7 +481,6 @@ spirv-tools
 sqlite
 sratom
 srt
-startup-notification
 sudo
 svt-av1
 systemd
@@ -533,7 +535,6 @@ xcb-util-renderutil
 xcb-util-wm
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-xdg-desktop-portal-wlr
 xdg-utils
 xkeyboard-config
 xorg-xprop

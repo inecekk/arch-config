@@ -24,11 +24,13 @@ go-musicfox-git
 impala
 iwd
 jq
+linux
 linux-firmware-amdgpu
 linux-firmware-realtek
 linuxqq
 materialgram-bin
 miyu
+mkinitcpio
 mpv
 neofetch-git
 niri
@@ -51,7 +53,6 @@ visual-studio-code-bin
 vnstat
 voicefox
 w3m
-wev
 wf-recorder
 wget
 wireless-regdb

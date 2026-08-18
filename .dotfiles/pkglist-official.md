@@ -11,13 +11,13 @@ dae                      dust                     efibootmgr
 fcitx5                   fcitx5-gtk               fcitx5-qt                
 fcitx5-rime              foot                     git                      
 impala                   iwd                      jq                       
-linux-firmware-amdgpu    linux-firmware-realtek   mpv                      
-niri                     noctalia                 openssh                  
-pipewire-alsa            pipewire-pulse           qt6-websockets           
-rime-double-pinyin       sudo                     tlp                      
-tree                     ttf-jetbrains-mono       upower                   
-vim                      vnstat                   w3m                      
-wev                      wf-recorder              wget                     
-wireless-regdb           wqy-microhei             
+linux                    linux-firmware-amdgpu    linux-firmware-realtek   
+mkinitcpio               mpv                      niri                     
+noctalia                 openssh                  pipewire-alsa            
+pipewire-pulse           qt6-websockets           rime-double-pinyin       
+sudo                     tlp                      tree                     
+ttf-jetbrains-mono       upower                   vim                      
+vnstat                   w3m                      wf-recorder              
+wget                     wireless-regdb           wqy-microhei             
 
-**总计: 47 个**
+**总计: 48 个**

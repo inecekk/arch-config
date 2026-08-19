@@ -1154,3 +1154,10 @@
 2026-08-18T10:17:07.663125Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
 2026-08-18T10:17:10.732556Z  WARN voicefox: current source playback failed: Raw(-17)
 2026-08-18T10:17:10.786169Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2026-08-19T01:19:47.028343Z  INFO voicefox: voicefox starting on linux (x86_64)
+2026-08-19T01:19:47.104232Z  WARN lx_player::engine: libmpv cache-size option unavailable: Raw(-5)
+2026-08-19T01:19:47.152278Z  INFO voicefox::cover::render: cover protocol Sixel, font size FontSize { width: 20, height: 40 }
+2026-08-19T01:19:47.155120Z  WARN lx_player::engine: libmpv seek failed: Raw(-10)
+2026-08-19T01:19:48.103930Z  INFO lx_source::local: 扫描本地音乐: 16 首 (/home/lk/Music)
+2026-08-19T01:19:48.103990Z  INFO lx_source::local: 本地音乐扫描完成，共 16 首
+2026-08-19T01:19:48.119776Z  WARN voicefox::notification: desktop notification failed: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable

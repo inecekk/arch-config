@@ -1,5 +1,158 @@
 [
   {
+    "id": "3390571201",
+    "source": "wy",
+    "name": "ABS防爆",
+    "singer": "MerrinZephyr",
+    "album_name": "ABS防爆",
+    "duration": {
+      "secs": 145,
+      "nanos": 687000000
+    },
+    "cover_url": "http://p2.music.126.net/Jkmexs1hSIe3UtrDytUKXw==/109951173602327574.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3384452865",
+    "source": "wy",
+    "name": "Authority（权威）",
+    "singer": "YPD",
+    "album_name": "权威",
+    "duration": {
+      "secs": 145,
+      "nanos": 272000000
+    },
+    "cover_url": "http://p2.music.126.net/nOPaynahfI7b6hj8wFKg2Q==/109951173254637318.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3395220104",
+    "source": "wy",
+    "name": "Not The Time",
+    "singer": "Yilu7i、Sin Wecokat",
+    "album_name": "Not The Time",
+    "duration": {
+      "secs": 126,
+      "nanos": 562000000
+    },
+    "cover_url": "http://p2.music.126.net/o7iVaBAnxN6_CCbXwDbK-A==/109951173415533128.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac",
+      "flac24bit"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "3398898119",
+    "source": "wy",
+    "name": "Peison Soul",
+    "singer": "暗号、小表哥",
+    "album_name": "Peison Sou",
+    "duration": {
+      "secs": 143,
+      "nanos": 879000000
+    },
+    "cover_url": "http://p2.music.126.net/HFVPauh46WjZeN_5vvYUUA==/109951173469452205.jpg",
+    "qualities": [
+      "128k",
+      "320k",
+      "flac"
+    ],
+    "file_path": null
+  },
+  {
+    "id": "/home/lk/Music/夜里的心声-张梦弘.mp3",
+    "source": "local",
+    "name": "夜里的心声",
+    "singer": "张梦弘",
+    "album_name": "夜里的心声",
+    "duration": {
+      "secs": 214,
+      "nanos": 392000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/43697f74e8b45abc.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/夜里的心声-张梦弘.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
+    "source": "local",
+    "name": "Mustang cabriolet",
+    "singer": "Paris Brune",
+    "album_name": "L'oeil du cyclone",
+    "duration": {
+      "secs": 238,
+      "nanos": 942000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/5a815d023fec0f68.jpg",
+    "qualities": [
+      "320k"
+    ],
+    "file_path": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3"
+  },
+  {
+    "id": "/home/lk/Music/miss you-uuml,7ovey.mp3",
+    "source": "local",
+    "name": "miss you",
+    "singer": "uuml,7ovey",
+    "album_name": "miss you",
+    "duration": {
+      "secs": 153,
+      "nanos": 809000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/405cb2a28220c916.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/miss you-uuml,7ovey.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Like Girl-DNDM.mp3",
+    "source": "local",
+    "name": "Like Girl",
+    "singer": "DNDM",
+    "album_name": "Back to Retro",
+    "duration": {
+      "secs": 208,
+      "nanos": 170000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/9311869fd9036730.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/Like Girl-DNDM.mp3"
+  },
+  {
+    "id": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
+    "source": "local",
+    "name": "Down With Your Love",
+    "singer": "Tinashe,Chris Brown",
+    "album_name": "Down With Your Love",
+    "duration": {
+      "secs": 248,
+      "nanos": 555000000
+    },
+    "cover_url": "/home/lk/.cache/voicefox/covers/7ab399feee882b4.jpg",
+    "qualities": [
+      "128k"
+    ],
+    "file_path": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3"
+  },
+  {
     "id": "/home/lk/Music/跳舞街-陈慧娴.mp3",
     "source": "local",
     "name": "跳舞街",
@@ -1670,175 +1823,6 @@
       "nanos": 0
     },
     "cover_url": "http://imge.kugou.com/stdmusic/500/20200620/20200620075222886058.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "301295224",
-    "source": "kg",
-    "name": "伤心太平洋",
-    "singer": "任贤齐",
-    "album_name": "《双响炮》电视剧插曲",
-    "duration": {
-      "secs": 266,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20250125/20250125121630963172.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "12121663",
-    "source": "kg",
-    "name": "默",
-    "singer": "那英",
-    "album_name": "《何以笙箫默》电影插曲",
-    "duration": {
-      "secs": 325,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20220611/20220611061113851593.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "329617",
-    "source": "kg",
-    "name": "不再犹豫",
-    "singer": "BEYOND",
-    "album_name": "《BEYOND日记之莫欺少年穷》电影主题曲",
-    "duration": {
-      "secs": 254,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20250213/20250213090303734966.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "64413135",
-    "source": "kg",
-    "name": "我是如此相信",
-    "singer": "周杰伦",
-    "album_name": "《天·火》电影主题曲",
-    "duration": {
-      "secs": 265,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20220714/20220714213006413283.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "213916356",
-    "source": "kg",
-    "name": "去有风的地方",
-    "singer": "郁可唯",
-    "album_name": "《去有风的地方》电视剧主题曲",
-    "duration": {
-      "secs": 231,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20230111/20230111202902780153.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "121555048",
-    "source": "kg",
-    "name": "如愿",
-    "singer": "王菲",
-    "album_name": "《我和我的父辈》电影主题推广曲",
-    "duration": {
-      "secs": 265,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20210924/20210924225802830393.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "25630281",
-    "source": "kg",
-    "name": "为爱痴狂 (想要问问你敢不敢)",
-    "singer": "金志文",
-    "album_name": "《花火》电视剧片头曲",
-    "duration": {
-      "secs": 141,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20260610/20260610201047735386.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac",
-      "flac24bit"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "325529",
-    "source": "kg",
-    "name": "灰色轨迹",
-    "singer": "BEYOND",
-    "album_name": "《天若有情》电影插曲",
-    "duration": {
-      "secs": 327,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20250213/20250213091902691104.jpg",
-    "qualities": [
-      "128k",
-      "320k",
-      "flac"
-    ],
-    "file_path": null
-  },
-  {
-    "id": "1107399993",
-    "source": "kg",
-    "name": "汹涌",
-    "singer": "吴莫愁",
-    "album_name": "《这一秒过火》网络剧暧昧情感曲",
-    "duration": {
-      "secs": 261,
-      "nanos": 0
-    },
-    "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717205512777923.jpg",
     "qualities": [
       "128k",
       "320k",

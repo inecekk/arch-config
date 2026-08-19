@@ -1,474 +1,1146 @@
 {
   "playlist": [
     {
-      "id": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
-      "source": "local",
-      "name": "Down With Your Love",
-      "singer": "Tinashe,Chris Brown",
-      "album_name": "Down With Your Love",
-      "album_id": "",
+      "id": "3362038053",
+      "source": "wy",
+      "name": "Fever Pitch",
+      "singer": "Richz",
+      "album_name": "Fever Pitch",
+      "album_id": "367451771",
       "duration": {
-        "secs": 248,
-        "nanos": 555000000
+        "secs": 135,
+        "nanos": 483000000
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/7ab399feee882b4.jpg",
+      "cover_url": "http://p2.music.126.net/zgzv0VoiHlXRztQrizc28g==/109951173753256255.jpg",
       "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "6028745",
-        "file_modified_unix_nanos": "1786355320962395933"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/Down With Your Love-Tinashe,Chris Brown.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/Like Girl-DNDM.mp3",
-      "source": "local",
-      "name": "Like Girl",
-      "singer": "DNDM",
-      "album_name": "Back to Retro",
-      "album_id": "",
-      "duration": {
-        "secs": 208,
-        "nanos": 170000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/9311869fd9036730.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786435786715477297",
-        "file_size": "5084773"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/Like Girl-DNDM.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/miss you-uuml,7ovey.mp3",
-      "source": "local",
-      "name": "miss you",
-      "singer": "uuml,7ovey",
-      "album_name": "miss you",
-      "album_id": "",
-      "duration": {
-        "secs": 153,
-        "nanos": 809000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/405cb2a28220c916.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "3787802",
-        "file_modified_unix_nanos": "1785925154440984923"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/miss you-uuml,7ovey.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
-      "source": "local",
-      "name": "Mustang cabriolet",
-      "singer": "Paris Brune",
-      "album_name": "L'oeil du cyclone",
-      "album_id": "",
-      "duration": {
-        "secs": 238,
-        "nanos": 942000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/5a815d023fec0f68.jpg",
-      "qualities": [
-        "320k"
-      ],
-      "audio": {
-        "bitrate": 320,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "9680450",
-        "file_modified_unix_nanos": "1786604754034444248"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/Mustang cabriolet-Paris Brune.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
-      "source": "local",
-      "name": "Read My Silence 3.0",
-      "singer": "Kira",
-      "album_name": "Read My Silence",
-      "album_id": "",
-      "duration": {
-        "secs": 220,
-        "nanos": 704000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/c2d79ac717e24ab3.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "7143339",
-        "file_modified_unix_nanos": "1785638235325013471"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/Read My Silence 3.0-Kira.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
-      "source": "local",
-      "name": "We Never Pt.2 (若如初见)",
-      "singer": "YAYI,freezepain",
-      "album_name": "We Never Pt.2 (若如初见)",
-      "album_id": "",
-      "duration": {
-        "secs": 90,
-        "nanos": 624000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/60c7f93c98ed56f7.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786588665982892889",
-        "file_size": "2249396"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/We Never Pt.2 (若如初见)-YAYI,freezepain.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/不怕不怕-美美jocie.mp3",
-      "source": "local",
-      "name": "不怕不怕",
-      "singer": "美美jocie",
-      "album_name": "不怕不怕",
-      "album_id": "",
-      "duration": {
-        "secs": 102,
-        "nanos": 949000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/eb153d23bedfaef7.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 128,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786248062128459228",
-        "file_size": "1790605"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/不怕不怕-美美jocie.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
-      "source": "local",
-      "name": "他们说这叫爱",
-      "singer": "小雪,池澜",
-      "album_name": "他们说这叫爱",
-      "album_id": "",
-      "duration": {
-        "secs": 91,
-        "nanos": 481000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/ece30139ea4b9060.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "2202972",
-        "file_modified_unix_nanos": "1785651383436638629"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/他们说这叫爱-小雪,池澜.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/夜里的心声-张梦弘.mp3",
-      "source": "local",
-      "name": "夜里的心声",
-      "singer": "张梦弘",
-      "album_name": "夜里的心声",
-      "album_id": "",
-      "duration": {
-        "secs": 214,
-        "nanos": 392000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/43697f74e8b45abc.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785651004189430028",
-        "file_size": "5204277"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/夜里的心声-张梦弘.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/川の流れのように-邓丽君.mp3",
-      "source": "local",
-      "name": "川の流れのように",
-      "singer": "邓丽君",
-      "album_name": "全曲集～ふたたび(再来)",
-      "album_id": "",
-      "duration": {
-        "secs": 299,
-        "nanos": 598000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/742b6d619f848eab.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786524156957826479",
-        "file_size": "7305603"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/川の流れのように-邓丽君.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
-      "source": "local",
-      "name": "帕萨卡利亚—亨德尔",
-      "singer": "古典",
-      "album_name": "古典赏析",
-      "album_id": "",
-      "duration": {
-        "secs": 150,
-        "nanos": 439000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/9332a2c2c91b2a9d.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 44100,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "3797973",
-        "file_modified_unix_nanos": "1785984904239017901"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/帕萨卡利亚—亨德尔-古典.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/明日似在遥远-官太泽.mp3",
-      "source": "local",
-      "name": "明日似在遥远",
-      "singer": "官太泽",
-      "album_name": "1a7混子",
-      "album_id": "",
-      "duration": {
-        "secs": 336,
-        "nanos": 504000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/d32f8609054271c6.jpg",
-      "qualities": [
-        "128k"
-      ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_size": "8203574",
-        "file_modified_unix_nanos": "1786005311913906506"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/明日似在遥远-官太泽.mp3",
-      "file_ext": "mp3"
-    },
-    {
-      "id": "/home/lk/Music/白狐 - 洋澜一.flac",
-      "source": "local",
-      "name": "白狐",
-      "singer": "洋澜一",
-      "album_name": "白狐",
-      "album_id": "",
-      "duration": {
-        "secs": 282,
-        "nanos": 0
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/206978494735f1d3.jpg",
-      "qualities": [
-        "flac24bit"
-      ],
-      "audio": {
-        "bitrate": 1697,
-        "sample_rate": 48000,
-        "bit_depth": 24,
-        "lossless": true
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786512834000967389",
-        "file_size": "59924663"
-      },
-      "toggle_source": null,
-      "file_path": "/home/lk/Music/白狐 - 洋澜一.flac",
-      "file_ext": "flac"
-    },
-    {
-      "id": "/home/lk/Music/神话 - 张青玫.flac",
-      "source": "local",
-      "name": "神话",
-      "singer": "张青玫",
-      "album_name": "新视听·民乐演奏影视插曲",
-      "album_id": "",
-      "duration": {
-        "secs": 286,
-        "nanos": 995000000
-      },
-      "cover_url": "/home/lk/.cache/voicefox/covers/67d6b797f66a34d2.jpg",
-      "qualities": [
+        "128k",
+        "320k",
         "flac"
       ],
-      "audio": {
-        "bitrate": 825,
-        "sample_rate": 44100,
-        "bit_depth": 16,
-        "lossless": true
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786512662877148742",
-        "file_size": "29853141"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/神话 - 张青玫.flac",
-      "file_ext": "flac"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
-      "source": "local",
-      "name": "纸月亮 带人声",
-      "singer": "阿亚,花间",
-      "album_name": "花间集",
-      "album_id": "",
+      "id": "3398898119",
+      "source": "wy",
+      "name": "Peison Soul",
+      "singer": "暗号、小表哥",
+      "album_name": "Peison Sou",
+      "album_id": "384047109",
       "duration": {
-        "secs": 230,
-        "nanos": 304000000
+        "secs": 143,
+        "nanos": 879000000
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/d5295e6f7253949c.jpg",
+      "cover_url": "http://p2.music.126.net/HFVPauh46WjZeN_5vvYUUA==/109951173469452205.jpg",
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1785667339243676711",
-        "file_size": "5749634"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/纸月亮 带人声-阿亚,花间.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
     },
     {
-      "id": "/home/lk/Music/跳舞街-陈慧娴.mp3",
-      "source": "local",
-      "name": "跳舞街",
-      "singer": "陈慧娴",
-      "album_name": "宝丽金劲爆跳舞街",
-      "album_id": "",
+      "id": "3406299590",
+      "source": "wy",
+      "name": "AGUDO MAGKLCO (GHETTO HOUSE)",
+      "singer": "FinalSay",
+      "album_name": "AGUDO MAGKLCO (GHETTO HOUSE)",
+      "album_id": "386881994",
       "duration": {
-        "secs": 226,
-        "nanos": 416000000
+        "secs": 96,
+        "nanos": 816000000
       },
-      "cover_url": "/home/lk/.cache/voicefox/covers/b75d7df31e532128.jpg",
+      "cover_url": "http://p2.music.126.net/nmUmGG4ioaGM8r1Ptr_csw==/109951173554809216.jpg",
       "qualities": [
-        "128k"
+        "128k",
+        "320k",
+        "flac"
       ],
-      "audio": {
-        "bitrate": 192,
-        "sample_rate": 48000,
-        "bit_depth": null,
-        "lossless": false
-      },
-      "extra": {
-        "file_modified_unix_nanos": "1786006600306785556",
-        "file_size": "5955870"
-      },
+      "audio": null,
+      "extra": {},
       "toggle_source": null,
-      "file_path": "/home/lk/Music/跳舞街-陈慧娴.mp3",
-      "file_ext": "mp3"
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3395220104",
+      "source": "wy",
+      "name": "Not The Time",
+      "singer": "Yilu7i、Sin Wecokat",
+      "album_name": "Not The Time",
+      "album_id": "382368453",
+      "duration": {
+        "secs": 126,
+        "nanos": 562000000
+      },
+      "cover_url": "http://p2.music.126.net/o7iVaBAnxN6_CCbXwDbK-A==/109951173415533128.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3384452865",
+      "source": "wy",
+      "name": "Authority（权威）",
+      "singer": "YPD",
+      "album_name": "权威",
+      "album_id": "377477889",
+      "duration": {
+        "secs": 145,
+        "nanos": 272000000
+      },
+      "cover_url": "http://p2.music.126.net/nOPaynahfI7b6hj8wFKg2Q==/109951173254637318.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3390571201",
+      "source": "wy",
+      "name": "ABS防爆",
+      "singer": "MerrinZephyr",
+      "album_name": "ABS防爆",
+      "album_id": "380308686",
+      "duration": {
+        "secs": 145,
+        "nanos": 687000000
+      },
+      "cover_url": "http://p2.music.126.net/Jkmexs1hSIe3UtrDytUKXw==/109951173602327574.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3371881475",
+      "source": "wy",
+      "name": "broken heart",
+      "singer": "FinalSay",
+      "album_name": "broken heart",
+      "album_id": "371820174",
+      "duration": {
+        "secs": 90,
+        "nanos": 818000000
+      },
+      "cover_url": "http://p2.music.126.net/qM9dcL0befT9NsJaU8WjXA==/109951173086713949.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3410283948",
+      "source": "wy",
+      "name": "Ain't That Fresh",
+      "singer": "MerrinZephyr",
+      "album_name": "Ain't That Fresh",
+      "album_id": "388588989",
+      "duration": {
+        "secs": 126,
+        "nanos": 58000000
+      },
+      "cover_url": "http://p2.music.126.net/y7zpHF2nhlpCQRzyjl-YLw==/109951173622946889.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3397369954",
+      "source": "wy",
+      "name": "Besame",
+      "singer": "音权",
+      "album_name": "Besame",
+      "album_id": "383358757",
+      "duration": {
+        "secs": 91,
+        "nanos": 437000000
+      },
+      "cover_url": "http://p2.music.126.net/fqq8b6MhAFvOkieJCBZYuA==/109951173448268524.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3401115900",
+      "source": "wy",
+      "name": "Endless Sky(无垠天际)",
+      "singer": "Yilu7i",
+      "album_name": "Endless Sky(无垠天际)",
+      "album_id": "385025348",
+      "duration": {
+        "secs": 112,
+        "nanos": 181000000
+      },
+      "cover_url": "http://p2.music.126.net/atgdeT-pbyW2WIv_fnA9Nw==/109951173498804305.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3410139314",
+      "source": "wy",
+      "name": "MAGICO(Slap House)",
+      "singer": "GTR7",
+      "album_name": "MAGICO",
+      "album_id": "388512431",
+      "duration": {
+        "secs": 150,
+        "nanos": 476000000
+      },
+      "cover_url": "http://p2.music.126.net/Tq_-j36Mto8dZtKVuUlpoA==/109951173621398149.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3378915545",
+      "source": "wy",
+      "name": "Bang Bang Bang - Silly Funk",
+      "singer": "Zachz Winner",
+      "album_name": "Bang Bang Bang - Silly Funk",
+      "album_id": "374846676",
+      "duration": {
+        "secs": 104,
+        "nanos": 666000000
+      },
+      "cover_url": "http://p2.music.126.net/b7TPspO1AUdBT6F2iyTXFA==/109951173180845674.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3391753562",
+      "source": "wy",
+      "name": "MONTAGEM ONE MORE GAME",
+      "singer": "DJ KVNXD",
+      "album_name": "MONTAGEM ONE MORE GAME",
+      "album_id": "380815757",
+      "duration": {
+        "secs": 86,
+        "nanos": 34000000
+      },
+      "cover_url": "http://p2.music.126.net/htozVKObJCH5uUADR_NA_A==/109951173356685729.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3396608174",
+      "source": "wy",
+      "name": "Sea Mist",
+      "singer": "漂移的人（Drifting Man）",
+      "album_name": "Sea Mist(SLOWED)",
+      "album_id": "383008481",
+      "duration": {
+        "secs": 183,
+        "nanos": 711000000
+      },
+      "cover_url": "http://p2.music.126.net/KTKLOSnZEUzjMv-9eCjKFA==/109951173439348690.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3368398013",
+      "source": "wy",
+      "name": "Fever Pitch",
+      "singer": "Leo6、MXSIV",
+      "album_name": "Fever Pitch",
+      "album_id": "370179157",
+      "duration": {
+        "secs": 135,
+        "nanos": 473000000
+      },
+      "cover_url": "http://p2.music.126.net/aWdveLwM4EdeWjJ6gmX_PQ==/109951173022260749.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3381761934",
+      "source": "wy",
+      "name": "Lunar",
+      "singer": "小表哥、暗号",
+      "album_name": "Lunar",
+      "album_id": "376256020",
+      "duration": {
+        "secs": 172,
+        "nanos": 216000000
+      },
+      "cover_url": "http://p2.music.126.net/LOu6DjwLZeOwn-4vIzh6lQ==/109951173217458257.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3394884346",
+      "source": "wy",
+      "name": "teto重音 (Slap House)",
+      "singer": "XiRXG",
+      "album_name": "teto 重音 (Slap House)",
+      "album_id": "382161087",
+      "duration": {
+        "secs": 128,
+        "nanos": 968000000
+      },
+      "cover_url": "http://p2.music.126.net/8TyRB7CIPIxepLAYaq6g2A==/109951173409175232.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3402161824",
+      "source": "wy",
+      "name": "Accent pulse FUNK(Teto重音)",
+      "singer": "BOY",
+      "album_name": "Accent pulse FUNK",
+      "album_id": "385403040",
+      "duration": {
+        "secs": 139,
+        "nanos": 47000000
+      },
+      "cover_url": "http://p2.music.126.net/kbfeh7RNDLlCSc2bhxNLXA==/109951173513870962.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3389580180",
+      "source": "wy",
+      "name": "Take Me (To The Moon)",
+      "singer": "Ian Asher、D A N N Y",
+      "album_name": "Take Me (To The Moon)",
+      "album_id": "379819418",
+      "duration": {
+        "secs": 158,
+        "nanos": 629000000
+      },
+      "cover_url": "http://p2.music.126.net/XyXaw2lEj--XaGYekePPxw==/109951173324415385.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3400353456",
+      "source": "wy",
+      "name": "Jump Style",
+      "singer": "Leo6、virtua! girl、MXSIV",
+      "album_name": "Jump Style",
+      "album_id": "384689368",
+      "duration": {
+        "secs": 116,
+        "nanos": 129000000
+      },
+      "cover_url": "http://p2.music.126.net/8qGpG257gbhl5-jkKSontg==/109951173488861996.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3371499229",
+      "source": "wy",
+      "name": "POLSKA JUMPSTYLE VIP",
+      "singer": "Mr. Polska、Natte Visstick、Vieze Asbak",
+      "album_name": "POLSKA JUMPSTYLE VIP",
+      "album_id": "371637514",
+      "duration": {
+        "secs": 154,
+        "nanos": 875000000
+      },
+      "cover_url": "http://p2.music.126.net/X9z_zEJJ0ALd5UK1glTrZw==/109951173078458747.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3389452437",
+      "source": "wy",
+      "name": "DREAM MAGIC",
+      "singer": "MKMS",
+      "album_name": "DREAM MAGIC",
+      "album_id": "379761150",
+      "duration": {
+        "secs": 106,
+        "nanos": 909000000
+      },
+      "cover_url": "http://p2.music.126.net/jHfzUiCd4w7CRPlMWyNH4g==/109951173322362123.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3381019313",
+      "source": "wy",
+      "name": "THE INVINCIBLE KING（Slap House）",
+      "singer": "HiLXG、HFHW",
+      "album_name": "THE INVINCIBLE KING（Slap House）",
+      "album_id": "375859421",
+      "duration": {
+        "secs": 130,
+        "nanos": 491000000
+      },
+      "cover_url": "http://p2.music.126.net/gdNl4Q3ou0vWM-iiqLZjrQ==/109951173207715712.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3401813627",
+      "source": "wy",
+      "name": "Fear Magic",
+      "singer": "MerrinZephyr",
+      "album_name": "Fear(恐惧)",
+      "album_id": "381612124",
+      "duration": {
+        "secs": 142,
+        "nanos": 986000000
+      },
+      "cover_url": "http://p2.music.126.net/h7gqt8ucqSgAL3VE8c5FTw==/109951173671659134.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3384765364",
+      "source": "wy",
+      "name": "Gut Genug (mit Blumengarten & Shirin David)",
+      "singer": "KitschKrieg、Blumengarten、Shirin David",
+      "album_name": "Gut Genug (mit Blumengarten & Shirin David)",
+      "album_id": "377678421",
+      "duration": {
+        "secs": 188,
+        "nanos": 891000000
+      },
+      "cover_url": "http://p2.music.126.net/a7j2in6AEHFQCkyKxWCIEA==/109951173296361320.jpg",
+      "qualities": [
+        "128k",
+        "320k"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3363995521",
+      "source": "wy",
+      "name": "Ela Ké Cavucadinha",
+      "singer": "Gordinho Bolado、CACAU CHUU",
+      "album_name": "Ela Ké Cavucadinha",
+      "album_id": "368178677",
+      "duration": {
+        "secs": 138,
+        "nanos": 996000000
+      },
+      "cover_url": "http://p2.music.126.net/rGQ6t0M7RTh3jE9Ud8EzOQ==/109951172953398994.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3397610440",
+      "source": "wy",
+      "name": "Black Magic",
+      "singer": "ZIIIELI",
+      "album_name": "Black Magic",
+      "album_id": "383452325",
+      "duration": {
+        "secs": 144,
+        "nanos": 0
+      },
+      "cover_url": "http://p2.music.126.net/fRBnTKCPdZf-BBheYdzXOg==/109951173450958882.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3406701762",
+      "source": "wy",
+      "name": "Never Endless",
+      "singer": "HKYE",
+      "album_name": "Never Endless",
+      "album_id": "387020080",
+      "duration": {
+        "secs": 156,
+        "nanos": 885000000
+      },
+      "cover_url": "http://p2.music.126.net/olglexZbdQA__jFLqxyseQ==/109951173560862451.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3394080784",
+      "source": "wy",
+      "name": "Order秩序",
+      "singer": "Osama",
+      "album_name": "Osama Style",
+      "album_id": "381846225",
+      "duration": {
+        "secs": 164,
+        "nanos": 312000000
+      },
+      "cover_url": "http://p2.music.126.net/fLGGMJ8yio-xBOjmBZoi9A==/109951173390658797.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3381764226",
+      "source": "wy",
+      "name": "困了",
+      "singer": "小表哥、暗号",
+      "album_name": "困了",
+      "album_id": "376256752",
+      "duration": {
+        "secs": 250,
+        "nanos": 771000000
+      },
+      "cover_url": "http://p2.music.126.net/Q7HRTph5h0tDUcAnalUxuw==/109951173217461485.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3391103577",
+      "source": "wy",
+      "name": "Synergy",
+      "singer": "L4NE",
+      "album_name": "Synergy",
+      "album_id": "380466127",
+      "duration": {
+        "secs": 127,
+        "nanos": 741000000
+      },
+      "cover_url": "http://p2.music.126.net/re7maCrR1DeBBXw9OljzvQ==/109951173348738041.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3390753424",
+      "source": "wy",
+      "name": "Fever Pitch(PHONK)",
+      "singer": "Mking、KiNG、DJ XRAY、比斯平",
+      "album_name": "Fever Pitch(Remix）",
+      "album_id": "380357269",
+      "duration": {
+        "secs": 135,
+        "nanos": 470000000
+      },
+      "cover_url": "http://p2.music.126.net/O0Ne-2Tf9JTtLKDjYAzuyg==/109951173447467448.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3397858154",
+      "source": "wy",
+      "name": "Fever Pitch（列兵天使进行曲）",
+      "singer": "Yilu7i、CVRCH、freezepain、Sin Wecokat",
+      "album_name": "Fever Pitch（列兵天使进行曲）",
+      "album_id": "383568384",
+      "duration": {
+        "secs": 113,
+        "nanos": 437000000
+      },
+      "cover_url": "http://p2.music.126.net/yT4dii_wGj2jEIpbwhbtuw==/109951173532865380.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3400900983",
+      "source": "wy",
+      "name": "欧巴欧巴欧",
+      "singer": "漂移的人（Drifting Man）",
+      "album_name": "欧巴欧巴欧",
+      "album_id": "384943535",
+      "duration": {
+        "secs": 149,
+        "nanos": 67000000
+      },
+      "cover_url": "http://p2.music.126.net/A-cBbf1zNJpVLnDBHzBLYA==/109951173496688290.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3394864380",
+      "source": "wy",
+      "name": "Never To Breathe",
+      "singer": "SMYE",
+      "album_name": "Never To Breathe",
+      "album_id": "382187549",
+      "duration": {
+        "secs": 134,
+        "nanos": 31000000
+      },
+      "cover_url": "http://p2.music.126.net/nhzvBoNRdW4FPb-AzaVQtg==/109951173052948580.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3359605638",
+      "source": "wy",
+      "name": "Coloca Com Calma",
+      "singer": "DJ Duarte、DJ ORBITAL、CACAU CHUU、Mc Gw、Prime Funk",
+      "album_name": "Coloca Com Calma",
+      "album_id": "366426335",
+      "duration": {
+        "secs": 103,
+        "nanos": 420000000
+      },
+      "cover_url": "http://p2.music.126.net/kXJiT6gwpzUscqKMU1H-qg==/109951172894038688.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3394084731",
+      "source": "wy",
+      "name": "Give up",
+      "singer": "Reverse",
+      "album_name": "Give up",
+      "album_id": "381846080",
+      "duration": {
+        "secs": 152,
+        "nanos": 485000000
+      },
+      "cover_url": "http://p2.music.126.net/Vg2fY4QYb_sDIQClrqcbRA==/109951173390714146.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3398692624",
+      "source": "wy",
+      "name": "SALESMAN SLAPHOUSE",
+      "singer": "MerrinZephyr",
+      "album_name": "SALESMAN SLAPHOUSE",
+      "album_id": "383942562",
+      "duration": {
+        "secs": 128,
+        "nanos": 744000000
+      },
+      "cover_url": "http://p2.music.126.net/Hepl7EUxSchx67E53MgEmA==/109951173465530299.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3402482561",
+      "source": "wy",
+      "name": "Ocean",
+      "singer": "YaKio、Wehti、BLACK EGG、Trispect",
+      "album_name": "Ocean",
+      "album_id": "385535721",
+      "duration": {
+        "secs": 234,
+        "nanos": 285000000
+      },
+      "cover_url": "http://p2.music.126.net/PcEBWcNuxXWJSbT9c8SmPA==/109951173517045975.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3388575407",
+      "source": "wy",
+      "name": "Movin' To The Sun",
+      "singer": "HUGEL、Imael Angel、Ultra Naté",
+      "album_name": "Movin' To The Sun",
+      "album_id": "379370607",
+      "duration": {
+        "secs": 142,
+        "nanos": 200000000
+      },
+      "cover_url": "http://p2.music.126.net/utQBV2WSkVT_wpqa7fWcEQ==/109951173312683419.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3379996843",
+      "source": "wy",
+      "name": "REVENGE THE WORLD",
+      "singer": "漂移的人（Drifting Man）",
+      "album_name": "REVENGE THE WORLD",
+      "album_id": "375380492",
+      "duration": {
+        "secs": 132,
+        "nanos": 771000000
+      },
+      "cover_url": "http://p2.music.126.net/KhSvCLOzd3ajglzGWi62mQ==/109951173194084144.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3381778267",
+      "source": "wy",
+      "name": "光明进行曲",
+      "singer": "HSHK、VodKe",
+      "album_name": "光明进行曲",
+      "album_id": "376263127",
+      "duration": {
+        "secs": 221,
+        "nanos": 274000000
+      },
+      "cover_url": "http://p2.music.126.net/Vftj-fKQy0j6zIJvXOc8Wg==/109951173217628072.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3371357223",
+      "source": "wy",
+      "name": "Turn The Light Off",
+      "singer": "freezepain",
+      "album_name": "Turn The Light Off",
+      "album_id": "371573434",
+      "duration": {
+        "secs": 143,
+        "nanos": 20000000
+      },
+      "cover_url": "http://p2.music.126.net/nSUOAPSr6tNz-9BVfWx7rA==/109951173075076250.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3382278755",
+      "source": "wy",
+      "name": "Chasing",
+      "singer": "Agera",
+      "album_name": "Chasing",
+      "album_id": "376428985",
+      "duration": {
+        "secs": 156,
+        "nanos": 521000000
+      },
+      "cover_url": "http://p2.music.126.net/-CmMV304omPGuukud4n58A==/109951173224161802.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3358094514",
+      "source": "wy",
+      "name": "Hold On",
+      "singer": "zoolor",
+      "album_name": "Hold On",
+      "album_id": "365749341",
+      "duration": {
+        "secs": 163,
+        "nanos": 278000000
+      },
+      "cover_url": "http://p2.music.126.net/0M_bnQWQEr1olBmrv6HAgQ==/109951172869590726.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3395022282",
+      "source": "wy",
+      "name": "Leave it all behind",
+      "singer": "Project XI",
+      "album_name": "Leave it all behind",
+      "album_id": "382253528",
+      "duration": {
+        "secs": 238,
+        "nanos": 560000000
+      },
+      "cover_url": "http://p2.music.126.net/6UI7ZK2JIYI-sILXabhJSw==/109951173412185461.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3386516840",
+      "source": "wy",
+      "name": "matrix (bl studio loop)",
+      "singer": "chrmbchrmb",
+      "album_name": "doodles",
+      "album_id": "378467671",
+      "duration": {
+        "secs": 108,
+        "nanos": 648000000
+      },
+      "cover_url": "http://p2.music.126.net/2MXrdLuIQM4b0VIY54W_0Q==/109951173284339513.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3381749588",
+      "source": "wy",
+      "name": "FASHION",
+      "singer": "小表哥、暗号",
+      "album_name": "FASHION",
+      "album_id": "376252791",
+      "duration": {
+        "secs": 213,
+        "nanos": 28000000
+      },
+      "cover_url": "http://p2.music.126.net/f89Z9zaQFVyy1lSzmSh-MQ==/109951173217374713.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "3375320590",
+      "source": "wy",
+      "name": "Ela Ké Cavucadinha",
+      "singer": "FinalSay",
+      "album_name": "Ela Ké Cavucadinha",
+      "album_id": "373221422",
+      "duration": {
+        "secs": 137,
+        "nanos": 669000000
+      },
+      "cover_url": "http://p2.music.126.net/s3tWHYpJbb3dANZFwlfR6A==/109951173132796314.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac"
+      ],
+      "audio": null,
+      "extra": {},
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
     }
   ],
-  "current_index": 15,
+  "current_index": 5,
   "position": {
-    "secs": 83,
-    "nanos": 562934176
+    "secs": 23,
+    "nanos": 168178091
   },
   "state": "playing"
 }

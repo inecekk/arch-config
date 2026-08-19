@@ -1,7 +1,7 @@
 # 官方源包列表
 
 > 来源: `pacman -Qqe`
-> 更新时间: 2026-08-18
+> 更新时间: 2026-08-19
 
 alsa-utils               amd-ucode                avahi                    
 awww                     base                     base-devel               

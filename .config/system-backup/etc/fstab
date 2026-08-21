@@ -16,3 +16,8 @@ UUID=c8fb2e0c-0330-47a6-aebf-3974d464e03b	/var/log  	btrfs     	rw,noatime,compr
 UUID=691C-C303      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 #/swap_subvol/swapfile none swap defaults 0 0
+
+# Windows C盘
+UUID=452F636A10A034B3 /home/lk/win/c ntfs3 defaults,nofail,uid=1000,gid=1000 0 0
+# Windows D盘
+UUID=45B78617C66EE19E /home/lk/win/d ntfs3 defaults,nofail,uid=1000,gid=1000 0 0

@@ -22,6 +22,7 @@ fcitx5-qt
 fcitx5-rime
 foot
 git
+grub
 hyprpicker
 impala
 iwd
@@ -38,6 +39,7 @@ neofetch-git
 niri
 noctalia
 openssh
+os-prober
 osu-lazer-bin
 paru
 pcmanfm

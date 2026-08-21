@@ -1,17 +1,17 @@
 {
   "playlist": [
     {
-      "id": "2717863678",
-      "source": "wy",
-      "name": "Rein Me In",
-      "singer": "Sam Fender、Olivia Dean",
-      "album_name": "Rein Me In",
-      "album_id": "275904019",
+      "id": "627014223",
+      "source": "kg",
+      "name": "迷恋有害",
+      "singer": "张与辰",
+      "album_name": "迷恋有害",
+      "album_id": "200058312",
       "duration": {
-        "secs": 341,
-        "nanos": 17000000
+        "secs": 196,
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/HrPw6qkDoFiSXsZrOWY1NQ==/109951171339987171.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260713/20260713154203213149.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -19,345 +19,231 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "HQFileHash": "42D850213ECB585DC1F3AC394B2885D4",
+        "ResFileHash": "A5D18EE9531899E1B9B46768E77DDCD1",
+        "SQFileHash": "AC25783ABFAA05F04C87CC85D433D391",
+        "FileHash": "98833E976A5D80728090BADDFAA1A11E"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "3381729685",
-      "source": "wy",
-      "name": "Dai Dai",
-      "singer": "Shakira、Burna Boy",
-      "album_name": "Dai Dai",
-      "album_id": "376244122",
+      "id": "640832945",
+      "source": "kg",
+      "name": "至少相拥没错",
+      "singer": "MC 张天赋",
+      "album_name": "至少相拥没错",
+      "album_id": "204035017",
       "duration": {
-        "secs": 223,
-        "nanos": 448000000
+        "secs": 215,
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/auWIjdujjznKuqqjwz91zg==/109951173217204122.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260817/20260817161221709876.jpg",
       "qualities": [
         "128k",
         "320k",
-        "flac"
+        "flac",
+        "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "HQFileHash": "A6EC558B2BFE72CF9F27BB024902E6E8",
+        "SQFileHash": "B62F347A5E3A0539A565BCDD118E1384",
+        "FileHash": "4C9A49CF72BF9FC49AD9FF72E791D437",
+        "ResFileHash": "416CB90A95FE6E21432455061369C634"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "2755496359",
-      "source": "wy",
-      "name": "Choosin' Texas",
-      "singer": "Ella Langley",
-      "album_name": "Choosin' Texas",
-      "album_id": "288438526",
+      "id": "580045982",
+      "source": "kg",
+      "name": "男人怎可以",
+      "singer": "MC 张天赋",
+      "album_name": "男人怎可以",
+      "album_id": "192871725",
+      "duration": {
+        "secs": 256,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260526/20260526113602476779.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "C2F4BA581C979E7EEB965F614016D0A5",
+        "SQFileHash": "0B62339D0451B0EB0630EB8D128EEDBE",
+        "ResFileHash": "AB853736D6D1BF113F39B483A37531F1",
+        "HQFileHash": "3121C09515260B0AD8B38038EDE3BD02"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "638184916",
+      "source": "kg",
+      "name": "已出之物",
+      "singer": "Jeffrey 魏浚笙",
+      "album_name": "已出之物",
+      "album_id": "203246063",
+      "duration": {
+        "secs": 233,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260806/20260806170410233894.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "64F0070FE0FA595EAA8C13AC643E215D",
+        "FileHash": "C4D67112755CEAAC5E36F0B3B75A91EF",
+        "SQFileHash": "A7E58C42AFF66244AB2C2930B5E53D92",
+        "HQFileHash": "AFFFD27A8170D4A5C8BA7554AD2B810E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "624396868",
+      "source": "kg",
+      "name": "同往",
+      "singer": "MIRROR",
+      "album_name": "同往",
+      "album_id": "199254600",
+      "duration": {
+        "secs": 247,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260710/20260710184735266700.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "0866049852A5B79C1DF048AED4640F99",
+        "HQFileHash": "B9D6776EBF2452BCDD933EB7615375E5",
+        "SQFileHash": "B7547E5673C53A10E549BA5AC78C7E39",
+        "ResFileHash": "3E199EE561313923B56CD7413B312CB3"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107534630",
+      "source": "kg",
+      "name": "灵魂相愿",
+      "singer": "张敬轩",
+      "album_name": "灵魂相愿",
+      "album_id": "201500069",
+      "duration": {
+        "secs": 300,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260731/20260731142231498046.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "76BEFD6B271B8C7BE64918CCD1E4549F",
+        "HQFileHash": "C514FD3FD98AFFEC3465A4926569BE9C",
+        "ResFileHash": "5E675BAB86DA2ADA9EB002CD7112BE46",
+        "FileHash": "F1B07E220757A499611A49198E6E7A9C"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107521758",
+      "source": "kg",
+      "name": "放弃的界限",
+      "singer": "张敬轩",
+      "album_name": "放弃的界限",
+      "album_id": "201349612",
+      "duration": {
+        "secs": 217,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260729/20260729114907741786.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "0CA6C0662A40540009FA7E1C66FA5F0B",
+        "HQFileHash": "C8737BDF43B13D35855AB5A8A5CCA7DA",
+        "ResFileHash": "E04C60832C027E14A079EEA92058102E",
+        "SQFileHash": "532CBD0FA0AF0CEAC0B6881C0D76FCB7"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "628017223",
+      "source": "kg",
+      "name": "好好照顾自己",
+      "singer": "陈泳伽",
+      "album_name": "好好照顾自己",
+      "album_id": "200357705",
+      "duration": {
+        "secs": 206,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260720/20260720131043198128.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "32950F3CAAF407FFCCB7D5832D00B4BE",
+        "SQFileHash": "B4DC1E19C3836A5CB6483AEC46EA2A61",
+        "ResFileHash": "0F129D4BB5D4D95D61006297567B8767",
+        "FileHash": "41A7E8735A9F11D016C2A6C950FB6C1F"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "638134831",
+      "source": "kg",
+      "name": "十七奏鸣曲",
+      "singer": "Gordon Flanders",
+      "album_name": "十七奏鸣曲",
+      "album_id": "203231920",
       "duration": {
         "secs": 232,
-        "nanos": 292000000
-      },
-      "cover_url": "http://p1.music.126.net/AR7PnLMHp8voGVJuzCMcnA==/109951172150958017.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3388575407",
-      "source": "wy",
-      "name": "Movin' To The Sun",
-      "singer": "HUGEL、Imael Angel、Ultra Naté",
-      "album_name": "Movin' To The Sun",
-      "album_id": "379370607",
-      "duration": {
-        "secs": 142,
-        "nanos": 200000000
-      },
-      "cover_url": "http://p1.music.126.net/utQBV2WSkVT_wpqa7fWcEQ==/109951173312683419.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3421146066",
-      "source": "wy",
-      "name": "stupid song",
-      "singer": "Olivia Rodrigo",
-      "album_name": "stupid song",
-      "album_id": "392538294",
-      "duration": {
-        "secs": 208,
-        "nanos": 944000000
-      },
-      "cover_url": "http://p1.music.126.net/XTbVEg-iTlbGp5XhgCgfrQ==/109951173750973737.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3387362820",
-      "source": "wy",
-      "name": "hate that i made you love me",
-      "singer": "Ariana Grande",
-      "album_name": "hate that i made you love me",
-      "album_id": "378855787",
-      "duration": {
-        "secs": 197,
-        "nanos": 949000000
-      },
-      "cover_url": "http://p1.music.126.net/VYGEUEt1eIzslEQhNFTGnQ==/109951173295218136.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3400868815",
-      "source": "wy",
-      "name": "Great Expectation",
-      "singer": "SIENNA SPIRO",
-      "album_name": "Visitor (Deluxe)",
-      "album_id": "384929678",
-      "duration": {
-        "secs": 173,
-        "nanos": 975000000
-      },
-      "cover_url": "http://p1.music.126.net/jjP7ACKf4o6cRk913Yl81Q==/109951173497669181.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3400465894",
-      "source": "wy",
-      "name": "Love Sensation",
-      "singer": "Madonna",
-      "album_name": "CONFESSIONS II",
-      "album_id": "384742856",
-      "duration": {
-        "secs": 227,
-        "nanos": 248000000
-      },
-      "cover_url": "http://p1.music.126.net/mjkteJ45qSUxWhhm2uHRXA==/109951173490817822.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3362614644",
-      "source": "wy",
-      "name": "Boston",
-      "singer": "STELLA LEFTY",
-      "album_name": "Boston",
-      "album_id": "367647252",
-      "duration": {
-        "secs": 170,
-        "nanos": 859000000
-      },
-      "cover_url": "http://p1.music.126.net/Xt5iAG8FA2JLtezloxO6xg==/109951172935299190.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3385050724",
-      "source": "wy",
-      "name": "On 2nite",
-      "singer": "Silva Bumpa",
-      "album_name": "On 2nite",
-      "album_id": "377808828",
-      "duration": {
-        "secs": 158,
-        "nanos": 876000000
-      },
-      "cover_url": "http://p1.music.126.net/gm_iXBkO7go7j_5npiEH-A==/109951173290767573.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3384746574",
-      "source": "wy",
-      "name": "the cure",
-      "singer": "Olivia Rodrigo",
-      "album_name": "the cure",
-      "album_id": "377669296",
-      "duration": {
-        "secs": 297,
-        "nanos": 90000000
-      },
-      "cover_url": "http://p1.music.126.net/mXOaMvKooUBQlyKpggDYVA==/109951173259210808.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3414273113",
-      "source": "wy",
-      "name": "petal",
-      "singer": "Ariana Grande",
-      "album_name": "petal",
-      "album_id": "390031118",
-      "duration": {
-        "secs": 184,
-        "nanos": 248000000
-      },
-      "cover_url": "http://p1.music.126.net/eVZhj8MsxGhjbmTDVZVORQ==/109951173670280784.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2736184137",
-      "source": "wy",
-      "name": "Man I Need",
-      "singer": "Olivia Dean",
-      "album_name": "Man I Need",
-      "album_id": "281533483",
-      "duration": {
-        "secs": 184,
         "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/St1fzGCb-hMb32KD57mVug==/109951171865551661.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2755500197",
-      "source": "wy",
-      "name": "Loser",
-      "singer": "Tame Impala",
-      "album_name": "Deadbeat",
-      "album_id": "288440155",
-      "duration": {
-        "secs": 223,
-        "nanos": 111000000
-      },
-      "cover_url": "http://p1.music.126.net/bpLhQPiYSZL0z3od-Ufk9w==/109951172150980393.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2141414903",
-      "source": "wy",
-      "name": "Earrings",
-      "singer": "Malcolm Todd",
-      "album_name": "Sweet Boy",
-      "album_id": "190797044",
-      "duration": {
-        "secs": 151,
-        "nanos": 556000000
-      },
-      "cover_url": "http://p1.music.126.net/WjGh19dLkiiJWdidYCHu0g==/109951169460691785.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3410454149",
-      "source": "wy",
-      "name": "Animal",
-      "singer": "KATSEYE",
-      "album_name": "Animal",
-      "album_id": "388649099",
-      "duration": {
-        "secs": 158,
-        "nanos": 494000000
-      },
-      "cover_url": "http://p1.music.126.net/6blVCbVOH3mKUAvixfSb4w==/109951173627910870.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260810/20260810151052517198.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -365,879 +251,28 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3420989521",
-      "source": "wy",
-      "name": "Die On This Hill",
-      "singer": "SIENNA SPIRO",
-      "album_name": "Back to School 2026",
-      "album_id": "392483619",
-      "duration": {
-        "secs": 217,
-        "nanos": 8000000
+      "extra": {
+        "HQFileHash": "966E09F04A7729FFB5EDA2ECC17939F3",
+        "ResFileHash": "9FED1A07A32D8F9E663146B821D84A6F",
+        "FileHash": "9AAB6CD85BE912ED37C3CAC8AD72BA35",
+        "SQFileHash": "5642E1502EEA8B1EF527A97884AD9532"
       },
-      "cover_url": "http://p1.music.126.net/aOrkjdibsgp5aESGfCXuvw==/109951173748993763.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "3383487894",
-      "source": "wy",
-      "name": "bloodstream",
-      "singer": "Alyssa Grace",
-      "album_name": "bloodstream",
-      "album_id": "377057125",
-      "duration": {
-        "secs": 177,
-        "nanos": 428000000
-      },
-      "cover_url": "http://p1.music.126.net/hWr7ZTctogZvdzESNCKfBQ==/109951173464250801.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2671872456",
-      "source": "wy",
-      "name": "Ordinary",
-      "singer": "Alex Warren",
-      "album_name": "Ordinary",
-      "album_id": "261738289",
-      "duration": {
-        "secs": 186,
-        "nanos": 964000000
-      },
-      "cover_url": "http://p1.music.126.net/X2mDOsahwjX4lDltY4j1Jw==/109951170450998375.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "477936858",
-      "source": "wy",
-      "name": "Sign of the Times",
-      "singer": "Harry Styles",
-      "album_name": "Harry Styles",
-      "album_id": "35449247",
-      "duration": {
-        "secs": 340,
-        "nanos": 706000000
-      },
-      "cover_url": "http://p1.music.126.net/mTgz81S_ZLf0D6OfRhTgHg==/109951165981507420.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2702063509",
-      "source": "wy",
-      "name": "Blessings",
-      "singer": "Calvin Harris、Clementine Douglas",
-      "album_name": "Blessings",
-      "album_id": "271109759",
-      "duration": {
-        "secs": 219,
-        "nanos": 707000000
-      },
-      "cover_url": "http://p1.music.126.net/QA_Nc9hlhvTwy4aG-VJCgQ==/109951170953224732.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3341091795",
-      "source": "wy",
-      "name": "Talk To You (ft. 54 Ultra)",
-      "singer": "ANOTR、54 Ultra",
-      "album_name": "Talk To You (ft. 54 Ultra)",
-      "album_id": "358974355",
-      "duration": {
-        "secs": 191,
-        "nanos": 76000000
-      },
-      "cover_url": "http://p1.music.126.net/P3v4TiwsFnJ_MYB_KhqQtw==/109951172618592223.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3406368630",
-      "source": "wy",
-      "name": "oh yeah?",
-      "singer": "Steve Lacy",
-      "album_name": "Oh yeah?",
-      "album_id": "386915386",
-      "duration": {
-        "secs": 170,
-        "nanos": 631000000
-      },
-      "cover_url": "http://p1.music.126.net/vAj-3ulynqYrN4TXunL5OQ==/109951173556543924.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3350783498",
-      "source": "wy",
-      "name": "Self Aware",
-      "singer": "Temper City",
-      "album_name": "Self Aware",
-      "album_id": "362537491",
-      "duration": {
-        "secs": 180,
-        "nanos": 740000000
-      },
-      "cover_url": "http://p1.music.126.net/kf_HW-QBlKKLhiatzgQvtA==/109951172867533211.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3357828568",
-      "source": "wy",
-      "name": "Free Your Mind",
-      "singer": "Prospa、Cloonee、Sybil",
-      "album_name": "Free Your Mind",
-      "album_id": "365617853",
-      "duration": {
-        "secs": 201,
-        "nanos": 700000000
-      },
-      "cover_url": "http://p1.music.126.net/MtlR_DKcZnU6ECmEtBYlrg==/109951172867075485.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2144901835",
-      "source": "wy",
-      "name": "Espresso",
-      "singer": "Sabrina Carpenter",
-      "album_name": "Espresso",
-      "album_id": "191993394",
-      "duration": {
-        "secs": 175,
-        "nanos": 459000000
-      },
-      "cover_url": "http://p1.music.126.net/lN4s9SttesJ_NYS9lu0ZTw==/109951169490378888.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "18981967",
-      "source": "wy",
-      "name": "The One That Got Away",
-      "singer": "Katy Perry",
-      "album_name": "Teenage Dream: The Complete Confection",
-      "album_id": "1738881",
-      "duration": {
-        "secs": 227,
-        "nanos": 333000000
-      },
-      "cover_url": "http://p1.music.126.net/dPe9_cG1_Baxnx11MWLK3w==/109951169008316205.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3348458585",
-      "source": "wy",
-      "name": "Be Her",
-      "singer": "Ella Langley",
-      "album_name": "Be Her",
-      "album_id": "361592283",
-      "duration": {
-        "secs": 217,
-        "nanos": 240000000
-      },
-      "cover_url": "http://p1.music.126.net/Md7OPJLt7_tH1P_GZa-eYw==/109951172723688878.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2698934824",
-      "source": "wy",
-      "name": "Sue me",
-      "singer": "Audrey Hobert",
-      "album_name": "Sue me",
-      "album_id": "270174069",
-      "duration": {
-        "secs": 170,
-        "nanos": 370000000
-      },
-      "cover_url": "http://p1.music.126.net/qtROF4WAdF2rPxkI3kstFg==/109951170890330644.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3396891269",
-      "source": "wy",
-      "name": "My Body Isn't Ready",
-      "singer": "sombr",
-      "album_name": "My Body Isn't Ready",
-      "album_id": "383135759",
-      "duration": {
-        "secs": 217,
-        "nanos": 380000000
-      },
-      "cover_url": "http://p1.music.126.net/aMJGNlx0IPRi_vBIpkrFVw==/109951173442731645.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "21178262",
-      "source": "wy",
-      "name": "Billie Jean",
-      "singer": "Michael Jackson",
-      "album_name": "Thriller",
-      "album_id": "1958217",
-      "duration": {
-        "secs": 293,
-        "nanos": 506000000
-      },
-      "cover_url": "http://p1.music.126.net/U7pqYhbbgxjPx1NYUGOGQQ==/109951165958551789.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2747347844",
-      "source": "wy",
-      "name": "WHERE IS MY HUSBAND!",
-      "singer": "RAYE",
-      "album_name": "WHERE IS MY HUSBAND!",
-      "album_id": "285483580",
-      "duration": {
-        "secs": 197,
-        "nanos": 142000000
-      },
-      "cover_url": "http://p1.music.126.net/rbdjKUuU_25lPOza5_iYFg==/109951172030066887.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3410182388",
-      "source": "wy",
-      "name": "Ain't In LA",
-      "singer": "ADÉLA",
-      "album_name": "Ain't In LA",
-      "album_id": "388551731",
-      "duration": {
-        "secs": 184,
-        "nanos": 927000000
-      },
-      "cover_url": "http://p1.music.126.net/JZxsAQlrkUnGa0Zrt2HEyw==/109951173625800598.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3421018711",
-      "source": "wy",
-      "name": "Jamaican (Bam Bam)",
-      "singer": "HUGEL、SOLTO (FR)",
-      "album_name": "College Party",
-      "album_id": "392492781",
-      "duration": {
-        "secs": 156,
-        "nanos": 393000000
-      },
-      "cover_url": "http://p1.music.126.net/G1cRaccNmaxePfyTnda4mw==/109951173749980595.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2712494935",
-      "source": "wy",
-      "name": "Midnight Sun",
-      "singer": "Zara Larsson",
-      "album_name": "Midnight Sun",
-      "album_id": "274315989",
-      "duration": {
-        "secs": 189,
-        "nanos": 962000000
-      },
-      "cover_url": "http://p1.music.126.net/R1AdHnqxf6NltKcw7b9cNQ==/109951171267486352.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3376650010",
-      "source": "wy",
-      "name": "Material Lover",
-      "singer": "SIENNA SPIRO",
-      "album_name": "The Devil Wears Prada 2 (Music From The Motion Picture)",
-      "album_id": "373806421",
-      "duration": {
-        "secs": 178,
-        "nanos": 16000000
-      },
-      "cover_url": "http://p1.music.126.net/XznvXjLVNh3hyCX6OpzJkg==/109951173151040553.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "21307845",
-      "source": "wy",
-      "name": "Unwritten",
-      "singer": "Natasha Bedingfield",
-      "album_name": "Unwritten",
-      "album_id": "1968147",
-      "duration": {
-        "secs": 258,
-        "nanos": 920000000
-      },
-      "cover_url": "http://p1.music.126.net/3gO2G0nGK36e95IRVkIbRw==/18252992533269361.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3421507269",
-      "source": "wy",
-      "name": "So Easy (To Fall In Love)",
-      "singer": "Olivia Dean",
-      "album_name": "Révisions chill",
-      "album_id": "392677469",
-      "duration": {
-        "secs": 169,
-        "nanos": 0
-      },
-      "cover_url": "http://p1.music.126.net/S2CzG_Ocwh9ng6kF6bUFGQ==/109951173755153729.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "27928548",
-      "source": "wy",
-      "name": "Mr. Brightside",
-      "singer": "The Killers",
-      "album_name": "Direct Hits",
-      "album_id": "2696102",
-      "duration": {
-        "secs": 224,
-        "nanos": 26000000
-      },
-      "cover_url": "http://p1.music.126.net/UttYbJ0xKIxy7nFs3JbSVQ==/109951169146975250.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3374496434",
-      "source": "wy",
-      "name": "Orbiter",
-      "singer": "Noah Kahan",
-      "album_name": "The Great Divide: The Last Of The Bugs",
-      "album_id": "372924913",
-      "duration": {
-        "secs": 286,
-        "nanos": 967000000
-      },
-      "cover_url": "http://p1.music.126.net/WoTZeMpmGBYa_siaiUzHww==/109951173118503361.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "32785200",
-      "source": "wy",
-      "name": "Lush Life",
-      "singer": "Zara Larsson",
-      "album_name": "Lush Life",
-      "album_id": "3172073",
-      "duration": {
-        "secs": 200,
-        "nanos": 713000000
-      },
-      "cover_url": "http://p1.music.126.net/37simYDuK_Yn1avVbQZXYg==/109951163464851467.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1376741518",
-      "source": "wy",
-      "name": "Dancing On My Own",
-      "singer": "Robyn",
-      "album_name": "Body Talk",
-      "album_id": "80280495",
-      "duration": {
-        "secs": 285,
-        "nanos": 853000000
-      },
-      "cover_url": "http://p1.music.126.net/Q4_TAecX5jOWyB0xtB45RA==/109951164823280597.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3420991168",
-      "source": "wy",
-      "name": "Golden",
-      "singer": "HUNTR/X、EJAE、Audrey Nuna、REI AMI、KPop Demon Hunters Cast",
-      "album_name": "Back to School 2026",
-      "album_id": "392483619",
+      "id": "1107580568",
+      "source": "kg",
+      "name": "等等等等",
+      "singer": "容祖儿",
+      "album_name": "等等等等",
+      "album_id": "201668820",
       "duration": {
         "secs": 194,
-        "nanos": 607000000
-      },
-      "cover_url": "http://p1.music.126.net/aOrkjdibsgp5aESGfCXuvw==/109951173748993763.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3337496871",
-      "source": "wy",
-      "name": "iloveitiloveitiloveit",
-      "singer": "Bella Kay",
-      "album_name": "iloveitiloveitiloveit",
-      "album_id": "357726498",
-      "duration": {
-        "secs": 183,
-        "nanos": 237000000
-      },
-      "cover_url": "http://p1.music.126.net/lmWxSWfKDV-R2dM6vhx-0w==/109951172559992450.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3355900187",
-      "source": "wy",
-      "name": "American Girls",
-      "singer": "Harry Styles",
-      "album_name": "Kiss All The Time. Disco, Occasionally.",
-      "album_id": "364758961",
-      "duration": {
-        "secs": 213,
-        "nanos": 440000000
-      },
-      "cover_url": "http://p1.music.126.net/q-BcTnE6lX0yVzPk-0UNHQ==/109951172840495045.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3414273117",
-      "source": "wy",
-      "name": "like i do",
-      "singer": "Ariana Grande",
-      "album_name": "petal",
-      "album_id": "390031118",
-      "duration": {
-        "secs": 167,
-        "nanos": 333000000
-      },
-      "cover_url": "http://p1.music.126.net/eVZhj8MsxGhjbmTDVZVORQ==/109951173670280784.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3390083812",
-      "source": "wy",
-      "name": "I Knew It, I Knew You",
-      "singer": "Taylor Swift",
-      "album_name": "I Knew It, I Knew You",
-      "album_id": "380069042",
-      "duration": {
-        "secs": 178,
-        "nanos": 185000000
-      },
-      "cover_url": "http://p1.music.126.net/BC-ZzwgpiscAdR_d4PV63g==/109951173331241500.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3363511558",
-      "source": "wy",
-      "name": "Trapped (Radio-Edit)",
-      "singer": "Kolter",
-      "album_name": "What Did You Come For ?",
-      "album_id": "367991893",
-      "duration": {
-        "secs": 221,
-        "nanos": 535000000
-      },
-      "cover_url": "http://p1.music.126.net/mH80whoVxROlPMFlIk9hHA==/109951173412113009.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3345916198",
-      "source": "wy",
-      "name": "Homewrecker",
-      "singer": "sombr",
-      "album_name": "Homewrecker",
-      "album_id": "360670981",
-      "duration": {
-        "secs": 209,
-        "nanos": 66000000
-      },
-      "cover_url": "http://p1.music.126.net/caO5ojdrabLtssTQCmpD3g==/109951172685195264.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3392743805",
-      "source": "wy",
-      "name": "honeybee",
-      "singer": "Olivia Rodrigo",
-      "album_name": "you seem pretty sad for a girl so in love",
-      "album_id": "381252074",
-      "duration": {
-        "secs": 223,
-        "nanos": 13000000
-      },
-      "cover_url": "http://p1.music.126.net/m-MhdlXwnV7IwoHGCHU1sg==/109951173380403022.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2749055699",
-      "source": "wy",
-      "name": "Baby Steps",
-      "singer": "Olivia Dean",
-      "album_name": "The Art of Loving",
-      "album_id": "286084377",
-      "duration": {
-        "secs": 197,
         "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/0PR7P_gCm-MdMYocF6tKYw==/109951172068620766.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3399819668",
-      "source": "wy",
-      "name": "My Place",
-      "singer": "Josh Baker、Poppy Baskcomb",
-      "album_name": "My Place",
-      "album_id": "384444928",
-      "duration": {
-        "secs": 159,
-        "nanos": 615000000
-      },
-      "cover_url": "http://p1.music.126.net/IgjAQEw6jh5lR0oD_XzgRA==/109951173482214960.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3373908693",
-      "source": "wy",
-      "name": "Willing and Able",
-      "singer": "Noah Kahan",
-      "album_name": "The Great Divide",
-      "album_id": "372663252",
-      "duration": {
-        "secs": 297,
-        "nanos": 262000000
-      },
-      "cover_url": "http://p1.music.126.net/8y4PgO4WZytCj0KteBmPSw==/109951173109063528.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2744403174",
-      "source": "wy",
-      "name": "The Fate of Ophelia",
-      "singer": "Taylor Swift",
-      "album_name": "The Life of a Showgirl",
-      "album_id": "284356964",
-      "duration": {
-        "secs": 226,
-        "nanos": 73000000
-      },
-      "cover_url": "http://p1.music.126.net/kgSrl1121l_8KNc77j8Qkw==/109951172077792684.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260731/20260731170503430243.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -1245,115 +280,28 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "SQFileHash": "A3435874F55A65CD373209FA1BE473E3",
+        "HQFileHash": "8457B02AE8C334389791A20EDEE3D354",
+        "ResFileHash": "D230C4AD27AA8663C187AA9CA73C8831",
+        "FileHash": "9F53C09AD7FD9E1DA056174DD9F7D0B3"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "2758441499",
-      "source": "wy",
-      "name": "Raindance",
-      "singer": "Dave、Tems",
-      "album_name": "The Boy Who Played the Harp",
-      "album_id": "289493473",
+      "id": "624659023",
+      "source": "kg",
+      "name": "陨石与地球",
+      "singer": "郑秀文",
+      "album_name": "陨石与地球",
+      "album_id": "199296597",
       "duration": {
         "secs": 219,
-        "nanos": 744000000
-      },
-      "cover_url": "http://p1.music.126.net/vTDMnlbcYElCLla60pgtWQ==/109951172188469401.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3412833175",
-      "source": "wy",
-      "name": "Do You Mind",
-      "singer": "Gordo、Kyla",
-      "album_name": "Do You Mind",
-      "album_id": "389540667",
-      "duration": {
-        "secs": 200,
         "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/Ls4ZV7je2y7TK9wjsoFn9g==/109951173769821759.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3379230902",
-      "source": "wy",
-      "name": "Satisfy",
-      "singer": "Calvin Harris、Jazzy",
-      "album_name": "Satisfy",
-      "album_id": "375007230",
-      "duration": {
-        "secs": 186,
-        "nanos": 500000000
-      },
-      "cover_url": "http://p1.music.126.net/7WGiaXZWlfthI1qKdIlv_Q==/109951173184308162.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2588700",
-      "source": "wy",
-      "name": "Dreams",
-      "singer": "Fleetwood Mac",
-      "album_name": "The Very Best Of Fleetwood Mac",
-      "album_id": "260755",
-      "duration": {
-        "secs": 255,
-        "nanos": 640000000
-      },
-      "cover_url": "http://p1.music.126.net/G6ONNXXsExjO81OXd1hAeA==/18422317323654008.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3353140748",
-      "source": "wy",
-      "name": "FEVER DREAM",
-      "singer": "Alex Warren",
-      "album_name": "FEVER DREAM",
-      "album_id": "363556483",
-      "duration": {
-        "secs": 153,
-        "nanos": 430000000
-      },
-      "cover_url": "http://p1.music.126.net/edJAZKTNcVfP0-gYKa5fiA==/109951172807696541.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805055011280230.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -1361,577 +309,55 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3345979944",
-      "source": "wy",
-      "name": "Dracula (JENNIE Remix)",
-      "singer": "Tame Impala、JENNIE",
-      "album_name": "Dracula (Remix)",
-      "album_id": "360699204",
-      "duration": {
-        "secs": 209,
-        "nanos": 763000000
+      "extra": {
+        "FileHash": "6F18B07A29CCF5E8BC410F5F15348778",
+        "ResFileHash": "51EE6CF45188236873AA363E8374DFC4",
+        "HQFileHash": "4BF119C3437E5FDD87AD1BD617592FF9",
+        "SQFileHash": "925CC792AEB90EF7C4BE8586BBC9EC5E"
       },
-      "cover_url": "http://p1.music.126.net/56eOJJo5rwoiE3A2Kd8kdQ==/109951172685715168.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "2728000316",
-      "source": "wy",
-      "name": "12 to 12",
-      "singer": "sombr",
-      "album_name": "12 to 12",
-      "album_id": "279019090",
-      "duration": {
-        "secs": 242,
-        "nanos": 903000000
-      },
-      "cover_url": "http://p1.music.126.net/VpmJSXrt3_-RTABeR1G7NQ==/109951171494607417.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3362602938",
-      "source": "wy",
-      "name": "Kingdom of Fear",
-      "singer": "Cameron Whitcomb",
-      "album_name": "Kingdom of Fear",
-      "album_id": "367640494",
-      "duration": {
-        "secs": 161,
-        "nanos": 75000000
-      },
-      "cover_url": "http://p1.music.126.net/8qlvKHNil5haNO9GlaiH3Q==/109951172935179811.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3382115200",
-      "source": "wy",
-      "name": "Hit the Wall",
-      "singer": "Gracie Abrams",
-      "album_name": "Hit the Wall",
-      "album_id": "376413862",
-      "duration": {
-        "secs": 194,
-        "nanos": 376000000
-      },
-      "cover_url": "http://p1.music.126.net/fvEkVlI8td_-0E5-T0s5hQ==/109951173222441764.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "4226257",
-      "source": "wy",
-      "name": "Wonderwall",
-      "singer": "Oasis",
-      "album_name": "Wonderwall",
-      "album_id": "427307",
-      "duration": {
-        "secs": 258,
-        "nanos": 840000000
-      },
-      "cover_url": "http://p1.music.126.net/TYNhwqXvKqKSwwPSspv4dg==/788349837159268.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "20366078",
-      "source": "wy",
-      "name": "Iris",
-      "singer": "The Goo Goo Dolls",
-      "album_name": "Greatest Hits Volume One - The Singles",
-      "album_id": "1893056",
-      "duration": {
-        "secs": 289,
-        "nanos": 970000000
-      },
-      "cover_url": "http://p1.music.126.net/ixQyrFmVYgdfdrnmwMinjA==/109951168151702739.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3407584033",
-      "source": "wy",
-      "name": "Hey Everybody (Back In The Dance)",
-      "singer": "Kolter",
-      "album_name": "Hey Everybody (Back In The Dance)",
-      "album_id": "387457380",
-      "duration": {
-        "secs": 156,
-        "nanos": 498000000
-      },
-      "cover_url": "http://p1.music.126.net/D_XZK62KT0F09YQTDeeHpg==/109951173665920303.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2117911937",
-      "source": "wy",
-      "name": "Beautiful Things",
-      "singer": "Benson Boone",
-      "album_name": "Beautiful Things",
-      "album_id": "183334167",
-      "duration": {
-        "secs": 180,
-        "nanos": 304000000
-      },
-      "cover_url": "http://p1.music.126.net/7WKT_UmURQ5fz6vz-IZ3xg==/109951169264112902.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "18637990",
-      "source": "wy",
-      "name": "Beauty And A Beat",
-      "singer": "Justin Bieber、Nicki Minaj",
-      "album_name": "Believe (Deluxe Edition)",
-      "album_id": "1709604",
-      "duration": {
-        "secs": 227,
-        "nanos": 986000000
-      },
-      "cover_url": "http://p1.music.126.net/lbgbkMsVvSt_7GmZ9pqRbQ==/109951173480281688.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2030753313",
-      "source": "wy",
-      "name": "Where the Wild Things Are",
-      "singer": "Luke Combs",
-      "album_name": "Gettin' Old",
-      "album_id": "161917708",
-      "duration": {
-        "secs": 239,
-        "nanos": 606000000
-      },
-      "cover_url": "http://p1.music.126.net/f961HU8NXDaEt1gZZudmFA==/109951168473380366.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1698391",
-      "source": "wy",
-      "name": "Beat It",
-      "singer": "Michael Jackson",
-      "album_name": "HIStory: Past, Present and Future, Book I",
-      "album_id": "172259",
-      "duration": {
-        "secs": 258,
-        "nanos": 0
-      },
-      "cover_url": "http://p1.music.126.net/GtZLLolNwCn07Ke-HZxX1Q==/109951165994661423.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3375858474",
-      "source": "wy",
-      "name": "misery.",
-      "singer": "pupsies",
-      "album_name": "misery.",
-      "album_id": "373463974",
-      "duration": {
-        "secs": 166,
-        "nanos": 401000000
-      },
-      "cover_url": "http://p1.music.126.net/Gql9Y0kN2qgxhZ2FXCXpQA==/109951173138891460.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3337509334",
-      "source": "wy",
-      "name": "I Just Might",
-      "singer": "Bruno Mars",
-      "album_name": "I Just Might",
-      "album_id": "357732937",
-      "duration": {
-        "secs": 212,
-        "nanos": 973000000
-      },
-      "cover_url": "http://p1.music.126.net/gBApRfwLlsD-i5edJg15HA==/109951172560120344.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3410257938",
-      "source": "wy",
-      "name": "Been By Now",
-      "singer": "Morgan Wallen",
-      "album_name": "Been By Now",
-      "album_id": "388580356",
-      "duration": {
-        "secs": 213,
-        "nanos": 805000000
-      },
-      "cover_url": "http://p1.music.126.net/_-jDgSz8ZrjtCDSegL55jw==/109951173626986305.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2714631551",
-      "source": "wy",
-      "name": "Edge of Desire",
-      "singer": "Jonas Blue、Malive",
-      "album_name": "Edge of Desire",
-      "album_id": "274919294",
-      "duration": {
-        "secs": 134,
-        "nanos": 905000000
-      },
-      "cover_url": "http://p1.music.126.net/dGd9T1mmviGuvVaBJfgtbg==/109951171295240026.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "27804646",
-      "source": "wy",
-      "name": "Everywhere",
-      "singer": "Fleetwood Mac",
-      "album_name": "Opus Collection",
-      "album_id": "2681081",
-      "duration": {
-        "secs": 226,
-        "nanos": 666000000
-      },
-      "cover_url": "http://p1.music.126.net/P6js3H8SxEHZfBhLV6Nz2g==/5518448859925500.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac",
-        "flac24bit"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3378577077",
-      "source": "wy",
-      "name": "Comes and Goes",
-      "singer": "KETTAMA",
-      "album_name": "Comes and Goes",
-      "album_id": "374659054",
-      "duration": {
-        "secs": 262,
-        "nanos": 170000000
-      },
-      "cover_url": "http://p1.music.126.net/cK2ZucyZNXQ1pygoybzN1A==/109951173177698572.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2641030565",
-      "source": "wy",
-      "name": "weren't for the wind",
-      "singer": "Ella Langley",
-      "album_name": "still hungover",
-      "album_id": "252165378",
-      "duration": {
-        "secs": 193,
-        "nanos": 724000000
-      },
-      "cover_url": "http://p1.music.126.net/wUhVHdhIjT39v1fme9Wrpg==/109951170090768747.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3397534895",
-      "source": "wy",
-      "name": "FREAKED OUT",
-      "singer": "Fat Papi、prodshushy",
-      "album_name": "FREAKED OUT",
-      "album_id": "383435126",
-      "duration": {
-        "secs": 158,
-        "nanos": 117000000
-      },
-      "cover_url": "http://p1.music.126.net/Ubt-jhD9LJPYoMzab_o-HA==/109951173449874134.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3382154258",
-      "source": "wy",
-      "name": "Janice STFU",
-      "singer": "Drake",
-      "album_name": "ICEMAN",
-      "album_id": "376435141",
-      "duration": {
-        "secs": 237,
-        "nanos": 344000000
-      },
-      "cover_url": "http://p1.music.126.net/hlRXV6jaY7ydWZRzFmvGGw==/109951173269425884.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3377053315",
-      "source": "wy",
-      "name": "Zone",
-      "singer": "MK、Poppy Baskcomb",
-      "album_name": "Zone",
-      "album_id": "373971394",
+      "id": "1107643531",
+      "source": "kg",
+      "name": "Bye Bye Bye",
+      "singer": "炎明熹",
+      "album_name": "Bye Bye Bye",
+      "album_id": "202439292",
       "duration": {
         "secs": 176,
-        "nanos": 326000000
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/Qrv4O7Kqu2NUCfcj2I_Kfg==/109951173153445076.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3381653669",
-      "source": "wy",
-      "name": "RMB (Ring My Bell)",
-      "singer": "Aitch",
-      "album_name": "RMB (Ring My Bell)",
-      "album_id": "376201584",
-      "duration": {
-        "secs": 174,
-        "nanos": 222000000
-      },
-      "cover_url": "http://p1.music.126.net/Q9Bh4KhmrVT_Fj6VqVBnZA==/109951173216623123.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803103741435890.jpg",
       "qualities": [
         "128k",
         "320k",
         "flac"
       ],
       "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1318089295",
-      "source": "wy",
-      "name": "Babydoll",
-      "singer": "Dominic Fike",
-      "album_name": "Don't Forget About Me",
-      "album_id": "73922530",
-      "duration": {
-        "secs": 98,
-        "nanos": 11000000
+      "extra": {
+        "SQFileHash": "46A7F019001D64145AD6BDCEA5B0BB15",
+        "FileHash": "91FE16D84C1BC926D145E93AB6D5FBD0",
+        "HQFileHash": "8205EA66DB482BF53296B16BB066DA19"
       },
-      "cover_url": "http://p1.music.126.net/TtPTfNHjipP0ntMll4nUSg==/109951165984866743.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "3412169601",
-      "source": "wy",
-      "name": "brand new chanel$",
-      "singer": "Slayyyter",
-      "album_name": "brand new chanel$",
-      "album_id": "389310928",
+      "id": "630495768",
+      "source": "kg",
+      "name": "How could you?",
+      "singer": "Nancy Kwai",
+      "album_name": "How could you?",
+      "album_id": "201200173",
       "duration": {
         "secs": 238,
-        "nanos": 550000000
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/FNkXGyAXEU2ui_vzoAu6sg==/109951173648565886.jpg",
-      "qualities": [
-        "128k",
-        "320k"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2753319193",
-      "source": "wy",
-      "name": "Stateside + Zara Larsson",
-      "singer": "PinkPantheress、Zara Larsson",
-      "album_name": "Fancy Some More?",
-      "album_id": "287633836",
-      "duration": {
-        "secs": 184,
-        "nanos": 761000000
-      },
-      "cover_url": "http://p1.music.126.net/gYKFvN8NS4D7jlW3vbTafg==/109951172120477933.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260727/20260727100741345850.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -1939,115 +365,1331 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "FileHash": "65FA1B46CA75F17A5CF464ABD33AA91D",
+        "ResFileHash": "87720F0ACA01DD685CC10C783B9222B8",
+        "SQFileHash": "58C46D0E9157203D0C352651140B74CF",
+        "HQFileHash": "A57707B57BDCE095ADC2B4E2F2ADBD10"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "29129545",
-      "source": "wy",
-      "name": "Riptide",
-      "singer": "Vance Joy",
-      "album_name": "Dream Your Life Away",
-      "album_id": "2978001",
+      "id": "1107687057",
+      "source": "kg",
+      "name": "我好想你 • 一 一",
+      "singer": "王菀之",
+      "album_name": "我好想你 • 一 一",
+      "album_id": "203004717",
       "duration": {
-        "secs": 204,
-        "nanos": 335000000
+        "secs": 300,
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/8GgwpFyX4TobqEErHwfFOQ==/109951163168880410.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260810/20260810182352935396.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "5F859A86419FBA6FC653629E571FD08A",
+        "HQFileHash": "C6C92D879DD68F46494E981BA92FB1E5",
+        "SQFileHash": "36A7866B5E83295124265B087BF775BC",
+        "ResFileHash": "307B530CF7C30C0BB7C6B8A6B0850545"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "637291606",
+      "source": "kg",
+      "name": "子虚乌有",
+      "singer": "颜米羔",
+      "album_name": "子虚乌有",
+      "album_id": "202972911",
+      "duration": {
+        "secs": 303,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260804/20260804103031397675.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "5BFC5EE304229292C5404F6F651ACE0F",
+        "HQFileHash": "9E3C46DA1F6C222DB484E14774381435",
+        "SQFileHash": "830CA6A07D7FF5A9CCAB6E3955DFD41B",
+        "ResFileHash": "11F811F307A183FE21B1AD6B8C6ABD7A"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "631092224",
+      "source": "kg",
+      "name": "Hey Feanna",
+      "singer": "黄淑蔓",
+      "album_name": "Hey Feanna",
+      "album_id": "201334785",
+      "duration": {
+        "secs": 242,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260727/20260727180942696423.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "5E1C119998D7CFCC45D413EB31427888",
+        "SQFileHash": "B5311FC7C386E6D9AB1DF58C16060007",
+        "HQFileHash": "4846880339ADA12D17CC127D98140853",
+        "ResFileHash": "12B634B04A75149E567903C8C3DC3D6A"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "628486676",
+      "source": "kg",
+      "name": "迟眠剂",
+      "singer": "Ian 陈卓贤",
+      "album_name": "迟眠剂",
+      "album_id": "200482283",
+      "duration": {
+        "secs": 193,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260721/20260721150641232024.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "652479D53626149E735174A79708CA36",
+        "FileHash": "306CDC3F0945FFD7E38F4E75A06D1618",
+        "HQFileHash": "115E2C32E37FF2E17E51F618F0CC4D43",
+        "ResFileHash": "611D9EA06EA9942AE7CAF876FE61D481"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "637088010",
+      "source": "kg",
+      "name": "泪光",
+      "singer": "Collar",
+      "album_name": "泪光",
+      "album_id": "202919602",
+      "duration": {
+        "secs": 207,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260807/20260807095732439028.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "8EEE793B73FF23F3003C7635C441321D",
+        "SQFileHash": "C2FC7A398643D5DC249E702275B49A3B",
+        "HQFileHash": "CDA21115271332FF803D6325DC6A7EDD",
+        "ResFileHash": "699CA94F9FF7EF6990A62F4F8602E49A"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "613506970",
+      "source": "kg",
+      "name": "大数据以为我还爱你",
+      "singer": "Zpecial",
+      "album_name": "大数据以为我还爱你",
+      "album_id": "197744613",
+      "duration": {
+        "secs": 236,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260630/20260630103252890030.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "664085779A5CA8F747D0E0A4EAD990BB",
+        "SQFileHash": "F838BC739F2608A66810C80B0B587F44",
+        "ResFileHash": "53C1EB970C51408CFF67515E5101A3C8",
+        "FileHash": "3E2CF720C224F9E61E06DD6DDE2103AD"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "640402795",
+      "source": "kg",
+      "name": "人类爱情学",
+      "singer": "陈蕾",
+      "album_name": "人类爱情学",
+      "album_id": "203892532",
+      "duration": {
+        "secs": 205,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260817/20260817161252444924.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "23B24D711DBD5E7DB19CA5A4E60565E3",
+        "SQFileHash": "599EDCD0C2462F4834072F7648C8B695",
+        "FileHash": "38DBCFCEA8D280A374A4D01CB5E48974",
+        "ResFileHash": "028BAF6E0E90038CCAB9271712F49365"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "624238503",
+      "source": "kg",
+      "name": "旋转木马",
+      "singer": "米爷、黄淑蔓",
+      "album_name": "旋转木马",
+      "album_id": "199150859",
+      "duration": {
+        "secs": 194,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728205346964859.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "414113B34ADCA4AE69202C9E134286A3",
+        "SQFileHash": "8F8211A5755CD9671945154F16469203",
+        "HQFileHash": "373ED9A7C821B11CD8F1C0631C7B29C6",
+        "ResFileHash": "3E7DBE4BEBE7258F633D43BF95B069DF"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "640617075",
+      "source": "kg",
+      "name": "逆风之意",
+      "singer": "周殷廷",
+      "album_name": "逆风之意",
+      "album_id": "203967796",
+      "duration": {
+        "secs": 197,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260817/20260817140411788585.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "D03162E624882E2DF82537BA61064DA6",
+        "HQFileHash": "8A56D31482D17B9ABE88634DB0DB13FC",
+        "FileHash": "61072087A9E5DD8172CA5837B8DC651C",
+        "ResFileHash": "E0A8BDCA7981F8E16266D8F40EF4C75F"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "624213716",
+      "source": "kg",
+      "name": "残忍告别式",
+      "singer": "连诗雅",
+      "album_name": "残忍告别式",
+      "album_id": "199142130",
+      "duration": {
+        "secs": 271,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260706/20260706164041920117.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "E153891790D9B7FC6F22714443396444",
+        "FileHash": "41CE461C4D446442A9E898CF3351D88F",
+        "SQFileHash": "5C83C73E2CE907E599901952643806C5",
+        "ResFileHash": "02E28EFA6746F94F1870869098550C5F"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "636960477",
+      "source": "kg",
+      "name": "男人最痛 (Remastered 2026)",
+      "singer": "许志安",
+      "album_name": "男人最痛 (Remastered 2026)",
+      "album_id": "202863667",
+      "duration": {
+        "secs": 277,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260807/20260807175103576801.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "CBFBEA0EA698B61C9EE9031ABA9558B1",
+        "HQFileHash": "15F380972BBEFBE0DAC43D8CC600FA6E",
+        "SQFileHash": "51A9934BDAC867F43CE402896F6F8D64",
+        "FileHash": "F711E2FB33C157B071B91ACE682CB970"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "630152353",
+      "source": "kg",
+      "name": "人间缺憾美",
+      "singer": "冯允谦",
+      "album_name": "人间缺憾美",
+      "album_id": "201089214",
+      "duration": {
+        "secs": 252,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260727/20260727173112696962.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "399319C598F7BAB4659B711CCB52B2A0",
+        "SQFileHash": "A1C82DFC77BBF11ACE4966589B90B30F",
+        "HQFileHash": "F88D5C147A66D676024398B5D4E2804B",
+        "ResFileHash": "B6D8944181C03F76E73BEFD882B11E48"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "636959455",
+      "source": "kg",
+      "name": "代代相爱",
+      "singer": "吴若希",
+      "album_name": "代代相爱",
+      "album_id": "202863178",
+      "duration": {
+        "secs": 113,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260804/20260804182831945231.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "E677D89DD5C7C8FA2554469EE3B67FE4",
+        "ResFileHash": "00BB47D58066ECCE80EAB97DFF865F26",
+        "HQFileHash": "569BF07829509470AC78F4760232AA34",
+        "FileHash": "E3AB7231DE64FB18097A46204000D1BB"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107644602",
+      "source": "kg",
+      "name": "冲冲冲",
+      "singer": "郭富城",
+      "album_name": "冲冲冲",
+      "album_id": "202452142",
+      "duration": {
+        "secs": 180,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260807/20260807092843564111.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "A65F74C049F478F12E3FFF545068535B",
+        "FileHash": "CCB05C47B55774A94F8E222A485BB140",
+        "SQFileHash": "8477633AD88CB89F760D8D76A285850F",
+        "HQFileHash": "51C1FE1444B2B5E5ED2F40393E590026"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "547798874",
+      "source": "kg",
+      "name": "穿波鞋的恶魔",
+      "singer": "洪嘉豪",
+      "album_name": "穿波鞋的恶魔",
+      "album_id": "179662322",
+      "duration": {
+        "secs": 244,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260316/20260316100903384552.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "E1453B2660717E0624FF6A981098E6E0",
+        "FileHash": "C264BB790808F060FBF09949C246A240",
+        "HQFileHash": "13AC02BFDD67AE4AB871BE281F244CCB",
+        "SQFileHash": "72DCDC39B7AEF6B4DDC9BDF88EC2EEFF"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "638448546",
+      "source": "kg",
+      "name": "慢慢揸比较快",
+      "singer": "江若琳",
+      "album_name": "慢慢揸比较快",
+      "album_id": "203311484",
+      "duration": {
+        "secs": 173,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260810/20260810115023243795.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "D4CAD0FF5E98B5A6A2E1947717E22706",
+        "FileHash": "FB170C84B0C234810AEB57D744DD6912",
+        "SQFileHash": "E0CAC8A92113DB53F1DAB96932F94942",
+        "ResFileHash": "B5BC69ABE9A5D1858BA96BD6C8B9243C"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "631909133",
+      "source": "kg",
+      "name": "三秒一生 (粤语版)",
+      "singer": "陈慧琳",
+      "album_name": "三秒一生",
+      "album_id": "201217245",
+      "duration": {
+        "secs": 191,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728164142648179.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "6A044EF3314467BB8EA781746782EBB3",
+        "ResFileHash": "6892772AAEC3D571E90BC05DB386D8C4",
+        "SQFileHash": "D3E896D7A3FA0C92FF42A7856D7D8B42",
+        "HQFileHash": "9808FC6A3F07921ED832C46D6D5184E6"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107417519",
+      "source": "kg",
+      "name": "陪多我半日好吗",
+      "singer": "丽英＠小薯茄",
+      "album_name": "陪多我半日好吗",
+      "album_id": "200310803",
+      "duration": {
+        "secs": 267,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260717/20260717140511167463.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "9043BB035138B93C64863252CE535D39",
+        "FileHash": "A3536BFC1CF6111D3B14228B3C6E7442",
+        "HQFileHash": "C9E87C4045468A6971F2BBCC13E5318C",
+        "SQFileHash": "5D006AA85B86EED1FA6D6F60689F3454"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "637309547",
+      "source": "kg",
+      "name": "目光折射 Behold",
+      "singer": "李璧琦",
+      "album_name": "目光折射 Behold",
+      "album_id": "202975772",
+      "duration": {
+        "secs": 243,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260807/20260807102711842715.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "5567D8BA5F4B507644F3C4AAAB5544E3",
+        "ResFileHash": "4C94C0AAE960013051CFB885D1F13404",
+        "FileHash": "619286DAF6D8EC6EBB5925C807931C45",
+        "SQFileHash": "E51058EEEC8B177F90ABEE03DF63449D"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "529289342",
+      "source": "kg",
+      "name": "无名氏",
+      "singer": "MC 张天赋",
+      "album_name": "无名氏",
+      "album_id": "174032192",
+      "duration": {
+        "secs": 226,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260119/20260119100522474209.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "D1CD95797F6D510C2A1DF3CC94D23894",
+        "HQFileHash": "CDA2214BFF781ADB340F2FB5A9B2D36A",
+        "ResFileHash": "BE7E033BEA645D0331B4905A813B812D",
+        "FileHash": "5045D6FC75CC2991A6A337EE3184F5EE"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "629802349",
+      "source": "kg",
+      "name": "记住我是谁",
+      "singer": "李佳",
+      "album_name": "记住我是谁",
+      "album_id": "200963085",
+      "duration": {
+        "secs": 178,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260723/20260723103351477199.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "094076FF5A24526505F1C1501B593F05",
+        "FileHash": "702DA4737015D13BF316CE86761CA078",
+        "SQFileHash": "C5155C481444F5F1301949F167227619",
+        "ResFileHash": "D243AC92678F491A800B33EE2969D6AE"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "576255461",
+      "source": "kg",
+      "name": "On The Rocks",
+      "singer": "古淖文",
+      "album_name": "On The Rocks",
+      "album_id": "191676577",
+      "duration": {
+        "secs": 275,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260513/20260513152452405328.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "EE1704B73E3F4138F83484C1825DBF8F",
+        "FileHash": "537A2082DD825CB6A3E235561E4AC6E3",
+        "SQFileHash": "802DF29F8B48321D181B8B85C49B511A",
+        "HQFileHash": "6398053018E700FFD51E0C4C0943EE11"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "633424783",
+      "source": "kg",
+      "name": "如果你记得",
+      "singer": "Irene 林芊莹",
+      "album_name": "如果你记得",
+      "album_id": "201916630",
+      "duration": {
+        "secs": 235,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260730/20260730164906109067.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "EACA8EBD5CDAC7F9DAB1F1309608CD77",
+        "ResFileHash": "CCE1EB1BBED64ACD570479BAAED93743",
+        "SQFileHash": "38B535588D89906DC434F430C1765AB0",
+        "HQFileHash": "FD72264781072C3275AC8D61F8FE7AB2"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "705882",
+      "source": "kg",
+      "name": "My Cookie Can",
+      "singer": "卫兰",
+      "album_name": "卫兰Janice & Jill卫诗 2Vibes in Summer 2026",
+      "album_id": "200285456",
+      "duration": {
+        "secs": 220,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260720/20260720112151290319.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "30A25C84FAC9708C5645406A5B58B6DF",
+        "SQFileHash": "D850AFEDA5A20A77037698008C939080",
+        "FileHash": "6F4FDF155521823660B97BBD4A1CF8AB",
+        "ResFileHash": "A0E16C61D833DA5E7D0EDC19E95BB725"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "613476568",
+      "source": "kg",
+      "name": "TIPSY",
+      "singer": "MC 张天赋",
+      "album_name": "TIPSY",
+      "album_id": "197737120",
+      "duration": {
+        "secs": 160,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260630/20260630103432231017.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "B9A2B132BDC8ACFCD134A63C5A761A28",
+        "HQFileHash": "5E0F27155A5CA428D78E7AFC3DDCD5B4",
+        "ResFileHash": "067C4332976EB29F4B9F60976E5D25C0",
+        "FileHash": "DE09E406F9D37D98657D097CCED4E5FD"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "622603235",
+      "source": "kg",
+      "name": "大团圆结局",
+      "singer": "sica",
+      "album_name": "大团圆结局",
+      "album_id": "198840684",
+      "duration": {
+        "secs": 218,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260707/20260707143532184545.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "5C737D0FEFCA24C4BFEDDEAD865FFD0D",
+        "ResFileHash": "050A90F341A2A3746AACEB7E6AEB438C",
+        "FileHash": "98CC11E55E3BFDC5514E54970870D004",
+        "HQFileHash": "CCBCB1F8317931FDDF79AB488387BBC1"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "638141409",
+      "source": "kg",
+      "name": "等一等 (生日天天过版本)",
+      "singer": "The Hertz",
+      "album_name": "等一等 (生日天天过版本) [feat. 树莉莉 Serrini]",
+      "album_id": "203234054",
+      "duration": {
+        "secs": 274,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260811/20260811111940864007.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "187CA6AED2D15CCD9CC005C1BB268318",
+        "FileHash": "7F1AAAC90A78C4F17F8F061702FCC7DE",
+        "ResFileHash": "8E7B98E8A41467749D423730AED34553",
+        "SQFileHash": "6EFCDA0344AEC81FF124DAFB4F0BE3BC"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1106193359",
+      "source": "kg",
+      "name": "你快乐吗",
+      "singer": "李幸倪",
+      "album_name": "你快乐吗",
+      "album_id": "193113802",
+      "duration": {
+        "secs": 238,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260528/20260528115033823118.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "28222191905381FA073B9D4D7B1DCD4C",
+        "ResFileHash": "CCF2231265BFB558AD014785444E950A",
+        "FileHash": "9BEACA6E205E025B1BEFD0A9CF2663C1",
+        "HQFileHash": "2C689D7015BCE9E27F55517F2FAFB908"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "574978480",
+      "source": "kg",
+      "name": "月亮代表我",
+      "singer": "moon tang",
+      "album_name": "月亮代表我",
+      "album_id": "191292665",
+      "duration": {
+        "secs": 231,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260514/20260514185841309536.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "82E86674AD91A6CFEC450AAC4B14E612",
+        "SQFileHash": "E695C58FA7C01D53764DB79EAB53ACE0",
+        "ResFileHash": "2B39EEF8E3DA227D8DD1821EE3B9E1E0",
+        "HQFileHash": "6CA35DEEAD45F882594F7F37E3298DC3"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "601329488",
+      "source": "kg",
+      "name": "坏人一个",
+      "singer": "Edan 吕爵安",
+      "album_name": "坏人一个",
+      "album_id": "195531342",
+      "duration": {
+        "secs": 227,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260612/20260612163842163385.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "E7F0B19B4548CEEA5817D85D2611320D",
+        "ResFileHash": "9DA486F31FF103FE00E47AFA2E5337B3",
+        "FileHash": "9283F4B150160EEB8FBC5891E962BB0C",
+        "SQFileHash": "8E60675F281D7C3CEB7392C53175BC47"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "631124363",
+      "source": "kg",
+      "name": "废活量",
+      "singer": "Dear Jane",
+      "album_name": "废活量",
+      "album_id": "201343655",
+      "duration": {
+        "secs": 183,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728161032487412.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "CBA8F2DCD0CBA1C70769C5BC2AF21F65",
+        "HQFileHash": "D8CF4784678091427448071133A1DFEF",
+        "FileHash": "189801E1317F23F92767F450A2261246",
+        "ResFileHash": "2F538D8667EFEFC37A1ACBD16B88BC86"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "637094435",
+      "source": "kg",
+      "name": "另一张空凳",
+      "singer": "李蕙敏",
+      "album_name": "另一张空凳",
+      "album_id": "202922288",
+      "duration": {
+        "secs": 278,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260806/20260806171102501432.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "FCD76A433BDBF5E4A8736B7135ADF8F6",
+        "HQFileHash": "D7C912B10DC0DA4A9714029110E74F59",
+        "SQFileHash": "9FF1B1DEC48266BA3817289DBBAAB0C2",
+        "ResFileHash": "A0C130DDDF5759CD1F1A2CB8C09127C6"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "614361383",
+      "source": "kg",
+      "name": "顾客永远是对的",
+      "singer": "CY陈宗泽",
+      "album_name": "顾客永远是对的",
+      "album_id": "197894283",
+      "duration": {
+        "secs": 224,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260626/20260626112533122849.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "C00FD36B4DFAFA15F7AE49FCEF4F5B94",
+        "FileHash": "6503929D9E863F53DDE2DD8FD1201520",
+        "SQFileHash": "E5052E04C47664C979D399E81E1BBC39",
+        "ResFileHash": "1C4DC49C8DD1097477A50D96CF8AD19E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "637740294",
+      "source": "kg",
+      "name": "点对点",
+      "singer": "任永健",
+      "album_name": "点对点",
+      "album_id": "203110929",
+      "duration": {
+        "secs": 139,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805144812497596.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "A0B7611CE00931503E1D34AC796CBBF7",
+        "SQFileHash": "11217707C9A8F8B0904D5586EFDB9A1D",
+        "ResFileHash": "2C349D052655D2DA5B57D7454FFF2D60",
+        "HQFileHash": "E0667C9FA3322273AECF017B46E3C4E3"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107274904",
+      "source": "kg",
+      "name": "你所打的号码暂时未能接通",
+      "singer": "Mike 曾比特",
+      "album_name": "你所打的号码暂时未能接通",
+      "album_id": "198727753",
+      "duration": {
+        "secs": 235,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260709/20260709114412348369.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "86709D355AB7417BD220718C7675FB3C",
+        "HQFileHash": "720962C90506C59D6325D6DAFF065B63",
+        "SQFileHash": "093E467B389EFB7A0771531A5C88E108",
+        "ResFileHash": "FD617AFB978C09DBF2278AFE20D49EE7"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "633444926",
+      "source": "kg",
+      "name": "二缺一的美",
+      "singer": "钟柔美",
+      "album_name": "二缺一的美",
+      "album_id": "201921325",
+      "duration": {
+        "secs": 227,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260730/20260730112341402998.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "00D9939CADCF1186B8E7CD7F2FB0CEA3",
+        "FileHash": "DB46FF98F4B5CB1CD2D40BD0CD7CED94",
+        "SQFileHash": "376867B5CED904447B40CEFDA3DFF1E9",
+        "ResFileHash": "B2B2350907F3BE5008B579B1984F3B1C"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "634921769",
+      "source": "kg",
+      "name": "你要好好保重",
+      "singer": "Jasper Yu",
+      "album_name": "你要好好保重",
+      "album_id": "202289088",
+      "duration": {
+        "secs": 284,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260729/20260729115832737927.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "00BF47F2969DF463ACA4E6018A00B0B3",
+        "ResFileHash": "A90B342C73C38398E1AE105136393934",
+        "HQFileHash": "2ED389FAF5CDA85ECBA0742B7F5574B0",
+        "FileHash": "7758358A86ACBBA9680DD2B7106DBF4E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "581306492",
+      "source": "kg",
+      "name": "旧酒新瓶",
+      "singer": "陈柏宇",
+      "album_name": "旧酒新瓶",
+      "album_id": "193222754",
+      "duration": {
+        "secs": 212,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260525/20260525105341972015.jpg",
       "qualities": [
         "128k",
         "320k",
         "flac"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "HQFileHash": "83EF55ED6CD58425DA4A2FA17C27B985",
+        "FileHash": "2E8CF15A16F838F254811EC60A789BD4",
+        "SQFileHash": "BFA7C01DB0B1752D21F98B439449E6C3"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "1989318036",
-      "source": "wy",
-      "name": "Stick Season",
-      "singer": "Noah Kahan",
-      "album_name": "Stick Season",
-      "album_id": "153199036",
+      "id": "556184186",
+      "source": "kg",
+      "name": "没有翅膀的天使",
+      "singer": "刘德华、Keung To 姜涛",
+      "album_name": "没有翅膀的天使",
+      "album_id": "182624701",
+      "duration": {
+        "secs": 265,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260409/20260409152943468402.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "68800C4D428CAFFBA8CAC4B0DDBA61B9",
+        "HQFileHash": "9C63BD4AC70D7CEC0C517934F00C45A5",
+        "SQFileHash": "A78F4055F3CD81D9FE16DE97DAAE821A",
+        "ResFileHash": "46559169EF987C21D0A6A27309CCDC25"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "624204280",
+      "source": "kg",
+      "name": "仙女座事故",
+      "singer": "良少、陈健安",
+      "album_name": "仙女座事故",
+      "album_id": "199138589",
+      "duration": {
+        "secs": 176,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728205523900391.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "06046ABCBCAAE7143252BBBE668D6BA5",
+        "SQFileHash": "3F5FA81C1ABB612A6291FD187088215E",
+        "FileHash": "7D05C89B9BCF794694EE91142AFF39A4",
+        "ResFileHash": "FD10CA0FE98CBB2A9C3B6BD6B40D447F"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "605679368",
+      "source": "kg",
+      "name": "一笔满意",
+      "singer": "洪嘉豪",
+      "album_name": "一笔满意",
+      "album_id": "196390895",
+      "duration": {
+        "secs": 153,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260620/20260620104402598324.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "1BD048F8E5A6AFABDD53D2178441800C",
+        "HQFileHash": "BCB25203205B95543EE72BFFAB5F9D6F",
+        "SQFileHash": "D4166FBF672ADAEC77F10823CA2341BF",
+        "ResFileHash": "210E506939F2C08C224F7ABC8D266A4F"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "634724291",
+      "source": "kg",
+      "name": "天下也一样",
+      "singer": "FYP",
+      "album_name": "天下也一样",
+      "album_id": "202241931",
+      "duration": {
+        "secs": 237,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803144213211909.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "CAB169B903718160F941A93F7688308C",
+        "HQFileHash": "57C1F82497C50D6F004B1286A2CAA21A",
+        "ResFileHash": "9B2D69BD985CE630B94AB70D6B6562E0",
+        "SQFileHash": "7DFA21204AF596109A4E295C6C5D9E38"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "600212644",
+      "source": "kg",
+      "name": "最后一个降落伞",
+      "singer": "Anson Lo 卢瀚霆",
+      "album_name": "最后一个降落伞",
+      "album_id": "195151401",
+      "duration": {
+        "secs": 266,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260611/20260611154152241168.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "9ECB26BCF0F4DC7717C048054B8E68AB",
+        "HQFileHash": "82183012BF8ECE7FCA149E8A8A1BB0C3",
+        "SQFileHash": "20287E680E935B00633F44D30BE278AF",
+        "ResFileHash": "8FD345EB120CC55637F5F5633D6BC490"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "501577110",
+      "source": "kg",
+      "name": "K歌之王 AIR (Day Version)",
+      "singer": "陈奕迅",
+      "album_name": "K歌之王 AIR",
+      "album_id": "164790506",
+      "duration": {
+        "secs": 221,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20251017/20251017143031952989.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "1B7683DF07CC3BFDD18C88E012434171",
+        "HQFileHash": "0D93EBE5E98D9CFD24168D8CECF5AC35",
+        "ResFileHash": "F1E5DCC76C99A992EA618194918BB0F2",
+        "FileHash": "034A1FFBEB3A50C4F360A87F6B7104E8"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "518270268",
+      "source": "kg",
+      "name": "你要倔强",
+      "singer": "Keung To 姜涛",
+      "album_name": "COMPOSITION",
+      "album_id": "170835401",
+      "duration": {
+        "secs": 234,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20251215/20251215174012741663.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "6753BDECB3F817F98C078C6C6FD058B4",
+        "FileHash": "995C6557B200B8D44FA006F830B4E37D",
+        "ResFileHash": "FC314CB101370A094CD3A11D766C5441",
+        "SQFileHash": "B64A4E540F5511A490026DF206727B9E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1106726771",
+      "source": "kg",
+      "name": "问爱",
+      "singer": "Yamy郭颖",
+      "album_name": "问爱",
+      "album_id": "196970329",
       "duration": {
         "secs": 182,
-        "nanos": 346000000
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/tsAD9ry6lc1NX6BBP3FCXw==/109951167964311304.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2148381512",
-      "source": "wy",
-      "name": "Stargazing",
-      "singer": "Myles Smith",
-      "album_name": "Stargazing",
-      "album_id": "193143236",
-      "duration": {
-        "secs": 172,
-        "nanos": 533000000
-      },
-      "cover_url": "http://p1.music.126.net/3YjF26q7B0F5NivREC2b5Q==/109951173425074092.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "4341278",
-      "source": "wy",
-      "name": "Everybody Wants to Rule the World",
-      "singer": "Tears for Fears",
-      "album_name": "The Ultimate Collection",
-      "album_id": "438381",
-      "duration": {
-        "secs": 251,
-        "nanos": 541000000
-      },
-      "cover_url": "http://p1.music.126.net/a250p7WllcMVVaCOt_AAmw==/908196604587661.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "3393035431",
-      "source": "wy",
-      "name": "ICONIC BY MISTAKE",
-      "singer": "LE SSERAFIM、ILLIT、KATSEYE",
-      "album_name": "ICONIC BY MISTAKE",
-      "album_id": "381402346",
-      "duration": {
-        "secs": 177,
-        "nanos": 982000000
-      },
-      "cover_url": "http://p1.music.126.net/4CiqQQ7dPAKxxb9TIcaSug==/109951173373721320.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260625/20260625103242178179.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -2055,69 +1697,115 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "SQFileHash": "CFA2BA4AD45C2F6D2BBE5D32A330CF9C",
+        "ResFileHash": "74219A128ACAF680D480659B9B1F1A5C",
+        "FileHash": "E35C44C974EAE0C29D62C8945D4D71F5",
+        "HQFileHash": "15F3E5D858C53DFBB94226E8560F9537"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "2151126799",
-      "source": "wy",
-      "name": "Love Me Not",
-      "singer": "Ravyn Lenae",
-      "album_name": "Love Me Not / Love Is Blind",
-      "album_id": "194130907",
+      "id": "625413399",
+      "source": "kg",
+      "name": "完全真空",
+      "singer": "Kacey 陈凯琪",
+      "album_name": "完全真空",
+      "album_id": "199513297",
+      "duration": {
+        "secs": 227,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260713/20260713144822717552.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "BD2B4AF93A5507FC7C70A8D95BB1F6BE",
+        "FileHash": "97DE848BE07E3E5D82D315F07A1974F8",
+        "ResFileHash": "8270E0A21145A06F1877211E2AF51C61",
+        "HQFileHash": "AFD54AF905C03083EE16D9B8B063240D"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107706650",
+      "source": "kg",
+      "name": "爱与 (不) 被爱",
+      "singer": "Arvin曾傲棐",
+      "album_name": "爱与 (不) 被爱",
+      "album_id": "202989634",
+      "duration": {
+        "secs": 206,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260810/20260810165507650711.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "A03DBE95DA5B9609E9463E897B00E460",
+        "FileHash": "02F216B6A23AFFA167732911FE9CE46F",
+        "ResFileHash": "790AE149636A83F049E1D3113151FF11",
+        "SQFileHash": "F1CFBB937929024E86E80A9FEA8C7383"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "614488113",
+      "source": "kg",
+      "name": "哈姆雷特下班了",
+      "singer": "Kiri T",
+      "album_name": "哈姆雷特下班了",
+      "album_id": "197900156",
+      "duration": {
+        "secs": 222,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260703/20260703044924288788.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "24ADCF4FCC78F52829DEFF58CEE281A4",
+        "SQFileHash": "715C0D6F973DF983C6F2EA2281E561D1",
+        "HQFileHash": "E22CEEEF3D3FFC90D8838751AEEE28BE",
+        "FileHash": "381FA021A98C3E0F62B06E3127C5136E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "543231760",
+      "source": "kg",
+      "name": "真的不是故意的",
+      "singer": "Kiri T",
+      "album_name": "真的不是故意的",
+      "album_id": "178030645",
       "duration": {
         "secs": 213,
-        "nanos": 466000000
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/WYw2otLds6szNNDCikRHHw==/109951169546417173.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "2057234990",
-      "source": "wy",
-      "name": "Lose Control",
-      "singer": "Teddy Swims",
-      "album_name": "Lose Control",
-      "album_id": "167970101",
-      "duration": {
-        "secs": 210,
-        "nanos": 688000000
-      },
-      "cover_url": "http://p1.music.126.net/90kpGRcQ_dRXzauhIt_KYw==/109951168689184037.jpg",
-      "qualities": [
-        "128k",
-        "320k",
-        "flac"
-      ],
-      "audio": null,
-      "extra": {},
-      "toggle_source": null,
-      "file_path": null,
-      "file_ext": null
-    },
-    {
-      "id": "1966970103",
-      "source": "wy",
-      "name": "End of Beginning",
-      "singer": "Djo",
-      "album_name": "DECIDE",
-      "album_id": "148650721",
-      "duration": {
-        "secs": 159,
-        "nanos": 245000000
-      },
-      "cover_url": "http://p1.music.126.net/dwoPd9ZgHtKUsXatEnK-jg==/109951167715526215.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260228/20260228172403260252.jpg",
       "qualities": [
         "128k",
         "320k",
@@ -2125,62 +1813,912 @@
         "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "ResFileHash": "D79DB07E488B28BDBBB6C9630ABE0555",
+        "HQFileHash": "F9049836F97C27B8F28265BCB3993876",
+        "FileHash": "BCC8BF7CA24B9CE052BF2CF0A1C10A46",
+        "SQFileHash": "AF8ACE76E9C123B0438F1E45E7A1B0DC"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "3420989543",
-      "source": "wy",
-      "name": "Pink Pony Club",
-      "singer": "Chappell Roan",
-      "album_name": "Back to School 2026",
-      "album_id": "392483619",
+      "id": "601105332",
+      "source": "kg",
+      "name": "I Found My Way",
+      "singer": "张与辰",
+      "album_name": "I Found My Way",
+      "album_id": "195443345",
       "duration": {
-        "secs": 258,
-        "nanos": 34000000
+        "secs": 227,
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/aOrkjdibsgp5aESGfCXuvw==/109951173748993763.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260609/20260609150044770112.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "C3FA09FC7DDC50CB57DD0F4794628B26",
+        "HQFileHash": "E2873CE876E1A136F5F2E00DADBF42AE",
+        "SQFileHash": "D598EA96A645187B82B53418379BC3A9",
+        "ResFileHash": "3334D1A7D6830C8401BFFBFA135DF5C7"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "625413516",
+      "source": "kg",
+      "name": "我想和你虚度光阴",
+      "singer": "云浩影",
+      "album_name": "我想和你虚度光阴",
+      "album_id": "199513378",
+      "duration": {
+        "secs": 193,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260713/20260713144251947416.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "07D271933A1F86D4BF206EC9F50B555B",
+        "ResFileHash": "B9B917A3F3FEB477BFFF2613DF2FD072",
+        "SQFileHash": "E394102086D3E6D6BAC6DC074DF1173F",
+        "HQFileHash": "7AFBA2DF269A819549F2F2DEDBB77FAB"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "515103833",
+      "source": "kg",
+      "name": "街角的晚风",
+      "singer": "陈小春",
+      "album_name": "街角的晚风",
+      "album_id": "169830039",
+      "duration": {
+        "secs": 240,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20251205/20251205134231782648.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "0CE78D40AF04E9FFD28EC2D0BD6117D6",
+        "FileHash": "18B89D66950B7856EABB131BB6273F6E",
+        "HQFileHash": "DC4FB75CE17D1A18FE6F0BDF49ACCBE4",
+        "ResFileHash": "9C60B0C80C583BB454BD6F690AC9256C"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "577659824",
+      "source": "kg",
+      "name": "1206",
+      "singer": "Edan 吕爵安、蔡俊彦 Ryan Choi",
+      "album_name": "1206",
+      "album_id": "192114401",
+      "duration": {
+        "secs": 241,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260521/20260521191233683759.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "4D5A744EF89F78CF351C166E28E0373D",
+        "SQFileHash": "87A80F69A9F1520E34103A11EA5163C1",
+        "ResFileHash": "8B7D7AA63D06FC06B56B2B12B91DCAEC",
+        "FileHash": "B451FE1F75EE568A729EDAEAF773B559"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107433340",
+      "source": "kg",
+      "name": "Syndicate",
+      "singer": "周殷廷、JFFT",
+      "album_name": "Syndicate",
+      "album_id": "200411099",
+      "duration": {
+        "secs": 162,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260722/20260722095321962383.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "A476B774A5264624EED53060ADD5AAC9",
+        "FileHash": "86A1068F076970C30BCBF0AF6B3C090A",
+        "HQFileHash": "60B39CFEC7FE73F7AEA6AAE30E2FA28D",
+        "SQFileHash": "852407AB7BD87AB5C938B88E1DBF6792"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "635661685",
+      "source": "kg",
+      "name": "飞鹅山 (feat. JAB.M)",
+      "singer": "Jade Sun、JAB.M、NO CAP RECORDS",
+      "album_name": "飞鹅山",
+      "album_id": "202434803",
+      "duration": {
+        "secs": 158,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805093722465655.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "98DF0DE09315EDA3F22C4087315C2D52",
+        "ResFileHash": "455768FFF02A943F903200165E0ADDA0",
+        "FileHash": "3BD801B05117649EBD45B5F394507578",
+        "SQFileHash": "3D9263B3521C33EC80F39C2F98B3C983"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "634476497",
+      "source": "kg",
+      "name": "没谁保佑 (Not The Only One)(feat. 陈健安)",
+      "singer": "EGG 黄咏霖",
+      "album_name": "没谁保佑 (Not The Only One) [feat. 陈健安]",
+      "album_id": "202159450",
+      "duration": {
+        "secs": 232,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260803/20260803140832319925.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "D7671BB818E8FA94537BFCCFE82122CB",
+        "HQFileHash": "C40A0D5C799CF7FFDED515F69EE355AC",
+        "SQFileHash": "12B99B297F650DE51AB2086527BB6E3A",
+        "FileHash": "CE1C38B7BC032F0CE7595FE6C5A223DF"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "636963145",
+      "source": "kg",
+      "name": "似是故人来",
+      "singer": "陈德彰",
+      "album_name": "别人的歌 延续之经典现代篇",
+      "album_id": "202848778",
+      "duration": {
+        "secs": 228,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805120256521510.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "AB4C4A6C17F4590F41E7918546FDE68A",
+        "SQFileHash": "59FAF28A10BF537D7D1189062EC704EB",
+        "ResFileHash": "CBF0DFD21D3F4FACA77390B409529927",
+        "FileHash": "E92F1CB3F828D66A367F6661015AE4F3"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "518270602",
+      "source": "kg",
+      "name": "寂寞圆舞",
+      "singer": "Keung To 姜涛",
+      "album_name": "COMPOSITION",
+      "album_id": "170835401",
+      "duration": {
+        "secs": 223,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20251215/20251215174012741663.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "48E70F4CDFDFC289BD0D5EE0023CE446",
+        "HQFileHash": "63F49939DD56EDB63DE23C9EBF609970",
+        "SQFileHash": "E52E63E8B430C304FDB1168B602EA535",
+        "ResFileHash": "4577DC61D45839C07FF82919EEC5910A"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1105569575",
+      "source": "kg",
+      "name": "今世情人",
+      "singer": "周殷廷",
+      "album_name": "今世情人",
+      "album_id": "184308191",
+      "duration": {
+        "secs": 270,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260421/20260421165041101569.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "168790218289FB2548D09F53A347BC3B",
+        "ResFileHash": "72B14CBFDECF2DF9ED04D55B71403227",
+        "HQFileHash": "6A85B489C0F79C122061BB2F706098A2",
+        "SQFileHash": "4F2307FC8C877A375257E15E759A7ACD"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "622743206",
+      "source": "kg",
+      "name": "老 Best",
+      "singer": "JFFT",
+      "album_name": "老 Best",
+      "album_id": "198731231",
+      "duration": {
+        "secs": 263,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260709/20260709142412457348.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "3A258B2EA72592649807D07363AA4451",
+        "SQFileHash": "F88D7BDCBB72A923E4AEB89E92E8C4AC",
+        "FileHash": "BEE4D40CA13B57805F5D8390D60CB1A2",
+        "ResFileHash": "EFB82048CF696CCF4DB67CB6D4B9C0FD"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "534344787",
+      "source": "kg",
+      "name": "星秀传说 (feat. 尖东夜王)(Shine一次 Version)",
+      "singer": "郑秀文、尖东夜王",
+      "album_name": "星秀传说 [feat. 尖东夜王] (Shine一次 Version)",
+      "album_id": "175627593",
+      "duration": {
+        "secs": 153,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260205/20260205113942979299.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "57FB362D340078B9D9A63B73C98E7D6E",
+        "FileHash": "E5B64852739855942DF06E3EB3A84F3F",
+        "SQFileHash": "6C22399C03EC67AF576377F1230F3D43",
+        "ResFileHash": "28743104CDB823A2B65E6A4C1225CC04"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "550893777",
+      "source": "kg",
+      "name": "⁠我很小朋友",
+      "singer": "Gareth.T",
+      "album_name": "THE PROTÉGÉ",
+      "album_id": "180791550",
+      "duration": {
+        "secs": 177,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260324/20260324163531790313.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "49BCEFE422B1D5F0E00D6FADB6F616F8",
+        "FileHash": "764F9021E50B3C127D5A330B76AF025B",
+        "SQFileHash": "5AED53F397361F13A20D26BBED9F209B",
+        "HQFileHash": "E1622356534E02037624EE651B265B5A"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "601104845",
+      "source": "kg",
+      "name": "飞常道",
+      "singer": "戴祖仪",
+      "album_name": "飞常道",
+      "album_id": "195443640",
+      "duration": {
+        "secs": 213,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260609/20260609150022549830.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "2E7D67F105DB1320B75625ED9E26D3AA",
+        "ResFileHash": "B9EF37452F513E2DFD48FE45AD4D3238",
+        "HQFileHash": "BB5F5A1CBA69955000CAEBB11F7FD765",
+        "FileHash": "444C4F18B7A5117F8091A5D29E4D815B"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "627427777",
+      "source": "kg",
+      "name": "Lay Your Head On Me",
+      "singer": "Stanley 邱士缙",
+      "album_name": "Lay Your Head On Me",
+      "album_id": "200197578",
+      "duration": {
+        "secs": 239,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260721/20260721213111296380.jpg",
       "qualities": [
         "128k",
         "320k",
         "flac"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "FileHash": "8C81DCAEEFCBE4166B2223D76D117FDA",
+        "HQFileHash": "1AF52A30AD9FB35FEC6A6D2B517A0EA2",
+        "SQFileHash": "DCCA68E8886092913B211C18EFE726A0"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     },
     {
-      "id": "3367620707",
-      "source": "wy",
-      "name": "Mr. Know It All",
-      "singer": "Teddy Swims",
-      "album_name": "Mr. Know It All",
-      "album_id": "369790307",
+      "id": "572197896",
+      "source": "kg",
+      "name": "仍留在这里",
+      "singer": "邓丽欣",
+      "album_name": "仍留在这里",
+      "album_id": "190420000",
       "duration": {
-        "secs": 198,
-        "nanos": 425000000
+        "secs": 237,
+        "nanos": 0
       },
-      "cover_url": "http://p1.music.126.net/7v_hVN8ARzRJq1bigHQWXA==/109951173013059391.jpg",
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260509/20260509180601206270.jpg",
       "qualities": [
         "128k",
         "320k",
-        "flac"
+        "flac",
+        "flac24bit"
       ],
       "audio": null,
-      "extra": {},
+      "extra": {
+        "ResFileHash": "4AED221C513B4A9E5738BD288368106F",
+        "SQFileHash": "193BEB10A85332697D55C7B8C16944E0",
+        "FileHash": "2FCA409E9C427D69BD83BEE4C7B213E1",
+        "HQFileHash": "F6905DF72826E42A1E5AF4B2A4F6B8C2"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "632089412",
+      "source": "kg",
+      "name": "悍马",
+      "singer": "何雁诗",
+      "album_name": "悍马",
+      "album_id": "201597686",
+      "duration": {
+        "secs": 157,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260805/20260805081735844940.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "29A0BFF95CAAB2CA20EB6408A40B7159",
+        "SQFileHash": "F7551BB5DC4CDE6983A62ADEF9E4D5F6",
+        "HQFileHash": "84986835AAF1174983385ED5D632C9D0",
+        "FileHash": "B43290FE39D352F987CF46FE40CF522B"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "612485527",
+      "source": "kg",
+      "name": "香港欢迎你 (香港同胞庆祝中华人民共和国成立76周年文艺演出版本)",
+      "singer": "谭辉智",
+      "album_name": "香港欢迎你 (香港同胞庆祝中华人民共和国成立76周年文艺演出版本)",
+      "album_id": "197816383",
+      "duration": {
+        "secs": 149,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260629/20260629120403704058.jpg",
+      "qualities": [
+        "128k"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "ABFEF98808B7CF595171B442C0937BCB"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "518600923",
+      "source": "kg",
+      "name": "Boulder",
+      "singer": "Keung To 姜涛",
+      "album_name": "Boulder",
+      "album_id": "170911194",
+      "duration": {
+        "secs": 248,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20251216/20251216185722914546.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "F2BE871514D0F0A6145BDC0ACA808C95",
+        "HQFileHash": "CFD83C5C6BA6A8FAB18EBA36FC3D815B",
+        "FileHash": "2B4496297598B1D3B29540B00995190E",
+        "ResFileHash": "423FDE10E677ED4087B4E6266882BF61"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "624256086",
+      "source": "kg",
+      "name": "瓮中之鳖",
+      "singer": "周国贤、GE",
+      "album_name": "瓮中之鳖",
+      "album_id": "199157588",
+      "duration": {
+        "secs": 205,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728205255349079.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "98995040214C1DB834E6DAE670C6FBEE",
+        "ResFileHash": "6F64CDD0DE165C90BECD2D6E88D163BC",
+        "HQFileHash": "578066AF3875F74D23812AD4007AE4F1",
+        "SQFileHash": "A9D77125AB6BA71AA6A93CA13F1B4591"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "600212241",
+      "source": "kg",
+      "name": "死因不明",
+      "singer": "蔡俊彦 Ryan Choi",
+      "album_name": "死因不明",
+      "album_id": "195151259",
+      "duration": {
+        "secs": 242,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260609/20260609110241837256.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "HQFileHash": "56B965C73D79A3258AF96978C3C490F3",
+        "SQFileHash": "A06B6C91ADA9B028EAC729544590EB34",
+        "FileHash": "B4B1081BC24AC81F374970E0D31322D4",
+        "ResFileHash": "999576FDB7511C4F4648F37A0E2A39B8"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "580455558",
+      "source": "kg",
+      "name": "灯神",
+      "singer": "​王家晴​Candy",
+      "album_name": "灯神",
+      "album_id": "193317076",
+      "duration": {
+        "secs": 264,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260526/20260526144531374568.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "C90A497394B309E3577A38555E8C3753",
+        "HQFileHash": "2DFC304A129464C3DF33DE7E848971B9",
+        "ResFileHash": "676D9ED58175A4F2BFC1590CD51AD276",
+        "FileHash": "713C281EE96F98F44AD3138E98704276"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "606684731",
+      "source": "kg",
+      "name": "无垢",
+      "singer": "Ian 陈卓贤",
+      "album_name": "无垢",
+      "album_id": "196615294",
+      "duration": {
+        "secs": 209,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260623/20260623094231491644.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "AFA4385826E994C1DEF549DB7825731D",
+        "HQFileHash": "86D6142E939D99BBB3CE97BBD471CA72",
+        "SQFileHash": "818F52818E37EE28FC1DC16087615FDC",
+        "ResFileHash": "4BACFF3F1286CA8E6353A6FDF14E4F53"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "561438813",
+      "source": "kg",
+      "name": "那抹柔光，名为你",
+      "singer": "Ian 陈卓贤",
+      "album_name": "那抹柔光，名为你",
+      "album_id": "184524528",
+      "duration": {
+        "secs": 186,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260421/20260421115602102771.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "4B18F82E18DBB4C6C8FF00BEC6940420",
+        "HQFileHash": "2A8BED66042B8F947B0C15667AC4C4C6",
+        "SQFileHash": "7CCCB64CE64FBD2594DA2D67C3FF5DFC",
+        "ResFileHash": "3AB40C1EAC5FF6A3BA617CFA3E532E5E"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "541568540",
+      "source": "kg",
+      "name": "金童子",
+      "singer": "Gareth.T、MC 张天赋",
+      "album_name": "金童子",
+      "album_id": "177493395",
+      "duration": {
+        "secs": 199,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260223/20260223153221539910.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "2EB46B4CEB190D63A742BC3B159800EF",
+        "HQFileHash": "43985BAC8DDC788E7DE5BBAB0F2093A9",
+        "SQFileHash": "DFBA43A8549DC643655C828C41F7F515",
+        "ResFileHash": "BFE50E375551916BA6A556C1CF915464"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107491635",
+      "source": "kg",
+      "name": "Up & Down",
+      "singer": "Kaelyn",
+      "album_name": "Up & Down",
+      "album_id": "201223779",
+      "duration": {
+        "secs": 216,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260728/20260728164150303775.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "6A0F29A9AC95FE1C0AC1EFB52941E512",
+        "ResFileHash": "67A742E2C49E12404AD89080AEEF5F20",
+        "HQFileHash": "8698108479195EAF2E79E02220C56340",
+        "FileHash": "6B41D6E562CE0E6AB3D523080A7B2642"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "630512897",
+      "source": "kg",
+      "name": "醉后通话 (feat. Baby 梓)",
+      "singer": "F.JAE、Baby 梓、NO CAP RECORDS",
+      "album_name": "醉后通话",
+      "album_id": "201204595",
+      "duration": {
+        "secs": 173,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260727/20260727142302431372.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "SQFileHash": "FCD77AC093AD016956FC70342D1B5AFF",
+        "ResFileHash": "65DEFF7C51B97992FA288C565E036489",
+        "FileHash": "15E2C1E6E813076D6D693B71FA4D4705",
+        "HQFileHash": "5466B149EF956EA9A46E269056CCC2AB"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "563168123",
+      "source": "kg",
+      "name": "无时空之恋",
+      "singer": "古天乐、宣萱",
+      "album_name": "无时空之恋",
+      "album_id": "185361539",
+      "duration": {
+        "secs": 202,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260423/20260423154923496843.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "F4569DAEA2D923E8CC2ADFC271DD6370",
+        "SQFileHash": "272C30DB6FD227192D6ED48523914E56",
+        "ResFileHash": "7A578D53F52CC8652347E19D32F601AE",
+        "HQFileHash": "2611622FFE1D2038193D23B46578ECDC"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1107473658",
+      "source": "kg",
+      "name": "仿生觉知",
+      "singer": "周国贤",
+      "album_name": "仿生觉知",
+      "album_id": "200410965",
+      "duration": {
+        "secs": 213,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260722/20260722142211536041.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "FileHash": "D33CA6A7F671810AEA849AE457F2263E",
+        "HQFileHash": "2A74B3884AFF1F4DE8AF9DA782C2605E",
+        "ResFileHash": "852153453B8BF626C78710E325505A7C",
+        "SQFileHash": "E9C7DF27055653D8B76E0A063754F802"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "546167440",
+      "source": "kg",
+      "name": "娱初",
+      "singer": "谭辉智",
+      "album_name": "娱初",
+      "album_id": "179030739",
+      "duration": {
+        "secs": 234,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260310/20260310120031899900.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "DC30A45E28A84E8A392FE986376E6DDE",
+        "HQFileHash": "6B0F1B1DC39A40077D03657BCBADBE72",
+        "SQFileHash": "A43FA85BA330B3AD91E476B7C0ED35CC",
+        "FileHash": "9327CC2AB93D25E76EAF5E6BCD979FFE"
+      },
+      "toggle_source": null,
+      "file_path": null,
+      "file_ext": null
+    },
+    {
+      "id": "1105441426",
+      "source": "kg",
+      "name": "信天翁",
+      "singer": "许志安",
+      "album_name": "信天翁",
+      "album_id": "183204808",
+      "duration": {
+        "secs": 253,
+        "nanos": 0
+      },
+      "cover_url": "http://imge.kugou.com/stdmusic/500/20260409/20260409115321176967.jpg",
+      "qualities": [
+        "128k",
+        "320k",
+        "flac",
+        "flac24bit"
+      ],
+      "audio": null,
+      "extra": {
+        "ResFileHash": "6414AC0746B9E54DB67C1DB05116D561",
+        "FileHash": "BDA0EB53DF692483B5B51A8B1C0DD22D",
+        "SQFileHash": "19CBDE64A1066A00053D5A78FCECB7A2",
+        "HQFileHash": "5E05EA8BB11E969872B5625F7108B23D"
+      },
       "toggle_source": null,
       "file_path": null,
       "file_ext": null
     }
   ],
-  "current_index": 15,
+  "current_index": 37,
   "position": {
-    "secs": 125,
-    "nanos": 226917340
+    "secs": 113,
+    "nanos": 2912150
   },
   "state": "playing"
 }

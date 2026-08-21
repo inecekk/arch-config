@@ -10,16 +10,17 @@ bluez-utils              brightnessctl            btop
 btrfs-progs              cava                     dae                      
 dust                     efibootmgr               fcitx5                   
 fcitx5-gtk               fcitx5-qt                fcitx5-rime              
-foot                     git                      hyprpicker               
-impala                   iwd                      jq                       
-linux                    linux-firmware-amdgpu    linux-firmware-realtek   
-mkinitcpio               mpv                      niri                     
-noctalia                 openssh                  pcmanfm                  
-pipewire-alsa            pipewire-pulse           qt6-websockets           
-rime-double-pinyin       sudo                     tlp                      
-tree                     ttf-jetbrains-mono       upower                   
-vim                      vnstat                   w3m                      
-wev                      wf-recorder              wget                     
-wireless-regdb           wqy-microhei             
+foot                     git                      grub                     
+hyprpicker               impala                   iwd                      
+jq                       linux                    linux-firmware-amdgpu    
+linux-firmware-realtek   mkinitcpio               mpv                      
+niri                     noctalia                 openssh                  
+os-prober                pcmanfm                  pipewire-alsa            
+pipewire-pulse           qt6-websockets           rime-double-pinyin       
+sudo                     tlp                      tree                     
+ttf-jetbrains-mono       upower                   vim                      
+vnstat                   w3m                      wev                      
+wf-recorder              wget                     wireless-regdb           
+wqy-microhei             
 
-**总计: 53 个**
+**总计: 55 个**

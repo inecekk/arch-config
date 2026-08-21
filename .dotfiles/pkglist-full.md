@@ -46,6 +46,7 @@ cairo
 capnproto
 cava
 chafa
+compiler-rt
 coreutils
 cpio
 cryptsetup
@@ -127,6 +128,7 @@ graphene
 graphite
 grep
 groff
+grub
 gsettings-desktop-schemas
 gsettings-system-schemas
 gsm
@@ -225,6 +227,7 @@ libgcc
 libgcrypt
 libgfortran
 libgirepository
+libgit2
 libglvnd
 libgomp
 libgpg-error
@@ -360,6 +363,8 @@ linux-firmware-amdgpu
 linux-firmware-realtek
 linux-firmware-whence
 linuxqq
+lld
+llhttp
 llvm-libs
 lm_sensors
 lmdb
@@ -410,6 +415,7 @@ openssh
 openssl
 opus
 orc
+os-prober
 osu-lazer-bin
 osu-mime
 p11-kit
@@ -460,6 +466,7 @@ rime-terra-pinyin
 ripgrep
 rnnoise
 rubberband
+rust
 sbc
 sdbus-cpp
 sdl2-compat
@@ -517,6 +524,7 @@ vulkan-icd-loader
 w3m
 wayland
 webrtc-audio-processing-1
+wev
 wf-recorder
 wget
 which

@@ -1,7 +1,7 @@
 # 官方源包列表
 
 > 来源: `pacman -Qqe`
-> 更新时间: 2026-08-19
+> 更新时间: 2026-08-21
 
 alsa-utils               amd-ucode                avahi                    
 awww                     base                     base-devel               
@@ -19,7 +19,7 @@ pipewire-alsa            pipewire-pulse           qt6-websockets
 rime-double-pinyin       sudo                     tlp                      
 tree                     ttf-jetbrains-mono       upower                   
 vim                      vnstat                   w3m                      
-wf-recorder              wget                     wireless-regdb           
-wqy-microhei             
+wev                      wf-recorder              wget                     
+wireless-regdb           wqy-microhei             
 
-**总计: 52 个**
+**总计: 53 个**

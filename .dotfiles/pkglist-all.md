@@ -55,6 +55,7 @@ visual-studio-code-bin
 vnstat
 voicefox
 w3m
+wev
 wf-recorder
 wget
 wireless-regdb

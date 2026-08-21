@@ -3,6 +3,7 @@ binds {
     // 1. 系统通用（去重复）
     // ═══════════════════════════════════════════
     "Mod+Slash"              hotkey-overlay-title="快捷键帮助"           { show-hotkey-overlay; }
+    F1 { spawn-sh "pkill fcitx5; fcitx5 &"; }
     "Mod+Shift+E"             hotkey-overlay-title="退出 Niri"            { quit; }
     "Print"                   hotkey-overlay-title="区域截图"              { screenshot; }
     "Mod+Print"               hotkey-overlay-title="全屏截图"              { screenshot-screen; }
